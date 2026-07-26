@@ -98,8 +98,7 @@ for mf in sorted(glob.glob(os.path.join(ARCHIVE, '_manifest_*.jsonl'))):
 
 # neutralised, publication-facing summaries; these override the working-note summaries
 NEUTRAL = {}
-_np = os.path.join(ARCHIVE, '_summaries_neutral.jsonl')
-if os.path.exists(_np):
+for _np in sorted(glob.glob(os.path.join(ARCHIVE, '_summaries_*.jsonl'))):
     for ln in open(_np, encoding='utf-8'):
         ln = ln.strip()
         if not ln:
@@ -112,7 +111,7 @@ if os.path.exists(_np):
         s = (o.get('summary') or '').strip()
         if fn and s:
             NEUTRAL[fn] = s
-    print(f'neutral summaries loaded: {len(NEUTRAL)}')
+print(f'neutral summaries loaded: {len(NEUTRAL)}')
 
 records = []
 for path in sorted(glob.glob(os.path.join(ARCHIVE, '*.md'))):
@@ -163,7 +162,8 @@ E = html.escape
 def esc(s): return E(str(s), quote=True)
 
 NAV = [('index.html', 'Overview'), ('timeline.html', 'Chronology'), ('facts.html', 'The figures'),
-       ('positions.html', 'Positions'), ('sources.html', 'Sources'), ('about.html', 'Method &amp; gaps')]
+       ('positions.html', 'Positions'), ('sources.html', 'Sources'), ('about.html', 'Method &amp; gaps'),
+       ('changelog.html', 'Revisions')]
 
 CURATTR = ' aria-current="page"'
 def head(title, desc, cur, depth=0):
@@ -195,29 +195,30 @@ def head(title, desc, cur, depth=0):
 <main id="main">
 '''
 
-FOOT = '''</main>
+FOOT_T = '''</main>
 <footer class="site"><div class="footin">
   <div class="cols">
     <div>
       <h4>About this archive</h4>
       <p>An independent, citation-first record of the sinking of the <em>MV Barima</em> on the night of
-      Saturday 18 July 2026, compiled from 152 published sources and checked line by line against them.
+      Saturday 18 July 2026, compiled from 192 published sources and checked line by line against them.
       It is not affiliated with the Government of Guyana, the Transport &amp; Harbours Department, any
       political party, or any news organisation.</p>
-      <p>Compiled ''' + BUILT + '''. The Commission of Inquiry was unconstituted at the time of writing and
-      figures were still moving. Read <a href="about.html">Method &amp; gaps</a> before citing anything here.</p>
+      <p>Compiled {built}. The Commission of Inquiry&rsquo;s members were named on 26 July 2026, its establishing instrument was not
+      yet gazetted, and figures were still moving. Read <a href="{p}about.html">Method &amp; gaps</a> before citing anything here.</p>
       <p>This site records what the sources say and who said it. It does not advance an explanation of the
       cause, and it makes no recommendation.</p>
     </div>
     <div>
       <h4>Navigate</h4>
       <ul>
-        <li><a href="index.html">Overview and figures</a></li>
-        <li><a href="timeline.html">Chronology, 1936–2026</a></li>
-        <li><a href="facts.html">The figures, source by source</a></li>
-        <li><a href="positions.html">Positions and proposals</a></li>
-        <li><a href="sources.html">All 152 sources</a></li>
-        <li><a href="about.html">Method, gaps and corrections</a></li>
+        <li><a href="{p}index.html">Overview and figures</a></li>
+        <li><a href="{p}timeline.html">Chronology, 1936–2026</a></li>
+        <li><a href="{p}facts.html">The figures, source by source</a></li>
+        <li><a href="{p}positions.html">Positions and proposals</a></li>
+        <li><a href="{p}sources.html">All 192 sources</a></li>
+        <li><a href="{p}about.html">Method, gaps and corrections</a></li>
+        <li><a href="{p}changelog.html">Revisions</a></li>
       </ul>
     </div>
     <div>
@@ -231,8 +232,10 @@ FOOT = '''</main>
   </div>
 </div></footer>
 </body>
-</html>
-'''
+</html>'''
+
+def foot(depth=0):
+    return FOOT_T.format(p='../' * depth, built=BUILT)
 
 def write(relpath, content):
     full = os.path.join(OUT, relpath)
@@ -482,7 +485,7 @@ def build_index():
         ('73', '', 'Bodies recovered', 'Official count, unchanged from 24 to 26 July.'),
         ('~30', 'alarm', 'People in the arithmetic, in no official document', 'The state publishes recoveries, never the residual.'),
         ('87', '', 'Years the hull had been in service', 'Built 1939, Ferguson Brothers, Port Glasgow, via the Crown Agents.'),
-        ('0', 'alarm', 'Survey, load-line or capacity certificates published', 'Across 152 sources. Seaworthiness was asserted, never documented.'),
+        ('0', 'alarm', 'Survey, load-line or capacity certificates published', 'Across 192 sources. Seaworthiness was asserted, never documented.'),
     ]
     tilehtml = ''.join(
         f'<div class="tile {cls}"><div class="v">{v}</div><div class="l">{l}</div><div class="n">{n}</div></div>'
@@ -501,7 +504,7 @@ def build_index():
                       f'<div class="fix"{last}><span class="num fixn">{i}</span><span class="tx">{fx}</span></div>')
 
     return head('MV Barima — the documented record | Guyana ferry disaster, 18 July 2026',
-                'What 152 published sources record about the sinking of the Guyanese ferry MV Barima on '
+                'What 192 published sources record about the sinking of the Guyanese ferry MV Barima on '
                 '18 July 2026: the figures, the chronology, the positions of each party, and every source.',
                 'index.html') + f'''
 <section style="margin-top:44px;">
@@ -511,11 +514,11 @@ def build_index():
   Georgetown at about 15:15 on Saturday 18 July 2026, bound for Port Kaituma, and capsized off Iron Punt at the
   mouth of the Pomeroon River in three to nine metres of water. Her manifest recorded 116 passengers and 17 crew.
   A review of boarding-area CCTV later put 179 people aboard.</p>
-  <p class="small muted wrap-read">This site records what 152 published sources say, who said it, and when.
-  Where sources disagree, both figures are given. It does not advance an explanation of the cause: at the time of
-  compilation on 26 July 2026 the Commission of Inquiry had been announced but not constituted, no commissioners
-  had been named, and the figures were still being revised. Every claim links back to its source so it can be
-  checked.</p>
+  <p class="small muted wrap-read">This site records what 192 published sources say, who said it, and when.
+  Where sources disagree, both figures are given. It does not advance an explanation of the cause: the Commission
+  of Inquiry&rsquo;s five members were named on 26 July 2026, its establishing instrument had not been gazetted,
+  and the figures were still being revised. Every claim links back to its source so it can be checked. Changes to
+  this site are logged on the <a href="changelog.html">revisions page</a>.</p>
 </section>
 
 <section>
@@ -543,7 +546,7 @@ def build_index():
       <h3 style="margin-top:0">Why this corpus leans on one outlet</h3>
       <p class="small muted">Stabroek News, publishing for about forty years, ceased print in March 2026 in
       voluntary liquidation, four months before the sinking. It carried the 2015 letter by master mariner Capt.
-      R. E. W. Adams that named this vessel. Kaieteur News accounts for 32 of the 152 sources here; readers should
+      R. E. W. Adams that named this vessel. Kaieteur News accounts for 32 of the 192 sources here; readers should
       weigh that distribution.</p>
     </div>
   </div>
@@ -627,11 +630,13 @@ def build_index():
   <div class="grid g3">
     <div class="card tr">
       <h3>The Government</h3>
-      <p>President Ali announced on 25 July that he would name a five-member Commission of Inquiry on 26 July,
-      describing it as independent and international, comprising &ldquo;distinguished local and international
-      experts,&rdquo; with a scope covering loading, boarding, seaworthiness, maintenance history, crew competence,
-      lifesaving arrangements, weather and the search-and-rescue response. No commissioners, chair, terms of
-      reference or statutory basis had been published at the time of compilation.</p>
+      <p>President Ali named the five-member Commission of Inquiry on 26 July: Justice Godfrey Phillip Smith of
+      Belize as chair, with Capt. Hamada Fouda (Jamaica), Nyree Dawn Alfonso (Trinidad and Tobago), Dr Andrzej
+      Jasionowski (Poland) and Rear Admiral (Ret&rsquo;d) Hayden Pritchard (Trinidad and Tobago). Terms of
+      reference were announced covering loading, boarding, seaworthiness, maintenance history, crew competence,
+      lifesaving arrangements, weather and the search-and-rescue response. The establishing instruments were
+      described as still being finalised; no statutory basis, secretary or reporting deadline was cited.
+      <span class="badge">SINGLE SOURCE</span></p>
     </div>
     <div class="card tr">
       <h3>The parliamentary opposition</h3>
@@ -639,7 +644,8 @@ def build_index():
       WIN seeks recusal of Ministers Edghill and Indar, livestreamed hearings and publication of the full report.
       The AFC proposes the Commission of Inquiry Act, Cap. 19:03. Jointly, five parties state that a Commission of
       Inquiry is not a substitute for a marine casualty investigation under SOLAS and the IMO Casualty
-      Investigation Code, and that both should run.</p>
+      Investigation Code, and that both should run. These positions were stated before the members were named;
+      no response to the announced membership appears in the corpus.</p>
     </div>
     <div class="card tr">
       <h3>Civil society</h3>
@@ -647,7 +653,9 @@ def build_index():
       opposition membership, a judicially qualified chair, a statutory duty of candour and state-funded counsel for
       bereaved families. TIGI and Rescue Guyana call for an IMO-led investigation. The Amerindian Peoples
       Association calls for Minister Edghill&rsquo;s removal and a review of the whole river and sea transport
-      system with mandatory consultation of Indigenous and riverain communities.</p>
+      system with mandatory consultation of Indigenous and riverain communities. The Shipping Association of
+      Guyana welcomed the inquiry. On 25 July the Prime Minister said that if contacting the IMO would help, the
+      government would do it.</p>
     </div>
   </div>
   <p class="small muted" style="margin-top:16px;"><a href="positions.html">Every position, in full and attributed
@@ -658,7 +666,7 @@ def build_index():
   <h2>Check it yourself</h2>
   <div class="grid g3">
     <a class="card" href="sources.html" style="color:inherit">
-      <h3 style="margin-top:0">All 152 sources &rarr;</h3>
+      <h3 style="margin-top:0">All 192 sources &rarr;</h3>
       <p class="small muted">Search and filter by outlet, type and period. Every source has a page with its
       summary, key claims, quotations and a link to the original.</p>
     </a>
@@ -674,7 +682,7 @@ def build_index():
     </a>
   </div>
 </section>
-''' + FOOT
+''' + foot()
 
 # ================================================================== SOURCES ===
 MONTHS = {'01': 'January', '02': 'February', '03': 'March', '04': 'April', '05': 'May', '06': 'June',
@@ -711,13 +719,13 @@ def build_sources():
   <div class="s">{E(summ[:280])}{'…' if len(summ) > 280 else ''}</div>
 </a>''')
 
-    return head('All 152 sources — MV Barima research archive',
+    return head(f'All {len(records)} sources — MV Barima research archive',
                 'Search and filter every source behind this archive: Guyanese press, official documents, '
                 'international coverage and historical record.',
                 'sources.html') + f'''
 <section style="margin-top:44px;">
   <p class="eyebrow">The evidence base</p>
-  <h1>All 152 sources</h1>
+  <h1>All {len(records)} sources</h1>
   <p class="lede wrap-read">Every source behind this archive, with a research summary, the claims it establishes,
   short attributed quotations and a link to the original. Search the full text of the summaries and claims, or
   filter by outlet, type and period.</p>
@@ -768,7 +776,7 @@ def build_sources():
   <div class="srclist" id="srclist">{''.join(cards)}</div>
   <p class="empty" id="srcempty" hidden>No sources match those filters. <button class="fclear" onclick="document.getElementById('f-clear').click()">Reset the filters</button></p>
 </section>
-''' + FOOT
+''' + foot()
 
 def build_source_page(r):
     def block(title, items, cls=''):
@@ -813,7 +821,7 @@ def build_source_page(r):
 
     desc = (r['summary'] or r['title'])[:180]
     return head(f'{r["title"]} — {r["outlet"]} | MV Barima archive', desc, 'sources.html', depth=1) + f'''
-<p class="crumb"><a href="../sources.html">&larr; All 152 sources</a></p>
+<p class="crumb"><a href="../sources.html">&larr; All {len(records)} sources</a></p>
 <article>
   <div class="badgerow" style="margin-bottom:12px;">
     <span class="badge">{E(r['kind'])}</span>
@@ -838,7 +846,7 @@ def build_source_page(r):
   corpus from which this archive was compiled. Follow the link above to read it at the source.</p>
   </div>
 </article>
-''' + FOOT
+''' + foot(1)
 
 # ==================================================================== PAGES ===
 def build_prose_page(fname, title, h1, lede, cur, extra_note=''):
@@ -851,7 +859,7 @@ def build_prose_page(fname, title, h1, lede, cur, extra_note=''):
 <section class="prose wrap-read" style="margin-top:32px;">
 {prose(fname)}
 </section>
-''' + FOOT
+''' + foot()
 
 # ---------------------------------------------------------------------- build
 os.makedirs(OUT, exist_ok=True)
@@ -898,9 +906,20 @@ write('about.html', build_prose_page(
     'and the eighteen corrections made after an adversarial check.',
     'about.html',
     '<div class="note"><h4>Why the gaps are listed before anything else</h4><p>A record that does not state what '
-    'it is missing cannot be checked. The largest gap is the state newspaper, absent entirely. Several documents '
-    'were searched for and not found at all: any published capacity certificate, any gazetted terms of reference, '
-    'any official death toll.</p></div>'))
+    'it is missing cannot be checked. Several documents were searched for and not found at all: any published '
+    'capacity certificate, any gazetted commission instrument, any official death toll. Every revision to this '
+    'site is logged on the <a href="changelog.html">revisions page</a>.</p></div>'))
+
+write('changelog.html', build_prose_page(
+    'changelog.md',
+    'Revisions — MV Barima documented record',
+    'Revisions',
+    'Every change made to this site since first publication: what was added, what was corrected, and what '
+    'a change was based on.',
+    'changelog.html',
+    '<div class="note"><h4>Why this page exists</h4><p>This record was compiled while the facts were still '
+    'moving, so it will keep changing. A record that revises itself silently cannot be checked. Every entry '
+    'below states what changed, when, and on what source.</p></div>'))
 
 # the analysis page was replaced by positions.html; remove any stale copy
 _stale = os.path.join(OUT, 'analysis.html')

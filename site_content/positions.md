@@ -84,7 +84,11 @@ The NTC has urged a "comprehensive, transparent, independent review." Sources re
 
 ### Transparency Institute Guyana Inc. (TIGI) and Rescue Guyana
 
-Both have called for an IMO-led investigation rather than a domestically appointed commission.
+Both have called for an IMO-led investigation rather than a domestically appointed commission. On 25 July the Prime Minister addressed that demand: "If contacting the International Maritime Organization will help in this inquiry, we will do it. We will contact all the agencies that will help in ensuring that the Guyanese people view this inquiry as an independent inquiry."
+
+### Shipping Association of Guyana (SAG)
+
+In a statement on 26 July the association welcomed the President's decision to establish the commission, saying: "We believe this investigation is an important step toward establishing the facts surrounding this devastating tragedy, providing answers to the affected families, and strengthening maritime safety for the future." It also thanked the agencies and volunteers involved in the search and recovery.
 
 ### Detentions at the national prayer service
 
@@ -126,4 +130,18 @@ These are named in the corpus by the parties above. This archive does not assess
 
 ## Status of the Commission of Inquiry, 26 July 2026
 
-As of the compilation date the commission had been announced but not constituted. No commissioners were named in any source obtained, and no chair, secretary, reporting deadline, published call for submissions or gazetted terms of reference appears. The President did not cite a statutory basis in the announcement. Parliament had not met. No charges had been filed and no inquest had been opened, in either direction — the corpus contains no reference to charges or an inquest.
+On Sunday 26 July President Ali announced the five members of the commission. **[SINGLE SOURCE]** — at the time of writing these names appear in the corpus only in the Guyana Chronicle's report of the announcement.
+
+| Member | Country | Stated expertise |
+|---|---|---|
+| Justice Godfrey Phillip Smith (chair) | Belize | CARICOM High-Level Representative for Law and Criminal Justice; Ad Hoc Justice of the Eastern Caribbean Court of Appeal |
+| Capt. Hamada Fouda | Jamaica | Senior Maritime Surveyor and Compliance Auditor, Maritime Authority of Jamaica |
+| Nyree Dawn Alfonso | Trinidad and Tobago | Attorney-at-law, Admiralty and Maritime Law |
+| Dr Andrzej Jasionowski | Poland | Naval Architect and Marine Engineer |
+| Rear Admiral (Ret'd) Hayden Pritchard | Trinidad and Tobago | Maritime operations and security |
+
+The announced terms of reference cover the causes of the disaster including loading, boarding procedures and passenger conditions; a review of the adequacy, coordination and effectiveness of the search, rescue and recovery response; whether applicable laws, regulations and maritime standards were followed; whether negligence, misconduct, dereliction of duty or institutional failure contributed; the vessel's condition, maintenance history and seaworthiness; weather, sea conditions, navigation and communications; the competence, qualifications, training and conduct of master and crew; passenger management including manifest preparation, possible overcrowding, cargo stowage and life-saving equipment; and recommendations for legislative, regulatory, institutional and operational reform. The President stated that the commission will determine its own procedures.
+
+**What is still not on the record.** The announcement stated that the legal instruments required to establish the commission are "currently being finalised," so no gazetted instrument appears. No statutory basis was cited by the President; the only statutory citation anywhere in the corpus remains the AFC's proposal to use the Commission of Inquiry Act, Cap. 19:03. No secretary, reporting deadline or call for submissions has been named. Parliament had not met. No charges had been filed and no inquest opened — the corpus contains no reference to either.
+
+The opposition and civil society objections recorded above were made before the names were published, and no response from those parties to the announced membership appears in the corpus as of this compilation.

@@ -12,13 +12,13 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 152 sources, 128 dated 19–26 July 2026, 24 pre-disaster context sources reaching back to the 1930s builder's record.
+**Corpus:** 192 sources — 152 in the first build, plus 40 Guyana Chronicle articles added on 26 July. 168 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
 
 ---
 
 ## Retrieval failures — what could not be captured
 
-**Guyana Chronicle: the entire outlet.** Every attempt, across bare, `www.` and `/amp/` variants and multiple researchers, hit a JavaScript redirect wall. This is a significant hole: the Chronicle is state-owned, so the corpus is missing roughly ten known articles from the government's own newspaper, including "Management team responsible for loading, dispatch of MV Barima suspended as probe intensifies," "Gov't orders immediate investigation," "Surviving the unthinkable," the search-area expansion piece, and the Guyana Human Rights Association report. No Chronicle content is present in the archive in any form; the only trace of the outlet is a publisher's disclaimer inside a Democracy Guyana column. This is the largest single gap in the corpus. Recovery would most plausibly require a browser session rather than a fetch tool.
+**Guyana Chronicle: closed on 26 July.** In the first build this was the largest single gap in the corpus. Every fetch attempt, across bare, `www.` and `/amp/` variants, hit a JavaScript redirect wall, and the state-owned Chronicle was absent from the archive entirely. It has since been retrieved through a browser session: 40 articles dated 22–26 July, of which 38 carry full text. Two are flagged `thin-capture` and marked as incomplete on their source pages. The change is logged on the [revisions page](changelog.html).
 
 **Village Voice News: robots-disallowed.** Respected, not circumvented. The outlet is therefore wholly unrepresented, and one known piece is substantively relevant: "Edghill's swift suspensions of MV Barima workers raise more questions than answers."
 
@@ -54,13 +54,13 @@ These are recorded because a reader needs to know which documents were searched 
 
 Stabroek News, Guyana's principal independent daily for roughly forty years, ceased print publication on 15 March 2026 in voluntary liquidation — four months before the disaster. The consequence for this research was that repeated searches for Stabroek coverage of the sinking returned nothing. Two of the corpus's pre-disaster sources on vessel condition — Capt. R. E. W. Adams's 2015 letter naming this vessel, and the 2012 piece on the Sprostons-built fleet — come from Stabroek's letters and features pages.
 
-Independent print scrutiny in Guyana is now effectively Kaieteur News alone, which is why the corpus skews heavily to that outlet (32 of 152 sources) and why civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. Readers should note this distribution when weighing the corpus: it reflects which Guyanese outlets were publishing in July 2026.
+Independent print scrutiny in Guyana is now effectively Kaieteur News alone, which is why the corpus skews heavily to that outlet (32 sources) and why civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. Readers should note this distribution when weighing the corpus: it reflects which Guyanese outlets were publishing in July 2026.
 
 ---
 
 ## Priority follow-ups
 
-Recovering the Guyana Chronicle's disaster coverage, most likely via a browser session, would close the state-newspaper hole. Beyond that, the highest-value targets are documentary rather than journalistic: the March 2026 tender documents that reportedly show engineers flagging deteriorated hull sections before the sinking; any survey, load-line or capacity certificate for the vessel; the Commission of Inquiry's terms of reference once gazetted, with attention to whether they reach loading *authorisation* and procurement or stop at loading *execution*; the Auditor General's reports on the T&HD; and the 19 September 2015 Kaieteur inspection report cited by Adams, which was searched for and not found.
+The Guyana Chronicle hole has now been closed (see above). The remaining highest-value targets are documentary rather than journalistic: the March 2026 tender documents that reportedly show engineers flagging deteriorated hull sections before the sinking; any survey, load-line or capacity certificate for the vessel; the Commission of Inquiry's gazetted instrument, which had not been published when the commissioners were named on 26 July, with attention to whether its terms reach loading *authorisation* and procurement or stop at loading *execution*; the Auditor General's reports on the T&HD; and the 19 September 2015 Kaieteur inspection report cited by Adams, which was searched for and not found.
 
 On the live story, the variables worth monitoring are whether the wreck is righted and what that does to the count, whether the residual of roughly thirty missing is ever officially named, whether charges are laid and against whom, whether Parliament sits before the Commission is constituted, and whether any pre-18-July document surfaces bearing a named official's knowledge of the hull's condition.
 
@@ -84,8 +84,8 @@ Two things the pass surfaced that are now flagged in the analysis rather than fi
 
 ## Directory structure
 
-`archive/` holds the 152 full-text sources, one file per source, plus six `_manifest_*.jsonl` files carrying structured metadata and research annotations for every entry, and `_synthesis_vessel-dossier.md`, a fully cited dossier on the vessel and the T&HD fleet with an explicit unverified-and-contested section.
+`archive/` holds the 192 full-text sources, one file per source, plus six `_manifest_*.jsonl` files carrying structured metadata and research annotations for every entry, and `_synthesis_vessel-dossier.md`, a fully cited dossier on the vessel and the T&HD fleet with an explicit unverified-and-contested section.
 
-`deliverables/` holds `00_SOURCE-CATALOGUE.md` (the annotated listing of all 152 sources with summaries, chronological then contextual, plus a distribution table), `01_TIMELINE.md` (reconciled chronology from 1936 to 26 July 2026, with conflicts marked), `02_CONTESTED-FACTS.md` (figure-by-figure reconciliation, single-source claims, reliability guidance), `03_SYSTEMIC-ANALYSIS.md` (the four-pillar systemic brief), and this file.
+`deliverables/` holds `00_SOURCE-CATALOGUE.md` (the annotated listing of all sources with summaries, chronological then contextual, plus a distribution table), `01_TIMELINE.md` (reconciled chronology from 1936 to 26 July 2026, with conflicts marked), `02_CONTESTED-FACTS.md` (figure-by-figure reconciliation, single-source claims, reliability guidance), `03_SYSTEMIC-ANALYSIS.md` (the four-pillar systemic brief), and this file.
 
 `_superseded/` holds the ten deduplicated files, retained for audit.
