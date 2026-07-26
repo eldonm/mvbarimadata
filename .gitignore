@@ -1,0 +1,19 @@
+# Private research corpus: full verbatim text of copyrighted third-party
+# news articles, kept for internal reference only. Never published here —
+# see README.md. Only the bibliographic/summary metadata files are tracked.
+archive/*.md
+archive/*.jsonl.bak
+
+# Superseded/duplicate working files, not part of the published record.
+_superseded/
+dist/
+
+# Redundant bundles — everything in them is already tracked as individual
+# files below; keeping both would just duplicate the repo.
+*.tar.gz
+
+# OS / editor / Python cruft.
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

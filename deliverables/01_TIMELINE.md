@@ -1,0 +1,107 @@
+# MV Barima — Reconciled Chronology
+
+Compiled 26 July 2026 from the 152-source archive, then adversarially verified against it. Every claim is attributed. Where sources conflict, both versions appear and the conflict is marked **[CONTESTED]**; where a consequential claim rests on one source, it is marked **[SINGLE SOURCE]**. See `02_CONTESTED-FACTS.md` for the full reconciliation. Times are local (UTC−4).
+
+---
+
+## Part I — The long fuse, 1936–2026
+
+**1936–1939.** Ferguson Brothers (Port Glasgow) Ltd builds a class of three ferries for the British Guiana Railways' Transport & Harbours Department, ordered through the Crown Agents for the Colonies: *Pomeroon* (1936), *Lady Northcote* (1937) and *Barima* (1939). The Paxman History Pages engine register — a builder's document with no stake in the present controversy — records the *Barima* at 125 ft 9 in by 29 ft, twin screw, two six-cylinder Paxman MRZ engines of 180/200 bhp at £1,970 each, 8½ knots average. This is the firmest provenance in the corpus, and it is corroborated from an unexpected direction: Kaieteur News, while arguing *against* the age thesis, independently dates the sister ship to 1937.
+
+**[CONTESTED] Build year.** Most coverage gives 1939 and describes an "87-year-old vessel," which is consistent. Kaieteur News on 25 and 26 July dates the build to **1938**. The Paxman register supports 1939. The distinction matters only because MARAD's Director-General refers to a "1938 rating."
+
+**[CONTESTED] Certified capacity — the single most consequential unresolved figure.** MARAD Director-General Capt. Stephen Thomas refers to an original 1938 rating of 120 tons and 150 passengers, and could not say when or on what basis it was raised — "I don't have that information." The figures in force in July 2026 are reported inconsistently by the two officials who cited them. Thomas gave **394 passengers / 126 tonnes** on 21–22 July and **394 passengers / 120 tonnes** on 24–25 July. Edghill gave **397 passengers / 284 tons** on 19 July. No certificate has ever been published, so none of these can be checked.
+
+**1958–1961.** Guyana builds its own ferries at Sprostons Ltd in Georgetown: *Torani* (keel 1958) and *Malali* (keel 31 May 1961). The widely syndicated claim that the *Malali* was British-built in 1962 is wrong.
+
+**1 August 1970.** The *MV Christena* capsizes off St Kitts–Nevis, killing 233 — reportedly with more than 320 aboard against a certified 155. She is the Caribbean's defining ferry disaster and the precedent Guyanese commentators now invoke. The archive also indicates she came off the Sprostons slipway in Georgetown in 1958–59, the same yard and years as the T&HD's own *Torani* and *Malali* — a connection the commentary has missed. **⚠️ Fidelity caveat:** all *Christena* figures and the Sprostons attribution come from a tool-extracted partial capture of a Wikipedia page (`0000-00-00_wikipedia_christena-disaster.md`), which the archive flags as not verbatim. Re-verify before citing.
+
+**2010.** Port Kaituma residents publicly demand better vessels on the North West route.
+
+**19 September 2015.** A Kaieteur News inspection report describes the *Barima*'s deck, winch and generator area as "a mass of junk and rust." The report itself was not recoverable; the quotation survives because Capt. R. E. W. Adams quoted it.
+
+**2 October 2015.** Capt. R. E. W. Adams writes to Stabroek News naming the *Barima* directly, citing that inspection, and arguing such a vessel would be barred from sea or scrapped elsewhere in the Caribbean. He locates the fault not in age but in missed dry-docking. This is the most specific pre-disaster warning in the corpus, published eleven years before the sinking.
+
+**2017.** The state elects rehabilitation over replacement, spending G$150.6m on the *Barima*. The project description includes "installation of two engines." Whether the 1939 machinery was therefore entirely replaced is not established in the corpus — but the hull remained original, which is the sense in which the vessel was 87 years old.
+
+**2019 [CONTESTED].** The *Lady Northcote* is reported withdrawn, leaving the *Barima* as the **sole vessel on the Georgetown–Port Kaituma run** — the only practical link to that port, though the *Kimbia* and later the *Ma Lisha* served other Region One destinations including Kumaka. Kaieteur News on 24 July states the *Lady Northcote* "continues operating," which the archive flags as unresolved.
+
+**8 September 2020.** DPI reports a new North West ferry "back on the agenda," recording the *Barima*'s history of mechanical failures. **⚠️ Fidelity caveat:** this file is a tool-condensed capture whose own note states that only the Edghill quotation within it is verbatim, and that quotation concerns engaging India — not the vessel's condition. The mechanical-failure characterisation should be treated as the substance of a government release, **not** as a quotation and **not** as Edghill's words.
+
+**2021.** DPI, 11 June: "MV Barima to sail again after engine repairs."
+
+**2023.** The US$12.7m India-funded *MV Ma Lisha* is commissioned, and Parliament is told it will replace the *Barima* and the *Kimbia*. It never takes the Port Kaituma route. **[CONTESTED]** — the reasons given are incomplete Port Kaituma wharf works (Prime Minister Mark Phillips, 25 July 2026) and insufficient cargo capacity for the route's needs (residents and contemporaneous reporting). The 1939 hull stays in service.
+
+**20 September 2024.** DPI: "Repairs on MV Barima to be completed soon," describing "more than 80 years of service." The vessel is docked this year; Edghill later states the next docking was due in "the latter half of 2026."
+
+**10 March 2025.** DPI publishes an account of "crucial reforms" at the T&HD, conceding the department's "longstanding issues of negligence, mismanagement, and accountability." The state's own diagnosis, sixteen months out. (Verbatim; file unflagged.)
+
+**February–March 2025.** Kumaka residents complain about conditions on the *MV Kimbia*.
+
+**October 2025.** MARAD acquires two French-built Ocean Pilot boats.
+
+**19 December 2025.** Demerara Waves reports the new *Konawaruk*'s bow door will not mate with existing stellings.
+
+**13 February – 15 March 2026.** Stabroek News, Guyana's principal independent daily for roughly forty years and historically the main forum for exactly the kind of technical maritime criticism Adams published in 2015, announces closure and ceases print in voluntary liquidation while still solvent. Some sixty staff go. The de Caires shareholders allege the state's Department of Public Information withheld G$84.4m in advertising arrears and that a radio licence was "repeatedly sought (and been refused)" while competitors "enjoyed significant privileges"; the paper's own editorial calls this "an assault on press freedom." Editor-in-Chief Anand Persaud told Democracy Guyana the debt "wasn't necessarily a factor," and Minister Kwame McCoy attributed the closure to market forces. **[CONTESTED]** cause; **[CONTESTED]** date — Stabroek says print ceased 15 March, Kaieteur says 14 March. The structural consequence is not contested: four months before the disaster, Guyana lost its main independent print scrutiny.
+
+**9 March 2026.** DPI: over G$440m to be spent on major ferry repairs. A tender is issued putting a further **G$124.5m into the *Barima*'s hull** — four months before it sank. Per reporting carried by the Jamaica Observer on 25 July (unbylined CMC wire copy) and voiced by APNU MP Saiku Andrews, the bill of quantities required examination of approximately 10,000 square metres of hull plating and frames, "with deteriorated sections to be renewed where necessary." Note the conditional: this is a specification anticipating deterioration, not a survey finding that deterioration existed.
+
+**21 May 2026.** Kaieteur News reports another vessel for Region One, the *Kalliopi N*, has arrived and is sitting uncommissioned at the Kingston Goods Wharf awaiting commissioning by "the president himself." It is still there on 18 July.
+
+**21 June 2026.** Dr. Karen Abrams publishes "What the oil boom owes the hinterland" in Kaieteur News — four weeks before the sinking.
+
+**Budget context.** River transport figures run at G$9.9bn allocated and G$10.7bn actually spent in 2025, and G$11.2bn allocated for 2026, with nothing earmarked to retire the *Barima*.
+
+---
+
+## Part II — The voyage, Saturday 18 July 2026
+
+**Approx. 15:15.** The *MV Barima* departs the Transport & Harbours Department wharf at Kingston, Georgetown, bound for Port Kaituma in Region One, carrying **116 passengers and 17 crew** according to the manifest. (One Ministry of Public Works rendering inside a DPI release says the vessel "departed Parika"; every other account says Kingston, Georgetown. Treat the Parika reference as an error. **[CONTESTED]** crew: 17 in most accounts, 18 in the later official complement, 16 per Demerara Waves on 25 July.) Of the 116, 100 booked through the Online Booking System and 16 through Mobile Money Guyana.
+
+**Approx. 19:00 — four hours out.** One engine loses power. Survivor Leon Murray, interviewed by AP, says the crew repaired it **at sea** rather than turning back. **[SINGLE SOURCE]** Janette Bulkan, writing in Kaieteur News on 25 July from survivor and journalist interviews, states the vessel became stuck on a mudbank offshore of Iron Punt, Pomeroon — a claim absent from every official account.
+
+**Approx. 20:00.** A passenger reports water entering the lower deck. Murray says the crew's answer was: "They told us this is normal." Murray also describes the vessel as "packed, packed, packed all downstairs." Elena Moonsammy, who lost seven children she was travelling with, is the sole source for cargo stacked at the stern. Wayne Kitson describes a list that failed to right.
+
+**19:00–23:00.** Bulkan asks whether a Pan Pan urgency call was issued during these four hours, as the SOLAS norm would require — she states Guyana acceded to SOLAS on 10 December 1997, effective 10 March 1998 (**[SINGLE SOURCE]**, her letter). No source in the archive establishes that a Pan Pan was made.
+
+**23:01 [CONTESTED].** The *Barima* is reported to have transmitted a **Mayday** by radio, received by aviation authorities. This time is widely reported and is the spine of every published timeline — but on 25 July Prime Minister Phillips said of a Mayday call from the captain: **"We have no such record."** That contradiction is unresolved and is material to the whole rescue chronology.
+
+The vessel is roughly seven to ten miles off the Essequibo Coast (Region Two) near Iron Punt, at the mouth of the Pomeroon River — an area known for rough seas, in water between three and nine metres deep. Several sources give "about seven miles offshore"; Demerara Waves, calculating with Google Earth Pro, gives almost ten nautical miles. She lists and does not recover. **[CONTESTED]** sinking duration: about four minutes (Murray) versus "less than a minute" (Guyana Times).
+
+The official proximate cause offered within days is rough seas compounded by crew impairment. MARAD's Capt. Thomas explains that a vessel with positive stability returns upright even when heeled twenty degrees, so the failure to right "points back to human operational error under treacherous conditions." Survivor accounts point instead to loading, four hours of water ingress, and an engine repaired underway.
+
+---
+
+## Part III — The response, 19 July 2026
+
+**01:36.** Capt. Gerry Gouveia takes off from Ogle in a Roraima Airways Islander — a **fixed-wing** aircraft, two and a half hours after the reported Mayday — flies twenty minutes to Iron Punt, sights a distress flare and reports GPS coordinates. Bulkan asks why the rescue helicopters and trained rescue swimmers at the Omni Helicopters Guyana base at Ogle were never launched, and why the police boat near the Pomeroon mouth and MARAD's two Ocean Pilot boats were not tasked sooner. Two GDF helicopters were reported unserviceable — raised by the opposition (via News Americas Now, 19 July) and addressed by GDF officials (via Kaieteur News, 23 July).
+
+**03:15.** Edghill announces on Facebook Live that eight people have been "retrieved alive."
+
+**Through the day.** Fisherman Haresh Singh locates the hull and, per Guyana Times, instructs the Coast Guard to fire flares; he mobilised his brother and other fishermen in their own boat. **[SINGLE SOURCE]** Bulkan reports ExxonMobil sent three offshore supply vessels and ran a sonar survey, and that "Exxon or the French" also sent divers. Survivors are landed at Charity on the Essequibo Coast and assessed at Charity Hospital; bodies are processed at Charity and stored at Suddie Hospital, where four refrigerated containers are delivered. Rescued counts climb through 8, 53 and 67. President Irfaan Ali is abroad in Canada. Demerara Waves reports that, **except for the GDF**, the government had no crisis-communications response on the first night, and that the wreck's coordinates came from a private operator.
+
+---
+
+## Part IV — The reckoning, 19–26 July 2026
+
+**19 July (evening).** Edghill's press conference detonates the paper record: only **35 of the 67 rescued appear on the manifest** — meaning thirty-two survivors were never recorded as having boarded. (**[CONTESTED]**: the Jamaica Gleaner on 20 July inverts this, reporting that at least 35 of the 67 were *not* on the manifest.) Edghill discloses that the captain and first engineer tested positive for cannabis; the captain, a sailor and the first engineer are held at Anna Regina, and the mate's panel differed. Edghill personally audits the cargo manifest line by line and gets an early figure of 260 tons against 268 manifested and 284 licensed. He names the cause in one word — "mischief" — and locates it in ground-level operational breach rather than regulatory failure, since the T&HD is service provider and MARAD "strictly" the regulator. DPI, meanwhile, has spent the day telling families it is working from the vessel's manifest.
+
+**20 July.** Government orders an immediate investigation; the management team responsible for loading and dispatch is suspended by Facebook post, framed as protecting the integrity of the coming inquiry rather than as a finding of fault. DPI publishes its release under the headline "MV Barima was seaworthy – Min Edghill"; Edghill's own words are narrower — "There was no report of any kind that suggested the vessel was unseaworthy." Separately he states "There was no engine problem or any mechanical problem," and on 22 July that "there was no reported engine troubles from the crew when the boat came in and when the boat left." Phillips reports two crew members testing positive. Death toll moves 2 → 10 → 27, with 83 reported missing. Ali returns and meets families.
+
+**21 July.** Ali declares **three days of national mourning**. Toll reaches 41, then 53. The working passenger figure jumps to **179 including 18 crew** — up from 133, and not derived from the manifest. Brazil and Trinidad & Tobago send assistance. APNU MP Sherod Duncan is arrested over an unlicensed drone at Charity, where he had been showing it to Warrao children. Opposition figure David Patterson alleges expert procurement advice was disregarded (post-disaster, unverified).
+
+**22 July.** MARAD's Thomas states publicly the vessel was **"not overloaded,"** citing the load line, and argues age is irrelevant because modern thin steel is stronger — an argument that implicitly concedes the 1939 hull was not modern. Kaieteur News runs a toll of **103** — its own tally compiled from three days of search work by the Coast Guard, Opposition Leader Azruddin Mohamed, private vessel owners and local fishermen; Mohamed himself said only that "it looks like over 100." The state reported 53 the same day. A third person — a T&HD superintendent responsible for Georgetown loading and ticketing — is detained. Edghill confirms the state assumed the risk on an **uninsured** vessel. Three women are detained at the government's **national prayer service**; per the activists' own subsequent statement charges were dropped and an apology given, and a constitutional action under Article 147 is weighed — no police or government statement on the incident appears in the corpus. Search area expands by 400 square miles. Jagdeo restates the toxicology findings. DPI publishes "Government response guided by transparency, compassion."
+
+**23 July.** Toll 65, then 72. Al Jazeera reports around 100 feared dead — an inference from 179 minus 76 survivors — while still carrying 53 recovered, so two irreconcilable figures run side by side in international copy for roughly forty-eight hours.
+
+**24 July.** PM Phillips's briefing: **73 recovered, 69 identified, 63 released to families, 30 unaccounted for**, three aircraft and fourteen vessels deployed, boats standing by to right the wreck. He concedes delayed Port Kaituma wharf works are why the newer *Ma Lisha* could not run the route. First funerals are held; 22 by this date, "more than thirty" by 26 July. The National Toshaos Council urges a "comprehensive, transparent, independent review." APNU tables a Standing Order 12 motion to empower a commission to summon witnesses, compel documents and refer criminal charges.
+
+**25 July.** Government announces it has **tightened ferry safety procedures** — on inspection, strengthened *compliance with existing* standard operating procedures and stricter adherence to *existing* ticketing and passenger-management rules, triggered by confirmation that passengers boarded unticketed. No manifest-verification rule, headcount protocol, life-jacket mandate, capacity cap, night-sailing ban or new inspection regime appears in any source obtained. Ali announces by video that he "shall, tomorrow – 26th of July, 2026 – announce a five-member team": an independent international Commission of Inquiry of "distinguished local and international experts." APNU and WIN reject it as unilateral. Thomas cannot explain the capacity increase from the 1938 rating. Toll holds at 73; the search area is expanded by a further 32 square miles, Waini to Adventure. APNU, through MP Saiku Andrews, demands funeral assistance of no less than G$1m per victim, against reports that some families were offered "a mere $300,000" for funeral expenses. Phillips's position on the wider question: "The focus now is not on compensation. The focus is on recovering bodies, financing the burial and funeral rites…" — sequencing, not a legal characterisation.
+
+**26 July (as of compilation).** No commissioners named, no chair, no secretary, no gazetted terms of reference, no reporting deadline, no statutory basis cited by the President — the only citation in circulation is the AFC's proposal to use the Commission of Inquiry Act, Cap. 19:03. GHRA demands a parliamentary commission instead (**[CONTESTED]** size: seven members per Kaieteur, six appointed equally per Demerara Waves). A joint opposition bloc of five parties makes the sharpest technical objection: a Commission of Inquiry is **not a substitute for a marine casualty investigation** under SOLAS, the IMO Casualty Investigation Code and the IMO Model Regulations on Domestic Ferry Safety, and both must run. Parliament has not met. The corpus contains no reference to charges being laid or an inquest being opened — in either direction. Kaieteur reports no new developments in search and recovery, and no Saturday evening briefing. Unofficial tolls exceed 100.
+
+---
+
+## The arithmetic that has never been stated
+
+The state has never published a death toll. It publishes bodies recovered. Against a working complement of **179** and **76–77 survivors**, the residual is **102–103 people**. Seventy-three have been recovered. The gap — roughly thirty people — is the number no official document in this archive names.

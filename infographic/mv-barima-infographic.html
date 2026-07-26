@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MV Barima — the documented record</title>
+<style>
+  @page { size: A3 portrait; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    width: 297mm; height: 420mm;
+    background: #f9f9f7;
+    font-family: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #0b0b0b;
+    font-size: 9.6px; line-height: 1.38;
+  }
+  .page {
+    --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --axis:#c3c2b7;
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s1l:#86b6ef;
+    --border:rgba(11,11,11,0.10);
+    width:297mm; height:420mm; padding:6.5mm 7.5mm 4.5mm;
+    display:flex; flex-direction:column; gap:2.3mm;
+  }
+  h1 { font-size:27px; line-height:0.98; letter-spacing:-0.55px; font-weight:680; }
+  h2 { font-size:11px; font-weight:660; letter-spacing:0.01em; }
+  .kicker { font-size:8.8px; color:var(--ink2); letter-spacing:0.085em; text-transform:uppercase; font-weight:600; }
+  .lede { font-size:10.4px; line-height:1.44; }
+  .cap { font-size:8.3px; line-height:1.38; color:var(--ink2); }
+  .micro { font-size:7.4px; line-height:1.32; color:var(--muted); }
+  .sub { font-size:8.3px; color:var(--muted); font-weight:500; }
+  b, strong { font-weight:660; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:3px; padding:2.3mm 3mm; }
+  .row { display:flex; gap:2.6mm; }
+  .masthead { display:flex; justify-content:space-between; align-items:flex-end; gap:7mm;
+              border-bottom:2px solid var(--ink); padding-bottom:2mm; }
+  .kpis { display:grid; grid-template-columns:repeat(5,1fr); gap:2mm; }
+  .kpi { background:var(--surface); border:1px solid var(--border); border-radius:3px; padding:2mm 2.4mm; }
+  .kpi .v { font-size:27px; line-height:0.92; font-weight:680; letter-spacing:-0.9px; }
+  .kpi .l { font-size:8.3px; color:var(--ink2); margin-top:1.1mm; line-height:1.3; font-weight:560; }
+  .kpi .n { font-size:7.3px; color:var(--muted); margin-top:0.6mm; line-height:1.28; }
+  .legend { display:flex; gap:3.4mm; flex-wrap:wrap; align-items:center; margin-top:1mm; }
+  .lg { display:flex; gap:1.2mm; align-items:center; font-size:7.9px; color:var(--ink2); font-weight:560; }
+  .sw { width:12px; height:3px; border-radius:1.5px; flex:none; }
+  .dotk { width:7px; height:7px; border-radius:50%; flex:none; }
+  .night { display:grid; grid-template-columns:repeat(6,1fr); gap:0; margin-top:3.4mm; }
+  .nstep { padding-right:2.2mm; position:relative; }
+  .nstep::before { content:""; position:absolute; left:0; top:-3mm; width:100%; height:2px; background:var(--grid); }
+  .nstep::after { content:""; position:absolute; left:0; top:-4.35mm; width:8px; height:8px; border-radius:50%;
+                  background:var(--surface); border:2px solid var(--s1); }
+  .nstep.hot::after { border-color:var(--s2); }
+  .nstep.hot::before { background:var(--s2); }
+  .nstep .t { font-size:11px; font-weight:680; letter-spacing:-0.3px; }
+  .nstep .d { font-size:7.7px; color:var(--ink2); line-height:1.3; margin-top:0.4mm; }
+  .fuse { position:relative; margin-top:3.6mm; }
+  .fuse .spine { position:absolute; left:0; right:0; top:0; height:2px; background:var(--axis); }
+  .fuserow { display:grid; grid-template-columns:repeat(7,1fr); gap:1.8mm; }
+  .fev { padding-top:3.4mm; position:relative; }
+  .fev::before { content:""; position:absolute; left:0; top:-3.5px; width:9px; height:9px; border-radius:50%;
+                 background:var(--surface); border:2px solid var(--muted); }
+  .fev.warn::before { border-color:var(--s2); background:var(--s2); }
+  .fev.money::before { border-color:var(--s1); background:var(--s1); }
+  .fev.dead::before { border-color:var(--ink); background:var(--ink); }
+  .fev .y { font-size:9.8px; font-weight:680; letter-spacing:-0.2px; }
+  .fev .x { font-size:7.3px; color:var(--ink2); line-height:1.29; margin-top:0.3mm; }
+  .chain { display:grid; grid-template-columns:1fr 1fr; gap:0 4.4mm; margin-top:1.4mm; }
+  .chdr { font-size:8px; letter-spacing:0.085em; text-transform:uppercase; font-weight:660;
+          color:var(--ink2); padding-bottom:0.9mm; border-bottom:1px solid var(--axis); }
+  .lnk, .fix { padding:1.15mm 0; border-bottom:1px solid var(--grid); display:flex; gap:1.9mm; }
+  .num { flex:none; width:11px; height:11px; border-radius:50%; background:var(--s2); color:#fff;
+         font-size:7.2px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .num.fixn { background:var(--s3); }
+  .lnk .tx, .fix .tx { font-size:8.1px; line-height:1.32; }
+  .lnk .tx b, .fix .tx b { color:var(--ink); }
+  .tracks { display:grid; grid-template-columns:repeat(3,1fr); gap:2.6mm; margin-top:1.4mm; }
+  .tr { border-top:3px solid var(--s3); padding-top:1.4mm; }
+  .tr .h { font-size:10px; font-weight:680; }
+  .tr .b { font-size:7.9px; color:var(--ink2); line-height:1.32; margin-top:0.5mm; }
+  .pat .p { display:flex; gap:2mm; align-items:baseline; margin-bottom:1.3mm; }
+  .pat .pv { font-size:19px; font-weight:680; letter-spacing:-0.6px; line-height:1; flex:none; }
+  .pat .pl { font-size:7.9px; color:var(--ink2); line-height:1.3; }
+  table { border-collapse:collapse; width:100%; font-size:7.5px; font-variant-numeric:tabular-nums; }
+  th { text-align:left; font-weight:660; color:var(--ink2); border-bottom:1px solid var(--axis); padding:0.55mm 1.4mm 0.55mm 0; }
+  td { padding:0.45mm 1.4mm 0.45mm 0; border-bottom:1px solid var(--grid); color:var(--ink2); }
+  td.n, th.n { text-align:right; }
+  footer { border-top:1px solid var(--axis); padding-top:1.6mm; margin-top:auto; }
+  svg { display:block; width:100%; height:auto; }
+  .tsvg { font-family:system-ui,-apple-system,"Segoe UI",sans-serif; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============ MASTHEAD ============ -->
+  <div class="masthead">
+    <div>
+      <div class="kicker">Guyana &middot; Transport &amp; Harbours Department ferry &middot; Georgetown → Port Kaituma</div>
+      <h1>MV Barima: the documented record</h1>
+      <div class="sub" style="margin-top:1mm;">Departed Kingston wharf 15:15, Saturday 18 July 2026 &middot; capsized off Iron Punt, mouth of the Pomeroon, in 3–9 m of water</div>
+    </div>
+    <div class="lede" style="max-width:120mm; border-left:2px solid var(--s2); padding-left:3mm;">
+      What 152 published sources record, and who records it. The manifest listed 116 passengers and 17 crew;
+      a review of boarding-area CCTV later put <b>179</b> aboard. This sheet does not advance an explanation of
+      the cause: at compilation on 26 July 2026 the Commission of Inquiry had been announced but not constituted,
+      no commissioners had been named, and the figures were still being revised.
+    </div>
+  </div>
+
+  <!-- ============ KPI ROW ============ -->
+  <div class="kpis">
+    <div class="kpi"><div class="v">179</div><div class="l">People aboard</div>
+      <div class="n">Attributed to a review of boarding-area CCTV. The manifest recorded 133.</div></div>
+    <div class="kpi"><div class="v">73</div><div class="l">Bodies recovered</div>
+      <div class="n">Official figure, unchanged from 24 to 26 July. 69 identified.</div></div>
+    <div class="kpi"><div class="v">~103</div><div class="l">Implied by subtraction: 179 aboard less 76 survivors</div>
+      <div class="n">No official death toll appears in the corpus.</div></div>
+    <div class="kpi"><div class="v">87</div><div class="l">Years since the hull was built</div>
+      <div class="n">1939, Ferguson Brothers, Port Glasgow, via the Crown Agents, per the Paxman engine register.</div></div>
+    <div class="kpi"><div class="v">0</div><div class="l">Survey, load-line or capacity certificates in the corpus</div>
+      <div class="n">Searched for across 152 sources and not found.</div></div>
+  </div>
+
+  <!-- ============ COUNTING + CAPACITY ============ -->
+  <div class="row">
+    <div class="card" style="flex:1;">
+      <h2>1. The manifest and the complement</h2>
+      <div class="cap" style="margin-top:0.8mm;">
+        Of the 116 passengers on the manifest, Minister Edghill stated 100 booked through the Online Booking
+        System and 16 through Mobile Money Guyana. The Associated Press reports that clerks had sold unmanifested
+        seats for cash &ldquo;for decades at state-run ferry terminals.&rdquo;
+      </div>
+
+      <svg viewBox="0 0 480 90" class="tsvg" role="img" aria-label="The manifest recorded 133 people; a CCTV review established 179 aboard, 46 unrecorded.">
+        <text x="0" y="8" font-size="8.8" font-weight="660" fill="#0b0b0b">Recorded on the manifest</text>
+        <rect x="0" y="12" width="280" height="13" rx="4" fill="#86b6ef"/>
+        <rect x="0" y="12" width="4" height="13" fill="#86b6ef"/>
+        <text x="288" y="22.5" font-size="10.5" font-weight="680" fill="#0b0b0b">133</text>
+        <text x="316" y="22.5" font-size="7.8" fill="#52514e">passengers + crew</text>
+
+        <text x="0" y="42" font-size="8.8" font-weight="660" fill="#0b0b0b">Established by the CCTV review</text>
+        <rect x="0" y="46" width="377" height="13" rx="4" fill="#2a78d6"/>
+        <rect x="0" y="46" width="4" height="13" fill="#2a78d6"/>
+        <text x="385" y="56.5" font-size="10.5" font-weight="680" fill="#0b0b0b">179</text>
+
+        <line x1="280" y1="72" x2="377" y2="72" stroke="#eb6834" stroke-width="2"/>
+        <line x1="280" y1="68" x2="280" y2="76" stroke="#eb6834" stroke-width="2"/>
+        <line x1="377" y1="68" x2="377" y2="76" stroke="#eb6834" stroke-width="2"/>
+        <text x="328" y="87" font-size="8.4" font-weight="660" fill="#0b0b0b" text-anchor="middle">difference of 46</text>
+      </svg>
+
+      <svg viewBox="0 0 480 52" class="tsvg" style="margin-top:1mm;" role="img" aria-label="Of the first 67 survivors, 35 appeared on the manifest and 32 did not.">
+        <text x="0" y="8" font-size="8.8" font-weight="660" fill="#0b0b0b">The first 67 survivors, checked against the manifest</text>
+        <rect x="0" y="13" width="219" height="15" rx="4" fill="#2a78d6"/>
+        <rect x="0" y="13" width="4" height="15" fill="#2a78d6"/>
+        <rect x="221" y="13" width="201" height="15" rx="4" fill="#eb6834"/>
+        <rect x="221" y="13" width="4" height="15" fill="#eb6834"/>
+        <text x="8" y="24.5" font-size="9.6" font-weight="680" fill="#ffffff">35</text>
+        <text x="229" y="24.5" font-size="9.6" font-weight="680" fill="#ffffff">32</text>
+        <g font-size="7.9" fill="#52514e">
+          <rect x="0" y="41" width="12" height="3" rx="1.5" fill="#2a78d6"/>
+          <text x="17" y="45">On the manifest</text>
+          <rect x="110" y="41" width="12" height="3" rx="1.5" fill="#eb6834"/>
+          <text x="127" y="45">Not recorded as having boarded</text>
+        </g>
+      </svg>
+      <div class="micro" style="margin-top:0.9mm;">
+        Edghill stated on 19 July that 35 of the 67 then rescued appeared on the manifest, and that authorities
+        could no longer determine how many had been aboard. DPI releases of 19 July state that families were being
+        updated using the vessel&rsquo;s manifest.
+      </div>
+    </div>
+
+    <div class="card" style="flex:1;">
+      <h2>2. Stated capacity limits</h2>
+      <div class="cap" style="margin-top:0.8mm;">
+        Officials gave different limits on different days. Asked when the 1938 rating was raised, MARAD&rsquo;s
+        Director-General said: <em>&ldquo;I don&rsquo;t have that information.&rdquo;</em>
+      </div>
+
+      <svg viewBox="0 0 480 162" class="tsvg" role="img" aria-label="Four stated official cargo limits — 284, 126, 120 and 120 tonnes — against a manifested load of 268 tonnes.">
+        <text x="373" y="9" font-size="8" font-weight="660" fill="#0b0b0b" text-anchor="end">268 t manifested</text>
+        <line x1="375" y1="12" x2="375" y2="148" stroke="#52514e" stroke-width="2"/>
+
+        <text x="0" y="28" font-size="8.3" fill="#0b0b0b">Min. Edghill, 19 July &mdash; &ldquo;licensed&rdquo;</text>
+        <rect x="0" y="32" width="398" height="13" rx="4" fill="#2a78d6"/>
+        <rect x="0" y="32" width="4" height="13" fill="#2a78d6"/>
+        <text x="406" y="43" font-size="9.6" font-weight="680" fill="#0b0b0b">284 t</text>
+
+        <text x="0" y="61" font-size="8.3" fill="#0b0b0b">MARAD Director-General, 21&ndash;22 July</text>
+        <rect x="0" y="65" width="176" height="13" rx="4" fill="#2a78d6"/>
+        <rect x="0" y="65" width="4" height="13" fill="#2a78d6"/>
+        <text x="184" y="76" font-size="9.6" font-weight="680" fill="#0b0b0b">126 t</text>
+
+        <text x="0" y="94" font-size="8.3" fill="#0b0b0b">MARAD Director-General, 24&ndash;25 July</text>
+        <rect x="0" y="98" width="168" height="13" rx="4" fill="#2a78d6"/>
+        <rect x="0" y="98" width="4" height="13" fill="#2a78d6"/>
+        <text x="176" y="109" font-size="9.6" font-weight="680" fill="#0b0b0b">120 t</text>
+
+        <text x="0" y="127" font-size="8.3" fill="#0b0b0b">Original 1938 rating (150 passengers)</text>
+        <rect x="0" y="131" width="168" height="13" rx="4" fill="#86b6ef"/>
+        <rect x="0" y="131" width="4" height="13" fill="#86b6ef"/>
+        <text x="176" y="142" font-size="9.6" font-weight="680" fill="#0b0b0b">120 t</text>
+
+        <line x1="0" y1="148" x2="440" y2="148" stroke="#c3c2b7" stroke-width="1"/>
+        <g font-size="7.4" fill="#898781">
+          <text x="0" y="159">0</text><text x="140" y="159">100</text>
+          <text x="280" y="159">200</text><text x="415" y="159">300 tonnes</text>
+        </g>
+      </svg>
+
+      <div class="micro" style="margin-top:0.5mm;">
+        Three of the four stated limits sit below the 268 tonnes the vessel was manifested to carry; the fourth,
+        Edghill&rsquo;s 284 tonnes, sits above it. Edghill&rsquo;s own line-by-line audit on 19 July returned 260
+        tonnes. On 22 July MARAD stated the vessel was <em>&ldquo;not overloaded,&rdquo;</em> citing the load line.
+        No published certificate appears in the corpus against which any of these figures can be checked.
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TOLL CHART ============ -->
+  <div class="card">
+    <div class="row" style="gap:4.4mm;">
+      <div style="flex:1.95;">
+        <h2>3. Recovery and survivor figures</h2>
+        <div class="cap" style="margin-top:0.8mm;">
+          Bodies recovered reached 73 on 24 July and were unchanged through 26 July. Survivors were revised from
+          77 to 76 after de-duplication, per News Room and Kaieteur. Kaieteur published its own tally of 103 on
+          22 July, compiled from Coast Guard, opposition, private-vessel and fishermen&rsquo;s accounts, on a day
+          the government reported 53.
+        </div>
+
+        <svg viewBox="0 0 1000 250" class="tsvg" role="img" aria-label="Line chart, 19 to 26 July 2026: bodies recovered rises from 2 to 73 then stops; survivors settle at 76; subtraction from 179 aboard implies 103.">
+          <line x1="60" y1="152.6" x2="880" y2="152.6" stroke="#e1e0d9" stroke-width="1"/>
+          <g font-size="9.6" fill="#898781" text-anchor="end" font-variant-numeric="tabular-nums">
+            <text x="50" y="203">0</text><text x="50" y="156">50</text>
+          </g>
+
+          <line x1="60" y1="30.4" x2="880" y2="30.4" stroke="#52514e" stroke-width="2"/>
+          <text x="66" y="24" font-size="10" font-weight="660" fill="#0b0b0b">179 aboard, per the CCTV review</text>
+
+          <line x1="60" y1="102.4" x2="880" y2="102.4" stroke="#52514e" stroke-width="2"/>
+          <text x="874" y="96" font-size="10" font-weight="660" fill="#0b0b0b" text-anchor="end">103 &mdash; implied by subtraction (179 aboard &minus; 76 survivors)</text>
+
+          <polyline fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+            points="60,198.1 177,174.4 294,149.8 411,138.4 528,131.8 646,130.8 763,130.8 880,130.8"/>
+          <polyline fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+            points="60,136.5 177,134.6 294,127.0 411,128.0 528,128.0 646,128.0 763,128.0 880,128.0"/>
+
+          <circle cx="411" cy="102.4" r="6" fill="none" stroke="#0b0b0b" stroke-width="2"/>
+          <line x1="411" y1="96" x2="411" y2="76" stroke="#898781" stroke-width="1"/>
+          <text x="411" y="62" font-size="9.6" font-weight="660" fill="#0b0b0b" text-anchor="middle">Kaieteur&rsquo;s own tally, 22 July: 103</text>
+          <text x="411" y="72.5" font-size="8.8" fill="#52514e" text-anchor="middle">the government reported 53 that day</text>
+
+          <line x1="881" y1="128" x2="897" y2="114" stroke="#898781" stroke-width="1"/>
+          <text x="901" y="117" font-size="10" font-weight="660" fill="#0b0b0b">76 survivors</text>
+          <line x1="881" y1="130.8" x2="897" y2="150" stroke="#898781" stroke-width="1"/>
+          <text x="901" y="153" font-size="10" font-weight="660" fill="#0b0b0b">73 recovered</text>
+
+          <line x1="60" y1="200" x2="880" y2="200" stroke="#c3c2b7" stroke-width="1"/>
+          <g font-size="9.6" fill="#898781" text-anchor="middle">
+            <text x="60" y="217">19 Jul</text><text x="177" y="217">20</text><text x="294" y="217">21</text>
+            <text x="411" y="217">22</text><text x="528" y="217">23</text><text x="646" y="217">24</text>
+            <text x="763" y="217">25</text><text x="880" y="217">26</text>
+          </g>
+          <text x="470" y="238" font-size="9" fill="#898781" text-anchor="middle">Persons &middot; day-end figures, July 2026</text>
+        </svg>
+
+        <div class="legend">
+          <div class="lg"><span class="sw" style="background:#2a78d6"></span>Bodies recovered (official)</div>
+          <div class="lg"><span class="sw" style="background:#eb6834"></span>Survivors confirmed (official)</div>
+          <div class="lg"><span class="sw" style="background:#52514e"></span>Reference &mdash; complement, and the figure implied by subtraction</div>
+        </div>
+      </div>
+
+      <div style="flex:1; border-left:1px solid var(--grid); padding-left:4.4mm;">
+        <div class="kicker" style="font-size:8px;">Every plotted value</div>
+        <table style="margin-top:1.2mm;">
+          <tr><th>July</th><th class="n">Recovered</th><th class="n">Survivors</th><th class="n">Not accounted for</th></tr>
+          <tr><td>19</td><td class="n">2</td><td class="n">67</td><td class="n">—</td></tr>
+          <tr><td>20</td><td class="n">27</td><td class="n">69</td><td class="n">83 “missing”</td></tr>
+          <tr><td>21</td><td class="n">53</td><td class="n">77</td><td class="n">—</td></tr>
+          <tr><td>22</td><td class="n">65</td><td class="n">76</td><td class="n">103 (implied)</td></tr>
+          <tr><td>23</td><td class="n">72</td><td class="n">76</td><td class="n">103 (implied)</td></tr>
+          <tr><td>24</td><td class="n">73</td><td class="n">76</td><td class="n">30 “unaccounted”</td></tr>
+          <tr><td>25</td><td class="n">73</td><td class="n">76</td><td class="n">103 (implied)</td></tr>
+          <tr><td>26</td><td class="n">73</td><td class="n">76</td><td class="n">103 (implied)</td></tr>
+        </table>
+        <div class="micro" style="margin-top:1.2mm;">
+          Government releases report bodies recovered; no official death toll appears in the corpus. On 24 July
+          the Prime Minister gave &ldquo;30 unaccounted for,&rdquo; against 83 &ldquo;missing&rdquo; four days
+          earlier. Neither figure is reconciled in any source.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ THE VOYAGE + THE RECORD ============ -->
+  <div class="card">
+    <h2>4. The voyage, hour by hour</h2>
+    <div class="night">
+      <div class="nstep"><div class="t">15:15</div>
+        <div class="d">Departs the T&amp;HD wharf at Kingston, Georgetown, for Port Kaituma. 116 passengers and 17 crew on the manifest.</div></div>
+      <div class="nstep hot"><div class="t">~19:00</div>
+        <div class="d">Survivor Leon Murray (AP) states one engine failed about four hours out and the crew repaired it at sea rather than turning back.</div></div>
+      <div class="nstep hot"><div class="t">~20:00</div>
+        <div class="d">Murray states a passenger reported water on the lower deck and was told: <em>&ldquo;They told us this is normal.&rdquo;</em></div></div>
+      <div class="nstep hot"><div class="t">23:01</div>
+        <div class="d">A Mayday is widely reported at this time. On 25 July the Prime Minister said of a Mayday from the captain: <em>&ldquo;We have no such record.&rdquo;</em></div></div>
+      <div class="nstep"><div class="t">01:36</div>
+        <div class="d">Capt. Gouveia takes off from Ogle in a private fixed-wing Islander, 2h 35m after the reported Mayday, and reports coordinates from a sighted flare. Two military helicopters were reported unserviceable.</div></div>
+      <div class="nstep" style="padding-right:0;"><div class="t">03:15</div>
+        <div class="d">Edghill announces eight retrieved alive. Guyana Times reports fisherman Haresh Singh located the hull.</div></div>
+    </div>
+    <div class="micro" style="margin-top:1.6mm;">
+      Survivor accounts describe a packed lower deck (Murray), cargo stacked at the stern (Elena Moonsammy) and a
+      list that did not right itself (Wayne Kitson). MARAD&rsquo;s Director-General stated that a vessel with
+      positive stability returns upright even when heeled twenty degrees, and attributed the failure to right to
+      operational error in treacherous conditions. The two accounts are not reconciled in any source. Reported
+      sinking duration ranges from about four minutes (Murray) to &ldquo;less than a minute&rdquo; (Guyana Times).
+    </div>
+
+    <h2 style="margin-top:2.6mm;">5. Vessel and institutional record, 1939&ndash;2026</h2>
+    <div class="legend" style="margin-top:0.6mm;">
+      <div class="lg"><span class="dotk" style="background:#eb6834"></span>Concern raised on the record</div>
+      <div class="lg"><span class="dotk" style="background:#2a78d6"></span>Expenditure or allocation</div>
+      <div class="lg"><span class="dotk" style="background:#0b0b0b"></span>Lives lost</div>
+      <div class="lg"><span class="dotk" style="background:#fcfcfb;border:2px solid #898781;box-sizing:border-box"></span>Origin</div>
+    </div>
+    <div class="fuse">
+      <div class="spine"></div>
+      <div class="fuserow">
+        <div class="fev"><div class="y">1939</div>
+          <div class="x">Built by Ferguson Brothers, Port Glasgow, ordered through the Crown Agents for the Colonies &mdash; one of three sisters for British Guiana Railways, per the Paxman engine register.</div></div>
+        <div class="fev dead"><div class="y">1970</div>
+          <div class="x">MV Christena capsizes off St Kitts&ndash;Nevis: a reported 233 dead, more than 320 aboard against a certified 155. One source places her construction at the same Georgetown yard as Guyana&rsquo;s ferries.</div></div>
+        <div class="fev warn"><div class="y">2010 · 2015</div>
+          <div class="x">Port Kaituma residents call for better vessels. A Kaieteur inspection describes the Barima&rsquo;s deck and winch area as &ldquo;a mass of junk and rust&rdquo;; Capt. R. E. W. Adams writes such a vessel would be scrapped elsewhere in the Caribbean.</div></div>
+        <div class="fev money"><div class="y">2017 · 2019</div>
+          <div class="x">G$150.6m spent rehabilitating the hull rather than replacing it. The sister ship is reported withdrawn, leaving the Barima the only vessel on the Port Kaituma run &mdash; though Kaieteur reported on 24 July that it &ldquo;continues operating.&rdquo;</div></div>
+        <div class="fev warn"><div class="y">2020 · 2023</div>
+          <div class="x">A DPI release records mechanical failures on the vessel. The US$12.7m MV Ma Lisha is commissioned and does not run the route &mdash; for want of wharf works (PM Phillips) or cargo capacity (residents). Twenty children die in the Mahdia dormitory fire.</div></div>
+        <div class="fev warn"><div class="y">2025</div>
+          <div class="x">A DPI release states the Transport &amp; Harbours Department has &ldquo;longstanding issues of negligence, mismanagement, and accountability.&rdquo; Published sixteen months before the sinking.</div></div>
+        <div class="fev money"><div class="y">2026</div>
+          <div class="x">A further G$124.5m tendered for the hull in March, within a G$11.2bn river-transport allocation; no line for retiring the vessel appears in the corpus. Kaieteur reports a newer vessel uncommissioned at the wharf since May. Stabroek News ceases print in March.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ CONDITIONS + PROPOSALS ============ -->
+  <div class="card">
+    <h2>6. Conditions recorded, and proposals on the record</h2>
+    <div class="chain">
+      <div class="chdr">Recorded in the sources</div>
+      <div class="chdr">Proposals made by identified parties</div>
+
+      <div class="lnk"><span class="num">1</span><span class="tx"><b>One vessel on the route.</b>
+        After the sister ship&rsquo;s reported 2019 withdrawal the Barima was the only vessel on the Georgetown&ndash;Port Kaituma run.</span></div>
+      <div class="fix"><span class="num fixn">1</span><span class="tx"><b>Amerindian Peoples Association:</b> a review of Guyana&rsquo;s entire river and sea transport system, with mandatory consultation of Indigenous and riverain communities.</span></div>
+
+      <div class="lnk"><span class="num">2</span><span class="tx"><b>The replacement never ran the route.</b>
+        The Ma Lisha, commissioned 2023, did not serve Port Kaituma &mdash; incomplete wharf works per PM Phillips, insufficient cargo capacity per residents.</span></div>
+      <div class="fix"><span class="num fixn">2</span><span class="tx"><b>APNU:</b> the National Assembly, not the President, should set the inquiry&rsquo;s terms of reference. <b>David Patterson</b> alleges procurement advice was disregarded (uncorroborated).</span></div>
+
+      <div class="lnk"><span class="num">3</span><span class="tx"><b>Three stated capacity figures, no published certificate.</b>
+        MARAD said it could not date the increase from the 1938 rating of 120 t and 150 passengers.</span></div>
+      <div class="fix"><span class="num fixn">3</span><span class="tx"><b>Joint five opposition parties:</b> a marine casualty investigation under SOLAS and the IMO Casualty Investigation Code, in addition to the inquiry. <b>Kaieteur editorial:</b> an unredacted preliminary report within 90 days.</span></div>
+
+      <div class="lnk"><span class="num">4</span><span class="tx"><b>Thirty-two survivors were not on the manifest.</b>
+        AP reports clerks had sold unmanifested seats for cash &ldquo;for decades at state-run ferry terminals.&rdquo;</span></div>
+      <div class="fix"><span class="num fixn">4</span><span class="tx"><b>Government, 25 July:</b> strengthened compliance with existing standard operating procedures and stricter adherence to existing ticketing and passenger-management rules.</span></div>
+
+      <div class="lnk"><span class="num">5</span><span class="tx"><b>Four hours between the reported engine failure and the Mayday.</b>
+        No Pan Pan urgency call is established in the corpus.</span></div>
+      <div class="fix"><span class="num fixn">5</span><span class="tx"><b>Janette Bulkan:</b> published questions asking the Maritime Search and Rescue Coordination Centre to release the rescue timeline and the times at which the Mayday was relayed.</span></div>
+
+      <div class="lnk" style="border-bottom:none;"><span class="num">6</span><span class="tx"><b>The regulator reports to the operator&rsquo;s ministry.</b>
+        MARAD stated the vessel was not overloaded on 22 July, before any inquiry existed.</span></div>
+      <div class="fix" style="border-bottom:none;"><span class="num fixn">6</span><span class="tx"><b>GHRA:</b> a parliamentary commission, equal government and opposition membership, judicially qualified chair, duty of candour, state-funded counsel for families. <b>TIGI, Rescue Guyana:</b> an IMO-led investigation.</span></div>
+    </div>
+  </div>
+
+  <!-- ============ POSITIONS ON THE INQUIRY ============ -->
+  <div class="card">
+    <h2>7. Where the parties stand on the inquiry, as of 26 July 2026</h2>
+    <div class="tracks">
+      <div class="tr">
+        <div class="h">The Government</div>
+        <div class="b">President Ali announced on 25 July that he would name a five-member Commission of Inquiry on
+          26 July, describing it as independent and international and comprising &ldquo;distinguished local and
+          international experts,&rdquo; with a scope covering loading, boarding, seaworthiness, maintenance history,
+          crew competence, lifesaving arrangements, weather and the search-and-rescue response. At compilation no
+          commissioners, chair, secretary, terms of reference, reporting deadline or statutory basis had been
+          published.</div>
+      </div>
+      <div class="tr">
+        <div class="h">The parliamentary opposition</div>
+        <div class="b">APNU states the National Assembly should set the terms of reference and include IMO
+          representatives, and has tabled a motion to empower a commission to summon witnesses and compel
+          documents. WIN seeks the recusal of Ministers Edghill and Indar, livestreamed hearings and publication of
+          the full report. The AFC proposes the Commission of Inquiry Act, Cap. 19:03. Jointly, five parties state
+          a Commission of Inquiry is not a substitute for a marine casualty investigation.</div>
+      </div>
+      <div class="tr">
+        <div class="h">Civil society</div>
+        <div class="b">The GHRA rejects executive appointment and proposes a parliamentary commission with equal
+          government and opposition membership, a judicially qualified chair preferably from elsewhere in the
+          Caribbean, a statutory duty of candour and state-funded counsel for bereaved families. TIGI and Rescue
+          Guyana call for an IMO-led investigation. The APA calls for Minister Edghill&rsquo;s removal. The National
+          Toshaos Council urges a &ldquo;comprehensive, transparent, independent review.&rdquo;</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="row" style="gap:4.4mm;">
+      <div style="flex:1.15;" class="pat">
+        <div class="p"><div class="pv">233</div><div class="pl"><b>1970 &mdash; MV Christena.</b> Reported dead, on a vessel certified for 155.</div></div>
+        <div class="p"><div class="pv">20</div><div class="pl"><b>2023 &mdash; Mahdia fire.</b> Children in state care, mostly Indigenous girls. Families remain in the High Court.</div></div>
+        <div class="p" style="margin-bottom:0;"><div class="pv">~103</div><div class="pl"><b>2026 &mdash; MV Barima.</b> Implied by subtraction; no official toll published.</div></div>
+        <div class="cap" style="margin-top:1.2mm;">Guyanese commentators cited the first two as precedent in July 2026 coverage. The Mahdia figure is given as reported.</div>
+      </div>
+      <div style="flex:1;" class="micro">
+        <b style="color:#52514e;">Sources.</b> Compiled 26 July 2026 from a 152-source full-text archive and checked
+        against it. Guyanese press: Kaieteur News, Demerara Waves, News Room Guyana, News Source Guyana, Guyana
+        Times, INews Guyana, HGPTV, Democracy Guyana. Official: Department of Public Information (17 disaster-period
+        releases), MARAD and ministerial statements, CARICOM, UNDP Guyana. International: Associated Press, Al
+        Jazeera, Jamaica Observer, Jamaica Gleaner, Caribbean National Weekly, News Americas Now, Barbados Today,
+        CBC Barbados, UPI. Vessel provenance: the Paxman History Pages engine register, a 1930s builder&rsquo;s
+        document, with the sister ship&rsquo;s date corroborated by Kaieteur News.
+      </div>
+      <div style="flex:1;" class="micro">
+        <b style="color:#52514e;">Known limits of this record.</b> Guyana Chronicle, the state newspaper, is absent
+        entirely &mdash; a JavaScript wall defeated every retrieval, costing about ten known articles. The MV
+        Christena figures come from a flagged partial capture and need re-verification. The 23:01 Mayday is
+        contradicted by the Prime Minister&rsquo;s &ldquo;no such record.&rdquo; Two survivors named Moonsammy
+        &mdash; Elena and Helena &mdash; may be different people. Searched for and not found in the corpus: any
+        published capacity certificate, gazetted terms of reference, Auditor General finding on the ferry
+        department, trade union statement, or IMO statement. Stabroek News, publishing for about forty years,
+        ceased print four months before the sinking.
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
