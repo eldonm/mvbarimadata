@@ -4,6 +4,28 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 27 July 2026 — seventh build, consistency audit
+
+A check across every page for stale counts, stale dates, and findings that had been added to the archive but never reached the pages a reader actually reads.
+
+### Counts
+
+The document total had moved to 201 with Ignite News, but several figures had not followed: the provenance table still totalled 200, the state share read 62 of 200, the independent-reporting figure read 84 of 200, and the chronology and figures pages were still described as checked against 200 and 152 documents respectively. All corrected. Original reporting on the sinking is 125, not 124, and independent original reporting is 85 of 201.
+
+### Dates
+
+Every page footer read "Compiled Sunday 26 July 2026" although the archive has been revised repeatedly on 27 July, including the addition of a 27 July document. Footers now read compiled 26 July, last revised 27 July, and the chronology, figures and method pages carry the same. The overview's summary of where the parties stand was dated "as of 26 July"; it is now as of 27 July.
+
+### Findings that had not reached the record
+
+This was the substantive part. Material added over the previous three builds was sitting in this revisions log and on the positions page, but had never been written into the chronology or the figures page — so a reader consulting the record itself still got the older picture.
+
+Now added to the chronology: the pre-departure accounts from Kiskadee Watch, set against Minister Edghill's statements; and the identification of **air traffic control** as receiving the distress call at about 23:00, reported independently by Deutsche Welle, CBC News and Ignite News, alongside BBC News giving the time as 23:01. Four outlets place the call and three name the recipient, against the Prime Minister's "We have no such record."
+
+Now added to the figures page: the pre-departure machinery accounts under proximate cause, and five further discrepancies — the first search-area expansion given as 1,040 sq km by Reuters and CBC News against 1,070 by the Guardian and Ignite News; the French deployment as 12 divers, two doctors and a mechanic per BBC News against 15 divers per Ignite News; the location as off Iron Punt in most of the corpus against seven miles off Dartmouth per Ignite News; the two renderings of the lifesaving equipment; and who received the distress call.
+
+---
+
 ## 27 July 2026 — sixth build, wording made consistent and Ignite News added
 
 ### "Sources" and "documents" were being used interchangeably

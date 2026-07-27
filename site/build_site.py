@@ -13,7 +13,7 @@ import markdown as md
 ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
-BUILT   = 'Sunday 26 July 2026'
+BUILT   = 'Sunday 26 July 2026, last revised Monday 27 July 2026'
 
 # ---------------------------------------------------------------- parse archive
 def parse_front(path):
@@ -639,7 +639,7 @@ def build_index():
 
 <section>
   <h2>7. Where the parties stand on the inquiry</h2>
-  <p class="wrap-read muted">As of 26 July 2026 the dispute on record was less about cause than about who should
+  <p class="wrap-read muted">As of 27 July 2026 the dispute on record was less about cause than about who should
   investigate. The three summaries below are the parties&rsquo; own stated positions.</p>
   <div class="grid g3">
     <div class="card tr">

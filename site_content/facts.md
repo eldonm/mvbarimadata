@@ -1,6 +1,6 @@
 # MV Barima — Contested Facts and Figure Reconciliation
 
-Compiled 26 July 2026, revised 27 July, and checked against all 200 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
+Compiled 26 July 2026, last revised 27 July 2026, and checked against all 201 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
 
 ---
 
@@ -84,7 +84,9 @@ On the machinery, the 2017 rehabilitation is described as including "installatio
 
 **Official:** rough seas at a known-hazardous location compounded by crew impairment. Thomas's stability argument — a vessel with positive stability rights itself even at twenty degrees of heel, so failure to right indicates human operational error.
 
-**Survivors:** a progressive loss of stability over four hours. Leon Murray (AP): "packed, packed, packed all downstairs"; one engine lost at about 19:00 and repaired **at sea** rather than returning to port; a water-ingress warning at about 20:00 answered with "They told us this is normal." Elena Moonsammy is the sole source for cargo stacked at the stern. Wayne Kitson describes a list that failed to right. Thomas's stability explanation and the survivor accounts of loading were not reconciled in any source in the corpus.
+**Survivors, before departure [CONTESTED]:** two passengers interviewed by Kiskadee Watch describe machinery trouble before the vessel sailed. A survivor identified as Adreiena states the engine stopped twice before departure; businessman Donald Modeste states the ferry was stuck on a sandbank at the wharf for almost an hour and then sailed on one engine with a mechanic having worked on it. Minister Edghill stated there was no engine or mechanical problem and no reported engine trouble on departure. The two accounts are irreconcilable as stated and are not reconciled anywhere in the corpus.
+
+**Survivors, at sea:** a progressive loss of stability over four hours. Leon Murray (AP): "packed, packed, packed all downstairs"; one engine lost at about 19:00 and repaired **at sea** rather than returning to port; a water-ingress warning at about 20:00 answered with "They told us this is normal." Elena Moonsammy is the sole source for cargo stacked at the stern. Wayne Kitson describes a list that failed to right. Thomas's stability explanation and the survivor accounts of loading were not reconciled in any source in the corpus.
 
 **Systemic:** an 87-year-old hull kept on a route with no alternative while a US$12.7m replacement idled, and a second vessel, the *Kalliopi N*, sat uncommissioned at the Kingston Goods Wharf since May awaiting a presidential ceremony.
 
@@ -132,6 +134,11 @@ The reported figures are **funeral-expense** figures, not compensation. APNU's S
 | Build year | 1939 (Paxman register; "87-year-old vessel") | 1938 (Kaieteur, 25 & 26 Jul) |
 | Duncan's arrest | 21 July, at Charity, drone shown to Warrao children | reported elsewhere as tied to the wreck site |
 | Search area | expanded by 400 sq mi on 22 Jul; by a further 32 sq mi on 25 Jul | total area ~2,100 km² after the 22 Jul expansion |
+| Search area, first expansion | 1,040 km² (Reuters, CBC News, 20 Jul) | 1,070 km² (the Guardian, 20 Jul; Ignite News, 22 Jul) |
+| French deployment | 12 divers, two doctors and a mechanic (BBC News) | 15 divers (Ignite News) |
+| Where she went down | off Iron Punt, near the Pomeroon mouth (most of the corpus) | seven miles offshore Dartmouth, Essequibo Coast (Ignite News) |
+| Lifesaving equipment | 250 life jackets, six inflatable and two rigid life rafts (PM Phillips, via Deutsche Welle and CBC News; matches the Wikipedia entry) | 250 lifejackets, two lifeboats and six inflatable rafts (Min. Edghill, via the Guardian) |
+| Who received the distress call | air traffic control, about 23:00 (Deutsche Welle, CBC News, Ignite News) | not identified in any government statement in the corpus |
 | National mourning | Three days proclaimed 21 July (DPI + three outlets) | Bulkan, 26 July: "no days of national mourning have been announced" — likely a letter-dating artefact, but it stands in the record |
 | GHRA proposal | Seven members, three Govt / three Opp / judicially qualified chair (Kaieteur) | Six, appointed equally (Demerara Waves) |
 | Stabroek closure | Print ceased 15 March 2026 (Stabroek) | 14 March 2026 (Kaieteur) |
