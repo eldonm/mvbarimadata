@@ -195,19 +195,33 @@
                  (!kind.value || c.kind === kind.value) &&
                  inPeriod(c.date, period.value);
         c.el.hidden = !ok;
+        c.el.classList.toggle('is-filtered-out', !ok);
+        c.el.style.display = ok ? '' : 'none';
         if (ok) n++;
       });
       count.textContent = n + (n === 1 ? ' source' : ' sources') + ' shown of ' + cache.length;
       Array.prototype.forEach.call(document.querySelectorAll('.datebar'), function (b) {
+        if (b.getAttribute('data-grouped') === '0') {
+          b.hidden = true;
+          b.classList.toggle('is-filtered-out', true);
+          b.style.display = 'none';
+          return;
+        }
         var any = false, s = b.nextElementSibling;
         while (s && !s.classList.contains('datebar')) {
           if (s.classList.contains('src') && !s.hidden) { any = true; break; }
           s = s.nextElementSibling;
         }
         b.hidden = !any;
+        b.classList.toggle('is-filtered-out', !any);
+        b.style.display = any ? '' : 'none';
       });
       var empty = document.getElementById('srcempty');
-      if (empty) empty.hidden = n !== 0;
+      if (empty) {
+        empty.hidden = n !== 0;
+        empty.classList.toggle('is-filtered-out', n !== 0);
+        empty.style.display = n === 0 ? '' : 'none';
+      }
     }
 
     function resort() {
@@ -221,6 +235,8 @@
       var groups = mode === 'newest' || mode === 'oldest';
       Array.prototype.forEach.call(document.querySelectorAll('.datebar'), function (b) {
         b.hidden = !groups;
+        b.classList.toggle('is-filtered-out', !groups);
+        b.style.display = groups ? '' : 'none';
         b.setAttribute('data-grouped', groups ? '1' : '0');
       });
       if (groups) { apply(); return; }
