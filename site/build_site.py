@@ -201,7 +201,7 @@ FOOT_T = '''</main>
     <div>
       <h4>About this archive</h4>
       <p>An independent, citation-first record of the sinking of the <em>MV Barima</em> on the night of
-      Saturday 18 July 2026, compiled from 192 published sources and checked line by line against them.
+      Saturday 18 July 2026, compiled from {n} published documents and checked line by line against them.
       It is not affiliated with the Government of Guyana, the Transport &amp; Harbours Department, any
       political party, or any news organisation.</p>
       <p>Compiled {built}. The Commission of Inquiry&rsquo;s members were named on 26 July 2026, its establishing instrument was not
@@ -216,7 +216,7 @@ FOOT_T = '''</main>
         <li><a href="{p}timeline.html">Chronology, 1936–2026</a></li>
         <li><a href="{p}facts.html">The figures, source by source</a></li>
         <li><a href="{p}positions.html">Positions and proposals</a></li>
-        <li><a href="{p}sources.html">All 192 sources</a></li>
+        <li><a href="{p}sources.html">All {n} documents</a></li>
         <li><a href="{p}about.html">Method, gaps and corrections</a></li>
         <li><a href="{p}changelog.html">Revisions</a></li>
       </ul>
@@ -235,7 +235,7 @@ FOOT_T = '''</main>
 </html>'''
 
 def foot(depth=0):
-    return FOOT_T.format(p='../' * depth, built=BUILT)
+    return FOOT_T.format(p='../' * depth, built=BUILT, n=len(records))
 
 def write(relpath, content):
     full = os.path.join(OUT, relpath)
@@ -485,7 +485,7 @@ def build_index():
         ('73', '', 'Bodies recovered', 'Official count, unchanged from 24 to 26 July.'),
         ('~30', 'alarm', 'People in the arithmetic, in no official document', 'The state publishes recoveries, never the residual.'),
         ('87', '', 'Years the hull had been in service', 'Built 1939, Ferguson Brothers, Port Glasgow, via the Crown Agents.'),
-        ('0', 'alarm', 'Survey, load-line or capacity certificates published', 'Across 192 sources. Seaworthiness was asserted, never documented.'),
+        ('0', 'alarm', 'Survey, load-line or capacity certificates published', f'Across all {len(records)} documents. Seaworthiness was asserted, never documented.'),
     ]
     tilehtml = ''.join(
         f'<div class="tile {cls}"><div class="v">{v}</div><div class="l">{l}</div><div class="n">{n}</div></div>'
@@ -504,7 +504,7 @@ def build_index():
                       f'<div class="fix"{last}><span class="num fixn">{i}</span><span class="tx">{fx}</span></div>')
 
     return head('MV Barima — the documented record | Guyana ferry disaster, 18 July 2026',
-                'What 192 published sources record about the sinking of the Guyanese ferry MV Barima on '
+                'What {len(records)} published documents record about the sinking of the Guyanese ferry MV Barima on '
                 '18 July 2026: the figures, the chronology, the positions of each party, and every source.',
                 'index.html') + f'''
 <section style="margin-top:44px;">
@@ -514,7 +514,7 @@ def build_index():
   Georgetown at about 15:15 on Saturday 18 July 2026, bound for Port Kaituma, and capsized off Iron Punt at the
   mouth of the Pomeroon River in three to nine metres of water. Her manifest recorded 116 passengers and 17 crew.
   A review of boarding-area CCTV later put 179 people aboard.</p>
-  <p class="small muted wrap-read">This site records what 192 published sources say, who said it, and when.
+  <p class="small muted wrap-read">This site records what {len(records)} published documents say, who said it, and when.
   Where sources disagree, both figures are given. It does not advance an explanation of the cause: the Commission
   of Inquiry&rsquo;s five members were named on 26 July 2026, its establishing instrument had not been gazetted,
   and the figures were still being revised. Every claim links back to its source so it can be checked. Changes to
@@ -543,11 +543,14 @@ def build_index():
       survey, load line or passenger capacity appears in the corpus.</p>
     </div>
     <div class="card">
-      <h3 style="margin-top:0">Why this corpus leans on one outlet</h3>
+      <h3 style="margin-top:0">Who published this record</h3>
       <p class="small muted">Stabroek News, publishing for about forty years, ceased print in March 2026 in
       voluntary liquidation, four months before the sinking. It carried the 2015 letter by master mariner Capt.
-      R. E. W. Adams that named this vessel. Kaieteur News accounts for 32 of the 192 sources here; readers should
-      weigh that distribution.</p>
+      R. E. W. Adams that named this vessel. The largest single share of this archive is the state-owned
+      <em>Guyana Chronicle</em> at 40 documents; with the Department of Public Information&rsquo;s 21 releases,
+      61 of {len(records)} &mdash; about three in ten &mdash; come from the state or a state-owned outlet.
+      Kaieteur News, at 32, is the largest independent share, and three publishers account for 93. The full
+      provenance breakdown is on the <a href="about.html">method and gaps page</a>.</p>
     </div>
   </div>
 </section>
@@ -667,7 +670,7 @@ def build_index():
   <h2>Check it yourself</h2>
   <div class="grid g3">
     <a class="card" href="sources.html" style="color:inherit">
-      <h3 style="margin-top:0">All 192 sources &rarr;</h3>
+      <h3 style="margin-top:0">All {len(records)} documents &rarr;</h3>
       <p class="small muted">Search and filter by outlet, type and period. Every source has a page with its
       summary, key claims, quotations and a link to the original.</p>
     </a>

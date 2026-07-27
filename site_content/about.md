@@ -12,7 +12,35 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 200 sources — 152 in the first build, plus 40 Guyana Chronicle articles and six international sources added on 26–27 July. 174 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
+**Corpus:** 200 documents — 152 in the first build, plus 40 Guyana Chronicle articles and six international sources added on 26–27 July. 174 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
+
+---
+
+## What the count contains
+
+A reader was right to object that "200 sources" overstates what this archive holds. In archival usage a source is a document in the corpus, and each of the 200 is exactly that — a distinct published document with its own publisher, date and link. But a general reader hears the number as 200 independent accounts, and that is not what it is. The count is now given as documents, and the composition is set out here so the number carries its own qualification.
+
+| What it is | Documents |
+|---|---|
+| Original reporting on the sinking | 124 |
+| Pre-disaster context and undated reference | 24 |
+| Syndicated wire copy (AP, Reuters, CMC, AFP carried by other outlets) | 18 |
+| Government communication (DPI releases, official statements, instruments) | 18 |
+| Opinion, letters and editorials | 14 |
+| Reference works (encyclopedia, engine and vessel registries, directories) | 2 |
+| **Total** | **200** |
+
+Three qualifications matter more than the totals.
+
+**Syndication multiplies one act of reporting.** A single Associated Press dispatch appears here via Afro.com, WRAL twice, and the Citrus County Chronicle. One CMC wire appears via both CBC Barbados and the Jamaica Observer. CBC News's report is Thomson Reuters copy, so CBC and Reuters in this archive are substantially the same reporting counted twice. These variants are kept deliberately — which outlet carried which figure on which day is part of the record, and the archive uses it to show two irreconcilable death tolls running side by side in international copy for about forty-eight hours — but they are not independent corroboration.
+
+**About three in ten documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 21: 61 of 200. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny.
+
+**Four documents are duplicates or republications**, including the *Guyana Chronicle* publishing the same report at two dates and URLs, and two syndicated pairs carrying identical headlines.
+
+Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is 84 rather than 200.
+
+**Outlet counts are also softer than they look.** The archive holds 51 distinct publisher strings, but several are the same outlet recorded under different names — HGPTV appears four ways, Demerara Waves and iNews twice each. Normalised, there are 41 publishers, and three of them account for 93 of the 200 documents.
 
 ---
 

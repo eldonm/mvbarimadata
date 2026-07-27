@@ -4,6 +4,30 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 27 July 2026 — fourth build, prompted by a reader
+
+### "200 sources" overstated what this holds
+
+A reader objected that calling these documents "sources" is misleading. The objection is correct and the framing has changed.
+
+Each of the 200 is a distinct published document, so the count was never false. But a general reader hears "200 sources" as 200 independent accounts, and the composition does not support that reading: 18 are syndicated copies of other outlets' reporting, 18 are government communications, 14 are opinion or letters, 24 are pre-disaster context rather than coverage of the sinking, and four are duplicates or republications. Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire, the figure is 84.
+
+The site now says documents rather than sources, and a full provenance breakdown is published on the [method and gaps page](about.html) so the number carries its own qualification. The underlying collection policy is unchanged: syndicated variants stay, because which outlet carried which figure on which day is itself part of the record.
+
+### A claim on the overview had inverted
+
+The overview carried a panel headed "Why this corpus leans on one outlet", stating that Kaieteur News accounted for 32 of the sources. That was true when written. It is no longer the shape of the archive: with 40 Guyana Chronicle documents added on 26 July, the largest single share is now the state-owned newspaper, not the independent one. The panel is now headed "Who published this record" and states the position accurately — 61 of 200 documents, about three in ten, come from the state or a state-owned outlet, with Kaieteur at 32 the largest independent share.
+
+### Stale counts corrected
+
+Six places on the overview and in the footer still read 192 after the corpus reached 200. Counts are now computed from the record set at build time rather than written by hand, so they cannot drift again.
+
+### Outlet counts were softer than they looked
+
+The archive holds 51 distinct publisher strings but only 41 actual publishers; HGPTV appeared under four spellings, Demerara Waves and iNews under two each. Recorded on the method and gaps page.
+
+---
+
 ## 27 July 2026 — third build
 
 ### Chronicle source dates repaired
