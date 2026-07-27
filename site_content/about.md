@@ -34,13 +34,17 @@ Three qualifications matter more than the totals.
 
 **Syndication multiplies one act of reporting.** A single Associated Press dispatch appears here via Afro.com, WRAL twice, and the Citrus County Chronicle. One CMC wire appears via both CBC Barbados and the Jamaica Observer. CBC News's report is Thomson Reuters copy, so CBC and Reuters in this archive are substantially the same reporting counted twice. These variants are kept deliberately — which outlet carried which figure on which day is part of the record, and the archive uses it to show two irreconcilable death tolls running side by side in international copy for about forty-eight hours — but they are not independent corroboration.
 
-**About three in ten documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 21: 61 of 200. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny.
+**About three in ten documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 22: 62 of 200. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny.
 
 **Four documents are duplicates or republications**, including the *Guyana Chronicle* publishing the same report at two dates and URLs, and two syndicated pairs carrying identical headlines.
 
 Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is 84 rather than 200.
 
-**Outlet counts are also softer than they look.** The archive holds 51 distinct publisher strings, but several are the same outlet recorded under different names — HGPTV appears four ways, Demerara Waves and iNews twice each. Normalised, there are 41 publishers, and three of them account for 93 of the 200 documents.
+**Outlet names were deduplicated on 27 July.** The archive had been holding 51 distinct publisher strings for what were in fact 42 publishers: HGPTV had been recorded five different ways, and Demerara Waves, iNews Guyana, Democracy Guyana, the Department of Public Information and Wikipedia twice each. Those twenty records now carry a single canonical name per publisher, which both cleans the outlet filter and stops the archive overstating how many publishers it draws on.
+
+Four apparent duplicates were deliberately left alone because they are different publishers: BBC News, Canada's CBC News and the Caribbean Broadcasting Corporation in Barbados; the Jamaica Gleaner and the Jamaica Observer; the Guyana Chronicle and the Guyana Graphic; and iNews Guyana, News Room Guyana, News Source Guyana and Things Guyana. The Associated Press entries are also kept separate by carrier — *via WRAL*, *via Afro.com*, *via Citrus County Chronicle* — because which outlet carried a wire report is part of what this archive records. CBC News is now labelled *CBC News (Canada)* to distinguish it from the Barbadian broadcaster.
+
+After deduplication three publishers still account for 94 of the 200 documents.
 
 ---
 

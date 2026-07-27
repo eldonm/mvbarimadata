@@ -152,6 +152,16 @@ for path in sorted(glob.glob(os.path.join(ARCHIVE, '*.md'))):
     rec['flagged'] = bool(rec['fidelity']) and not fid.startswith(('VERBATIM', 'TRUE'))
     records.append(rec)
 
+# publisher concentration, computed so the overview copy cannot drift
+_oc = collections.Counter(r['outlet'] for r in records)
+STATE_OUTLETS = ('Guyana Chronicle', 'Department of Public Information')
+N_CHRON  = _oc.get('Guyana Chronicle', 0)
+N_DPI    = _oc.get('Department of Public Information', 0)
+N_STATE  = N_CHRON + N_DPI
+N_KAI    = _oc.get('Kaieteur News', 0)
+N_TOP3   = sum(n for _, n in _oc.most_common(3))
+N_OUTLET = len(_oc)
+
 records.sort(key=lambda r: (r['published'], r['outlet'], r['title']), reverse=True)
 by_slug = {r['slug']: r for r in records}
 assert len(by_slug) == len(records), 'slug collision'
@@ -547,10 +557,11 @@ def build_index():
       <p class="small muted">Stabroek News, publishing for about forty years, ceased print in March 2026 in
       voluntary liquidation, four months before the sinking. It carried the 2015 letter by master mariner Capt.
       R. E. W. Adams that named this vessel. The largest single share of this archive is the state-owned
-      <em>Guyana Chronicle</em> at 40 documents; with the Department of Public Information&rsquo;s 21 releases,
-      61 of {len(records)} &mdash; about three in ten &mdash; come from the state or a state-owned outlet.
-      Kaieteur News, at 32, is the largest independent share, and three publishers account for 93. The full
-      provenance breakdown is on the <a href="about.html">method and gaps page</a>.</p>
+      <em>Guyana Chronicle</em> at {N_CHRON} documents; with the Department of Public Information&rsquo;s
+      {N_DPI} releases, {N_STATE} of {len(records)} &mdash; about three in ten &mdash; come from the state or a
+      state-owned outlet. Kaieteur News, at {N_KAI}, is the largest independent share, and three publishers
+      account for {N_TOP3}. The full provenance breakdown is on the
+      <a href="about.html">method and gaps page</a>.</p>
     </div>
   </div>
 </section>

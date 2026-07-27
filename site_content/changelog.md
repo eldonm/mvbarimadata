@@ -4,6 +4,18 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 27 July 2026 — fifth build, outlet names deduplicated
+
+The archive had been recording 51 distinct publisher names for what were in fact 42 publishers. HGPTV appeared five different ways; Demerara Waves, iNews Guyana, Democracy Guyana, the Department of Public Information and Wikipedia twice each. Twenty records were relabelled to a single canonical name per publisher.
+
+This matters beyond tidiness. The fragmentation made the outlet filter list the same broadcaster five times, and it inflated the apparent breadth of the archive in the same direction as the source count did — making the record look drawn from more publishers than it is.
+
+Merging the Department of Public Information's two spellings also moved its total from 21 to 22, so the state's share of the archive is 62 of 200 rather than 61. The overview panel and the provenance breakdown are corrected, and those figures are now computed at build time rather than written by hand.
+
+Four sets of similar names were deliberately left separate because they are different publishers: BBC News, Canada's CBC News and the Caribbean Broadcasting Corporation in Barbados; the Jamaica Gleaner and Observer; the Guyana Chronicle and the Guyana Graphic; and iNews, News Room, News Source and Things Guyana. Associated Press entries remain separated by carrier, since which outlet carried a wire report is part of the record. CBC News is now labelled *CBC News (Canada)*.
+
+---
+
 ## 27 July 2026 — fourth build, prompted by a reader
 
 ### "200 sources" overstated what this holds
