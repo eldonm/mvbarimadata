@@ -18,7 +18,7 @@ Both were found through the reference list of the English Wikipedia article on t
 
 ### Four further international sources added
 
-The Guardian (on-the-ground reporting from Essequibo by Neil Marks and Natricia Duncan), Deutsche Welle, CBC News, and the Wikipedia article. Source count rises from 192 to 198.
+The Guardian (on-the-ground reporting from Essequibo by Neil Marks and Natricia Duncan), Deutsche Welle, CBC News, and the Wikipedia article.
 
 ### What these add to the record
 
@@ -30,9 +30,21 @@ A published inventory of lifesaving equipment now exists: 250 life jackets, six 
 
 Two new figure conflicts are recorded rather than resolved. The search area after the first expansion is given as 1,040 sq km by Reuters and CBC News and as 1,070 sq km by the Guardian. The Wikipedia lede gives "at least 162 passengers and 17 crew", which does not match the 179 total used elsewhere in that same article.
 
-### Two Guyanese outlets identified, not retrieved
+### Kiskadee Watch added, and what it changes
 
-Survivor testimony already in the corpus is credited by international outlets to Kiskadee Watch and Ignite News, neither of which is represented here. Both are recorded on the method and gaps page as outstanding.
+Kiskadee Watch, an independent Guyanese outlet credited by the BBC as the origin of Elena Moonsammy's account, is now in the corpus with two reports. Source count rises from 192 to 200.
+
+**The commissioners are corroborated.** Its 27 July report names all five members independently of the Guyana Chronicle. The single-source qualification carried on the positions page has been removed.
+
+**The statutory basis is now on the record.** The same report states the commission was appointed under Section 2(1) of the Commissions of Inquiry Act. The site previously recorded that no statutory basis had been cited by the President; that gap is closed. It also means the AFC's proposal to use that Act and the instrument actually used are consistent.
+
+**Survivor accounts on the machinery are now recorded alongside the Minister's.** Minister Edghill stated on 19–20 July that "There was no engine problem or any mechanical problem" and on 22 July that there were "no reported engine troubles from the crew when the boat came in and when the boat left." Kiskadee Watch of 20 July carries a survivor stating the engine stopped twice before departure and that no pump was available when water entered, and a passenger stating the vessel was stuck on a sandbank at the wharf for almost an hour and then sailed on one engine with a mechanic having worked on it. A third account, already in the corpus via the Associated Press, places an engine failure about four hours out. This archive does not adjudicate between them. Both are on the positions page.
+
+**Commissioner backgrounds are recorded**, including matters previously reported about three of them — each with its outcome stated, none resulting in a finding of wrongdoing — and an open question the outlet raises about a possible conflict of interest, which it states was unanswered at press time.
+
+### Still outstanding
+
+Ignite News, credited by CBC as the origin of Leon Murray's account, has not been retrieved.
 
 ---
 

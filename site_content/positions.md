@@ -1,6 +1,6 @@
 # Positions and proposals
 
-Compiled 26 July 2026. This page records **what identified parties have said**, attributed to each, as reported in the 152 sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
+Compiled 26 July 2026, revised 27 July. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
 
 ---
 
@@ -13,6 +13,8 @@ At an evening press conference on 19 July, Edghill stated that only 35 of the 67
 On the division of responsibility he stated that the Transport & Harbours Department is the service provider and the Maritime Administration Department is the regulator, and that the disaster stemmed from operational breaches at ground level rather than regulatory failure.
 
 On the vessel's condition, DPI published a release on 20 July headlined "MV Barima was seaworthy – Min Edghill." Edghill's quoted words are narrower: "There was no report of any kind that suggested the vessel was unseaworthy." On the machinery he stated "There was no engine problem or any mechanical problem" (19–20 July) and, on 22 July, "there was no reported engine troubles from the crew when the boat came in and when the boat left."
+
+**Survivor accounts differ on this point.** Kiskadee Watch of 20 July carries two passengers describing engine trouble before departure. A survivor identified as Adreiena states the engine had stopped twice before the vessel left, and that no pump was available when water entered: "Dem ain't get a pump or nothing to pull the water. All the water go in the engine." Businessman Donald Modeste states the vessel became stuck on a sandbank at the wharf for almost an hour and then departed on one engine: "when they get it off, it start working on one engine and they still go with it. They stop and had the mechanic man working on the engine and still forcing the boat to go." A third account, survivor Leon Murray via the Associated Press, places an engine failure about four hours out. This archive does not adjudicate between the Minister's statements and the passengers' accounts; both are recorded.
 
 On 20 July the management team responsible for loading and dispatch was suspended, announced by Facebook post and described as protecting the integrity of the coming inquiry rather than as a finding of fault. On 22 July Edghill confirmed the state had assumed the risk on an uninsured vessel.
 
@@ -36,7 +38,7 @@ On the mechanics of capsizing he stated that wind and wave action cause a vessel
 
 ### Not present in the corpus
 
-No certificate of survey, load line or passenger capacity for this vessel appears in any of the 152 sources. No official death toll appears — government releases report bodies recovered. No gazetted terms of reference, named commissioners, chair, secretary, reporting deadline or statutory citation for the Commission of Inquiry appears as of 26 July. No MARAD advisory or notice to mariners, no Auditor General finding specific to the Transport & Harbours Department, and no statement by the International Maritime Organization appears.
+No certificate of survey, load line or passenger capacity for this vessel appears in any source obtained. No official death toll appears — government releases report bodies recovered. As of 27 July the commissioners and the statutory basis are on the record; no gazetted instrument, secretary or reporting deadline appears. No MARAD advisory or notice to mariners, no Auditor General finding specific to the Transport & Harbours Department, and no statement by the International Maritime Organization appears.
 
 ---
 
@@ -56,7 +58,7 @@ Mohamed objects to not being consulted on the commission. His stated demands are
 
 ### Alliance For Change (AFC)
 
-The AFC has proposed constituting the inquiry under the Commission of Inquiry Act, Chapter 19:03. This is the only statutory citation for the commission that appears anywhere in the corpus.
+The AFC proposed constituting the inquiry under the Commission of Inquiry Act, Chapter 19:03. Kiskadee Watch of 27 July reports the commission was in fact appointed under Section 2(1) of that Act, so the AFC's proposal and the instrument used are consistent.
 
 ### Joint position of five opposition parties
 
@@ -130,7 +132,7 @@ These are named in the corpus by the parties above. This archive does not assess
 
 ## Status of the Commission of Inquiry, 26 July 2026
 
-On Sunday 26 July President Ali announced the five members of the commission. **[SINGLE SOURCE]** — at the time of writing these names appear in the corpus only in the Guyana Chronicle's report of the announcement.
+On Sunday 26 July President Ali announced the five members of the commission. The membership is corroborated by two independent outlets: the Guyana Chronicle of 26 July and Kiskadee Watch of 27 July. The single-source qualification carried in the previous build has been removed.
 
 | Member | Country | Stated expertise |
 |---|---|---|
@@ -142,6 +144,18 @@ On Sunday 26 July President Ali announced the five members of the commission. **
 
 The announced terms of reference cover the causes of the disaster including loading, boarding procedures and passenger conditions; a review of the adequacy, coordination and effectiveness of the search, rescue and recovery response; whether applicable laws, regulations and maritime standards were followed; whether negligence, misconduct, dereliction of duty or institutional failure contributed; the vessel's condition, maintenance history and seaworthiness; weather, sea conditions, navigation and communications; the competence, qualifications, training and conduct of master and crew; passenger management including manifest preparation, possible overcrowding, cargo stowage and life-saving equipment; and recommendations for legislative, regulatory, institutional and operational reform. The President stated that the commission will determine its own procedures.
 
-**What is still not on the record.** The announcement stated that the legal instruments required to establish the commission are "currently being finalised," so no gazetted instrument appears. No statutory basis was cited by the President; the only statutory citation anywhere in the corpus remains the AFC's proposal to use the Commission of Inquiry Act, Cap. 19:03. No secretary, reporting deadline or call for submissions has been named. Parliament had not met. No charges had been filed and no inquest opened — the corpus contains no reference to either.
+**The statutory basis, now on the record.** Kiskadee Watch reports that the commission was appointed under **Section 2(1) of the Commissions of Inquiry Act**. The site previously recorded that no statutory basis had been cited; that gap is closed. The AFC's earlier proposal to use the Act (Cap. 19:03) is therefore consistent with what was done.
+
+**What is still not on the record.** The announcement stated that the legal instruments required to establish the commission are "currently being finalised," so no gazetted instrument appears. No secretary, reporting deadline or call for submissions has been named. Parliament had not met. No charges had been filed and no inquest opened — the corpus contains no reference to either.
+
+### The commissioners, as reported
+
+| Member | Stated background | Matters raised in reporting |
+|---|---|---|
+| Godfrey P. Smith (chair), Belize | Former Attorney General and Foreign Minister of Belize; CARICOM High-Level Representative for Law and Criminal Justice; ad hoc judge, Eastern Caribbean Court of Appeal; previously a commissioner examining Guyana's disputed 2020 elections | Kiskadee Watch reports a 2005 Belize controversy over outsourcing the Companies Registry and BELIPO. Smith denied any ownership interest; the agreements were terminated in October 2005; he was not found personally liable. |
+| Nyree Dawn Alfonso, Trinidad and Tobago | Admiralty and maritime attorney, 36+ years; Managing Partner, N.D. Alfonso & Co., which also operates in Guyana | A Port Authority claim over the MV Superfast Galicia procurement was dismissed in September 2023 by Justice Joan Charles; the appeal was withdrawn and costs awarded to Alfonso. |
+| Rear Admiral (Ret'd) Hayden Pritchard, Trinidad and Tobago | 38+ years in maritime operations and security; former Chief of Defence Staff, T&T Defence Force; former commander, T&T Coast Guard | A 2021 dispute raised by opposition MP Roodal Moonilal over an HDC apartment purchase. Pritchard rejected the claims; the report states there has been no public finding of wrongdoing. |
+| Capt. Hamada Fouda, Jamaica | Senior Maritime Surveyor and Compliance Auditor, Maritime Authority of Jamaica, 35+ years; has led marine casualty investigations since 2019 under the IMO Casualty Investigation Code | Kiskadee Watch states questions have been raised as to whether Fouda has a Guyanese relative associated with a marine entity with MARAD ties, unanswered at press time, and that such ties would be a conflict of interest. An open question posed by the outlet, not a finding. |
+| Dr Andrzej Jasionowski, Poland | Forensic naval architect; PhD in damaged vessel hydrodynamics, University of Strathclyde; prior casualty work includes the MV Estonia, MV Derbyshire and MV Sewol, and Deepwater Horizon | None reported. |
 
 The opposition and civil society objections recorded above were made before the names were published, and no response from those parties to the announced membership appears in the corpus as of this compilation.
