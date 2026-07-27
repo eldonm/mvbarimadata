@@ -1,6 +1,6 @@
 # MV Barima — Contested Facts and Figure Reconciliation
 
-Compiled 26 July 2026, last revised 27 July 2026, and checked against all 201 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
+Compiled 26 July 2026, last revised 27 July 2026, and checked against all 206 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
 
 ---
 
@@ -135,7 +135,7 @@ The reported figures are **funeral-expense** figures, not compensation. APNU's S
 | Duncan's arrest | 21 July, at Charity, drone shown to Warrao children | reported elsewhere as tied to the wreck site |
 | Search area | expanded by 400 sq mi on 22 Jul; by a further 32 sq mi on 25 Jul | total area ~2,100 km² after the 22 Jul expansion |
 | Search area, first expansion | 1,040 km² (Reuters, CBC News, 20 Jul) | 1,070 km² (the Guardian, 20 Jul; Ignite News, 22 Jul) |
-| French deployment | 12 divers, two doctors and a mechanic (BBC News) | 15 divers (Ignite News) |
+| French deployment | 12 divers, two doctors and a mechanic (BBC News) | 15 divers (Ignite News) — **reconciled**: Kiskadee Watch, 27 July, gives a 15-member team from the French Armed Forces in French Guiana, so the two accounts describe the same deployment |
 | Where she went down | off Iron Punt, near the Pomeroon mouth (most of the corpus) | seven miles offshore Dartmouth, Essequibo Coast (Ignite News) |
 | Lifesaving equipment | 250 life jackets, six inflatable and two rigid life rafts (PM Phillips, via Deutsche Welle and CBC News; matches the Wikipedia entry) | 250 lifejackets, two lifeboats and six inflatable rafts (Min. Edghill, via the Guardian) |
 | Who received the distress call | air traffic control, about 23:00 (Deutsche Welle, CBC News, Ignite News) | not identified in any government statement in the corpus |

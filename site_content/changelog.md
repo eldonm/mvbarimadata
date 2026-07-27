@@ -4,6 +4,40 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 27 July 2026 — eighth build, fresh reporting swept
+
+A sweep of the Guyanese outlets for anything published since the last build. Five documents added; the corpus stands at 206.
+
+### The status has not moved
+
+The toll is unchanged at 73 recovered, 76 rescued and at least 30 unaccounted for — the same figures since 24 July. No charges appear. The Commission's establishing instruments are still not gazetted: on 27 July the President's own words remain that they "are currently being formalised". Kaieteur News reports that the Speaker had not yet ruled on APNU's Standing Order 12 motion, so Parliament has not resolved anything either.
+
+### A third source on the commissioners
+
+Kaieteur News of 27 July names all five independently of the Guyana Chronicle and Kiskadee Watch. It adds that the chair, Godfrey Smith, previously served on the Commission of Inquiry into Guyana's disputed 2 March 2020 general elections.
+
+### Hinterland leaders, in their own names
+
+Two Indigenous and community leaders have called for Minister Edghill's resignation personally, distinct from the Amerindian Peoples Association's institutional call: Kako Toshao Romario Hastings and Chris Debideen, Chairman of the Aruau Community Development Council, who states he lost two relatives. Both are now on the positions page. Hastings's statement about silence among Toshaos — that "every time accountability is traded for access, our people ultimately pay the greater price" — is recorded as his own characterisation.
+
+### The argument against resignation is now on the record
+
+The corpus had accumulated many published demands for the Minister's resignation and no sustained argument against. Kaieteur News's "Peeping Tom" column of 27 July supplies one, and it is recorded on the positions page at the same length as the demands: that the Transport & Harbours Department's own board insulates the Minister from operational responsibility, that political accountability should be tested by whether Cabinet support and non-partisan public trust have actually been lost rather than by the volume of demands, that the cause is not yet established, and that the 2017 Camp Street prison fire — eighteen dead, a government commission finding a "well executed plan" enabled by overcrowding — produced no ministerial resignation, raising a consistency question. It carries the newspaper's disclaimer that the views are the author's.
+
+### The stelling, documented
+
+Kiskadee Watch has published a chronology of the Port Kaituma stelling — the works the Prime Minister cited as the reason the *MV Ma Lisha* could not serve the route. It names the parties for the first time in this corpus: International Import and Supplies, awarded the G$1.4bn construction contract by public tender on 30 December 2022, and CEMCO as designer and supervisor. It records the project at 77 per cent complete per the Minister in January 2024 and about 90 per cent per the contractor in February 2024, when fissures halted work; the contractor's statement that the cause was design deficiency rather than construction; and the Minister's August 2024 confirmation that the design consultant had acknowledged flaws. Approaching four years after the contract, the project is unfinished. No finding of fault against any named company appears; the statements are recorded as made.
+
+### One contested figure resolved
+
+The French deployment was recorded as 12 divers plus two doctors and a mechanic per BBC News against 15 divers per Ignite News. Kiskadee Watch gives a 15-member team from the French Armed Forces in French Guiana, so the two accounts describe the same deployment. The figures page now says so.
+
+### And one operational finding
+
+The French dive team told relatives directly that it is too dangerous to enter the wreck — ropes and hammocks inside, buried in mud, no visibility, strong tidal currents — and that lifting the vessel would be "very, very difficult". That sits against the Prime Minister's statements of 24–25 July that boats were standing by for a possible righting operation. Both are on the chronology.
+
+---
+
 ## 27 July 2026 — seventh build, consistency audit
 
 A check across every page for stale counts, stale dates, and findings that had been added to the archive but never reached the pages a reader actually reads.
