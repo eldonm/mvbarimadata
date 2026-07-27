@@ -178,6 +178,24 @@
       };
     });
 
+    /* Map each published date to its datebar (built into the static HTML). */
+    var datebars = {};
+    Array.prototype.forEach.call(list.querySelectorAll('.datebar'), function (bar) {
+      var s = bar.nextElementSibling;
+      while (s && !s.classList.contains('src') && !s.classList.contains('datebar')) {
+        s = s.nextElementSibling;
+      }
+      if (s && s.classList.contains('src')) {
+        datebars[s.getAttribute('data-date') || ''] = bar;
+      }
+    });
+
+    function setBarVisible(bar, on) {
+      bar.hidden = !on;
+      bar.classList.toggle('is-filtered-out', !on);
+      bar.style.display = on ? '' : 'none';
+    }
+
     function inPeriod(d, p) {
       if (!p) return true;
       if (p === 'pre') return d < '2026-07-18';
@@ -202,9 +220,7 @@
       count.textContent = n + (n === 1 ? ' source' : ' sources') + ' shown of ' + cache.length;
       Array.prototype.forEach.call(document.querySelectorAll('.datebar'), function (b) {
         if (b.getAttribute('data-grouped') === '0') {
-          b.hidden = true;
-          b.classList.toggle('is-filtered-out', true);
-          b.style.display = 'none';
+          setBarVisible(b, false);
           return;
         }
         var any = false, s = b.nextElementSibling;
@@ -212,9 +228,7 @@
           if (s.classList.contains('src') && !s.hidden) { any = true; break; }
           s = s.nextElementSibling;
         }
-        b.hidden = !any;
-        b.classList.toggle('is-filtered-out', !any);
-        b.style.display = any ? '' : 'none';
+        setBarVisible(b, any);
       });
       var empty = document.getElementById('srcempty');
       if (empty) {
@@ -233,14 +247,36 @@
         return a.date > b.date ? -1 : a.date < b.date ? 1 : 0;
       });
       var groups = mode === 'newest' || mode === 'oldest';
-      Array.prototype.forEach.call(document.querySelectorAll('.datebar'), function (b) {
-        b.hidden = !groups;
-        b.classList.toggle('is-filtered-out', !groups);
-        b.style.display = groups ? '' : 'none';
-        b.setAttribute('data-grouped', groups ? '1' : '0');
-      });
-      if (groups) { apply(); return; }
-      sorted.forEach(function (c) { list.appendChild(c.el); });
+      var d, bar, last = null;
+
+      if (groups) {
+        sorted.forEach(function (c) {
+          if (c.date !== last) {
+            last = c.date;
+            bar = datebars[c.date];
+            if (bar) {
+              bar.setAttribute('data-grouped', '1');
+              list.appendChild(bar);
+            }
+          }
+          list.appendChild(c.el);
+        });
+        for (d in datebars) {
+          if (Object.prototype.hasOwnProperty.call(datebars, d)) {
+            datebars[d].setAttribute('data-grouped', '1');
+          }
+        }
+      } else {
+        for (d in datebars) {
+          if (Object.prototype.hasOwnProperty.call(datebars, d)) {
+            bar = datebars[d];
+            bar.setAttribute('data-grouped', '0');
+            setBarVisible(bar, false);
+            list.appendChild(bar);
+          }
+        }
+        sorted.forEach(function (c) { list.appendChild(c.el); });
+      }
       apply();
     }
 
