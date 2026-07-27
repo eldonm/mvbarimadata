@@ -12,7 +12,7 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 192 sources — 152 in the first build, plus 40 Guyana Chronicle articles added on 26 July. 168 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
+**Corpus:** 198 sources — 152 in the first build, plus 40 Guyana Chronicle articles and six international sources added on 26–27 July. 174 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
 
 ---
 
@@ -20,11 +20,13 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Guyana Chronicle: closed on 26 July.** In the first build this was the largest single gap in the corpus. Every fetch attempt, across bare, `www.` and `/amp/` variants, hit a JavaScript redirect wall, and the state-owned Chronicle was absent from the archive entirely. It has since been retrieved through a browser session: 40 articles dated 22–26 July, of which 38 carry full text. Two are flagged `thin-capture` and marked as incomplete on their source pages. The change is logged on the [revisions page](changelog.html).
 
+**Two Guyanese outlets identified but not retrieved.** Survivor testimony already in the corpus is credited by international outlets to two Guyanese sites that are not themselves represented here: Kiskadee Watch, which the BBC credits for Elena Moonsammy's account, and Ignite News, which CBC credits for Leon Murray's. Both are worth retrieving; neither has been attempted.
+
 **Village Voice News: robots-disallowed.** Respected, not circumvented. The outlet is therefore wholly unrepresented, and one known piece is substantively relevant: "Edghill's swift suspensions of MV Barima workers raise more questions than answers."
 
-**Paywalls and 403s.** CNN (both `cnn.com` and `edition.cnn.com`), CBC's `ferry-sinks-guyana` piece, four Washington Post AP-syndications (three recovered via WRAL and Citrus County Chronicle instead), France 24, Telesur in both languages, El Universal (Venezuela), and Stabroek's own 15 March liquidator follow-up.
+**Paywalls and 403s.** CBC's `ferry-sinks-guyana` piece was recovered on 27 July through a browser session, along with the Guardian and Deutsche Welle. Still outstanding: CNN (both `cnn.com` and `edition.cnn.com`, where the browser extension has no read permission for the domain), four Washington Post AP-syndications (three recovered via WRAL and Citrus County Chronicle instead), France 24, Telesur in both languages, El Universal (Venezuela), the New York Times, Radio New Zealand, and Stabroek's own 15 March liquidator follow-up.
 
-**No BBC byline surfaced** through any query formulation, and no Reuters-bylined article was captured directly — though Reuters copy is present in the corpus indirectly, since Al Jazeera's 21 July report is bylined "Al Jazeera Staff, AP and Reuters." Given both wires' usual coverage of a disaster of this scale, treat this as an unresolved question about search reach rather than a confirmed absence of coverage.
+**BBC and Reuters: resolved on 27 July.** The first build recorded that no BBC byline and no directly-bylined Reuters article had surfaced through any query, and flagged this as a limit of search reach rather than a confirmed absence. Both exist and are now in the corpus: BBC News, "Death toll from Guyana ferry disaster continues to rise," by Vanessa Buschschlüter and Tom Bennett, 19 July, updated 22 July; and Reuters, "Twenty-seven bodies recovered after ferry capsizes off Guyana," by Kemol King, 20 July. Both were found through the reference list of the English Wikipedia article on the vessel, which is itself now in the corpus. The earlier statement was wrong, and the search method that produced it — keyword queries against the open web — is what failed.
 
 **Two Kaieteur pages** served submission stubs rather than article bodies: "MV Barima tragedy exposes Guyana's deep governance failures" (Tevin Skeete) and one other letter. The important Kaieteur piece, "Major discrepancies found on MV Barima manifest," failed two subagent attempts, which returned only condensed output, and was then recovered verbatim by the lead researcher — it is now the single most valuable news document in the archive.
 

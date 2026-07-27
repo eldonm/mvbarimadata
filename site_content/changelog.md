@@ -4,6 +4,38 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 27 July 2026 — third build
+
+### Chronicle source dates repaired
+
+All 40 Guyana Chronicle sources added in the previous build carried no date. They had been written into the archive with a `date` field where the build reads `published`, so each resolved to a null value. On the sources page they appeared under "Undated", sorted to the end, and — because a null date compares as earlier than any real date — the period filter placed all 40 under "Before the sinking", the one period they could not belong to. Their dates now read correctly, 22 to 26 July, and all 40 fall under "22 July onward".
+
+### BBC and Reuters: a claim of absence withdrawn
+
+The site recorded that no BBC byline and no directly-bylined Reuters article had been found, flagged as a limit of search reach rather than proof of absence. That caution was warranted: both exist. BBC News published on 19 July, updated 22 July, bylined Vanessa Buschschlüter and Tom Bennett; Reuters published on 20 July, bylined Kemol King. Both are now in the corpus, and the earlier statement has been withdrawn on the method and gaps page.
+
+Both were found through the reference list of the English Wikipedia article on the vessel, which had not been consulted before and is now itself a source. The failure was one of method, not of availability.
+
+### Four further international sources added
+
+The Guardian (on-the-ground reporting from Essequibo by Neil Marks and Natricia Duncan), Deutsche Welle, CBC News, and the Wikipedia article. Source count rises from 192 to 198.
+
+### What these add to the record
+
+Two of them bear on the Mayday contradiction. The site records that a distress call at 23:01 underpins every published chronology, and that the Prime Minister said on 25 July, "We have no such record." BBC News gives the time as 23:01 local; Deutsche Welle and CBC News independently state that **air traffic control** received the call at around 23:00. Three sources now place the call, and two name the body that received it. The contradiction with the 25 July statement is unresolved and is recorded as such.
+
+Reuters names the private company VEHSI, working with Exxon Mobil and local fishermen, as having located the wreck — the only source in the corpus naming it.
+
+A published inventory of lifesaving equipment now exists: 250 life jackets, six inflatable life rafts and two rigid life rafts, attributed to the Prime Minister by Deutsche Welle and CBC News and matching the Wikipedia entry. The Guardian renders the same equipment as "two lifeboats", attributed to Minister Edghill.
+
+Two new figure conflicts are recorded rather than resolved. The search area after the first expansion is given as 1,040 sq km by Reuters and CBC News and as 1,070 sq km by the Guardian. The Wikipedia lede gives "at least 162 passengers and 17 crew", which does not match the 179 total used elsewhere in that same article.
+
+### Two Guyanese outlets identified, not retrieved
+
+Survivor testimony already in the corpus is credited by international outlets to Kiskadee Watch and Ignite News, neither of which is represented here. Both are recorded on the method and gaps page as outstanding.
+
+---
+
 ## 26 July 2026 — second build
 
 ### The Commission of Inquiry was named
