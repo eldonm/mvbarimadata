@@ -217,7 +217,7 @@
         c.el.style.display = ok ? '' : 'none';
         if (ok) n++;
       });
-      count.textContent = n + (n === 1 ? ' source' : ' sources') + ' shown of ' + cache.length;
+      count.textContent = n + (n === 1 ? ' document' : ' documents') + ' shown of ' + cache.length;
       Array.prototype.forEach.call(document.querySelectorAll('.datebar'), function (b) {
         if (b.getAttribute('data-grouped') === '0') {
           setBarVisible(b, false);

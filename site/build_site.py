@@ -172,7 +172,7 @@ E = html.escape
 def esc(s): return E(str(s), quote=True)
 
 NAV = [('index.html', 'Overview'), ('timeline.html', 'Chronology'), ('facts.html', 'The figures'),
-       ('positions.html', 'Positions'), ('sources.html', 'Sources'), ('about.html', 'Method &amp; gaps'),
+       ('positions.html', 'Positions'), ('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
        ('changelog.html', 'Revisions')]
 
 CURATTR = ' aria-current="page"'
@@ -734,13 +734,13 @@ def build_sources():
   <div class="s">{E(summ[:280])}{'…' if len(summ) > 280 else ''}</div>
 </a>''')
 
-    return head(f'All {len(records)} sources — MV Barima research archive',
+    return head(f'All {len(records)} documents — MV Barima research archive',
                 'Search and filter every source behind this archive: Guyanese press, official documents, '
                 'international coverage and historical record.',
                 'sources.html') + f'''
 <section style="margin-top:44px;">
   <p class="eyebrow">The evidence base</p>
-  <h1>All {len(records)} sources</h1>
+  <h1>All {len(records)} documents</h1>
   <p class="lede wrap-read">Every source behind this archive, with a research summary, the claims it establishes,
   short attributed quotations and a link to the original. Search the full text of the summaries and claims, or
   filter by outlet, type and period.</p>
@@ -786,10 +786,10 @@ def build_sources():
       </select>
     </div>
     <button class="fclear" id="f-clear" type="button">Reset</button>
-    <div class="fcount" id="f-count" role="status">{len(records)} sources</div>
+    <div class="fcount" id="f-count" role="status">{len(records)} documents</div>
   </div>
   <div class="srclist" id="srclist">{''.join(cards)}</div>
-  <p class="empty" id="srcempty" hidden>No sources match those filters. <button class="fclear" onclick="document.getElementById('f-clear').click()">Reset the filters</button></p>
+  <p class="empty" id="srcempty" hidden>No documents match those filters. <button class="fclear" onclick="document.getElementById('f-clear').click()">Reset the filters</button></p>
 </section>
 ''' + foot()
 
@@ -836,7 +836,7 @@ def build_source_page(r):
 
     desc = (r['summary'] or r['title'])[:180]
     return head(f'{r["title"]} — {r["outlet"]} | MV Barima archive', desc, 'sources.html', depth=1) + f'''
-<p class="crumb"><a href="../sources.html">&larr; All {len(records)} sources</a></p>
+<p class="crumb"><a href="../sources.html">&larr; All {len(records)} documents</a></p>
 <article>
   <div class="badgerow" style="margin-bottom:12px;">
     <span class="badge">{E(r['kind'])}</span>

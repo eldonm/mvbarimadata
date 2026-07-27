@@ -4,6 +4,24 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 27 July 2026 — sixth build, wording made consistent and Ignite News added
+
+### "Sources" and "documents" were being used interchangeably
+
+The previous build changed the headline count to documents but left the word "sources" in the places a reader actually meets it: the browse page heading, the filter counter, the breadcrumb on all 201 source pages, and the navigation label. All now say documents. The word "source" is kept only where it means the origin of a particular claim, which is a different and correct use.
+
+The chronology page was still described as checked against 152 sources, and the method page still said the corpus "skews heavily" to Kaieteur News at 32 — the same claim, now inverted, that was corrected on the overview in the fourth build. Both fixed.
+
+### Ignite News added
+
+Ignite News is the Guyanese outlet CBC News credits as the origin of survivor Leon Murray's account. Its own 18–21 July chronology is now in the corpus. The specific Murray interview was not found on the outlet's site; CBC's account of it is here, the original is not, and that remains recorded as a gap.
+
+It gives a third independent statement that **air traffic control** received the distress call at about 23:00, after Deutsche Welle and CBC News. Three outlets now name the recipient, against the Prime Minister's 25 July "We have no such record."
+
+It also settles one figure conflict and opens two. The search area after the first expansion is given as 1,070 square kilometres, matching the Guardian, against 1,040 in Reuters and CBC. The French deployment is given as 15 divers, where BBC News gives 12 divers, two doctors and a mechanic. And the capsizing is placed seven miles offshore Dartmouth on the Essequibo Coast, where most of the corpus places it off Iron Punt near the Pomeroon mouth. All three are recorded, none adjudicated.
+
+---
+
 ## 27 July 2026 — fifth build, outlet names deduplicated
 
 The archive had been recording 51 distinct publisher names for what were in fact 42 publishers. HGPTV appeared five different ways; Demerara Waves, iNews Guyana, Democracy Guyana, the Department of Public Information and Wikipedia twice each. Twenty records were relabelled to a single canonical name per publisher.
@@ -116,4 +134,4 @@ Source count rises from 152 to 192.
 
 ## 26 July 2026 — first build
 
-Initial publication. 152 sources, compiled eight days after the sinking. Method, retrieval failures and the eighteen corrections made during an adversarial verification pass are set out on the [method and gaps page](about.html).
+Initial publication. 152 documents, compiled eight days after the sinking. Method, retrieval failures and the eighteen corrections made during an adversarial verification pass are set out on the [method and gaps page](about.html).

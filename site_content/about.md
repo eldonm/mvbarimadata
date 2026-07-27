@@ -12,7 +12,7 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 200 documents — 152 in the first build, plus 40 Guyana Chronicle articles and six international sources added on 26–27 July. 174 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
+**Corpus:** 201 documents — 152 in the first build, plus 40 Guyana Chronicle articles and six international sources added on 26–27 July. 174 are dated 19–26 July 2026; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
 
 ---
 
@@ -52,7 +52,7 @@ After deduplication three publishers still account for 94 of the 200 documents.
 
 **Guyana Chronicle: closed on 26 July.** In the first build this was the largest single gap in the corpus. Every fetch attempt, across bare, `www.` and `/amp/` variants, hit a JavaScript redirect wall, and the state-owned Chronicle was absent from the archive entirely. It has since been retrieved through a browser session: 40 articles dated 22–26 July, of which 38 carry full text. Two are flagged `thin-capture` and marked as incomplete on their source pages. The change is logged on the [revisions page](changelog.html).
 
-**Kiskadee Watch: retrieved 27 July.** The BBC credits this independent Guyanese outlet as the origin of Elena Moonsammy's account. Two of its reports are now in the corpus, and they carry survivor testimony on the vessel's machinery that is not present elsewhere. **Ignite News**, credited by CBC as the origin of Leon Murray's account, has not been retrieved and remains outstanding.
+**Kiskadee Watch: retrieved 27 July.** The BBC credits this independent Guyanese outlet as the origin of Elena Moonsammy's account. Two of its reports are now in the corpus, and they carry survivor testimony on the vessel's machinery that is not present elsewhere. **Ignite News**, credited by CBC as the origin of Leon Murray's account, is now represented by its own 18–21 July chronology. The specific Murray interview was not found on the outlet's site and remains outstanding; CBC's account of it is in the corpus, the original is not.
 
 **Village Voice News: robots-disallowed.** Respected, not circumvented. The outlet is therefore wholly unrepresented, and one known piece is substantively relevant: "Edghill's swift suspensions of MV Barima workers raise more questions than answers."
 
@@ -88,7 +88,7 @@ These are recorded because a reader needs to know which documents were searched 
 
 Stabroek News, Guyana's principal independent daily for roughly forty years, ceased print publication on 15 March 2026 in voluntary liquidation — four months before the disaster. The consequence for this research was that repeated searches for Stabroek coverage of the sinking returned nothing. Two of the corpus's pre-disaster sources on vessel condition — Capt. R. E. W. Adams's 2015 letter naming this vessel, and the 2012 piece on the Sprostons-built fleet — come from Stabroek's letters and features pages.
 
-Independent print scrutiny in Guyana is now effectively Kaieteur News alone, which is why the corpus skews heavily to that outlet (32 sources) and why civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. Readers should note this distribution when weighing the corpus: it reflects which Guyanese outlets were publishing in July 2026.
+Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 32 documents, is the largest independent contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the single largest contributor is not an independent outlet: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 22 releases the state or a state-owned outlet accounts for 62 of the 200 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
 
 ---
 

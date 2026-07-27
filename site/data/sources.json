@@ -1,6 +1,6 @@
 {
  "compiled": "Sunday 26 July 2026",
- "count": 200,
+ "count": 201,
  "note": "Research metadata and annotations only. Full source text is not included; see url for the original.",
  "sources": [
   {
@@ -4241,6 +4241,40 @@
    "fidelity": "",
    "kind": "Guyanese press",
    "flagged": false
+  },
+  {
+   "slug": "2026-07-22-ignite-news-mv-barima-ferry-disaster-timeline",
+   "title": "MV Barima Ferry Disaster: Timeline",
+   "outlet": "Ignite News",
+   "author": "Staff",
+   "published": "2026-07-22",
+   "published_time": "",
+   "url": "https://ignitenews.com/2026/07/22/mv-barima-ferry-disaster-timeline/",
+   "genre": "",
+   "tier": "domestic-press",
+   "stream": "gap-recovery-guyanese",
+   "summary": "A day-by-day chronology from 18 to 21 July by Ignite News, the Guyanese outlet CBC credits as the origin of survivor Leon Murray's account. States air traffic control received a distress call at about 23:00, that 15 French Guiana divers joined on 20 July, and that the search area was expanded from about 400 to 1,070 square kilometres. Records Minister Edghill dismissing reports the vessel had been declared unfit for service.",
+   "claims": [
+    "Air traffic control received the distress call at about 23:00 - a third independent source for the recipient, after Deutsche Welle and CBC News, and relevant to the Prime Minister's 25 July 'We have no such record'",
+    "[CONTESTED] French deployment: Ignite News gives 15 divers from French Guiana; BBC News gives 12 divers, two doctors and a mechanic",
+    "[CONTESTED] search area: gives expansion from about 400 to 1,070 sq km, matching the Guardian, against 1,040 sq km in Reuters and CBC News",
+    "[CONTESTED] location: gives seven miles offshore Dartmouth, Essequibo Coast; most of the corpus places the capsizing off Iron Punt near the Pomeroon River mouth",
+    "Edghill dismissed public reports that the vessel had been declared unfit for service",
+    "The next dry-docking was scheduled alongside the MV Malali and MV Hercules - the only source naming the other vessels in that schedule",
+    "States the capsizing came approximately eight hours into the voyage, consistent with a 15:15 departure and a distress call about 23:00",
+    "Rescued composition 41 men, 11 women, six boys, nine girls, matching Deutsche Welle"
+   ],
+   "facts": [],
+   "quotes": [],
+   "figures": "",
+   "argument": "",
+   "position": "",
+   "warnings": [],
+   "vessel": [],
+   "actors": [],
+   "fidelity": "extract",
+   "kind": "Guyanese press",
+   "flagged": true
   },
   {
    "slug": "2026-07-22-hgptv-state-assumed-risk-for-uninsured-mv-barima-edghill",
