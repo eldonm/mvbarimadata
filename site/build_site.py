@@ -13,7 +13,7 @@ import markdown as md
 ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
-BUILT   = 'Sunday 26 July 2026, last revised Monday 27 July 2026'
+BUILT   = 'Sunday 26 July 2026, last revised Tuesday 28 July 2026'
 
 # ---------------------------------------------------------------- parse archive
 def parse_front(path):
@@ -525,10 +525,11 @@ def build_index():
   mouth of the Pomeroon River in three to nine metres of water. Her manifest recorded 116 passengers and 17 crew.
   A review of boarding-area CCTV later put 179 people aboard.</p>
   <p class="small muted wrap-read">This site records what {len(records)} published documents say, who said it, and when.
-  Where sources disagree, both figures are given. It does not advance an explanation of the cause: the Commission
-  of Inquiry&rsquo;s five members were named on 26 July 2026, its establishing instrument had not been gazetted,
-  and the figures were still being revised. Every claim links back to its source so it can be checked. Changes to
-  this site are logged on the <a href="changelog.html">revisions page</a>.</p>
+  Where sources disagree, both figures are given. It does not advance an explanation of the cause. The Commission
+  of Inquiry&rsquo;s five members were named on 26 July 2026 and its establishing instrument has not been gazetted;
+  on 28 July three employees of the operator were charged with murder and remanded, and they are accused persons
+  who have not been tried; and the figures are still being revised. Every claim links back to its source so it can
+  be checked. Changes to this site are logged on the <a href="changelog.html">revisions page</a>.</p>
 </section>
 
 <section>
@@ -639,7 +640,7 @@ def build_index():
 
 <section>
   <h2>7. Where the parties stand on the inquiry</h2>
-  <p class="wrap-read muted">As of 27 July 2026 the dispute on record was less about cause than about who should
+  <p class="wrap-read muted">As of 28 July 2026 the dispute on record was less about cause than about who should
   investigate. The three summaries below are the parties&rsquo; own stated positions.</p>
   <div class="grid g3">
     <div class="card tr">

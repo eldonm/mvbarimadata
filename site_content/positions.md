@@ -1,6 +1,6 @@
 # Positions and proposals
 
-Compiled 26 July 2026, revised 27 July. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
+Compiled 26 July 2026, last revised 28 July 2026. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
 
 ---
 
@@ -36,9 +36,21 @@ On 22 July Thomas stated the vessel was "not overloaded," citing the load line, 
 
 On the mechanics of capsizing he stated that wind and wave action cause a vessel to heel, roll and pitch, that a vessel with positive stability returns upright even when pushed twenty degrees, and that "A captain, who may be compromised by whatever, would not be able to look at what is happening with the waves."
 
+### Charges, 28 July
+
+Three Transport & Harbours Department employees — Captain Kevin Price, Chief Mate Rondell Dwayne Roberts and Goods Superintendent Delon Granderson — were jointly charged with murder contrary to common law on 28 July, on legal advice from the Director of Public Prosecutions. All three were remanded; the matter was transferred to the Charity Magistrate's Court and adjourned to 3 August 2026. All three are accused persons who have not been tried, and nothing on this page should be read as a finding against them.
+
+Every person charged is an employee of the operator. No charge against any official of the Maritime Administration Department, any board member, or any minister appears in the corpus.
+
+### The wreck: the government's position and the families'
+
+On 28 July the Prime Minister stated the vessel is "likely to remain there as is", that "I don't think we've contacted anybody to raise the vessel", that attempts to move it onto its keel had not succeeded, and that "it's obvious that bodies are trapped in the wreck." He said that additional divers "will not change the situation". A draft "Declaration of Agreement" circulated to families on 25 July asks them to accept that the vessel "remain undisturbed in its present resting place" as a "sacred memorial", with a monument bearing the victims' names. The Prime Minister described the letters as "just for discussion", and the President is reported as assuring families the decision "would solely depend on the wishes of the families".
+
+Relatives, as reported by Kaieteur News, object. They state the proposal may wrap up salvage prematurely and may obscure physical evidence before the Commission of Inquiry can inspect the hull, and they want specialised international salvage firms engaged. One relative stated the matter "should be taken to Parliament or properly discussed with all the families." The archive takes no position on which course is right; both are recorded.
+
 ### Not present in the corpus
 
-No certificate of survey, load line or passenger capacity for this vessel appears in any source obtained. No official death toll appears — government releases report bodies recovered. As of 27 July the commissioners and the statutory basis are on the record; no gazetted instrument, secretary or reporting deadline appears. No MARAD advisory or notice to mariners, no Auditor General finding specific to the Transport & Harbours Department, and no statement by the International Maritime Organization appears.
+No certificate of survey, load line or passenger capacity for this vessel appears in any source obtained. No official death toll appears — government releases report bodies recovered. As of 28 July the commissioners and the statutory basis are on the record; no gazetted instrument, secretary or reporting deadline appears. Charges have now been laid against three employees of the operator; no charge against any official, regulator or minister appears. No MARAD advisory or notice to mariners, no Auditor General finding specific to the Transport & Harbours Department, and no statement by the International Maritime Organization appears.
 
 ---
 

@@ -4,6 +4,36 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 28 July 2026 — ninth build, charges laid
+
+The largest single day of developments since the sinking. Three documents added; the corpus stands at 209.
+
+### Three employees of the operator are charged with murder
+
+The archive had recorded, since first publication, that no charges had been filed. That is no longer true. On 28 July the captain, chief mate and goods superintendent of the *MV Barima* — all employees of the Transport & Harbours Department — were jointly charged with murder contrary to common law, on legal advice from the Director of Public Prosecutions. The indictable charge was read at the Georgetown Magistrates' Court by Chief Magistrate Judy Latchman, who remanded all three. The matter moves to the Charity Magistrate's Court on 3 August.
+
+All three are accused persons who have not been tried, and nothing on this site should be read as a finding against them.
+
+One fact about the charges is recorded because it is a fact about the record, not a judgement: every person charged is an employee of the operator. No charge against any official of the regulator, any board member, or any minister appears in the corpus.
+
+### Parliament sat, and did not resolve the inquiry question
+
+The National Assembly met on Monday 27 July. It passed a G$54.9bn supplementary budget and several bills while opposition MPs from WIN, APNU and FGM protested inside the chamber, some displaying photographs of victims, and AFC and VPAC members protested outside. The Speaker briefly suspended the sitting. The Attorney General and the Prime Minister addressed the House on the tragedy. The demand has widened: the opposition now calls for the resignation of Minister Deodat Indar as well as Minister Edghill, the first reported inclusion of Indar.
+
+**[SINGLE SOURCE]** APNU's Dr Terrence Campbell states that Transport & Harbours employees told the opposition they had been instructed not to speak to the press or to opposition members. That allegation is recorded as his, and is not corroborated elsewhere in the corpus.
+
+### The government signals the wreck may stay where it is
+
+On 28 July the Prime Minister stated the vessel is "likely to remain there as is", that no one has been contacted to raise it, that attempts to move it onto its keel had not succeeded, and that "it's obvious that bodies are trapped in the wreck". A draft "Declaration of Agreement" circulated to families on 25 July asks them to accept the wreck as an undisturbed "sacred memorial" with a monument bearing the victims' names.
+
+Relatives object, and their objection is recorded alongside the government's position: that the proposal may wrap up salvage prematurely, and may obscure physical evidence before the Commission of Inquiry can inspect the hull. Kaieteur News sets the position against President Ali's assurance of 20 July that the effort would continue "until every possible avenue has been exhausted". This archive takes no position on which course is right.
+
+### Still open
+
+The establishing instrument remains ungazetted. No secretary or reporting deadline has been named. The toll stands where it has since 24 July: 73 recovered, 76 rescued, at least 30 unaccounted for.
+
+---
+
 ## 27 July 2026 — eighth build, fresh reporting swept
 
 A sweep of the Guyanese outlets for anything published since the last build. Five documents added; the corpus stands at 206.
