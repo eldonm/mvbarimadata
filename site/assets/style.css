@@ -260,3 +260,8 @@ footer.site { border-top:1px solid var(--border); background:var(--surface); mar
   body { background:#fff; }
   a { color:#000; text-decoration:underline; }
 }
+
+/* ---------- nav group separators (8 items; CSS-only, no JS) ---------- */
+.topbar nav .navsep { display:inline-block; width:1px; height:14px; margin:0 8px -2px;
+  background:var(--border); opacity:.85; }
+@media (max-width:900px){ .topbar nav .navsep { display:none; } }

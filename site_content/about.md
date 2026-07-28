@@ -16,6 +16,16 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 ---
 
+## Corrections and questions
+
+**Corrections.** If something here is wrong, it should be fixed and the fix logged. Every correction made so far is on the [revisions page](changelog.html), including the ones that withdrew claims this archive had published. Write with "Correction" in the subject line.
+
+**Questions.** The [questions page](questions.html) carries analysis by this archive rather than sourced record — reasoning over the documents to answer questions directly. Questions from readers are welcome and will be answered there on the same terms: evidence named, limits stated. A question the archive cannot answer will be published as such, because it is itself a finding about what is missing. Write with "Question" in the subject line.
+
+> **A contact address has not yet been published.** Until one appears here, neither route above is usable, and it would be dishonest to invite correspondence without saying so. This note will be replaced by the address.
+
+---
+
 ## What the count contains
 
 A reader was right to object that "200 sources" overstates what this archive holds. In archival usage a source is a document in the corpus, and each of the 200 is exactly that — a distinct published document with its own publisher, date and link. But a general reader hears the number as 200 independent accounts, and that is not what it is. The count is now given as documents, and the composition is set out here so the number carries its own qualification.
@@ -108,7 +118,7 @@ The most common failure was **quotation drift** — a paraphrase hardening into 
 
 The second pattern was **attribution slippage**. Saiku Andrews, an opposition MP voicing a claim, had become a Jamaica Observer byline. Deon La Cruz, an opposition MP, had become a reporter. Toxicology disclosure had migrated from Edghill to Jagdeo. A Bulkan letter's headline had become "Kaieteur's framing." A letter-writer's argument had become a newspaper's editorial position. In each case the substance was right and the source was wrong, which is the more dangerous kind of error because it survives casual checking.
 
-Third, **figures merging**. The vessel's capacity had been rendered as a single "284 tons / 394 passengers" when in fact Thomas said 394/126 tonnes, then 394/120 tonnes, and Edghill said 397/284 tons — three inconsistent official statements whose inconsistency is itself the finding. A search area "expanded to 32 square miles" was actually expanded *by* 32, on top of an earlier 400.
+Third, **figures merging**. The vessel's capacity had been rendered as a single "284 tons / 394 passengers" when in fact Thomas said 394/126 tonnes, then 394/120 tonnes, and Edghill said 397/284 tonnes — three inconsistent official statements whose inconsistency is itself the finding. A search area "expanded to 32 square miles" was actually expanded *by* 32, on top of an earlier 400.
 
 Fourth, **inference presented as record**: the *Ma Lisha* dated to 2021 rather than its actual 2023 commissioning; "sole vessel serving Region One" where the archive supports only "sole vessel on the Port Kaituma route"; the 2017 refit's "installation of two engines" hardening into a claim that the 1939 machinery was entirely replaced.
 

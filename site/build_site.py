@@ -171,16 +171,30 @@ print(f'{len(records)} source records')
 E = html.escape
 def esc(s): return E(str(s), quote=True)
 
-NAV = [('index.html', 'Overview'), ('timeline.html', 'Chronology'), ('facts.html', 'The figures'),
-       ('positions.html', 'Positions'), ('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
-       ('changelog.html', 'Revisions')]
+# grouped so eight items stay legible: the record, then voices, then analysis,
+# then the apparatus behind the archive. Separators are CSS-only, no JS.
+NAV_GROUPS = [
+    ('The record',   [('index.html', 'Overview'), ('timeline.html', 'Chronology'),
+                      ('facts.html', 'The figures')]),
+    ('Voices',       [('positions.html', 'Positions')]),
+    ('Analysis',     [('questions.html', 'Questions')]),
+    ('The archive',  [('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
+                      ('changelog.html', 'Revisions')]),
+]
+NAV = [item for _, items in NAV_GROUPS for item in items]
 
 CURATTR = ' aria-current="page"'
 def head(title, desc, cur, depth=0):
     p = '../' * depth
-    nav = ''.join(
-        '<a href="{}{}"{}>{}</a>'.format(p, h, CURATTR if h == cur else '', t)
-        for h, t in NAV)
+    parts = []
+    for gi, (gname, items) in enumerate(NAV_GROUPS):
+        if gi:
+            parts.append('<span class="navsep" role="presentation" aria-hidden="true"></span>')
+        for h, t in items:
+            parts.append('<a href="{}{}"{}{}>{}</a>'.format(
+                p, h, CURATTR if h == cur else '',
+                ' data-navgroup="{}"'.format(gname), t))
+    nav = ''.join(parts)
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -925,6 +939,19 @@ write('about.html', build_prose_page(
     'it is missing cannot be checked. Several documents were searched for and not found at all: any published '
     'capacity certificate, any gazetted commission instrument, any official death toll. Every revision to this '
     'site is logged on the <a href="changelog.html">revisions page</a>.</p></div>'))
+
+write('questions.html', build_prose_page(
+    'questions.md',
+    'Questions of the record — MV Barima documented record',
+    'Questions of the record',
+    'Analysis by this archive, reasoning over all the documents it holds: what the record establishes, '
+    'what it cannot, and where accounts cannot both be true.',
+    'questions.html',
+    '<div class="note warn"><h4>This page is analysis, not record</h4><p>Everywhere else this archive reports '
+    'only what sources say, attributed. Here it reasons and answers directly. Evidence is named and linked; '
+    'where the record cannot settle a question that is stated. If this page and the record pages ever disagree, '
+    'the record pages are authoritative. It does not speculate about the intentions of the three men charged on '
+    '28 July, who have not been tried.</p></div>'))
 
 write('changelog.html', build_prose_page(
     'changelog.md',

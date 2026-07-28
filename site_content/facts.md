@@ -13,7 +13,7 @@ Other figures in this record depend on this one.
 | 116 passengers + 17 crew = **133** | 19 Jul | Edghill / DPI / MoPW | The official manifest |
 | 116 breakdown: 100 online bookings + 16 Mobile Money Guyana | 19 Jul | Edghill | Booking systems, not headcount |
 | **133** total | 19 Jul | AP revision | Same manifest, totalled |
-| **179** including 18 crew | 21 Jul | PM Mark Phillips ("confident") | Not stated at the time |
+| **179** including 18 crew | 20 Jul | "The government"; PM Mark Phillips in CMC copy; restated 21 Jul | Not stated at the time |
 | **179** confirmed | 25 Jul | Jamaica Observer (CMC) | **Boarding-area CCTV review** |
 | Crew: **16** | 25 Jul | Demerara Waves | A third variant |
 
@@ -24,9 +24,9 @@ Other figures in this record depend on this one.
 | 1938 original: **150 passengers / 120 tons** | 25 Jul | Capt. Stephen Thomas, MARAD DG |
 | **394 passengers / 126 tonnes** | 21–22 Jul | Thomas |
 | **394 passengers / 120 tonnes** | 24–25 Jul | Thomas |
-| **397 passengers / 284 tons** | 19 Jul | Edghill |
+| **397 passengers / 284 tonnes** | 19 Jul | Edghill |
 
-Cargo actually carried: **268 tons manifested**, with Edghill's own line-by-line audit returning **260 tons** "early in the day" on 19 July.
+Cargo actually carried: **268 tonnes manifested**, with Edghill's own line-by-line audit returning **260 tonnes** "early in the day" on 19 July. (Most of the corpus renders both figures in tonnes; a minority of reports say tons. This archive uses the dominant rendering and notes the discrepancy rather than silently converting.)
 
 Thomas cannot say when or on what basis the passenger rating rose from 150 to 394 — "I don't have that information."
 
