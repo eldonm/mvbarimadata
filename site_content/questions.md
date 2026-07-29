@@ -42,6 +42,22 @@ What it does not show is a decision, by a named person, that this archive can po
 
 Against them stand two things. The government's own position, put by Minister Edghill on 19 July, is that the Transport & Harbours Department is the service provider and MARAD the regulator, and that the disaster stemmed from operational breaches at ground level rather than from regulatory failure — a position he stated before anyone was charged. And the Kaieteur News "Peeping Tom" column argues that the department has its own board, that a minister's duty is "not to supervise the loading of cargo or verify passenger manifests on a daily basis," and that the cause is not yet established. All of it is set out at length on the [positions](positions.html) page.
 
+
+{{VIEW}}
+
+Accountability has three layers here, and conflating them is what makes the public argument go in circles. **Legal** accountability is for the court, and this archive does not reason about it. **Political** accountability is the resignation question. **Institutional** accountability is whether the arrangement itself failed. Only the second and third can be argued from this record.
+
+On the political question, the Kaieteur News column proposes a test worth taking seriously: a minister should go when Cabinet support has been withdrawn, when Parliament no longer accepts his explanations, or when non-partisan public trust is gone — not when the volume of opposition demands rises. Applied to this record, the first two indicators are not met. The third is the one the archive actually bears on, and it cuts the other way: the Amerindian Peoples Association, the Guyana Human Rights Association, the Transparency Institute of Guyana, and two Indigenous community leaders speaking in their own names have all objected, and several have called for resignation. None of them is a political party. Whether that amounts to loss of non-partisan trust is a judgement this archive does not make. The test's own weakness should also be noted: two of its three indicators turn on the size of a governing majority rather than on conduct.
+
+On the institutional question, the useful distinction is between decisions about how a vessel is operated and decisions about which vessel is available. The archive holds no board minutes and no departmental instrument, so it cannot show who controlled route assignment. What it does show is that the binding constraint — no berth for the replacement at Port Kaituma — was created by a G$1.4bn capital contract that stalled in February 2024 and was unfinished twenty-nine months later. Capital contracts are not operational decisions.
+
+That does not clear the operator, and this archive will not pretend otherwise. The government's own information service reported in March 2025 that the Transport & Harbours Department was addressing "longstanding issues of negligence, mismanagement, and accountability." The Associated Press records unmanifested cash ticketing as a practice of decades' standing at state ferry terminals. MARAD's Director-General argued publicly that a vessel with positive stability rights itself at twenty degrees of heel, so failure to right points to operational error — the only technical causal argument in the corpus, and it points at the vessel. None of that is disposed of by anything above.
+
+So the reasoned position is a split one, and both halves matter. Whatever happened in the loading bay and the wheelhouse on 18 July is for the court, and nothing here should be read as a view on it in either direction. Separately, the question of why that vessel was the one available is not an operational question, and it is a question the archive can point to no formal action on. What follows from that is for the inquiry.
+
+What would change this view: the Transport and Harbours Act and the department's constituting instrument, which would settle who controls route assignment and whether the board could have suspended the service itself. Neither is in this archive.
+
+{{/VIEW}}
 {{SOURCES: 2026-07-28-kaieteur-news-mv-barima-captain-two-crew-members-charged-with-murder | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-20-news-room-guyana-mv-barima-team-suspended-as-probe-moves-ahead | 2026-07-22-inews-guyana-3rd-person-detained-as-police-probe-continues | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-23-kaieteur-news-opposition-unites-in-call-for-edghill-to-go | 2026-07-24-demerara-waves-transparency-institute-wants-imo-to-investigate | 2026-07-26-kaieteur-news-ghra-demands-parliament-led-coi-into-mv-barima-sinking | 2026-07-27-kaieteur-news-should-minister-edghill-resign }}
 
 ---
@@ -108,6 +124,24 @@ So the standard below is not a legal obligation Guyana has broken. It is the seq
 
 **One comparison, and its limits.** After the *Estonia* sank on 28 September 1994, three countries stood up a joint investigation commission on 29 September — the next day. The *Estonia* was an international-voyage casualty with three states and treaty machinery already engaged, so the comparison is one of speed rather than of like institutions.
 
+
+{{VIEW}}
+
+The compliance question is not the end of the argument, because answering it "no breach" leaves the more useful question untouched: why the gap exists at all.
+
+SOLAS stops at the boundary of an international voyage. That limit is jurisdictional, not a judgement about risk. The IMO says so implicitly by its own numbers — it states that about ninety-five per cent of ferry casualties worldwide happen on domestic routes, and in 2022 it produced an instrument aimed at exactly that hole. It then made that instrument voluntary, which is the weakest form available to it, so the gap it identified remains open.
+
+Where no external standard applies, the domestic standard is set domestically. That does not make anyone culpable, but it does make the standard locatable: there is a body that sets it and a body that could raise it. The question stops being about treaties and becomes about who decides.
+
+One inference that would strengthen this must be marked as unproven. Guyana is recorded as having acceded to SOLAS in 1997, so the Casualty Investigation Code binds it for ships on international voyages. It is tempting to conclude that the expertise therefore exists inside the administration and only the decision to extend it is missing. The archive does not support that. It contains no record of Guyana conducting any casualty investigation under the Code, and what it does record points the other way: no MARAD advisory or notice to mariners, a five-member commission drawn entirely from outside the country, and a French dive team. Whether the capability exists is not established here.
+
+What can be said is narrower. A standard exists, it is recognised, it is one Guyana is already bound by in another part of its own fleet, and it was not extended to a domestic route. Whether that was a choice or an incapacity is the question, and the archive cannot answer it — which is itself worth knowing, because the two call for opposite remedies.
+
+One argument on the record deserves naming here. Five opposition parties have said a Commission of Inquiry is not a substitute for a marine casualty investigation conducted under SOLAS and the Code. That is a technical objection about the form of the investigation rather than an allegation of breach, and on the reasoning above it is the better-founded of the two.
+
+What would change this view: the text of Guyana's Shipping Act and its subsidiary regulations, and any record of a casualty investigation conducted under the Code. The archive holds neither. Note that Question 1 relies on a secondary description of that Act; the text itself has not been read here.
+
+{{/VIEW}}
 {{SOURCES: 2026-07-19-jamaica-observer-huge-wave-suspected-67-rescued | 2026-07-24-kaieteur-news-mv-barima-disaster-demands-accountability | 2026-07-25-kaieteur-news-timeline-of-the-rescue-effort-for-the-mv-barima-ferry-sinking | 2026-07-27-kiskadee-watch-too-dangerous-to-enter-sunken-mv-barima-french-diver | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-26-guyana-chronicle-international-regional-experts-appointed-to-conduct-thorough-investigation-of-mv-barima-tragedy | 2026-07-27-kaieteur-news-pres-ali-names-5-member-coi-to-investigate-mv-barima-disaster | 2026-07-24-demerara-waves-transparency-institute-wants-imo-to-investigate | 2026-07-26-kaieteur-news-ghra-demands-parliament-led-coi-into-mv-barima-sinking }}
 
 ---
@@ -142,6 +176,28 @@ So the standard below is not a legal obligation Guyana has broken. It is the seq
 
 **One caveat.** None of this proves what sank the ferry. Survivors describe engine trouble before departure and water coming in; the Minister said on day one there was no engine or mechanical problem. Those accounts have never been reconciled, and the inquiry has not tested either.
 
+
+{{VIEW}}
+
+"Could it have been avoided" invites four confident answers where the record supports fewer. It is worth being disciplined about which.
+
+A preventive measure only counts as a cause of avoidance if, with it in place, the disaster does not happen. Test each of the four that way.
+
+**Transhipping through Kumaka** removes the vessel from the route, so whatever happened on 18 July does not happen. That is a genuine but-for. How long it was available is a separate question, and the answer limits the claim: the Kumaka stelling was completed only shortly before the sinking and was still awaiting commissioning on 22 July, so the arrangement in its present form could not have run much earlier. It also substitutes risk rather than removing it, since the onward leg is smaller boats. Why no equivalent existed in the preceding years is the question that survives.
+
+**Retiring the hull** is also a but-for, and it is the only one of the four a regulator could have executed alone. Transhipment needs a wharf, a second vessel and a ministry; declining to license, or detaining a vessel, needs a decision.
+
+**A gate headcount** would have exposed the manifest failure. Whether it would have prevented the sinking depends on what forty-six people weigh against 268 tonnes of manifested cargo — which no document here answers — and on whether anyone would have offloaded, which no rule required. The Associated Press records unticketed cash boarding as a practice of decades' standing at state terminals, so a headcount would have been a check on a standing practice rather than on a single night's lapse.
+
+**Producing the certificate** makes the limit enforceable, not merely visible. A certificate is exactly the instrument that can stop a vessel sailing; Capt. Adams described that regime in 2015 — deficiencies found, vessel held until corrected. But it only works if someone checks cargo against it before departure, and the archive shows no such check.
+
+So: two but-fors, one detection measure, one enforcement measure whose value depends entirely on whether anyone was enforcing. That is a more disciplined claim than "four things could have stopped this."
+
+The pattern underneath is not about any of the four. The question of whether this vessel should still be carrying passengers **was** asked — by a master mariner in 2015, by residents of Port Kaituma in 2010, by the Amerindian Peoples Association on behalf of passengers over a period of years. What the archive contains no trace of is any body inside the operator, the regulator or the ministry recording an answer. The state's own information service reported in March 2025 that the department had "longstanding issues of negligence, mismanagement, and accountability," so this is not a case of three institutions each working well within their own lane. It is a case of a question that was asked from outside and never taken up inside.
+
+What would change this view: any document showing an official at any of the three bodies putting the question of continued passenger service and recording an answer; or the March 2026 tender file, which would show what the state believed about the hull four months before it sank.
+
+{{/VIEW}}
 {{SOURCES: 2026-07-27-kiskadee-watch-long-delay-in-completion-of-kaituma-stelling-kept-mv-barima-on-the-choppy-sea-who-is-to-blame | 2026-03-09-dpi-over-440m-to-be-spent-on-major-ferry-repairs | 2015-10-02-stabroek-news-thd-vessels-are-in-disrepair-because-they-havent-been-maintained | 2025-03-10-dpi-crucial-reforms-underway-within-transport-harbours-department | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-19-hgptv-87-year-old-mv-barima-remained-in-service-despite-replacement-plans }}
 
 ---
@@ -166,6 +222,20 @@ The vessel's original rating, which the same official dates to 1938, was 120 ton
 
 **What survivors say.** One describes cargo boxes stacked at the rear of the vessel — the sole source in this archive for that detail. Another says water entered through the hatch and that the ferry was stuck on a sandbank at the wharf for almost an hour before leaving. These are accounts, not findings, and they are recorded as such on the [chronology](timeline.html) page.
 
+
+{{VIEW}}
+
+The useful finding is less the answer than the shape of the disagreement.
+
+Two officials gave three different cargo limits in six days, and none was traced to a document. Two explanations dominate: a certificate exists and none of them consulted it, or no certificate exists. Others are possible and would be less damning — a gross-tonnage figure misread as a cargo limit, which this archive flags as a live risk for the number 284; two ratings of different vintage cited as one, which is consistent with the Director-General distinguishing a 1938 rating from a current one; or a certificate held by the operator rather than the regulator. None of them is good, and all of them describe a system in which the permitted load of a passenger vessel could not be stated consistently by the people responsible for it.
+
+One piece of evidence leans, but less far than it first appears. Asked when and on what basis the rating rose from 150 to 394, the Director-General said "I don't have that information." He was not asked to produce the certificate, and inability to explain a rating change that may predate his tenure is a weaker fact than inability to find a current document. What it does establish is that a regulator could not trace the provenance of a rating it enforces.
+
+A second point deserves reasoning rather than repetition. The "not overloaded" finding cites the **load line**, which is a legitimate instrument — but it answers a different question from the one being asked. A load line tells you how deep a hull is sitting. It does not tell you whether cargo was secured, how it was distributed, or whether stability was adequate for the sea the vessel met. One survivor in this archive describes cargo stacked at the stern; the same account attributes the tilt to a wave, which is the government's own explanation, and it is the sole source for both. Stowage is a stability question, and a load line does not answer it. So even taking the load-line finding entirely at face value, the stability question is untouched — and MARAD's own stability argument, that a vessel with positive stability rights itself at twenty degrees, is an argument about the vessel's condition that a load line reading cannot support either way.
+
+What would change this view: production of the certificate, or a statement from MARAD explaining where the three figures came from. Either would collapse most of the uncertainty above, and both are plainly obtainable.
+
+{{/VIEW}}
 {{SOURCES: 2026-07-19-jamaica-observer-huge-wave-suspected-67-rescued | 2026-07-22-inews-guyana-mv-barima-was-not-overloaded-marad-director-general | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-20-kiskadee-watch-survivor-says-may-have-lost-seven-relatives-in-mv-barima-capsizing }}
 
 ---
@@ -188,4 +258,18 @@ Once the state has said both that people are inside and that the wreck is likely
 
 **One thing that does check out.** The figures published on 20 July — 27 recovered, 69 rescued, 83 missing — add to 179. The figures published on 24 July — 73 recovered, 76 rescued, 30 unaccounted — also add to 179. The apparent collapse in the number missing, from 83 to 30, is fully explained by bodies being recovered and the survivor count being corrected. It looks alarming and it is not; the same standard applies in both directions.
 
+
+{{VIEW}}
+
+It is tempting to read the missing death toll as presentation — a smaller published number being easier to carry. This archive does not assert that, because nothing in the record evidences it. But it is worth being precise about why, because the usual reasoning is wrong.
+
+Four explanations are available. **Legal caution**: in most systems a death cannot be certified without a body or a court declaration, so a state that publishes "recovered" is publishing the number it can stand behind. **Reconciliation**: the complement itself moved from 133 to 179, and the survivor count went 67, 69, 77, then 76, with ten people recorded as found who were already at home — a residual computed from figures moving that fast is not a number a state can safely publish. **Search integrity**: while a search runs, calling the missing dead forecloses what the search exists to pursue. **Presentation**: a smaller number reads better.
+
+The first two account for the practice of reporting recoveries, and they are sufficient for that. They do not, however, account for silence about the arithmetic. States routinely publish a presumed or estimated toll alongside a confirmed one, and this archive does exactly that on this page. So the common defence — that the state can only publish what it can certify — explains less than it appears to. What it explains is the absence of a *certified* toll, not the absence of any figure at all.
+
+That is the finding, and it does not require imputing a motive to anyone. Two decisions taken separately — do not publish a toll, and leave the vessel where it is — combine into a third that nobody has announced. Roughly thirty families are left with neither a body nor a death certificate. The Prime Minister has said the vessel is "likely to remain there as is," though that is a provisional position rather than a settled decision: the French dive team reported entry too dangerous and lifting "very, very difficult", and the President is reported as assuring families the decision would depend on their wishes. Whatever is decided, no process for certifying those deaths has been stated by anyone, and this archive does not hold Guyana's law on presumption of death, so it cannot say who would have to begin one.
+
+What would change this view: any statement setting out how the deaths of people who cannot be recovered will be certified, and by whom. None appears in this archive.
+
+{{/VIEW}}
 {{SOURCES: 2026-07-24-dpi-government-tightens-ferry-safety-procedures | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest }}

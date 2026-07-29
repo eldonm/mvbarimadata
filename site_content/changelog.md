@@ -78,6 +78,34 @@ Every draft was put through the same adversarial process the record pages get: e
 
 **Balance.** The hostile read found that every concession made to the government was immediately turned against it, while no opposition claim received the same treatment. The answers now carry the counter-arguments the corpus actually contains, including the "Peeping Tom" argument on ministerial responsibility, the government's own division-of-responsibility position, the argument that age is not unseaworthiness, and the government's stated case for the commission it appointed.
 
+### The site was redesigned to look like what it is
+
+The presentation was sharpened toward an institutional register: a masthead with a heavy rule beneath it, uppercase letterspaced metadata, visible hairlines, square corners, and colour reserved for data rather than decoration. Nothing about the record changed; the point was that a public record should look like a public record rather than like a product page.
+
+The navigation is now two tiers. The record itself — overview, chronology, figures, positions, questions — sits on the primary row. The apparatus behind it — documents, method and gaps, revisions — sits on a quieter utility row beneath, with the theme control. Everything stays one click away and nothing hides behind a menu, which matters on a reference site. The theme control itself is now a small sun-and-moon icon rather than a labelled button; its accessible name carries the meaning for anyone using a screen reader.
+
+Two layout faults were fixed on the way. The document browser's filter bar was overflowing a phone screen and forcing the whole page to scroll sideways; it now folds into a two-column grid. And anchored links were landing underneath the sticky masthead.
+
+### Each answer now carries a reasoned view, fenced off from the evidence
+
+The questions page previously stopped where the documents stopped. Each answer now ends with a block headed **the reasoned view**, which argues past what any single document states: what follows from the evidence, which competing readings are available, which is better supported, and what would change the conclusion.
+
+That is a real change in what this site does, so the block is fenced. It has its own rule and label, it carries a standing note that it is inference rather than record, and every one of the five ends by naming what evidence would overturn it. The record pages remain authoritative over all of it.
+
+These blocks were then attacked harder than anything else on the site, because inference is where an archive is most likely to go wrong, and the attack found a great deal.
+
+**Two claims of absence were false.** The reasoning said the archive contained no document asking whether the vessel should still be carrying passengers. It contains several: a master mariner in 2015, residents of Port Kaituma in 2010, and the Amerindian Peoples Association on behalf of passengers over a period of years. The corrected version says what is actually true — the question was asked from outside and no body inside the operator, regulator or ministry is recorded answering it. Separately, a claim that "no board decision explains" the route assignment was asserted as a finding while the same paragraph conceded the archive holds no board minutes.
+
+**A logical test was stated backwards.** The but-for test used to weigh preventive measures was written as "a measure counts if the disaster does not happen without it," which is the negation of what was meant and would have made the whole section self-defeating.
+
+**A false dichotomy was claimed as exhaustive.** The reasoning said only two explanations could account for three untraceable capacity figures. At least three more fit, including a gross-tonnage figure misread as a cargo limit — a risk this archive's own figures page already flags.
+
+**Parsimony was used to license a conclusion it cannot license.** The reasoning held that because legal caution sufficiently explains the absence of a published death toll, other explanations "are not needed." That is not what parsimony does: a sufficient cause is not thereby the only operative cause. And the explanation was not sufficient anyway — legal caution explains not certifying deaths; it does not explain declining to publish an estimate, which states routinely do and which this archive does on the same page.
+
+**One passage exculpated the operator, which breaches the page's own limit in the opposite direction from the one usually feared.** A sentence describing three institutions as "each discharging its own function competently enough" and the failure as "not a bad decision" was both contradicted by the government's own 2025 finding of "longstanding issues of negligence, mismanagement, and accountability" at the department, and a view on the merits of operational conduct now before a court. The page's stated limit is that it takes no view on the guilt or innocence of the three accused. A sentence favouring them breaks that limit as squarely as one against them.
+
+**The reasoning leaned one way through under-supported steps, and that has been corrected.** All five blocks landed on the state's capital and regulatory layer. Some of that is the evidence — the archive genuinely records no formal action of any kind above the operator. But in three of the five the landing was reached through a step that did not hold. Three counter-arguments that were available in the corpus and had not been made are now made: MARAD's stability argument, which is the only technical causal argument in the corpus and points at the vessel; the Associated Press finding that unmanifested cash ticketing was a practice of decades' standing at state terminals; and the government's own 2025 admission about the department. A claim that Guyana's administration must already have the capability to investigate to the international standard has been withdrawn, because the archive contains no record of it ever doing so.
+
 ### Record-page corrections found along the way
 
 **Two dates were wrong.** The complement figure of 179 was dated to 21 July. It was published on 20 July and restated by the Prime Minister on 21 July. And the tightening of ferry safety procedures was dated to 25 July, which is when the Jamaica Observer carried it; the DPI release and the Prime Minister's interview are both dated 24 July.

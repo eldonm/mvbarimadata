@@ -408,3 +408,152 @@ ul.ctlist { list-style:none; margin:12px 0 6px; padding:0; }
 ul.ctlist li { padding:7px 0; border-bottom:1px solid var(--grid); font-size:14px; line-height:1.45; }
 ul.ctlist li:last-child { border-bottom:none; }
 ul.ctlist .ctmeta { display:block; font-size:12px; color:var(--muted); margin-top:2px; }
+
+/* ==========================================================================
+   INSTITUTIONAL LAYER
+   The site is a public record, and it should look like one: a masthead with a
+   heavy rule under it, uppercase letterspaced metadata, visible grid lines,
+   square corners, and colour reserved for data rather than decoration. This
+   block sits last so it overrides the earlier styling without rewriting it.
+   ========================================================================== */
+
+:root {
+  --rule:rgba(11,11,11,0.88);       /* the heavy masthead rule */
+  --hair:rgba(11,11,11,0.14);       /* structural hairlines */
+  --paper:#f6f5f1;                  /* warmer page than the old off-white */
+  --stamp:#8a8880;                  /* uppercase metadata ink */
+}
+:root[data-theme="dark"] {
+  --rule:rgba(255,255,255,0.82);
+  --hair:rgba(255,255,255,0.16);
+  --paper:#0c0c0b;
+  --stamp:#8f8d85;
+}
+body { background:var(--paper); }
+
+/* ---------- masthead ---------- */
+.topbar { background:var(--paper); backdrop-filter:none; border-bottom:none; }
+.masthead { border-bottom:3px solid var(--rule); }
+.masthead-in { max-width:var(--maxw); margin:0 auto; padding:16px 20px 12px;
+  display:flex; align-items:flex-end; gap:30px; flex-wrap:wrap; }
+.brand { display:flex; flex-direction:column; gap:1px; flex:none; }
+.brand:hover { text-decoration:none; }
+.bmark { font-size:clamp(20px,2.4vw,25px); font-weight:800; letter-spacing:-0.02em;
+  color:var(--ink); line-height:1.05; }
+.bsub { font-size:10px; font-weight:700; letter-spacing:0.17em; text-transform:uppercase;
+  color:var(--stamp); }
+
+.topbar nav.main { margin-left:auto; gap:0; align-items:flex-end; padding-bottom:1px; }
+.topbar nav.main a { font-size:13px; font-weight:700; letter-spacing:0.075em;
+  text-transform:uppercase; color:var(--ink2); padding:6px 13px; border-radius:0;
+  border-bottom:3px solid transparent; margin-bottom:-3px; white-space:nowrap; }
+.topbar nav.main a:hover { background:none; color:var(--ink); border-bottom-color:var(--hair); }
+.topbar nav.main a[aria-current="page"] { background:none; color:var(--ink);
+  box-shadow:none; border-bottom-color:var(--s1); }
+
+/* ---------- utility row ---------- */
+.utility { border-bottom:1px solid var(--hair); background:var(--paper); }
+.utility-in { max-width:var(--maxw); margin:0 auto; padding:6px 20px;
+  display:flex; align-items:center; gap:16px; }
+nav.util { display:flex; gap:0; min-width:0; }
+nav.util a { font-size:11px; font-weight:650; letter-spacing:0.11em; text-transform:uppercase;
+  color:var(--stamp); padding:4px 12px 4px 0; margin-right:12px; white-space:nowrap;
+  border-right:1px solid var(--hair); }
+nav.util a:last-of-type { border-right:none; margin-right:0; }
+nav.util a:hover { color:var(--ink); text-decoration:none; }
+nav.util a[aria-current="page"] { color:var(--ink); }
+
+/* ---------- theme control, now an icon ---------- */
+.themebtn { margin-left:auto; flex:none; display:inline-flex; align-items:center;
+  justify-content:center; width:30px; height:30px; padding:0; border-radius:0;
+  background:none; border:1px solid transparent; color:var(--stamp); cursor:pointer; }
+.themebtn:hover { color:var(--ink); border-color:var(--hair); }
+.themebtn:focus-visible { outline:2px solid var(--s1); outline-offset:1px; }
+.themebtn .ico-sun { display:none; }
+:root[data-theme="dark"] .themebtn .ico-moon { display:none; }
+:root[data-theme="dark"] .themebtn .ico-sun { display:inline; }
+
+@media (max-width:820px) {
+  .masthead-in { padding:12px 16px 8px; gap:14px; flex-wrap:nowrap; }
+  .topbar nav.main { overflow-x:auto; scrollbar-width:none; flex-wrap:nowrap; }
+  .topbar nav.main::-webkit-scrollbar { display:none; }
+  .topbar nav.main a { font-size:12px; padding:5px 9px; }
+  .utility-in { padding:5px 16px; }
+  nav.util { overflow-x:auto; scrollbar-width:none; flex-wrap:nowrap; }
+  nav.util::-webkit-scrollbar { display:none; }
+  .bmark { font-size:18px; } .bsub { display:none; }
+}
+
+/* ---------- page furniture ---------- */
+.eyebrow { font-size:10.5px; font-weight:750; letter-spacing:0.17em; text-transform:uppercase;
+  color:var(--stamp); }
+h1 { letter-spacing:-0.025em; font-weight:800; }
+h2 { letter-spacing:-0.015em; font-weight:750; }
+main > section > h2 { padding-bottom:9px; border-bottom:2px solid var(--rule);
+  margin-bottom:20px; }
+.card { background:var(--surface); border:1px solid var(--hair); border-radius:0;
+  box-shadow:none; }
+.tile { border-radius:0; border:1px solid var(--hair); }
+.tile .l { font-size:10.5px; font-weight:750; letter-spacing:0.11em; text-transform:uppercase; }
+table caption { font-size:10.5px; font-weight:750; letter-spacing:0.13em; text-transform:uppercase;
+  color:var(--stamp); text-align:left; padding-bottom:7px; }
+th { border-bottom:2px solid var(--rule) !important; font-size:11px; font-weight:750;
+  letter-spacing:0.09em; text-transform:uppercase; color:var(--ink2); }
+td { border-bottom:1px solid var(--grid); }
+.n, td.n, th.n { font-variant-numeric:tabular-nums; }
+.origin { border-radius:0; letter-spacing:0.05em; }
+.qabtn, .themebtn, details.qmore > summary { border-radius:0; }
+.badge, .lgk { border-radius:0; }
+footer.site { border-top:3px solid var(--rule); background:var(--paper); }
+.footin h4 { letter-spacing:0.13em; }
+
+/* the questions page picks up the same institutional treatment */
+.askpanel { border-left:none; border-top:3px solid var(--rule); }
+ul.qlinks { border-top:1px solid var(--hair); }
+ul.qlinks li { border-bottom:1px solid var(--hair); }
+details.qa > summary .qnum { font-weight:750; letter-spacing:0.04em; }
+.qacontrols { border-bottom:2px solid var(--rule); }
+details.cites > summary { letter-spacing:0.06em; text-transform:uppercase; font-size:11.5px; }
+.ctn { border-radius:0; }
+
+/* .brand span from the original stylesheet was greying both spans, including
+   the wordmark. Scope it back. */
+.brand .bmark { color:var(--ink); font-weight:800; }
+.brand .bsub  { color:var(--stamp); font-weight:700; }
+.tile { display:flex; flex-direction:column; }
+.tile .n { margin-top:auto; }
+
+/* ---------- the reasoned view ----------
+   Fenced off from the evidence above it: its own rule, its own label, its own
+   caveat. A reader should never be in doubt about which part of an answer is
+   the record and which part is the archive thinking. */
+aside.reasoned { margin:30px 0 0; border-top:3px solid var(--rule);
+  border-bottom:1px solid var(--hair); padding:16px 0 18px; }
+.rlabel { margin:0 0 12px; font-size:10.5px; font-weight:800; letter-spacing:0.19em;
+  text-transform:uppercase; color:var(--ink); }
+.rlabel::before { content:'\00a7'; margin-right:9px; color:var(--s1); font-weight:700; }
+.rbody > *:first-child { margin-top:0; }
+.rbody > *:last-child { margin-bottom:0; }
+.rbody p { font-size:16px; line-height:1.65; }
+.rbody ol, .rbody ul { font-size:16px; line-height:1.6; }
+.rnote { margin:16px 0 0; padding-top:12px; border-top:1px solid var(--grid);
+  font-size:12.5px; line-height:1.55; color:var(--muted); }
+@media (max-width:620px){ .rbody p, .rbody ol, .rbody ul { font-size:15.5px; } }
+
+/* The masthead is sticky and two rows deep, so anchored jumps need clearance. */
+details.qa, aside.reasoned, main h2, main h3 { scroll-margin-top:110px; }
+@media (max-width:820px){ details.qa, aside.reasoned, main h2, main h3 { scroll-margin-top:70px; } }
+
+/* The document browser's filter bar was overflowing on a phone: a 260px search
+   box plus five selects on a 390px viewport. Let the controls shrink and share
+   a two-column grid instead of forcing a horizontal scroll on the whole page. */
+@media (max-width:620px) {
+  .filters { display:grid; grid-template-columns:1fr 1fr; gap:10px; align-items:end; }
+  .fgroup { min-width:0; }
+  .fgroup:first-child { grid-column:1 / -1; }
+  .fgroup input, .fgroup select { width:100%; min-width:0; max-width:100%; }
+  .fgroup input[type=search] { min-width:0; }
+  .filters .fgroup:last-child { grid-column:1 / -1; }
+  .datebar { min-width:0; }
+}
+html, body { max-width:100%; overflow-x:clip; }

@@ -173,28 +173,40 @@ def esc(s): return E(str(s), quote=True)
 
 # grouped so eight items stay legible: the record, then voices, then analysis,
 # then the apparatus behind the archive. Separators are CSS-only, no JS.
-NAV_GROUPS = [
-    ('The record',   [('index.html', 'Overview'), ('timeline.html', 'Chronology'),
-                      ('facts.html', 'The figures')]),
-    ('Voices',       [('positions.html', 'Positions')]),
-    ('Analysis',     [('questions.html', 'Questions')]),
-    ('The archive',  [('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
-                      ('changelog.html', 'Revisions')]),
+# A two-tier masthead. The record itself sits on the primary row; the apparatus
+# behind it — the documents, the method, the log of changes — sits on a quieter
+# utility row with the theme control. Everything stays one click away and
+# nothing hides behind a menu, which matters for a reference site.
+NAV_PRIMARY = [
+    ('index.html', 'Overview'), ('timeline.html', 'Chronology'),
+    ('facts.html', 'The figures'), ('positions.html', 'Positions'),
+    ('questions.html', 'Questions'),
 ]
-NAV = [item for _, items in NAV_GROUPS for item in items]
+NAV_UTILITY = [
+    ('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
+    ('changelog.html', 'Revisions'),
+]
+NAV = NAV_PRIMARY + NAV_UTILITY
 
 CURATTR = ' aria-current="page"'
+THEME_ICON = (
+    '<svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true" focusable="false">'
+    '<path class="ico-moon" d="M15.5 12.4A6.6 6.6 0 0 1 7.6 4.5a6.6 6.6 0 1 0 7.9 7.9z" '
+    'fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>'
+    '<g class="ico-sun" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">'
+    '<circle cx="10" cy="10" r="3.4"/><path d="M10 2.2v1.9M10 15.9v1.9M2.2 10h1.9M15.9 10h1.9'
+    'M4.5 4.5l1.35 1.35M14.15 14.15l1.35 1.35M15.5 4.5l-1.35 1.35M5.85 14.15L4.5 15.5"/></g></svg>')
+
+
 def head(title, desc, cur, depth=0):
     p = '../' * depth
-    parts = []
-    for gi, (gname, items) in enumerate(NAV_GROUPS):
-        if gi:
-            parts.append('<span class="navsep" role="presentation" aria-hidden="true"></span>')
-        for h, t in items:
-            parts.append('<a href="{}{}"{}{}>{}</a>'.format(
-                p, h, CURATTR if h == cur else '',
-                ' data-navgroup="{}"'.format(gname), t))
-    nav = ''.join(parts)
+
+    def row(items):
+        return ''.join('<a href="{}{}"{}>{}</a>'.format(
+            p, h, CURATTR if h == cur else '', t) for h, t in items)
+
+    nav_primary = row(NAV_PRIMARY)
+    nav_utility = row(NAV_UTILITY)
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -211,11 +223,21 @@ def head(title, desc, cur, depth=0):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar"><div class="topbar-in">
-  <a class="brand" href="{p}index.html">MV Barima <span>&middot; research archive</span></a>
-  <nav class="main" aria-label="Main">{nav}</nav>
-  <button class="themebtn" type="button">Dark</button>
-</div></header>
+<header class="topbar">
+  <div class="masthead">
+    <div class="masthead-in">
+      <a class="brand" href="{p}index.html">
+        <span class="bmark">MV Barima</span><span class="bsub">Documented record</span></a>
+      <nav class="main" aria-label="Main">{nav_primary}</nav>
+    </div>
+  </div>
+  <div class="utility">
+    <div class="utility-in">
+      <nav class="util" aria-label="Archive">{nav_utility}</nav>
+      <button class="themebtn" type="button" aria-label="Switch to dark theme">{THEME_ICON}</button>
+    </div>
+  </div>
+</header>
 <main id="main">
 '''
 
@@ -1167,7 +1189,7 @@ def inject_charts(body):
     and the build asserts none survive."""
     for key, svg in QUESTION_CHARTS.items():
         body = body.replace('<p>{{%s}}</p>' % key, svg).replace('{{%s}}' % key, svg)
-    left = [t for t in re.findall(r'\{\{[A-Z_]+\}\}', body) if t != '{{MORE}}']
+    left = [t for t in re.findall(r'\{\{[A-Z_]+\}\}', body) if t not in ('{{MORE}}', '{{VIEW}}')]
     if left:
         raise SystemExit('unreplaced chart tokens: %s' % left)
     return body
@@ -1192,6 +1214,32 @@ def sources_block(keys):
             '<p class="tiny muted">Each links to this archive&rsquo;s page for that document, '
             'which carries the publisher, the date and a link to the original.</p></details>').format(
                 n=len(keys), rows=''.join(rows))
+
+
+def inject_reasoned(body):
+    """Turn a {{VIEW}} ... {{/VIEW}} pair into a labelled block. This is the one
+    place on the site where the archive reasons past what a document states, so
+    it is fenced off visually and carries its own standing caveat rather than
+    blending into the evidence above it."""
+    def one(m):
+        return ('<aside class="reasoned" aria-label="The reasoned view">'
+                '<p class="rlabel">The reasoned view</p>'
+                '<div class="rbody">{inner}</div>'
+                '<p class="rnote">This block is reasoning, not record. It goes past what any single '
+                'document states, and it can be wrong where the documents cannot. Everything above it '
+                'is evidence; everything in it is inference from that evidence, and the record pages '
+                'remain authoritative.</p></aside>').format(inner=m.group(1))
+    # Markdown may leave the marker inside a paragraph of its own or glued to
+    # the following one, so strip any wrapper before substituting. Otherwise the
+    # <aside> lands inside a <p> and the browser silently unwraps it.
+    body = re.sub(r'<p>\s*\{\{VIEW\}\}\s*</p>', '{{VIEW}}', body)
+    body = re.sub(r'<p>\s*\{\{/VIEW\}\}\s*</p>', '{{/VIEW}}', body)
+    body = re.sub(r'<p>\s*\{\{VIEW\}\}\s*', '{{VIEW}}<p>', body)
+    body = re.sub(r'\s*\{\{/VIEW\}\}\s*</p>', '</p>{{/VIEW}}', body)
+    body = re.sub(r'\{\{VIEW\}\}(.*?)\{\{/VIEW\}\}', one, body, flags=re.S)
+    if '{{VIEW}}' in body or '{{/VIEW}}' in body:
+        raise SystemExit('unbalanced VIEW markers')
+    return body
 
 
 def inject_sources(body):
@@ -1333,7 +1381,7 @@ write('questions.html', build_prose_page(
     'record pages disagree, the record pages are right. Question five also draws on international '
     'instruments held outside the archive, and says so. Nothing here bears on the guilt of the '
     'three men charged on 28 July, who have not been tried.</p></div>',
-    transform=lambda b: collapsible_qa(inject_sources(inject_charts(b)))))
+    transform=lambda b: collapsible_qa(inject_sources(inject_reasoned(inject_charts(b))))))
 
 write('changelog.html', build_prose_page(
     'changelog.md',

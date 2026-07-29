@@ -17,9 +17,11 @@
     function isDark() {
       return document.documentElement.getAttribute('data-theme') === 'dark';
     }
+    /* The control is an icon now, so the accessible name carries all of the
+       meaning. The icon itself swaps sun/moon in CSS off data-theme. */
     function label() {
-      btn.textContent = isDark() ? 'Light' : 'Dark';
       btn.setAttribute('aria-label', isDark() ? 'Switch to light theme' : 'Switch to dark theme');
+      btn.setAttribute('title', isDark() ? 'Light theme' : 'Dark theme');
     }
     btn.addEventListener('click', function () {
       var next = isDark() ? 'light' : 'dark';
@@ -359,12 +361,12 @@
   /* On narrow screens the nav is one scrollable row; make sure the page you
      are on is visible in it rather than off to the right. */
   function initNavScroll() {
-    var nav = document.querySelector('.topbar nav.main');
-    if (!nav) return;
-    var cur = nav.querySelector('[aria-current="page"]');
-    if (!cur) return;
-    if (nav.scrollWidth <= nav.clientWidth + 1) return;
-    nav.scrollLeft = Math.max(0, cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2);
+    Array.prototype.forEach.call(document.querySelectorAll('.topbar nav'), function (nav) {
+      var cur = nav.querySelector('[aria-current="page"]');
+      if (!cur) return;
+      if (nav.scrollWidth <= nav.clientWidth + 1) return;
+      nav.scrollLeft = Math.max(0, cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2);
+    });
   }
 
   /* ---------------- go ---------------- */
