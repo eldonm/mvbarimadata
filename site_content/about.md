@@ -20,7 +20,7 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 230 documents — 152 in the first build, then 40 Guyana Chronicle articles and six international sources on 26–27 July, and twenty-one documents covering 28–29 July added on 29 July, two of which are social media posts. 206 are dated 19 July 2026 onward; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
+**Corpus:** 233 documents — 152 in the first build, then 40 Guyana Chronicle articles and six international sources on 26–27 July, and 24 documents covering 28–29 July added on 29 July, four of which are social media posts. 209 are dated 19 July 2026 onward; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
 
 ---
 
@@ -40,32 +40,32 @@ A reader was right to object that "200 sources" overstates what this archive hol
 
 | What it is | Documents |
 |---|---|
-| Original reporting on the sinking | 148 |
+| Original reporting on the sinking | 149 |
 | Pre-disaster context and undated reference | 24 |
 | Syndicated wire copy (AP, Reuters, CMC, AFP carried by other outlets) | 21 |
 | Government communication (DPI releases, official statements, instruments) | 18 |
 | Opinion, letters and editorials | 15 |
-| Social media posts by institutions and public figures | 2 |
+| Social media posts by institutions and public figures | 4 |
 | Reference works (encyclopedia, engine and vessel registries, directories) | 2 |
-| **Total** | **230** |
+| **Total** | **233** |
 
-The 29 July build added twenty-one documents: sixteen pieces of Guyanese reporting on the charges, the wreck and the former captain's account; three regional carriages of the same story; and two social media posts, which are labelled as such wherever they appear and are the first of their kind in this corpus.
+The 29 July build added 24 documents: seventeen pieces of Guyanese reporting on the charges, the wreck, the former captain's account and the minister's first response to the resignation demands; three regional carriages of the same story; and four social media posts, which are labelled as such wherever they appear and are the first of their kind in this corpus. One of those posts is the only record here of a picket at the Office of the President that no newspaper in this corpus reported.
 
 Three qualifications matter more than the totals.
 
 **Syndication multiplies one act of reporting.** A single Associated Press dispatch appears here via Afro.com, WRAL twice, and the Citrus County Chronicle. One CMC wire appears via both CBC Barbados and the Jamaica Observer. CBC News's report is Thomson Reuters copy, so CBC and Reuters in this archive are substantially the same reporting counted twice. These variants are kept deliberately — which outlet carried which figure on which day is part of the record, and the archive uses it to show two irreconcilable death tolls running side by side in international copy for about forty-eight hours — but they are not independent corroboration.
 
-**More than a quarter of the documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 22: 63 of 230 counting one further state item. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny.
+**More than a quarter of the documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 22: 63 of 233. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny.
 
 **Four documents are duplicates or republications**, including the *Guyana Chronicle* publishing the same report at two dates and URLs, and two syndicated pairs carrying identical headlines.
 
-Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is 106 rather than 230.
+Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is 107 rather than 233.
 
 **Outlet names were deduplicated on 27 July.** The archive had been holding 51 distinct publisher strings for what were in fact 42 publishers: HGPTV had been recorded five different ways, and Demerara Waves, iNews Guyana, Democracy Guyana, the Department of Public Information and Wikipedia twice each. Those twenty records now carry a single canonical name per publisher, which both cleans the outlet filter and stops the archive overstating how many publishers it draws on.
 
 Four apparent duplicates were deliberately left alone because they are different publishers: BBC News, Canada's CBC News and the Caribbean Broadcasting Corporation in Barbados; the Jamaica Gleaner and the Jamaica Observer; the Guyana Chronicle and the Guyana Graphic; and iNews Guyana, News Room Guyana, News Source Guyana and Things Guyana. The Associated Press entries are also kept separate by carrier — *via WRAL*, *via Afro.com*, *via Citrus County Chronicle* — because which outlet carried a wire report is part of what this archive records. CBC News is now labelled *CBC News (Canada)* to distinguish it from the Barbadian broadcaster.
 
-After deduplication three publishers still account for 104 of the 230 documents.
+After deduplication three publishers still account for 105 of the 233 documents.
 
 ---
 
@@ -109,7 +109,7 @@ These are recorded because a reader needs to know which documents were searched 
 
 Stabroek News, Guyana's principal independent daily for roughly forty years, ceased print publication on 15 March 2026 in voluntary liquidation — four months before the disaster. The consequence for this research was that repeated searches for Stabroek coverage of the sinking returned nothing. Two of the corpus's pre-disaster sources on vessel condition — Capt. R. E. W. Adams's 2015 letter naming this vessel, and the 2012 piece on the Sprostons-built fleet — come from Stabroek's letters and features pages.
 
-Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 42 documents, is the largest independent contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the single largest contributor is not an independent outlet: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 22 releases the state or a state-owned outlet accounts for 63 of the 230 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
+Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 42 documents, is the largest independent contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the single largest contributor is not an independent outlet: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 22 releases the state or a state-owned outlet accounts for 63 of the 233 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
 
 ---
 

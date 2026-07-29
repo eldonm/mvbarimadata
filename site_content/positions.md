@@ -72,6 +72,18 @@ No certificate of survey, load line or passenger capacity for this vessel appear
 
 ---
 
+### Juan Edghill, Minister of Public Works
+
+Edghill responded publicly to the resignation demands for the first time on 29 July, and declined to engage their substance. Asked about the calls: "I have repeatedly said I will speak about this matter at the appropriate time." Asked about the protests against him: **"My life is in God's hands and that's not today."** He did not address the disaster, the investigation or his ministry's responsibility. The demands have run since 21 July and now come from five opposition parties — WIN, APNU, FGM, V-PAC and AFC — and cover Minister Indar as well.
+
+Prime Minister Phillips defends both ministers remaining in office, characterising the opposition's parliamentary protest as "irresponsible, reckless, childish, immature" and asserting that the inquiry is independent and its members internationally selected.
+
+### The Amerindian Peoples Association — from statement to street
+
+The APA's written demand for Edghill's removal has been on the record since 23 July. On 29 July members and supporters picketed the Office of the President, demanding accountability for the disaster and the removal of both Edghill and Indar.
+
+**[SOCIAL MEDIA]** The picket is recorded here only from two Guyanese news accounts' social media posts — Sheriff News Network and Prime News Guyana. No press report of it appears in this corpus and none was found in a search of Guyanese outlets on 29 July. That absence is itself recorded: a street protest at the seat of government over the country's worst maritime disaster, and the archive can find no newspaper account of it.
+
 ## The defence
 
 The three men charged on 28 July have not been tried. Nothing in this section is a finding, and the archive takes no view on their guilt or innocence. What follows is what their counsel, and one of the accused, have said publicly.

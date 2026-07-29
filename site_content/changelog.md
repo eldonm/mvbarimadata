@@ -132,9 +132,13 @@ Every page has Open Graph and Twitter card metadata and its own 1200&times;630 i
 
 The cards are rendered at build time in the same browser the site is tested in, so the type on a card is the type on the page. Each carries the page title, a line of subtext written for the crop, and a footing line giving the document count and the compile date. The 209 source pages share one card and each carries its own canonical URL, title and description.
 
-### The corpus grew to 230, and the archive corrected itself twice
+### The corpus grew to 233, and the archive corrected itself twice
 
-Twenty-one documents were added covering 28 and 29 July, each verified by fetching the published article rather than trusting a search result. Two of them are social media posts, labelled as such.
+Twenty-four documents were added covering 28 and 29 July, each verified by fetching the published article rather than trusting a search result. Four of them are social media posts, labelled as such.
+
+**One of those four records something no newspaper here reported.** On 29 July the Amerindian Peoples Association picketed the Office of the President, demanding accountability for the disaster and the removal of Ministers Edghill and Indar. Two Guyanese news accounts posted it to Facebook; a search of Guyanese outlets the same day found no press report of it, and none appears in this corpus. A street protest at the seat of government over the country's worst maritime disaster, and the archive can find no newspaper account. The absence is recorded on the [positions page](positions.html) alongside the event.
+
+Also added: Minister Edghill's first response to the resignation demands, which have run since 21 July. He does not engage them — "I have repeatedly said I will speak about this matter at the appropriate time", and on the protests, "My life is in God's hands and that's not today".
 
 **The archive published something it could not support, and has withdrawn it.** An earlier reading of Demerara Waves' 28 July report had the Director of Public Prosecutions acknowledging that the vessel's navigational and safety systems were defective, and treated that as a state admission. It is not one. The line is the reporting outlet's characterisation in its own lead; there is no quotation of the DPP saying it, iNews reproduces the same release at near-full length without it, and HGPTV omits it too. It is now recorded as a single-source characterisation and explicitly not as an admission. This was the archive's error, not the outlet's.
 
