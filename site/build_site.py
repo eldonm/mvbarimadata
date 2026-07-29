@@ -879,6 +879,195 @@ def build_source_page(r):
 ''' + foot(1)
 
 # ==================================================================== PAGES ===
+# ---------------------------------------------------------- questions charts --
+# Three charts for the plain-language questions page. House rules throughout:
+# thin marks, 4px rounded ends, a 2px surface gap between adjacent fills, every
+# value direct-labelled (which is also what discharges the light-mode contrast
+# warning on the green step), a legend wherever more than one series appears,
+# and a table view so nothing is carried by colour alone. The hover layer is the
+# shared one in site.js -- any element with data-value picks it up. The palette
+# is the site's own categorical ramp, checked for CVD separation, chroma and
+# lightness against both the light and dark surfaces before use.
+
+CHART_ACTIONS = '''
+<div class="chart bars">
+<svg viewBox="0 0 480 146" role="img" aria-labelledby="qa1t qa1d">
+  <title id="qa1t">People charged over the MV Barima disaster, by employing organisation</title>
+  <desc id="qa1d">Three people have been charged, all of them employees of the operator. All three
+  are accused persons who have not been tried. No charge against anyone at the regulator, on the
+  departmental board, or in the ministry appears in this corpus. Bar length shows the number of
+  people charged; one bar segment is one person, and nought is drawn as a stub at the origin.</desc>
+
+  <text x="0" y="10" font-size="9.5" font-weight="680" fill="var(--ink)">Transport &amp; Harbours Department &mdash; the operator</text>
+  <rect class="mark" x="0" y="16" width="52" height="18" rx="4" fill="var(--s2)"
+        data-label="Captain" data-value="1" data-unit="charged with murder, 28 July" data-var="--s2"
+        data-note="Accused; not tried"/>
+  <rect class="mark" x="54" y="16" width="52" height="18" rx="4" fill="var(--s2)"
+        data-label="Chief mate" data-value="1" data-unit="charged with murder, 28 July" data-var="--s2"
+        data-note="Accused; not tried"/>
+  <rect class="mark" x="108" y="16" width="52" height="18" rx="4" fill="var(--s2)"
+        data-label="Goods superintendent" data-value="1" data-unit="charged with murder, 28 July" data-var="--s2"
+        data-note="Accused; not tried"/>
+  <text x="170" y="30" font-size="11.5" font-weight="700" fill="var(--ink)">3 charged</text>
+  <text x="240" y="30" font-size="8.5" fill="var(--ink2)">captain, chief mate, goods superintendent</text>
+
+  <text x="0" y="59" font-size="9.5" font-weight="680" fill="var(--ink)">MARAD &mdash; the regulator</text>
+  <line x1="0" y1="70" x2="6" y2="70" stroke="var(--border)" stroke-width="3"/>
+  <text x="14" y="74" font-size="11" font-weight="640" fill="var(--muted)">none</text>
+
+  <text x="0" y="99" font-size="9.5" font-weight="680" fill="var(--ink)">Departmental board and Ministry of Public Works</text>
+  <line x1="0" y1="110" x2="6" y2="110" stroke="var(--border)" stroke-width="3"/>
+  <text x="14" y="114" font-size="11" font-weight="640" fill="var(--muted)">none</text>
+
+  <text x="0" y="130" font-size="8.5" font-weight="640" fill="var(--ink2)">All three are accused persons who have not been tried.</text>
+  <text x="0" y="142" font-size="8.5" fill="var(--muted)">One segment is one person. Detentions and suspensions, which are not charges, are in the table below.</text>
+</svg>
+</div>
+<details class="tableview"><summary>Table view &mdash; all formal action recorded, not only charges</summary>
+<div class="scrollx"><table>
+<caption>Formal action recorded in this corpus, by employing organisation. All three charged are accused persons who have not been tried.</caption>
+<tr><th>Level</th><th class="n">Charged</th><th>Held or detained</th><th>Suspended or on leave</th></tr>
+<tr><td>Transport &amp; Harbours Department (operator)</td><td class="n">3</td><td>crew from 19 July; a superintendent 22 July</td><td>loading and dispatch team, 20 July</td></tr>
+<tr><td>MARAD (regulator)</td><td class="n">0</td><td>none</td><td>none</td></tr>
+<tr><td>Departmental board</td><td class="n">0</td><td>none</td><td>none</td></tr>
+<tr><td>Ministry of Public Works</td><td class="n">0</td><td>none</td><td>none</td></tr>
+</table></div>
+</details>
+'''
+
+# Scale: 1 tonne = 1.3px, so the largest bar (284t) is 369px and stays in frame.
+CHART_LOAD = '''
+<div class="chart bars">
+<svg viewBox="0 0 480 168" role="img" aria-labelledby="qa2t qa2d">
+  <title id="qa2t">The manifested load against each stated limit</title>
+  <desc id="qa2d">The manifest recorded 268 tonnes. Minister Edghill stated a limit of 284 tonnes,
+  which the load is inside. MARAD stated 126 tonnes and later 120 tonnes, either of which the load
+  exceeds by more than double. The vessel's original rating, dated by MARAD to 1938, was also 120 tonnes.</desc>
+
+  <text x="0" y="10" font-size="9.5" font-weight="680" fill="var(--ink)">Cargo on the manifest</text>
+  <rect class="mark" x="0" y="15" width="348" height="17" rx="4" fill="var(--ink2)"
+        data-label="Manifested load, 18 July" data-value="268" data-unit="tonnes" data-var="--ink2"
+        data-note="Minister Edghill's own line-by-line audit gave an early 260"/>
+  <text x="10" y="28" font-size="11" font-weight="680" fill="var(--page)">268 tonnes</text>
+
+  <line x1="348" y1="38" x2="348" y2="158" stroke="var(--ink2)" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <text x="0" y="52" font-size="9.5" font-weight="680" fill="var(--ink)">Limit stated by Minister Edghill, 19 July</text>
+  <rect class="mark" x="0" y="57" width="369" height="15" rx="4" fill="var(--s3)"
+        data-label="Min. Edghill, 19 July" data-value="284" data-unit="tonnes licensed" data-var="--s3"
+        data-note="The manifested load is inside this limit"/>
+  <text x="377" y="69" font-size="10.5" font-weight="680" fill="var(--ink)">284</text>
+  <text x="404" y="69" font-size="8.5" fill="var(--ink2)">inside</text>
+
+  <text x="0" y="92" font-size="9.5" font-weight="680" fill="var(--ink)">Limit stated by MARAD, 21&ndash;22 July</text>
+  <rect class="mark" x="0" y="97" width="164" height="15" rx="4" fill="var(--s2)"
+        data-label="MARAD Director-General, 21-22 July" data-value="126" data-unit="tonnes" data-var="--s2"
+        data-note="The manifested load exceeds this by 142 tonnes"/>
+  <text x="172" y="109" font-size="10.5" font-weight="680" fill="var(--ink)">126</text>
+  <text x="199" y="109" font-size="8.5" fill="var(--ink2)">load is 2.1&times; this</text>
+
+  <text x="0" y="132" font-size="9.5" font-weight="680" fill="var(--ink)">Limit stated by MARAD, 24&ndash;25 July, and the 1938 rating</text>
+  <rect class="mark" x="0" y="137" width="156" height="15" rx="4" fill="var(--s2)"
+        data-label="MARAD Director-General, 24-25 July" data-value="120" data-unit="tonnes" data-var="--s2"
+        data-note="Also the vessel's original 1938 rating"/>
+  <text x="164" y="149" font-size="10.5" font-weight="680" fill="var(--ink)">120</text>
+  <text x="191" y="149" font-size="8.5" fill="var(--ink2)">load is 2.2&times; this</text>
+
+  <text x="0" y="166" font-size="8.5" fill="var(--muted)">Dashed line marks the manifested load. No certificate for any of these limits has been published.</text>
+</svg>
+</div>
+<div class="legend">
+  <div class="lg"><span class="lgk" style="background:var(--ink2)"></span>Manifested load</div>
+  <div class="lg"><span class="lgk" style="background:var(--s3)"></span>Stated limit the load is inside</div>
+  <div class="lg"><span class="lgk" style="background:var(--s2)"></span>Stated limit the load exceeds</div>
+</div>
+<details class="tableview"><summary>Table view</summary>
+<div class="scrollx"><table>
+<caption>Cargo limits stated for the MV Barima, against the manifested load</caption>
+<tr><th>Stated by</th><th>When</th><th class="n">Cargo limit</th><th>268 tonnes against it</th></tr>
+<tr><td>Minister Juan Edghill</td><td>19 July</td><td class="n">284 tonnes</td><td>within the limit</td></tr>
+<tr><td>MARAD Director-General Thomas</td><td>21&ndash;22 July</td><td class="n">126 tonnes</td><td>2.1&times; the limit</td></tr>
+<tr><td>MARAD Director-General Thomas</td><td>24&ndash;25 July</td><td class="n">120 tonnes</td><td>2.2&times; the limit</td></tr>
+<tr><td>Original certification, as described by MARAD</td><td>1938</td><td class="n">120 tonnes</td><td>2.2&times; the limit</td></tr>
+</table></div>
+</details>
+'''
+
+# Scale: 1 person = 2.35px, so the full complement of 179 spans 421px.
+CHART_TOLL = '''
+<div class="chart bars">
+<svg viewBox="0 0 480 142" role="img" aria-labelledby="qa3t qa3d">
+  <title id="qa3t">179 aboard: rescued, recovered and unaccounted for</title>
+  <desc id="qa3d">Of 179 people aboard, 76 were rescued, 73 bodies have been recovered and about 30
+  remain unaccounted for. The resulting figure of about 103 recovered and unaccounted has never
+  been published together as a death toll. The complement of 179 is itself a CCTV-derived
+  estimate, so the residual is approximate.</desc>
+
+  <text x="0" y="10" font-size="9.5" font-weight="680" fill="var(--ink)">179 aboard, established by CCTV review</text>
+
+  <rect class="mark" x="0" y="18" width="177" height="22" rx="4" fill="var(--s1)"
+        data-label="Rescued" data-value="76" data-unit="people" data-var="--s1"
+        data-note="Reported as 69, then 77, before settling at 76"/>
+  <rect class="mark" x="179" y="18" width="170" height="22" rx="4" fill="var(--s2)"
+        data-label="Bodies recovered" data-value="73" data-unit="people" data-var="--s2"
+        data-note="Unchanged since 24 July"/>
+  <rect class="mark" x="351" y="18" width="70" height="22" rx="4" fill="var(--s3)"
+        data-label="Unaccounted for" data-value="about 30" data-unit="people" data-var="--s3"
+        data-note="Never described by the state as dead"/>
+  <text x="0" y="56" font-size="12" font-weight="700" fill="var(--ink)">76</text>
+  <text x="24" y="56" font-size="9" fill="var(--ink2)">rescued</text>
+  <text x="179" y="56" font-size="12" font-weight="700" fill="var(--ink)">73</text>
+  <text x="203" y="56" font-size="9" fill="var(--ink2)">bodies recovered</text>
+  <text x="351" y="56" font-size="12" font-weight="700" fill="var(--ink)">~30</text>
+  <text x="381" y="56" font-size="9" fill="var(--ink2)">unaccounted</text>
+
+  <line x1="179" y1="72" x2="421" y2="72" stroke="var(--ink)" stroke-width="2"/>
+  <line x1="179" y1="68" x2="179" y2="76" stroke="var(--ink)" stroke-width="2"/>
+  <line x1="421" y1="68" x2="421" y2="76" stroke="var(--ink)" stroke-width="2"/>
+  <text x="300" y="90" font-size="11" font-weight="700" fill="var(--ink)" text-anchor="middle">about 103 people</text>
+  <text x="300" y="103" font-size="9" fill="var(--ink2)" text-anchor="middle">never published together as a death toll</text>
+
+  <text x="0" y="132" font-size="8.5" font-weight="640" fill="var(--muted)">Government releases report bodies recovered; the residual appears in no official total here.</text>
+</svg>
+</div>
+<div class="legend">
+  <div class="lg"><span class="lgk" style="background:var(--s1)"></span>Rescued (76)</div>
+  <div class="lg"><span class="lgk" style="background:var(--s2)"></span>Bodies recovered (73)</div>
+  <div class="lg"><span class="lgk" style="background:var(--s3)"></span>Unaccounted for (about 30)</div>
+</div>
+<details class="tableview"><summary>Table view</summary>
+<div class="scrollx"><table>
+<caption>Complement of the MV Barima, as officially stated</caption>
+<tr><th>Measure</th><th class="n">People</th><th>Basis</th></tr>
+<tr><td>Aboard</td><td class="n">179</td><td>Boarding-area CCTV review; the manifest recorded 133</td></tr>
+<tr><td>Rescued</td><td class="n">76</td><td>Settled figure from 21 July</td></tr>
+<tr><td>Bodies recovered</td><td class="n">73</td><td>Unchanged since 24 July</td></tr>
+<tr><td>Unaccounted for</td><td class="n">about 30</td><td>The Prime Minister's phrasing; never described as dead</td></tr>
+<tr><td>Recovered plus unaccounted</td><td class="n">about 103</td><td>Never published as a figure by any government source</td></tr>
+</table></div>
+</details>
+'''
+
+QUESTION_CHARTS = {
+    'CHART_ACTIONS': CHART_ACTIONS,
+    'CHART_LOAD':    CHART_LOAD,
+    'CHART_TOLL':    CHART_TOLL,
+}
+
+
+def inject_charts(body):
+    """Swap each {{CHART_X}} token for its figure. Markdown wraps a lone token
+    in a paragraph, so strip that wrapper rather than nesting a figure inside a
+    <p>. Fails loudly: an unreplaced token would still be visible on the page,
+    and the build asserts none survive."""
+    for key, svg in QUESTION_CHARTS.items():
+        body = body.replace('<p>{{%s}}</p>' % key, svg).replace('{{%s}}' % key, svg)
+    left = re.findall(r'\{\{[A-Z_]+\}\}', body)
+    if left:
+        raise SystemExit('unreplaced chart tokens: %s' % left)
+    return body
+
+
 def collapsible_qa(body):
     """Wrap each numbered `<h2>N. …</h2>` section of a prose page in a <details>,
     so the page reads as a list of questions and opens one answer at a time.
@@ -988,15 +1177,16 @@ write('questions.html', build_prose_page(
     'questions.md',
     'Questions of the record — MV Barima documented record',
     'Questions of the record',
-    'Analysis by this archive, reasoning over all the documents it holds: what the record establishes, '
-    'what it cannot, and where accounts cannot both be true.',
+    'Five questions about the MV Barima disaster, answered plainly from the 209 documents this '
+    'archive holds — including what the record cannot settle.',
     'questions.html',
-    '<div class="note warn"><h4>This page is analysis, not record</h4><p>Everywhere else this archive reports '
-    'only what sources say, attributed. Here it reasons and answers directly. Evidence is named and linked; '
-    'where the record cannot settle a question that is stated. If this page and the record pages ever disagree, '
-    'the record pages are authoritative. It does not speculate about the intentions of the three men charged on '
-    '28 July, who have not been tried.</p></div>',
-    transform=collapsible_qa))
+    '<div class="note warn"><h4>This page answers; the rest of the site reports</h4><p>Everywhere '
+    'else this archive only sets out what published sources said, attributed. Here it answers '
+    'directly. Evidence is named; where the record cannot settle something, that is the answer '
+    'given. If this page and the record pages disagree, the record pages are right. Question five '
+    'draws on international instruments held outside the archive, and says so. Nothing here bears '
+    'on the guilt of the three men charged on 28 July, who have not been tried.</p></div>',
+    transform=lambda b: collapsible_qa(inject_charts(b))))
 
 write('changelog.html', build_prose_page(
     'changelog.md',

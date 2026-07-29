@@ -307,3 +307,37 @@ details.qa:target > summary { color:var(--s1); }
   details.qa > summary::after { display:none; }
   details.qa { border-top:1px solid #ccc; }
 }
+
+/* ---------- topbar at mid widths ----------
+   Eight nav items plus the brand and the theme button stopped fitting between
+   roughly 780 and 1180px, which pushed the button onto a third row. Tighten the
+   nav's own spacing across that range instead of letting the bar grow. */
+@media (max-width:1180px) and (min-width:1001px) {
+  .topbar-in { gap:14px; }
+  nav.main a { padding:5px 7px; font-size:13.5px; }
+  .topbar nav .navsep { margin:0 4px -2px; }
+}
+@media (max-width:1000px) and (min-width:769px) {
+  .topbar-in { gap:10px; }
+  nav.main { gap:2px; }
+  nav.main a { padding:4px 6px; font-size:13px; }
+  .topbar nav .navsep { display:none; }
+}
+
+/* Below 820px eight items wrapped to three rows, so a sticky header was eating
+   a third of a phone screen. One scrollable row instead: the bar stays short,
+   nothing is hidden behind a menu, and site.js scrolls the current page into
+   view on load so you always know where you are. */
+@media (max-width:820px) {
+  .topbar-in { gap:10px; flex-wrap:nowrap; }
+  .brand { flex:none; }
+  nav.main { flex:1 1 auto; min-width:0; flex-wrap:nowrap; overflow-x:auto;
+    scrollbar-width:none; -ms-overflow-style:none;
+    -webkit-overflow-scrolling:touch; scroll-padding-inline:12px; }
+  nav.main::-webkit-scrollbar { display:none; }
+  nav.main a { flex:none; white-space:nowrap; padding:5px 8px; font-size:13.5px; }
+  .themebtn { flex:none; }
+}
+@media (max-width:520px) {
+  .brand span { display:none; }
+}

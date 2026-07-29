@@ -350,9 +350,21 @@
     });
   }
 
+  /* On narrow screens the nav is one scrollable row; make sure the page you
+     are on is visible in it rather than off to the right. */
+  function initNavScroll() {
+    var nav = document.querySelector('.topbar nav.main');
+    if (!nav) return;
+    var cur = nav.querySelector('[aria-current="page"]');
+    if (!cur) return;
+    if (nav.scrollWidth <= nav.clientWidth + 1) return;
+    nav.scrollLeft = Math.max(0, cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2);
+  }
+
   /* ---------------- go ---------------- */
   function ready() {
     initTheme();
+    initNavScroll();
     Array.prototype.forEach.call(document.querySelectorAll('.chart[data-series]'), initLineChart);
     Array.prototype.forEach.call(document.querySelectorAll('.chart.bars'), initBarChart);
     initBrowser();
