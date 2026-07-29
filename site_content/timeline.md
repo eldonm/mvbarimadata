@@ -46,7 +46,7 @@ Compiled 26 July 2026, last revised 28 July 2026, from 209 published documents a
 
 **9 March 2026.** DPI: over G$440m to be spent on major ferry repairs. A tender is issued putting a further **G$124.5m into the *Barima*'s hull** — four months before it sank. Per reporting carried by the Jamaica Observer on 25 July (unbylined CMC wire copy) and voiced by APNU MP Saiku Andrews, the bill of quantities required examination of approximately 10,000 square metres of hull plating and frames, "with deteriorated sections to be renewed where necessary." Note the conditional: this is a specification anticipating deterioration, not a survey finding that deterioration existed.
 
-**21 May 2026.** Kaieteur News reports another vessel for Region One, the *Kalliopi N*, has arrived and is sitting uncommissioned at the Kingston Goods Wharf awaiting commissioning by "the president himself." It is still there on 18 July.
+**21 May 2026.** Kaieteur News reports another vessel for Region One, the *Kalliopi N*, has arrived and is sitting uncommissioned at the Kingston Goods Wharf awaiting commissioning by "the president himself." It had still not entered service when the *Barima* sank — Edghill said on 22 July it "will also be put into operation soon."
 
 **21 June 2026.** Dr. Karen Abrams publishes "What the oil boom owes the hinterland" in Kaieteur News — four weeks before the sinking.
 

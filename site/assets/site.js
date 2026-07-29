@@ -298,12 +298,65 @@
     apply();
   }
 
+  /* ---------------- collapsible questions ----------------
+     The markup works with this file absent: <details> opens on click by itself.
+     This only adds expand-all, deep-linking and print behaviour on top. */
+  function initQA() {
+    var items = Array.prototype.slice.call(document.querySelectorAll('details.qa'));
+    if (!items.length) return;
+
+    var controls = document.querySelector('.qacontrols');
+    if (controls) {
+      controls.addEventListener('click', function (e) {
+        var mode = e.target && e.target.getAttribute && e.target.getAttribute('data-qa');
+        if (!mode) return;
+        items.forEach(function (d) { d.open = mode === 'open'; });
+      });
+    }
+
+    /* Deep link: /questions.html#q3 opens that question and scrolls to it. */
+    function openFromHash() {
+      var id = (location.hash || '').replace('#', '');
+      if (!id) return;
+      var el = document.getElementById(id);
+      if (el && el.tagName === 'DETAILS') {
+        el.open = true;
+        el.scrollIntoView({ block: 'start' });
+      }
+    }
+    openFromHash();
+    window.addEventListener('hashchange', openFromHash);
+
+    /* Clicking a question puts its id in the address bar, so a reader can copy
+       a link to one answer. replaceState, so the back button is not polluted. */
+    items.forEach(function (d) {
+      d.addEventListener('toggle', function () {
+        if (d.open && d.id && history.replaceState) {
+          history.replaceState(null, '', '#' + d.id);
+        }
+      });
+    });
+
+    /* Print the whole page, not just what happens to be open. */
+    var wasOpen = null;
+    window.addEventListener('beforeprint', function () {
+      wasOpen = items.map(function (d) { return d.open; });
+      items.forEach(function (d) { d.open = true; });
+    });
+    window.addEventListener('afterprint', function () {
+      if (!wasOpen) return;
+      items.forEach(function (d, i) { d.open = wasOpen[i]; });
+      wasOpen = null;
+    });
+  }
+
   /* ---------------- go ---------------- */
   function ready() {
     initTheme();
     Array.prototype.forEach.call(document.querySelectorAll('.chart[data-series]'), initLineChart);
     Array.prototype.forEach.call(document.querySelectorAll('.chart.bars'), initBarChart);
     initBrowser();
+    initQA();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready);
   else ready();

@@ -265,3 +265,45 @@ footer.site { border-top:1px solid var(--border); background:var(--surface); mar
 .topbar nav .navsep { display:inline-block; width:1px; height:14px; margin:0 8px -2px;
   background:var(--border); opacity:.85; }
 @media (max-width:900px){ .topbar nav .navsep { display:none; } }
+
+/* ---------- collapsible questions (native <details>, no JS dependency) ---------- */
+.qacontrols { display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  margin:0 0 20px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+.qabtn { font:inherit; font-size:13px; font-weight:600; color:var(--ink2);
+  background:var(--surface); border:1px solid var(--border); border-radius:6px;
+  padding:6px 12px; cursor:pointer; }
+.qabtn:hover { color:var(--ink); border-color:var(--ink2); }
+.qabtn:focus-visible { outline:2px solid var(--s1); outline-offset:2px; }
+.qahint { margin-left:auto; }
+@media (max-width:620px){ .qahint { margin-left:0; flex-basis:100%; } }
+
+details.qa { border-top:1px solid var(--border); }
+details.qa:last-of-type { border-bottom:1px solid var(--border); }
+details.qa > summary {
+  display:flex; align-items:flex-start; gap:14px; cursor:pointer; list-style:none;
+  padding:20px 34px 20px 0; position:relative;
+  font-size:clamp(17px,2vw,20px); font-weight:680; line-height:1.35; color:var(--ink); }
+details.qa > summary::-webkit-details-marker { display:none; }
+details.qa > summary:hover { color:var(--s1); }
+details.qa > summary:focus-visible { outline:2px solid var(--s1); outline-offset:-2px; }
+details.qa > summary .qnum {
+  flex:none; min-width:26px; font-variant-numeric:tabular-nums;
+  font-size:14px; font-weight:700; color:var(--ink2); padding-top:.35em; }
+details.qa > summary .qtext { flex:1; }
+/* chevron */
+details.qa > summary::after {
+  content:''; position:absolute; right:6px; top:1.55em;
+  width:9px; height:9px; border-right:2px solid var(--ink2); border-bottom:2px solid var(--ink2);
+  transform:translateY(-50%) rotate(45deg); transition:transform .18s ease; }
+details.qa[open] > summary::after { transform:translateY(-50%) rotate(-135deg); }
+details.qa[open] > summary { color:var(--s1); padding-bottom:6px; }
+.qbody { padding:0 0 30px; }
+.qbody > *:first-child { margin-top:0; }
+.qbody > *:last-child { margin-bottom:0; }
+details.qa:target > summary { color:var(--s1); }
+
+@media print {
+  .qacontrols { display:none; }
+  details.qa > summary::after { display:none; }
+  details.qa { border-top:1px solid #ccc; }
+}

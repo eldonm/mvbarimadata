@@ -879,7 +879,51 @@ def build_source_page(r):
 ''' + foot(1)
 
 # ==================================================================== PAGES ===
-def build_prose_page(fname, title, h1, lede, cur, extra_note=''):
+def collapsible_qa(body):
+    """Wrap each numbered `<h2>N. …</h2>` section of a prose page in a <details>,
+    so the page reads as a list of questions and opens one answer at a time.
+
+    Native <details>/<summary> only — it works with JavaScript off, is keyboard
+    and screen-reader accessible for free, and browser find-in-page opens closed
+    sections in current Chrome, Edge and Safari. The small script that follows
+    only adds expand-all and deep-link behaviour; nothing depends on it.
+    """
+    parts = re.split(r'(<h2>)', body)
+    if len(parts) < 3:
+        return body
+    out = [parts[0]]                      # anything before the first h2
+    n = 0
+    for i in range(1, len(parts), 2):
+        chunk = parts[i] + parts[i + 1]   # '<h2>' + rest of that section
+        m = re.match(r'<h2>(\d+)\.\s*(.*?)</h2>(.*)$', chunk, re.S)
+        if not m:
+            out.append(chunk)             # not a numbered question — leave alone
+            continue
+        num, qtext, answer = m.group(1), m.group(2), m.group(3)
+        n += 1
+        answer = answer.replace('<hr />', '').replace('<hr>', '')
+        out.append(
+            '<details class="qa" id="q{num}">'
+            '<summary><span class="qnum">{num}</span>'
+            '<span class="qtext">{q}</span></summary>'
+            '<div class="qbody">{a}</div></details>'.format(num=num, q=qtext, a=answer))
+    if not n:
+        return body
+    controls = (
+        '<div class="qacontrols" data-count="{n}">'
+        '<button type="button" class="qabtn" data-qa="open">Expand all</button>'
+        '<button type="button" class="qabtn" data-qa="close">Collapse all</button>'
+        '<span class="tiny muted qahint">{n} questions &middot; click any question to read the answer</span>'
+        '</div>').format(n=n)
+    # controls go directly above the first question
+    joined = ''.join(out)
+    return joined.replace('<details class="qa"', controls + '<details class="qa"', 1)
+
+
+def build_prose_page(fname, title, h1, lede, cur, extra_note='', transform=None):
+    body = prose(fname)
+    if transform:
+        body = transform(body)
     return head(title, lede[:180], cur) + f'''
 <section style="margin-top:44px;">
   <h1>{h1}</h1>
@@ -887,7 +931,7 @@ def build_prose_page(fname, title, h1, lede, cur, extra_note=''):
   {extra_note}
 </section>
 <section class="prose wrap-read" style="margin-top:32px;">
-{prose(fname)}
+{body}
 </section>
 ''' + foot()
 
@@ -951,7 +995,8 @@ write('questions.html', build_prose_page(
     'only what sources say, attributed. Here it reasons and answers directly. Evidence is named and linked; '
     'where the record cannot settle a question that is stated. If this page and the record pages ever disagree, '
     'the record pages are authoritative. It does not speculate about the intentions of the three men charged on '
-    '28 July, who have not been tried.</p></div>'))
+    '28 July, who have not been tried.</p></div>',
+    transform=collapsible_qa))
 
 write('changelog.html', build_prose_page(
     'changelog.md',
