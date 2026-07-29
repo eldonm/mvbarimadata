@@ -305,12 +305,17 @@
     var items = Array.prototype.slice.call(document.querySelectorAll('details.qa'));
     if (!items.length) return;
 
+    var nested = Array.prototype.slice.call(document.querySelectorAll('details.qmore'));
+
     var controls = document.querySelector('.qacontrols');
     if (controls) {
       controls.addEventListener('click', function (e) {
         var mode = e.target && e.target.getAttribute && e.target.getAttribute('data-qa');
         if (!mode) return;
+        /* Expand all means everything, including the working behind each
+           "Keep reading". Collapse all closes both levels. */
         items.forEach(function (d) { d.open = mode === 'open'; });
+        nested.forEach(function (d) { d.open = mode === 'open'; });
       });
     }
 
@@ -338,14 +343,15 @@
     });
 
     /* Print the whole page, not just what happens to be open. */
+    var all = items.concat(nested);
     var wasOpen = null;
     window.addEventListener('beforeprint', function () {
-      wasOpen = items.map(function (d) { return d.open; });
-      items.forEach(function (d) { d.open = true; });
+      wasOpen = all.map(function (d) { return d.open; });
+      all.forEach(function (d) { d.open = true; });
     });
     window.addEventListener('afterprint', function () {
       if (!wasOpen) return;
-      items.forEach(function (d, i) { d.open = wasOpen[i]; });
+      all.forEach(function (d, i) { d.open = wasOpen[i]; });
       wasOpen = null;
     });
   }

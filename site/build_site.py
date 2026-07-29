@@ -1048,10 +1048,86 @@ CHART_TOLL = '''
 </details>
 '''
 
+# Scale: day 0 at x=52, one day = 33px, so day 11 sits at x=415 and the labels
+# to its right stay inside the 480 frame.
+CHART_INQUIRY = '''
+<div class="chart bars">
+<svg viewBox="0 0 480 158" role="img" aria-labelledby="qa4t qa4d">
+  <title id="qa4t">Days from the sinking to each step toward an investigation</title>
+  <desc id="qa4d">After the Estonia sank, three states established a joint investigation commission the
+  next day. After the MV Barima sank, an inquiry was committed to on day four, announced on day
+  seven and its members named on day eight; criminal charges were laid on day ten; the establishing
+  instrument was still not gazetted at the end of the period this archive covers.</desc>
+
+  <line x1="52" y1="30" x2="415" y2="30" stroke="var(--grid)" stroke-width="1"/>
+  <text x="52" y="14" font-size="8.5" fill="var(--muted)">day 0</text>
+  <text x="184" y="14" font-size="8.5" fill="var(--muted)">day 4</text>
+  <text x="283" y="14" font-size="8.5" fill="var(--muted)">day 7</text>
+  <text x="382" y="14" font-size="8.5" fill="var(--muted)">day 10</text>
+  <line x1="52" y1="20" x2="52" y2="26" stroke="var(--border)" stroke-width="1"/>
+  <line x1="184" y1="20" x2="184" y2="26" stroke="var(--border)" stroke-width="1"/>
+  <line x1="283" y1="20" x2="283" y2="26" stroke="var(--border)" stroke-width="1"/>
+  <line x1="382" y1="20" x2="382" y2="26" stroke="var(--border)" stroke-width="1"/>
+
+  <text x="0" y="52" font-size="9.5" font-weight="680" fill="var(--ink)">MV Barima, 2026</text>
+  <line x1="52" y1="66" x2="415" y2="66" stroke="var(--s1l)" stroke-width="3"/>
+  <circle class="mark" cx="52" cy="66" r="6" fill="var(--ink2)"
+          data-label="Day 0, 18 July" data-value="0" data-unit="the vessel sinks" data-var="--ink2"/>
+  <circle class="mark" cx="184" cy="66" r="6" fill="var(--s1)"
+          data-label="Day 4, 22 July" data-value="4" data-unit="days" data-var="--s1"
+          data-note="Prime Minister commits to an inquiry, no timeline given"/>
+  <circle class="mark" cx="283" cy="66" r="6" fill="var(--s1)"
+          data-label="Day 7, 25 July" data-value="7" data-unit="days" data-var="--s1"
+          data-note="President announces the Commission"/>
+  <circle class="mark" cx="316" cy="66" r="6" fill="var(--s1)"
+          data-label="Day 8, 26 July" data-value="8" data-unit="days" data-var="--s1"
+          data-note="Five commissioners named"/>
+  <circle class="mark" cx="382" cy="66" r="6" fill="var(--s2)"
+          data-label="Day 10, 28 July" data-value="10" data-unit="days" data-var="--s2"
+          data-note="Three operator employees charged, before the inquiry is constituted"/>
+  <text x="52" y="86" font-size="8.5" fill="var(--ink2)">sinks</text>
+  <text x="168" y="86" font-size="8.5" fill="var(--ink2)">committed to</text>
+  <text x="262" y="86" font-size="8.5" fill="var(--ink2)">announced</text>
+  <text x="300" y="98" font-size="8.5" fill="var(--ink2)">members named</text>
+  <text x="366" y="86" font-size="8.5" font-weight="640" fill="var(--s2)">charges</text>
+  <text x="415" y="70" font-size="14" font-weight="700" fill="var(--ink2)">&rarr;</text>
+  <text x="330" y="116" font-size="8.5" font-weight="640" fill="var(--muted)">still not gazetted</text>
+
+  <text x="0" y="136" font-size="9.5" font-weight="680" fill="var(--ink)">MV Estonia, 1994</text>
+  <circle class="mark" cx="52" cy="150" r="6" fill="var(--ink2)"
+          data-label="Day 0, 28 September 1994" data-value="0" data-unit="the vessel sinks" data-var="--ink2"/>
+  <circle class="mark" cx="85" cy="150" r="6" fill="var(--s3)"
+          data-label="Day 1, 29 September 1994" data-value="1" data-unit="day" data-var="--s3"
+          data-note="Estonia, Finland and Sweden establish a joint investigation commission"/>
+  <line x1="52" y1="150" x2="85" y2="150" stroke="var(--s3)" stroke-width="3"/>
+  <text x="97" y="154" font-size="8.5" fill="var(--ink2)">joint commission of three states established the next day</text>
+</svg>
+</div>
+<div class="legend">
+  <div class="lg"><span class="lgk" style="background:var(--s1)"></span>Steps toward the inquiry</div>
+  <div class="lg"><span class="lgk" style="background:var(--s2)"></span>Criminal charges</div>
+  <div class="lg"><span class="lgk" style="background:var(--s3)"></span>Estonia comparison</div>
+</div>
+<details class="tableview"><summary>Table view</summary>
+<div class="scrollx"><table>
+<caption>Days from the sinking to each step</caption>
+<tr><th>Day</th><th>Date</th><th>Step</th></tr>
+<tr><td class="n">0</td><td>18 July</td><td>The MV Barima sinks</td></tr>
+<tr><td class="n">4</td><td>22 July</td><td>Prime Minister commits to a Commission of Inquiry; declines to give a timeline</td></tr>
+<tr><td class="n">7</td><td>25 July</td><td>President announces an independent international Commission</td></tr>
+<tr><td class="n">8</td><td>26 July</td><td>Five commissioners named; instruments &quot;being formalised&quot;</td></tr>
+<tr><td class="n">10</td><td>28 July</td><td>Three operator employees charged with murder; the Commission is not yet constituted</td></tr>
+<tr><td>&mdash;</td><td>&mdash;</td><td>No gazetted instrument, secretary, deadline or budget appears in this archive</td></tr>
+<tr><td class="n">1</td><td>29 Sept 1994</td><td><em>Separate case, for comparison:</em> Estonia, Finland and Sweden establish a joint commission the day after the MV Estonia sinks</td></tr>
+</table></div>
+</details>
+'''
+
 QUESTION_CHARTS = {
     'CHART_ACTIONS': CHART_ACTIONS,
     'CHART_LOAD':    CHART_LOAD,
     'CHART_TOLL':    CHART_TOLL,
+    'CHART_INQUIRY': CHART_INQUIRY,
 }
 
 
@@ -1062,7 +1138,7 @@ def inject_charts(body):
     and the build asserts none survive."""
     for key, svg in QUESTION_CHARTS.items():
         body = body.replace('<p>{{%s}}</p>' % key, svg).replace('{{%s}}' % key, svg)
-    left = re.findall(r'\{\{[A-Z_]+\}\}', body)
+    left = [t for t in re.findall(r'\{\{[A-Z_]+\}\}', body) if t != '{{MORE}}']
     if left:
         raise SystemExit('unreplaced chart tokens: %s' % left)
     return body
@@ -1091,6 +1167,17 @@ def collapsible_qa(body):
         num, qtext, answer = m.group(1), m.group(2), m.group(3)
         n += 1
         answer = answer.replace('<hr />', '').replace('<hr>', '')
+        # A {{MORE}} marker splits the answer: everything above it is the short
+        # answer and shows as soon as the question is opened; everything below
+        # goes behind a second disclosure, so a reader gets the answer first and
+        # the working only if they want it.
+        parts2 = re.split(r'<p>\{\{MORE\}\}</p>|\{\{MORE\}\}', answer, maxsplit=1)
+        if len(parts2) == 2:
+            short, rest = parts2
+            answer = (
+                '<div class="qshort">{s}</div>'
+                '<details class="qmore"><summary>Keep reading</summary>'
+                '<div class="qmorebody">{r}</div></details>').format(s=short, r=rest)
         out.append(
             '<details class="qa" id="q{num}">'
             '<summary><span class="qnum">{num}</span>'
@@ -1102,7 +1189,7 @@ def collapsible_qa(body):
         '<div class="qacontrols" data-count="{n}">'
         '<button type="button" class="qabtn" data-qa="open">Expand all</button>'
         '<button type="button" class="qabtn" data-qa="close">Collapse all</button>'
-        '<span class="tiny muted qahint">{n} questions &middot; click any question to read the answer</span>'
+        '<span class="tiny muted qahint">{n} questions &middot; click a question for the short answer</span>'
         '</div>').format(n=n)
     # controls go directly above the first question
     joined = ''.join(out)
@@ -1177,15 +1264,16 @@ write('questions.html', build_prose_page(
     'questions.md',
     'Questions of the record — MV Barima documented record',
     'Questions of the record',
-    'Five questions about the MV Barima disaster, answered plainly from the 209 documents this '
-    'archive holds — including what the record cannot settle.',
+    'Questions about the MV Barima disaster, answered from the 209 documents in this archive. '
+    'Anyone can send a question in.',
     'questions.html',
-    '<div class="note warn"><h4>This page answers; the rest of the site reports</h4><p>Everywhere '
-    'else this archive only sets out what published sources said, attributed. Here it answers '
-    'directly. Evidence is named; where the record cannot settle something, that is the answer '
-    'given. If this page and the record pages disagree, the record pages are right. Question five '
-    'draws on international instruments held outside the archive, and says so. Nothing here bears '
-    'on the guilt of the three men charged on 28 July, who have not been tried.</p></div>',
+    '<div class="note warn"><h4>These answers are written by AI, over the whole archive</h4><p>'
+    'Everywhere else this site only sets out what published sources said, attributed. Here the '
+    'question is answered directly, by AI reasoning across all 209 documents. Evidence is named; '
+    'where the record cannot settle something, that is the answer given. If this page and the '
+    'record pages disagree, the record pages are right. Question five also draws on international '
+    'instruments held outside the archive, and says so. Nothing here bears on the guilt of the '
+    'three men charged on 28 July, who have not been tried.</p></div>',
     transform=lambda b: collapsible_qa(inject_charts(b))))
 
 write('changelog.html', build_prose_page(

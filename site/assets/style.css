@@ -341,3 +341,28 @@ details.qa:target > summary { color:var(--s1); }
 @media (max-width:520px) {
   .brand span { display:none; }
 }
+
+/* ---------- two-level answers ----------
+   Opening a question shows the short answer immediately; the working sits
+   behind a second native disclosure. Nested <details> needs no script. */
+.qshort { font-size:17px; line-height:1.6; }
+.qshort > *:first-child { margin-top:0; }
+.qshort > *:last-child { margin-bottom:0; }
+details.qmore { margin:18px 0 0; }
+details.qmore > summary {
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer; list-style:none;
+  font-size:13.5px; font-weight:640; color:var(--ink2);
+  background:var(--surface); border:1px solid var(--border); border-radius:6px;
+  padding:7px 13px; }
+details.qmore > summary::-webkit-details-marker { display:none; }
+details.qmore > summary::after {
+  content:''; width:7px; height:7px; border-right:2px solid currentColor;
+  border-bottom:2px solid currentColor; transform:translateY(-2px) rotate(45deg);
+  transition:transform .18s ease; }
+details.qmore[open] > summary::after { transform:translateY(1px) rotate(-135deg); }
+details.qmore > summary:hover { color:var(--ink); border-color:var(--ink2); }
+details.qmore > summary:focus-visible { outline:2px solid var(--s1); outline-offset:2px; }
+details.qmore[open] > summary { margin-bottom:4px; }
+.qmorebody { padding-top:10px; }
+.qmorebody > *:first-child { margin-top:0; }
+@media print { details.qmore > summary { display:none; } }

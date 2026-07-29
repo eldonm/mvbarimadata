@@ -20,7 +20,7 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Corrections.** If something here is wrong, it should be fixed and the fix logged. Every correction made so far is on the [revisions page](changelog.html), including the ones that withdrew claims this archive had published. Write with "Correction" in the subject line.
 
-**Questions.** The [questions page](questions.html) carries analysis by this archive rather than sourced record — reasoning over the documents to answer questions directly. Questions from readers are welcome and will be answered there on the same terms: evidence named, limits stated. A question the archive cannot answer will be published as such, because it is itself a finding about what is missing. Write with "Question" in the subject line.
+**Questions.** The [questions page](questions.html) is open to anyone. Send a question about the disaster and it will be answered there by AI reading across the whole corpus, on the same terms as everything else here: evidence named, limits stated, and the short answer first. That page is analysis rather than sourced record, and it says so at the top. A question the archive cannot answer will be published as such, because what the record cannot answer is itself a finding. Write with "Question" in the subject line.
 
 > **A contact address has not yet been published.** Until one appears here, neither route above is usable, and it would be dishonest to invite correspondence without saying so. This note will be replaced by the address.
 
