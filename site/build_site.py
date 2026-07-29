@@ -6,7 +6,7 @@ quotations only. Full article text is NOT republished — every source page link
 out to the publisher. Official/state documents are treated the same way here for
 consistency of presentation.
 """
-import glob, json, os, re, html, shutil, collections
+import glob, json, os, re, sys, html, shutil, collections
 import yaml
 import markdown as md
 
@@ -14,6 +14,9 @@ ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
 BUILT   = 'Sunday 26 July 2026, last revised Wednesday 29 July 2026'
+# Absolute origin, needed for Open Graph — social crawlers will not resolve a
+# relative image or URL. Change this one line if the site moves domain.
+SITE_URL = 'https://mvbarimadata.pages.dev'
 
 # ---------------------------------------------------------------- parse archive
 def parse_front(path):
@@ -198,8 +201,11 @@ THEME_ICON = (
     'M4.5 4.5l1.35 1.35M14.15 14.15l1.35 1.35M15.5 4.5l-1.35 1.35M5.85 14.15L4.5 15.5"/></g></svg>')
 
 
-def head(title, desc, cur, depth=0):
+def head(title, desc, cur, depth=0, path=None):
     p = '../' * depth
+    # `cur` drives which nav item is highlighted; `path` is where the page
+    # actually lives. They differ for source pages, which highlight Documents.
+    path = path or cur
 
     def row(items):
         return ''.join('<a href="{}{}"{}>{}</a>'.format(
@@ -207,6 +213,8 @@ def head(title, desc, cur, depth=0):
 
     nav_primary = row(NAV_PRIMARY)
     nav_utility = row(NAV_UTILITY)
+    # Source pages share one card; every top-level page has its own.
+    ogcard = cur[:-5] if (not depth and cur.endswith('.html')) else 'source'
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -215,9 +223,23 @@ def head(title, desc, cur, depth=0):
 <title>{title}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="index,follow">
+<link rel="canonical" href="{SITE_URL}/{path}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{'article' if depth else 'website'}">
+<meta property="og:site_name" content="MV Barima — documented record">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="{SITE_URL}/{path}">
+<meta property="og:image" content="{SITE_URL}/assets/og/{ogcard}.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(title)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{SITE_URL}/assets/og/{ogcard}.png">
+<meta name="twitter:image:alt" content="{esc(title)}">
 <link rel="stylesheet" href="{p}assets/style.css">
 <script src="{p}assets/site.js" defer></script>
 </head>
@@ -992,7 +1014,8 @@ def build_source_page(r):
         extra += f'<h3>Figures cited in this source</h3><p>{E(r["figures"])}</p>'
 
     desc = (r['summary'] or r['title'])[:180]
-    return head(f'{r["title"]} — {r["outlet"]} | MV Barima archive', desc, 'sources.html', depth=1) + f'''
+    return head(f'{r["title"]} — {r["outlet"]} | MV Barima archive', desc, 'sources.html', depth=1,
+                path=f'sources/{r["slug"]}.html') + f'''
 <p class="crumb"><a href="../sources.html">&larr; All {len(records)} documents</a></p>
 <article>
   <div class="badgerow" style="margin-bottom:12px;">
@@ -1426,6 +1449,60 @@ def build_prose_page(fname, title, h1, lede, cur, extra_note='', transform=None)
 {body}
 </section>
 ''' + foot()
+
+# ------------------------------------------------------------------ og cards --
+# One card per top-level page plus a shared one for the 209 source pages. Titles
+# and subtext are written for the crop: a social preview is read at a glance and
+# at a fraction of full size, so each card says what the page is and one true
+# thing about it, and nothing that needs squinting at.
+OG_CARDS = [
+    ('index',     'Guyana &middot; 18 July 2026',
+     'MV Barima: the documented record',
+     '179 aboard. 73 recovered. About 30 unaccounted for. What {n} published documents record about '
+     'the sinking of 18 July 2026 — attributed, dated, and checkable.'),
+    ('timeline',  'Chronology, 1936&ndash;2026',
+     'Chronology',
+     'From the Clyde shipyard that built her in 1939 to the charges laid ten days after she sank. '
+     'Every entry attributed; where sources conflict, both versions are given.'),
+    ('facts',     'The figures, source by source',
+     'The figures, source by source',
+     'The complement, the recovery figures and the vessel’s stated capacity all moved. Who stated '
+     'each figure, when, and on what basis — including the ones with no document behind them.'),
+    ('positions', 'Positions and proposals',
+     'What each party has said',
+     'Government, opposition, civil society and named commentators — attributed and dated, with no '
+     'assessment by this archive of who is right.'),
+    ('questions', 'Answered by AI over the whole archive',
+     'Questions of the record',
+     'Who is accountable. Whether the boat was overloaded. How many actually died. Plain answers '
+     'from {n} documents, with the reasoning shown and the limits stated.'),
+    ('sources',   '{n} documents, browsable',
+     'Every document in the archive',
+     'Filter {n} published documents by outlet, kind and period. Each one carries its publisher, '
+     'date, key claims and a link to the original.'),
+    ('about',     'Method, gaps and corrections',
+     'How this was built, and what is missing',
+     'How the corpus was assembled, what could not be retrieved, what this archive got wrong, and '
+     'the documents that would settle the questions it cannot.'),
+    ('changelog', 'Every revision, logged',
+     'Revisions',
+     'Every change to this site since it was first built, newest first — including the claims this '
+     'archive published and later had to withdraw.'),
+    ('ask',       'Open to anyone',
+     'Ask a question',
+     'Send a question about the disaster and it will be answered from the documents this archive '
+     'holds. If the record cannot answer it, that is published too.'),
+    ('source',    'One document in the archive',
+     'A document in the record',
+     'A research summary of one published document — its publisher, date, key claims and a link to '
+     'the original. The full text is not republished.'),
+]
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import make_og
+_cards = [(slug, k.format(n=len(records)), t, d.format(n=len(records)))
+          for slug, k, t, d in OG_CARDS]
+print('og cards:', len(make_og.build(_cards, len(records), BUILT.split(',')[0])))
 
 # ---------------------------------------------------------------------- build
 os.makedirs(OUT, exist_ok=True)

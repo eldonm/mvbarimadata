@@ -126,6 +126,12 @@ The heavy rule earns its place under the masthead, where it separates the identi
 
 The research, retrieval, cross-checking and reasoning behind this archive were carried out with **Claude Opus 5**, Anthropic's frontier model. That is now said on the [method page](about.html), in the footer of every page, and on the questions page itself, rather than being left for a reader to infer. The model is a tool; the sources remain the authority, and every claim on the record pages is traceable to a named published document.
 
+### Shared links now carry a card
+
+Every page has Open Graph and Twitter card metadata and its own 1200&times;630 image, so a link posted to a social platform, a group chat or a messaging app shows the page's title, one line of what it contains, and the archive's masthead — rather than a bare URL or whatever image a crawler happened to find first.
+
+The cards are rendered at build time in the same browser the site is tested in, so the type on a card is the type on the page. Each carries the page title, a line of subtext written for the crop, and a footing line giving the document count and the compile date. The 209 source pages share one card and each carries its own canonical URL, title and description.
+
 ### Record-page corrections found along the way
 
 **Two dates were wrong.** The complement figure of 179 was dated to 21 July. It was published on 20 July and restated by the Prime Minister on 21 July. And the tightening of ferry safety procedures was dated to 25 July, which is when the Jamaica Observer carried it; the DPI release and the Prime Minister's interview are both dated 24 July.
