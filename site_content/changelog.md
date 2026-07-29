@@ -106,6 +106,26 @@ These blocks were then attacked harder than anything else on the site, because i
 
 **The reasoning leaned one way through under-supported steps, and that has been corrected.** All five blocks landed on the state's capital and regulatory layer. Some of that is the evidence — the archive genuinely records no formal action of any kind above the operator. But in three of the five the landing was reached through a step that did not hold. Three counter-arguments that were available in the corpus and had not been made are now made: MARAD's stability argument, which is the only technical causal argument in the corpus and points at the vessel; the Associated Press finding that unmanifested cash ticketing was a practice of decades' standing at state terminals; and the government's own 2025 admission about the department. A claim that Guyana's administration must already have the capability to investigate to the international standard has been withdrawn, because the archive contains no record of it ever doing so.
 
+### A submission route that works, and the contact-address problem is solved
+
+The invitation to send a question was published before there was any way to accept one. There is now an [ask a question](ask.html) page carrying a form, which delivers by email through Web3Forms. It takes three kinds of submission: a question for the questions page, a correction to something on this site, and a document the archive is missing.
+
+No email address is published anywhere on the site, which keeps it out of reach of address harvesters. The form is the contact route, and the note on the method page saying no address existed has come down.
+
+Name and email on the form are optional, and neither is published unless the sender asks for it. The form works with JavaScript switched off — it falls back to the provider's own confirmation page, which the page says out loud rather than leaving as a surprise.
+
+### The short answers now carry the reasoning too
+
+Each question opened with the short answer and hid the reasoned view behind "keep reading," which put the archive's actual conclusion two clicks from the reader. Every question now shows a one-paragraph distillation of its reasoned view alongside the short answer, marked with the same section sign as the full block so the two read as the same voice.
+
+### The rules were dialled back
+
+The heavy rule earns its place under the masthead, where it separates the identity of the site from its contents. Repeated down the page — under every section heading, above the footer, around every panel — it stopped signalling anything. Everything below the masthead is now a hairline or a mid weight, and the labels carry the hierarchy instead.
+
+### The tooling is now stated on the site
+
+The research, retrieval, cross-checking and reasoning behind this archive were carried out with **Claude Opus 5**, Anthropic's frontier model. That is now said on the [method page](about.html), in the footer of every page, and on the questions page itself, rather than being left for a reader to infer. The model is a tool; the sources remain the authority, and every claim on the record pages is traceable to a named published document.
+
 ### Record-page corrections found along the way
 
 **Two dates were wrong.** The complement figure of 179 was dated to 21 July. It was published on 20 July and restated by the Prime Minister on 21 July. And the tightening of ferry safety procedures was dated to 25 July, which is when the Jamaica Observer carried it; the DPI release and the Prime Minister's interview are both dated 24 July.

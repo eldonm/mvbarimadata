@@ -6,6 +6,8 @@ Compiled 26 July 2026, last revised 29 July 2026. Read this before relying on th
 
 ## Method
 
+**Tooling.** The research, the retrieval, the cross-checking and the reasoning on this site were carried out with **Claude Opus 5**, Anthropic's frontier model, working over the corpus described below. Every claim is nonetheless traceable to a named published document, and the adversarial checks that found and corrected this archive's own errors are logged on the [revisions page](changelog.html). The model is a tool; the sources are the authority.
+
 Five parallel research streams were run against the open web, plus a sixth gap-recovery pass: Guyanese domestic press; official and state sources; international wires and regional press; vessel and institutional history; aftermath, accountability and public debate; and finally the Commission of Inquiry cluster and press-capacity context. Each source was retrieved individually and written to `archive/` as a markdown file with metadata frontmatter recording outlet, author, publication date, URL, retrieval date, tier, stream, genre, casualty figures cited, and extracted key claims.
 
 The corpus was then deduplicated by canonical URL, keeping the fullest capture in each case. Ten superseded duplicates were moved to `_superseded/` rather than deleted, so nothing is lost. Two files had been misfiled as official primary sources when they were in fact press reports of official statements; the correctly attributed versions were kept.
@@ -18,11 +20,11 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 ## Corrections and questions
 
-**Corrections.** If something here is wrong, it should be fixed and the fix logged. Every correction made so far is on the [revisions page](changelog.html), including the ones that withdrew claims this archive had published. Write with "Correction" in the subject line.
+**Corrections.** If something here is wrong, it should be fixed and the fix logged. Every correction made so far is on the [revisions page](changelog.html), including the ones that withdrew claims this archive had published. [Send a correction](ask.html) — and if you hold the document, send that.
 
-**Questions.** The [questions page](questions.html) is open to anyone. Send a question about the disaster and it will be answered there by AI reading across the whole corpus, on the same terms as everything else here: evidence named, limits stated, and the short answer first. That page is analysis rather than sourced record, and it says so at the top. A question the archive cannot answer will be published as such, because what the record cannot answer is itself a finding. Write with "Question" in the subject line.
+**Questions.** The [questions page](questions.html) is open to anyone. [Send a question](ask.html) and it will be answered there by Claude Opus 5 reading across the whole corpus, on the same terms as everything else here: evidence named, limits stated, and the short answer first. That page is analysis rather than sourced record, and it says so at the top. A question the archive cannot answer will be published as such, because what the record cannot answer is itself a finding.
 
-> **A contact address has not yet been published.** Until one appears here, neither route above is usable, and it would be dishonest to invite correspondence without saying so. This note will be replaced by the address.
+Both routes go through the same form, which delivers by email. No address is published on this site, which keeps it out of reach of address harvesters; the form is the contact route.
 
 ---
 

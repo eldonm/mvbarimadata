@@ -4,7 +4,7 @@ This page answers questions about the MV Barima disaster. Anyone can send one in
 
 The [chronology](timeline.html), [figures](facts.html) and [positions](positions.html) pages hold the record these answers are drawn from. Three men were charged with murder on 28 July and have not been tried; this page does not speculate about their guilt, and does not suggest they are being blamed for someone else's decisions. That is for the court and the inquiry.
 
-**To send a question,** use the contact route on the [method and gaps](about.html) page with "Question" in the subject line. Every question gets published with its answer. A question the archive cannot answer gets published too, saying so — because what the record cannot answer is itself worth knowing.
+**[Send a question](ask.html).** Anyone can. Every question gets published with its answer, and a question the archive cannot answer gets published too, saying so — because what the record cannot answer is itself worth knowing. The same form takes corrections, and documents the archive is missing.
 
 ---
 
@@ -14,6 +14,12 @@ The [chronology](timeline.html), [figures](facts.html) and [positions](positions
 
 **Institutionally, three bodies are answerable**: the Transport & Harbours Department, which operated the vessel; MARAD, which regulates and certificates it; and the Ministry of Public Works, which owns the fleet and holds the budget. In this archive, formal action of any kind has been taken only at the first.
 
+
+{{GIST}}
+
+The record cannot name who is at fault, but it can locate the layers. What happened in the loading bay and the wheelhouse on 18 July is for the court. Why that vessel was the only one on the route is a capital and procurement question, and it is the layer against which no formal action of any kind appears. That does not clear the operator — the government's own 2025 finding of "longstanding issues of negligence, mismanagement, and accountability" at the department speaks against it.
+
+{{/GIST}}
 {{MORE}}
 
 **What has actually happened to people so far.**
@@ -68,6 +74,12 @@ What would change this view: the Transport and Harbours Act and the department's
 
 **Guyana is not in breach of a treaty** — none of the major conventions reach a domestic ferry. Measured against the sequence itself, four things stand out: the criminal charges came before the inquiry was constituted, the inquiry still has no gazetted instrument or deadline, no commitment to publish its report appears anywhere in this archive, and it is not established that the wreck will be examined before any decision is taken to leave it.
 
+
+{{GIST}}
+
+No treaty was broken, and that is the weaker half of the answer. The stronger half is that where no external standard reaches, someone still sets the domestic one — so the standard becomes locatable rather than inherited. Whether Guyana's administration could have applied the international standard to a domestic route is not established here in either direction, and those two possibilities call for opposite remedies.
+
+{{/GIST}}
 {{MORE}}
 
 <div class="note"><h4>This answer uses sources from outside the archive</h4><p>Every other answer on this site reasons only over the 209 documents the archive holds. This one reaches outside them, to the international instruments that set the standard. Each is named and linked so you can check it yourself.</p></div>
@@ -152,6 +164,12 @@ What would change this view: the text of Guyana's Shipping Act and its subsidiar
 
 **Two of the three were documented before 18 July**, in public and largely on the government's own record. The passenger gap was not: it emerged afterwards, from CCTV.
 
+
+{{GIST}}
+
+Of the four measures usually described as things that could have prevented this, two would actually have done so and two would not. And the deeper pattern is not about any of them: the question of whether this vessel should still be carrying passengers was asked repeatedly from outside — in 2010, in 2015, and by the Amerindian Peoples Association over a period of years — and no body inside the operator, the regulator or the ministry is recorded answering it.
+
+{{/GIST}}
 {{MORE}}
 
 **It was the only vessel on the route.** A replacement, the *MV Ma Lisha*, was contracted in January 2021 for about US$12.7m and delivered in 2023. It was too big for Port Kaituma, so the wharf had to be rebuilt. That contract went out in December 2022 at G$1.4bn. In February 2024 the work stopped at about ninety per cent complete after cracks appeared and, as reported, the design was found deficient. It was still unfinished when the ferry sank two and a half years later. So the *Ma Lisha* served other Region One ports and the 87-year-old *Barima* kept the Port Kaituma run. The Prime Minister said so on 25 July: "The delay has contributed to us not being able to use the MV Ma Lisha to journey from Georgetown to Port Kaituma."
@@ -208,6 +226,12 @@ What would change this view: any document showing an official at any of the thre
 
 **No certificate settling the point appears in any of the 209 documents**, and MARAD's Director-General said he did not have the basis for the vessel's rating. MARAD says it was not overloaded. A survivor describes cargo boxes stacked at the rear. Neither account can be checked here.
 
+
+{{GIST}}
+
+Whether the certificate exists or does not, the same thing follows: the system could not state the vessel's permitted load consistently, and the people responsible gave three different figures in six days. Separately, the load-line finding — even taken entirely at face value — answers a question about draught, not the question about stowage and stability that a survivor account actually raises.
+
+{{/GIST}}
 {{MORE}}
 
 {{CHART_LOAD}}
@@ -246,6 +270,12 @@ What would change this view: production of the certificate, or a statement from 
 
 **No government statement in this archive gives a death toll.** Official releases report bodies recovered and stop there. The 103 has never appeared in one.
 
+
+{{GIST}}
+
+The missing death toll does not need a motive to explain it, and this archive does not supply one. What does need explaining is the combination: two decisions that are each defensible alone — do not publish a toll, leave the vessel where it is — produce roughly thirty families with neither a body nor a death certificate, and no stated process for obtaining either.
+
+{{/GIST}}
 {{MORE}}
 
 {{CHART_TOLL}}

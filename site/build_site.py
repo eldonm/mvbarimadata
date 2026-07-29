@@ -252,8 +252,11 @@ FOOT_T = '''</main>
       political party, or any news organisation.</p>
       <p>Compiled {built}. The Commission of Inquiry&rsquo;s members were named on 26 July 2026, its establishing instrument was not
       yet gazetted, and figures were still moving. Read <a href="{p}about.html">Method &amp; gaps</a> before citing anything here.</p>
-      <p>This site records what the sources say and who said it. It does not advance an explanation of the
-      cause, and it makes no recommendation.</p>
+      <p>This site records what the sources say and who said it. Outside the questions page it does not
+      advance an explanation of the cause, and it makes no recommendation.</p>
+      <p class="tiny">Research, retrieval, cross-checking and reasoning carried out with
+      <strong>Claude Opus 5</strong>, Anthropic&rsquo;s frontier model. Every claim is traceable to a named
+      published document; corrections are logged on the <a href="{p}changelog.html">revisions page</a>.</p>
     </div>
     <div>
       <h4>Navigate</h4>
@@ -265,6 +268,7 @@ FOOT_T = '''</main>
         <li><a href="{p}sources.html">All {n} documents</a></li>
         <li><a href="{p}about.html">Method, gaps and corrections</a></li>
         <li><a href="{p}changelog.html">Revisions</a></li>
+        <li><a href="{p}ask.html">Ask a question</a></li>
       </ul>
     </div>
     <div>
@@ -546,12 +550,99 @@ def questions_panel():
     <p class="wrap-read muted" style="margin-bottom:18px">The rest of this site reports only what published
     sources said, attributed. On one page the archive answers directly, reading across all {n} documents:
     the short answer first, the working underneath, and a plain statement wherever the record cannot settle
-    the question. <strong>Anyone can send a question in.</strong></p>
+    the question. <a href="ask.html"><strong>Anyone can send a question in.</strong></a></p>
     <ul class="qlinks">{links}</ul>
-    <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a></p>
+    <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a><a class="ghost" href="ask.html">Ask a question</a></p>
   </div>
 </section>
 '''.format(links=links, n=len(records))
+
+# The submission route. Web3Forms handles delivery; the access key below is a
+# public client-side key by design (their dashboard says so explicitly), so it
+# lives in the built HTML like any other form action. No secret is exposed.
+WEB3FORMS_KEY = 'bf6a5eff-c197-4aa4-842c-8949b80a5ca2'
+
+
+def build_ask():
+    return head('Ask a question — MV Barima documented record',
+                'Send a question about the MV Barima disaster. It will be answered from the '
+                'documents this archive holds, and published with its answer.',
+                'ask.html') + f'''
+<section style="margin-top:44px;">
+  <p class="eyebrow">Open to anyone</p>
+  <h1>Ask a question</h1>
+  <p class="lede wrap-read">Send a question about the <em>MV Barima</em> disaster and it will be answered on the
+  <a href="questions.html">questions page</a>, from the {len(records)} documents this archive holds. If the record
+  cannot answer it, that is published too &mdash; what the record cannot answer is itself worth knowing.</p>
+</section>
+
+<section>
+  <div class="grid" style="grid-template-columns:minmax(0,1.15fr) minmax(0,0.85fr); gap:34px; align-items:start;">
+    <div class="card">
+      <form class="askform" id="askform" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="{WEB3FORMS_KEY}">
+        <input type="hidden" name="from_name" value="MV Barima archive">
+        <input type="hidden" name="subject" value="MV Barima archive — new submission">
+        <!-- Web3Forms honeypot: a real person never fills this in. -->
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+
+        <div class="ffield">
+          <label for="ask-type">This is a</label>
+          <select id="ask-type" name="Type" required>
+            <option value="Question">Question &mdash; something you want the archive to answer</option>
+            <option value="Correction">Correction &mdash; something on this site is wrong</option>
+            <option value="Document">A document the archive is missing</option>
+          </select>
+        </div>
+
+        <div class="ffield">
+          <label for="ask-msg">Your question, in your own words</label>
+          <textarea id="ask-msg" name="Message" rows="7" required
+            placeholder="Be as specific as you like. Questions that name a date, a figure or a document are the easiest to answer well."></textarea>
+        </div>
+
+        <div class="frow">
+          <div class="ffield">
+            <label for="ask-name">Name <span class="opt">optional</span></label>
+            <input id="ask-name" name="Name" type="text" autocomplete="name">
+          </div>
+          <div class="ffield">
+            <label for="ask-email">Email <span class="opt">optional</span></label>
+            <input id="ask-email" name="Email" type="email" autocomplete="email">
+          </div>
+        </div>
+        <p class="tiny muted" style="margin:-4px 0 18px">An address is only needed if you want a reply. Neither your
+        name nor your address is published unless you ask for it.</p>
+
+        <button class="origin" type="submit">Send it</button>
+        <p class="askstatus" id="askstatus" role="status" aria-live="polite"></p>
+        <noscript><p class="tiny muted" style="margin-top:12px">With JavaScript off, sending will take you to a
+        confirmation page on web3forms.com. That is expected.</p></noscript>
+      </form>
+    </div>
+
+    <div>
+      <h2 style="margin-top:0">What happens next</h2>
+      <p class="small muted">Every question is answered on the questions page, with the evidence named and the limits
+      stated. The answer is written by Claude Opus 5 reading across the whole corpus, and it is checked before it is
+      published &mdash; against the documents, and adversarially, which is how this archive has caught and corrected
+      its own errors. Those corrections are logged on the <a href="changelog.html">revisions page</a>.</p>
+      <p class="small muted">Questions are published with their answers. Your name and address are not, unless you ask
+      for them to be.</p>
+      <p class="small muted">If you are reporting a <strong>correction</strong>, the most useful thing you can send is
+      the document. This archive would rather be corrected than be consistent.</p>
+      <p class="small muted">If you hold a document this archive is missing &mdash; a certificate, a log, a tender file,
+      an inspection report &mdash; the <a href="about.html">method and gaps page</a> lists what has been searched for
+      and not found.</p>
+      <h2>What this cannot do</h2>
+      <p class="small muted">This archive does not give legal advice, does not speculate about the guilt or innocence
+      of the three men charged on 28 July, and does not take a position on who should resign. Questions on those
+      subjects will be answered as questions about what the record shows, or answered by saying that it shows
+      nothing.</p>
+    </div>
+  </div>
+</section>
+''' + foot()
 
 def build_index():
     tiles = [
@@ -1189,7 +1280,7 @@ def inject_charts(body):
     and the build asserts none survive."""
     for key, svg in QUESTION_CHARTS.items():
         body = body.replace('<p>{{%s}}</p>' % key, svg).replace('{{%s}}' % key, svg)
-    left = [t for t in re.findall(r'\{\{[A-Z_]+\}\}', body) if t not in ('{{MORE}}', '{{VIEW}}')]
+    left = [t for t in re.findall(r'\{\{[A-Z_]+\}\}', body) if t not in ('{{MORE}}', '{{VIEW}}', '{{GIST}}')]
     if left:
         raise SystemExit('unreplaced chart tokens: %s' % left)
     return body
@@ -1214,6 +1305,24 @@ def sources_block(keys):
             '<p class="tiny muted">Each links to this archive&rsquo;s page for that document, '
             'which carries the publisher, the date and a link to the original.</p></details>').format(
                 n=len(keys), rows=''.join(rows))
+
+
+def inject_gist(body):
+    """{{GIST}} ... {{/GIST}} renders the one-paragraph distillation of an
+    answer's reasoned view, shown with the short answer so a reader gets the
+    archive's conclusion without opening the working. Same marker discipline as
+    the reasoned block: strip any paragraph wrapper first."""
+    def one(m):
+        return ('<div class="gist"><p class="glabel">The reasoned view, in short</p>'
+                '<div class="gbody">{inner}</div></div>').format(inner=m.group(1))
+    body = re.sub(r'<p>\s*\{\{GIST\}\}\s*</p>', '{{GIST}}', body)
+    body = re.sub(r'<p>\s*\{\{/GIST\}\}\s*</p>', '{{/GIST}}', body)
+    body = re.sub(r'<p>\s*\{\{GIST\}\}\s*', '{{GIST}}<p>', body)
+    body = re.sub(r'\s*\{\{/GIST\}\}\s*</p>', '</p>{{/GIST}}', body)
+    body = re.sub(r'\{\{GIST\}\}(.*?)\{\{/GIST\}\}', one, body, flags=re.S)
+    if '{{GIST}}' in body or '{{/GIST}}' in body:
+        raise SystemExit('unbalanced GIST markers')
+    return body
 
 
 def inject_reasoned(body):
@@ -1322,6 +1431,7 @@ def build_prose_page(fname, title, h1, lede, cur, extra_note='', transform=None)
 os.makedirs(OUT, exist_ok=True)
 write('index.html', build_index())
 write('sources.html', build_sources())
+write('ask.html', build_ask())
 for r in records:
     write(f'sources/{r["slug"]}.html', build_source_page(r))
 
@@ -1380,8 +1490,10 @@ write('questions.html', build_prose_page(
     'where the record cannot settle something, that is the answer given. If this page and the '
     'record pages disagree, the record pages are right. Question five also draws on international '
     'instruments held outside the archive, and says so. Nothing here bears on the guilt of the '
-    'three men charged on 28 July, who have not been tried.</p></div>',
-    transform=lambda b: collapsible_qa(inject_sources(inject_reasoned(inject_charts(b))))))
+    'three men charged on 28 July, who have not been tried. The research and the reasoning are done '
+    'with Claude Opus 5, Anthropic&rsquo;s frontier model, over the corpus described on the '
+    '<a href="about.html">method page</a>.</p></div>',
+    transform=lambda b: collapsible_qa(inject_sources(inject_reasoned(inject_gist(inject_charts(b)))))))
 
 write('changelog.html', build_prose_page(
     'changelog.md',

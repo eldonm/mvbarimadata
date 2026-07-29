@@ -369,6 +369,43 @@
     });
   }
 
+  /* ---------------- submission form ----------------
+     Posts to Web3Forms with fetch so the reader stays on the page. With
+     JavaScript off the form still submits normally and lands on the provider's
+     own confirmation page, which the markup says out loud. */
+  function initAskForm() {
+    var form = document.getElementById('askform');
+    if (!form) return;
+    var status = document.getElementById('askstatus');
+    var btn = form.querySelector('button[type=submit]');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      status.className = 'askstatus';
+      status.textContent = 'Sending…';
+      btn.disabled = true;
+      fetch(form.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form)
+      }).then(function (r) {
+        return r.json().catch(function () { return { success: r.ok }; });
+      }).then(function (data) {
+        if (data && data.success) {
+          form.reset();
+          status.className = 'askstatus ok';
+          status.textContent = 'Sent. It will be answered on the questions page.';
+        } else {
+          status.className = 'askstatus bad';
+          status.textContent = (data && data.message) ||
+            'That did not send. Please try again, or try later.';
+        }
+      }).catch(function () {
+        status.className = 'askstatus bad';
+        status.textContent = 'That did not send — the network request failed. Please try again.';
+      }).then(function () { btn.disabled = false; });
+    });
+  }
+
   /* ---------------- go ---------------- */
   function ready() {
     initTheme();
@@ -377,6 +414,7 @@
     Array.prototype.forEach.call(document.querySelectorAll('.chart.bars'), initBarChart);
     initBrowser();
     initQA();
+    initAskForm();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready);
   else ready();
