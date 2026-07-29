@@ -13,7 +13,7 @@ import markdown as md
 ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
-BUILT   = 'Sunday 26 July 2026, last revised Tuesday 28 July 2026'
+BUILT   = 'Sunday 26 July 2026, last revised Wednesday 29 July 2026'
 
 # ---------------------------------------------------------------- parse archive
 def parse_front(path):
@@ -503,6 +503,34 @@ CHAIN = [
      '<b>GHRA:</b> a parliamentary commission, equal government and opposition membership, judicially qualified chair, statutory duty of candour, state-funded counsel for families. <b>TIGI and Rescue Guyana:</b> an IMO-led investigation. <b>WIN:</b> recusal of Ministers Edghill and Indar, livestreamed hearings.'),
 ]
 
+def questions_index():
+    """Read the question headings straight out of questions.md so the landing
+    page cannot drift from the page it advertises. Returns [(n, title), ...]."""
+    raw = open(os.path.join(DELIV, 'questions.md'), encoding='utf-8').read()
+    return [(m.group(1), m.group(2).strip())
+            for m in re.finditer(r'^## (\d+)\.\s*(.+)$', raw, re.M)]
+
+
+def questions_panel():
+    qs = questions_index()
+    links = ''.join(
+        '<li><a href="questions.html#q{n}"><span class="qn">{n}</span>'
+        '<span>{t}</span></a></li>'.format(n=n, t=E(t)) for n, t in qs)
+    return '''
+<section>
+  <div class="card askpanel">
+    <p class="eyebrow">Answered by AI, reasoning over the whole archive</p>
+    <h2 style="margin-top:2px">Questions of the record</h2>
+    <p class="wrap-read muted" style="margin-bottom:18px">The rest of this site reports only what published
+    sources said, attributed. On one page the archive answers directly, reading across all {n} documents:
+    the short answer first, the working underneath, and a plain statement wherever the record cannot settle
+    the question. <strong>Anyone can send a question in.</strong></p>
+    <ul class="qlinks">{links}</ul>
+    <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a></p>
+  </div>
+</section>
+'''.format(links=links, n=len(records))
+
 def build_index():
     tiles = [
         ('179', '', 'People aboard', 'Reconstructed from boarding-area CCTV. The manifest said 133.'),
@@ -520,6 +548,7 @@ def build_index():
     fusehtml = ''.join(
         f'<div class="fev {cls}"><div class="y">{y}</div><div class="x">{x}</div></div>'
         for y, cls, x in FUSE)
+    qpanel = questions_panel()
     chainhtml = '<div class="chdr">How the disaster was built</div><div class="chdr">What would have broken the chain</div>'
     for i, (hd, bd, fx) in enumerate(CHAIN, 1):
         last = ' style="border-bottom:none"' if i == len(CHAIN) else ''
@@ -549,7 +578,7 @@ def build_index():
 <section>
   <div class="grid g5">{tilehtml}</div>
 </section>
-
+{qpanel}
 <section>
   <h2>Three findings from the record</h2>
   <div class="grid g3">
@@ -1144,6 +1173,36 @@ def inject_charts(body):
     return body
 
 
+def sources_block(keys):
+    """Render a citation list from archive slugs. Fails the build on an unknown
+    slug, so a citation can never silently point at nothing, and pulls the
+    outlet, date and title from the record itself so they cannot drift."""
+    rows = []
+    for k in keys:
+        r = by_slug.get(k)
+        if r is None:
+            raise SystemExit('unknown citation slug: %s' % k)
+        when = prettydate(r['published']) if r.get('published') and r['published'] != '0000-00-00' else 'undated'
+        rows.append(
+            '<li><a href="sources/{slug}.html">{title}</a>'
+            '<span class="ctmeta">{outlet} &middot; {when}</span></li>'.format(
+                slug=r['slug'], title=E(r['title']), outlet=E(r['outlet']), when=when))
+    return ('<details class="cites"><summary>Sources for this answer '
+            '<span class="ctn">{n}</span></summary><ul class="ctlist">{rows}</ul>'
+            '<p class="tiny muted">Each links to this archive&rsquo;s page for that document, '
+            'which carries the publisher, the date and a link to the original.</p></details>').format(
+                n=len(keys), rows=''.join(rows))
+
+
+def inject_sources(body):
+    """Expand {{SOURCES: slug | slug | ... }} markers."""
+    def one(m):
+        keys = [k.strip() for k in m.group(1).split('|') if k.strip()]
+        return sources_block(keys)
+    body = re.sub(r'<p>\{\{SOURCES:(.*?)\}\}</p>', one, body, flags=re.S)
+    body = re.sub(r'\{\{SOURCES:(.*?)\}\}', one, body, flags=re.S)
+    return body
+
 def collapsible_qa(body):
     """Wrap each numbered `<h2>N. …</h2>` section of a prose page in a <details>,
     so the page reads as a list of questions and opens one answer at a time.
@@ -1274,7 +1333,7 @@ write('questions.html', build_prose_page(
     'record pages disagree, the record pages are right. Question five also draws on international '
     'instruments held outside the archive, and says so. Nothing here bears on the guilt of the '
     'three men charged on 28 July, who have not been tried.</p></div>',
-    transform=lambda b: collapsible_qa(inject_charts(b))))
+    transform=lambda b: collapsible_qa(inject_sources(inject_charts(b)))))
 
 write('changelog.html', build_prose_page(
     'changelog.md',

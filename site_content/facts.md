@@ -1,6 +1,6 @@
 # MV Barima — Contested Facts and Figure Reconciliation
 
-Compiled 26 July 2026, last revised 28 July 2026, and checked against all 209 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
+Compiled 26 July 2026, last revised 29 July 2026, and checked against all 209 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
 
 ---
 

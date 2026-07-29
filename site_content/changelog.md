@@ -4,59 +4,91 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
-## 28 July 2026 — tenth build, an analysis section is added
+## 28–29 July 2026 — tenth build, the archive starts answering questions
 
-No documents were added in this build and no figure on any record page changed. What changed is that the site now does something it had deliberately not done before: it reasons over the corpus in public, in its own voice, on a page of its own.
+No documents were added and no figure on any record page changed because of new reporting. What changed is that the site now does something it had deliberately not done before: on one page it answers questions directly, in its own voice, instead of only reporting what other people said.
 
 ### A new page: Questions of the record
 
 Until now every page here was a record page. Each statement carried a named publisher and a date, and where accounts conflicted the archive set them side by side without adjudicating. That restraint is what makes the record usable, and it is unchanged on those pages.
 
-But restraint has a cost. A corpus of 209 documents contains findings that no single document states — patterns that only appear when the documents are read against each other, and absences that are only visible once you know what a complete record would have contained. Leaving those unstated is not neutrality; it withholds the part of the work a reader cannot easily do themselves.
+But restraint has a cost. A corpus of 209 documents contains findings that no single document states, and absences that are only visible once you know what a complete record would have contained. Leaving those unstated is not neutrality; it withholds the part of the work a reader cannot easily do themselves.
 
-The new [questions page](questions.html) states them. Ten questions, each answered from the corpus, with the evidence named and the limits of the evidence stated. They cover the three official capacity figures and the missing certificate; what the Mayday contradiction actually turns on; the chain of authority above the people who were charged; whether the vessel's deterioration was documented before 18 July; why the replacement vessel did not sail; what changed in the "tightened safety procedures"; which figures moved and on whose authority; capability as distinct from effort in the first response; what the state has published and what it has not; and what the Commission needs that is not currently public.
+The [questions page](questions.html) states them. Five questions, in plain language, answered by AI reading across every document the archive holds: who is accountable; how a disaster like this should be handled by international standards; what conditions the ferry was operating under and what could have been done differently; whether the boat was overloaded; and how many people actually died.
 
-### What this page is allowed to do, and what it is not
+**The page is open.** Anyone can send a question in and it will be answered there on the same terms. A question the archive cannot answer will be published as such, because what the record cannot answer is itself a finding. That invitation still carries an honest caveat: no contact address has been published yet, so the route is not usable until one is. Publishing the invitation without the address would be worse than publishing neither.
 
-The page is separated from the record and labelled at the top of every screen, so no reader can mistake analysis for sourced record. Three rules govern it, and they are published on the page itself.
+### How the answers are built, and the four rules they follow
 
-Where the analysis and a record page conflict, the record page is authoritative. The analysis is downstream of the documents and can be wrong about them; the documents cannot be wrong about themselves.
+Each answer opens with the short version as soon as you click the question. The reasoning sits behind a second disclosure, so a reader who wants the answer gets it in a paragraph and a reader who wants the working can have all of it.
 
-Every claim is traceable. Where the analysis asserts something, it names the documents it rests on. Where it infers, it says it is inferring. Where the record cannot settle a question, that is the answer given, rather than the most plausible-sounding one.
+Four rules govern the page, and they are published on it.
 
-It does not speculate about the three men charged on 28 July. They have been charged and remanded, and they have not been tried. The page examines the chain of authority above them as a question about the record — who else could have made the decisions the record describes, and whether the record shows anyone above them being examined — and does not touch their intentions, their state of mind, or their guilt.
+Where an answer and a record page conflict, the record page is authoritative. The analysis is downstream of the documents and can be wrong about them; the documents cannot be wrong about themselves.
 
-### The eighth item in the navigation, and a reorganisation
+Every answer names its evidence. Each one now ends with a list of the specific archive documents it rests on, linking to this site's page for each — publisher, date, and a link to the original. Where an answer infers, it says it is inferring. Where the record cannot settle a question, that is the answer given rather than the most plausible-sounding one.
 
-Adding a page took the navigation to eight items, which is past the point where a flat row reads as a list rather than a structure. The items are now grouped, with a thin rule between groups: the record (overview, chronology, the figures), voices (positions), analysis (questions), and the archive behind it (documents, method and gaps, revisions). Nothing was renamed or removed and no link changed. The grouping is CSS only and collapses on narrow screens.
+The page does not speculate about the three men charged on 28 July, in either direction. It does not suggest they are guilty, and it does not suggest they are carrying blame for someone else's decisions. Both would be inference about people facing an active criminal charge, and an archive should manufacture neither.
 
-### A route for questions from the public
+One answer reaches outside the corpus and says so. The question about international standards is answered against the IMO's Casualty Investigation Code, its 2022 Model Regulations on Domestic Ferry Safety, its guidelines for investigators and the joint IMO/ILO guidelines on the fair treatment of seafarers. Each is linked. Every other answer on the site reasons only over documents the archive holds.
 
-The intention is that future questions come from readers rather than from the archive. A "corrections and questions" section is now on the [method and gaps](about.html) page describing both routes. It carries an honest caveat: no contact address has been published yet, so neither route is usable until one is. Publishing the invitation without the address would be worse than publishing neither.
+### What the international-standards answer found, which is not what was expected
 
-### The new page was checked before it was published, and it did not survive intact
+The obvious version of that answer would have been that Guyana is breaching its international obligations. It is not, and the page says so plainly.
 
-The draft of the questions page was put through the same adversarial check the record pages get: every number and quotation verified against the corpus, every claim of absence tested by actively searching for a counterexample, and the whole page read twice more as a hostile critic would read it — once from the government's side, once from the opposition's. It came back with substantial problems, and they are recorded here rather than quietly fixed, because a page that reasons in public has to show its own corrections.
+SOLAS, the Load Lines Convention and — through SOLAS — the binding force of the Casualty Investigation Code all attach to ships on **international voyages**. The *MV Barima* ran between two Guyanese ports. It sat outside all of them, was never required to hold a SOLAS passenger safety certificate, and was not evading one. The IMO adopted model regulations for domestic ferries in 2022 precisely because of that gap, and made them voluntary.
 
-**A claim of absence failed.** The draft said the safety measures announced in late July contained no new rule, only enforcement of existing ones. That is wrong. The Prime Minister announced expanded CCTV coverage and improved monitoring of wharves and loading areas — new capability, not enforcement. The page now says so, and says it was wrong. This is the third absence claim this archive has had to withdraw, and the reason is always the same: an absence is only as good as the search behind it.
+The argument that survives is narrower and stands up better: the Casualty Investigation Code is the recognised international standard, Guyana already applies it to its ships on international voyages, and there is no principled reason to apply a lower standard of independence, evidence preservation and publication to a domestic route. Measured against that sequence — the first day, securing the evidence, standing up an independent investigation, the families, publishing — four things stand out, and they are set out with a stage-by-stage comparison table on the page.
 
-**Two record-page dates were wrong, and are corrected.** The complement figure of 179 was dated to 21 July and attributed to PM Phillips. It was in fact published on 20 July, attributed to the government's National Communications Network and to the Prime Minister, and carried the same day by Reuters, CBC and CMC copy; Phillips restated it on 21 July. And the tightening of ferry safety procedures was dated to 25 July, which is when the Jamaica Observer carried it. The DPI release and the Prime Minister's interview are both dated 24 July. Both the chronology and the figures page are corrected.
+One stage is deliberately not measured against anything. The international instruments deal with seafarers, not with bereaved families. Rather than dress a Guyanese civil-society proposal as an international norm, that stage names the Guyana Human Rights Association as its source and says there is no maritime standard to measure against.
 
-**An attribution had drifted.** The draft put in quotation marks words that the source gives as a reporter's indirect speech, and attributed to MP Terrence Campbell a framing that belongs to Opposition Leader Azruddin Mohamed. Both are fixed. Quotation drift is the failure this archive has had to correct before, and the fix is the same each time: go back to the file.
+### Charts, and one that was thrown away
 
-**Claims stated flat that the record contests.** The draft asserted who located the wreck, that the sister ship was withdrawn in 2019, and that a design fault removed the replacement vessel from the Port Kaituma route. All three are contested or unresolved on the record pages, and the analysis page had quietly hardened them. They now carry their contests.
+Four charts carry the numbers: the load against each stated limit, the complement split into rescued, recovered and unaccounted, the formal action taken by organisation, and the days from the sinking to each step toward an inquiry. Each value is labelled in text, each chart has a table view, and none of them carries meaning by colour alone. The palette was checked for colour-vision separation and contrast against both the light and dark backgrounds rather than judged by eye.
 
-**The most-cited document was read the way the archive says not to read it.** The March 2026 tender's bill of quantities requires that deteriorated hull sections be renewed *where necessary*. That is a specification anticipating deterioration, not a survey establishing it — a distinction the figures page states explicitly, and which the draft ignored while calling the tender its strongest item. Corrected, and the tender is now described as what it is: an account of a document this archive does not hold.
+The first version of the accountability chart was discarded. It drew "3 charged", "at least 4 detained" and "1 team suspended" as bars of increasing length, so the longest bar carried the smallest number. Bar length has to encode the value or the chart is lying. It now shows one segment per person charged, and nought is drawn as a stub at the origin rather than as a full-width rule that would read as a bar.
 
-**Balance.** The hostile read found that every concession the draft made to the government was immediately turned against it, while no opposition claim received the same treatment. Questions 3, 6 and 10 now carry the counter-arguments the corpus actually contains — including the Kaieteur News "Peeping Tom" argument on ministerial responsibility, which the draft had cited once and then ignored. A closing line that pronounced the wreck sequence "a sequence the government controls" is gone; so are two lapses into the first person, and a set of loaded constructions that did the arguing the evidence should do.
+### The navigation, and the landing page
 
-**Language about the accused.** Several sentences were rewritten because they could be read as bearing on the guilt or innocence of the three men charged on 28 July, in both directions — a hypothesis about who sent the distress call, an assertion that 46 people boarded unrecorded, and a framing that presented the charges as falling within a category a minister had identified nine days earlier. The page's stated limit was that it would not touch their culpability; the draft touched it. The limit is now stated in both directions and the sentences are gone.
+Adding a page took the navigation to eight items. They are now grouped, with a thin rule between groups: the record, voices, analysis, and the archive behind it. Nothing was renamed and no link changed.
 
-**The rewrite was then checked again, and it had introduced new errors of its own.** This is worth recording rather than hiding, because it is the ordinary result of rewriting seventy per cent of a page: the fix for one problem creates the next. The second pass found eight. The corrected text had put quotation marks around a reporter's paraphrase of MP Campbell — the same failure the first pass had just fixed, applied to the same speaker; his actual words, "Accountability must go from top to bottom," are now used instead. A quotation from the "Peeping Tom" column had been extended past the part the source gives as verbatim, in a file this archive has flagged as a condensed capture, where its own standing rule forbids exactly that. A sentence said "three DPI releases" and then listed four. The March 2025 finding on "longstanding issues of negligence, mismanagement, and accountability" had been reattributed to Minister Edghill as his words when it is DPI's own prose about him. Two separate engineering investigations at Port Kaituma had been merged into one. A single radio interview had become "interviews" on two dates. And a bolded line claiming no primary document had been released was too broad — the declaration of national mourning is one. All eight are fixed.
+Eight items also broke the header at two widths — the theme button dropped onto a third row on a laptop, and a sticky header ate a third of a phone screen. Below 820px the navigation is now a single scrollable row with the current page scrolled into view.
 
-**A units discrepancy is now stated rather than silently resolved.** The figures page rendered the cargo tonnages as tons and the positions page as tonnes. Most of the corpus says tonnes; a minority says tons. The archive now uses the dominant rendering throughout and says on the [figures page](facts.html) that the sources disagree, rather than converting quietly between units in a comparison that turns on the size of the numbers.
+The landing page now carries a panel listing the five questions, each linking to its answer. It is generated from the questions page itself, so the two cannot drift apart.
 
-**One attribution was over-precise and is narrowed.** The complement of 179 was described as attributed to the government's National Communications Network. The NCN is the named source for the 69 rescued and 83 missing; the 179 is attributed to "the government" generally and, in CMC copy, to the Prime Minister. The chronology, the figures page and the analysis page all now say so.
+### The section was written twice, and the first version was replaced
+
+The first version of this page was fifteen dense analytical questions written for a reader who already knew the case. It was researched, checked, corrected and published — and then replaced, at the site owner's direction, with five questions in plain language for a reader who does not. That is recorded here rather than quietly dropped, because the earlier version shaped the corrections below and much of its research survives inside the five.
+
+### What the checking found, in both versions
+
+Every draft was put through the same adversarial process the record pages get: each number and quotation verified against the corpus, each claim of absence tested by actively hunting for a counterexample, and the whole page read again by a hostile critic from the government's side and from the opposition's. Every pass found real problems. They are recorded here rather than quietly fixed, because a page that reasons in public has to show its own corrections.
+
+**A claim of absence failed, and is withdrawn.** An early draft said the safety measures announced in late July contained no new rule, only enforcement of existing ones. That is wrong. The Prime Minister announced expanded CCTV coverage and improved monitoring of wharves and loading areas — new capability, not enforcement. This is the third absence claim this archive has had to withdraw, and the reason is always the same: an absence is only as good as the search behind it.
+
+**Attributions drifted, twice, and were fixed twice.** A draft put quotation marks around words a source gives as a reporter's indirect speech, and attributed to MP Terrence Campbell a framing that belongs to Opposition Leader Azruddin Mohamed. The rewrite that fixed it then did the same thing to the same speaker in the next paragraph. Campbell's own words — "Accountability must go from top to bottom" — are what appear now. A quotation from the Kaieteur News "Peeping Tom" column had also been extended past the part the source gives as verbatim, in a file this archive flags as a condensed capture, where its own standing rule forbids exactly that.
+
+**Contested facts had been quietly hardened.** Drafts asserted who located the wreck, that the sister ship was withdrawn in 2019, and that a design fault removed the replacement vessel from the Port Kaituma route. All three are contested or unresolved on the record pages. They now carry their contests.
+
+**A single source had become several.** A draft said "several survivors describe cargo stacked to the deckhead." Only one survivor in the corpus describes cargo, and at the rear of the vessel. The figures page already recorded her as the sole source, and the draft had contradicted it.
+
+**The most-cited document was read the way this archive says not to read it.** The March 2026 tender's bill of quantities requires that deteriorated hull sections be renewed *where necessary*. That is a specification anticipating deterioration, not a survey establishing it — a distinction the figures page states explicitly. It is now described as what it is: an account of a document this archive does not hold.
+
+**Language about the accused was rewritten.** Several sentences could be read as bearing on the guilt or innocence of the three men charged, in both directions — a hypothesis about who sent the distress call, an assertion that 46 people boarded unrecorded, a framing that presented the charges as falling within a category a minister had identified nine days earlier, and a chart that ranked the accused at the bottom of a hierarchy of responsibility. All are gone. The presumption of innocence now appears in the chart itself rather than only in a tooltip.
+
+**Balance.** The hostile read found that every concession made to the government was immediately turned against it, while no opposition claim received the same treatment. The answers now carry the counter-arguments the corpus actually contains, including the "Peeping Tom" argument on ministerial responsibility, the government's own division-of-responsibility position, the argument that age is not unseaworthiness, and the government's stated case for the commission it appointed.
+
+### Record-page corrections found along the way
+
+**Two dates were wrong.** The complement figure of 179 was dated to 21 July. It was published on 20 July and restated by the Prime Minister on 21 July. And the tightening of ferry safety procedures was dated to 25 July, which is when the Jamaica Observer carried it; the DPI release and the Prime Minister's interview are both dated 24 July.
+
+**An attribution was over-precise.** The 179 was described as attributed to the government's National Communications Network. The NCN is the named source for the 69 rescued and 83 missing; the 179 is attributed to "the government" generally and, in wire copy, to the Prime Minister.
+
+**A claim of absence on the figures page was false.** That page stated that no official had characterised the payments made to families as "not compensation." The Prime Minister did, on 24 July: "That is not deemed compensation. That is the government's responsibility in times like this to assist families." Corrected.
+
+**A units discrepancy is now stated rather than silently resolved.** The figures page rendered the cargo tonnages as tons and the positions page as tonnes. Most of the corpus says tonnes. The archive now uses the dominant rendering and says on the figures page that the sources disagree, rather than converting quietly between units in a comparison that turns on the size of the numbers.
+
+**Two claims went further than their sources.** The chronology asserted that the *Kalliopi N* was still at the Kingston Goods Wharf on 18 July; what the corpus supports is that it had not entered service. And it filed the fisherman's location of the hull in a way that read as contradicting the state's own 13:31 timestamp on 20 July, when the two accounts are sequential. Both are corrected.
 
 ---
 

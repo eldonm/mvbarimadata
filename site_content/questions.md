@@ -42,83 +42,11 @@ What it does not show is a decision, by a named person, that this archive can po
 
 Against them stand two things. The government's own position, put by Minister Edghill on 19 July, is that the Transport & Harbours Department is the service provider and MARAD the regulator, and that the disaster stemmed from operational breaches at ground level rather than from regulatory failure — a position he stated before anyone was charged. And the Kaieteur News "Peeping Tom" column argues that the department has its own board, that a minister's duty is "not to supervise the loading of cargo or verify passenger manifests on a daily basis," and that the cause is not yet established. All of it is set out at length on the [positions](positions.html) page.
 
----
-
-## 2. What conditions was the ferry operating under, and what could have been done differently?
-
-**The record does not show what capsized the ferry.** It shows an 87-year-old vessel alone on a route because its replacement had nowhere to dock, a count of passengers that was wrong by 46, and no published document saying what it was allowed to carry.
-
-**Two of the three were documented before 18 July**, in public and largely on the government's own record. The passenger gap was not: it emerged afterwards, from CCTV.
-
-{{MORE}}
-
-**It was the only vessel on the route.** A replacement, the *MV Ma Lisha*, was contracted in January 2021 for about US$12.7m and delivered in 2023. It was too big for Port Kaituma, so the wharf had to be rebuilt. That contract went out in December 2022 at G$1.4bn. In February 2024 the work stopped at about ninety per cent complete after cracks appeared and, as reported, the design was found deficient. It was still unfinished when the ferry sank two and a half years later. So the *Ma Lisha* served other Region One ports and the 87-year-old *Barima* kept the Port Kaituma run. The Prime Minister said so on 25 July: "The delay has contributed to us not being able to use the MV Ma Lisha to journey from Georgetown to Port Kaituma."
-
-**Its condition had been raised in public.** In 2015 a master mariner wrote about this named vessel, citing a newspaper inspection report that described its deck, winch and generator area as "a mass of junk and rust." That inspection report was searched for and not found; only the letter citing it is in this archive. In March 2026 — four months before the sinking — G$124.5m of hull work was put out to tender. Whether that work was ever done is answered nowhere in this archive.
-
-**The department's own problems were on the government's record.** In March 2025 the government's information service reported the Transport & Harbours Department addressing "longstanding issues of negligence, mismanagement, and accountability." That is about governance rather than about this hull, which is why it is recorded separately here.
-
-**The record of who was on board was wrong by 46.** The manifest said 133. A review of boarding CCTV afterwards showed 179. Only 35 of the first 67 people rescued appeared on the manifest at all. The government has since confirmed that people boarded without being ticketed. None of this was caught by a check before departure; it emerged afterwards, from the CCTV.
-
-**Nobody can say what the ferry was allowed to carry.** Three different official cargo limits were given in the first week, from 120 to 284 tonnes, and no certificate has been published. See question 3.
-
-**What was available and was not in place.** Four things:
-
-*Finish the wharf — or tranship.* Within a week of the sinking the government set up exactly that arrangement: passengers to Kumaka on the *Ma Lisha*, then smaller boats onward, with a separate free cargo barge alongside it. Whether it works as a permanent substitute is not established here. Part of the answer to why it was not running earlier is that the Kumaka stelling had only just been completed — the Minister said on 22 July it was still awaiting commissioning. That explains some of the delay. It does not explain the years before it.
-
-*Count the passengers at the gate.* A headcount against the manifest before departure would have shown a count 46 above the manifest. It requires no equipment. (46 is the difference between two totals, not a count of individuals: some people aboard were unrecorded, and some on the manifest did not sail.)
-
-*Produce the certificate.* If the permitted load is genuinely 120 tonnes and the manifest says 268, that is visible to anyone holding the paperwork.
-
-*Retire the hull.* Repeated rounds of repairs — 2017, 2021, 2022 and 2024, with more tendered in March 2026 — kept an 87-year-old vessel in passenger service. MARAD's Director-General argues that age is not determinative, because modern thin steel is stronger than the old; a letter-writer makes the same point, that age is not the same as unseaworthiness. Both are on the [positions](positions.html) page. A replacement plan did exist: the Minister told Parliament the *Ma Lisha* would replace the *Barima* and the *Kimbia*. What the archive contains no trace of is a date by which the *Barima* would stop carrying passengers regardless of whether its replacement could dock.
-
-**One caveat.** None of this proves what sank the ferry. Survivors describe engine trouble before departure and water coming in; the Minister said on day one there was no engine or mechanical problem. Those accounts have never been reconciled, and the inquiry has not tested either.
+{{SOURCES: 2026-07-28-kaieteur-news-mv-barima-captain-two-crew-members-charged-with-murder | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-20-news-room-guyana-mv-barima-team-suspended-as-probe-moves-ahead | 2026-07-22-inews-guyana-3rd-person-detained-as-police-probe-continues | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-23-kaieteur-news-opposition-unites-in-call-for-edghill-to-go | 2026-07-24-demerara-waves-transparency-institute-wants-imo-to-investigate | 2026-07-26-kaieteur-news-ghra-demands-parliament-led-coi-into-mv-barima-sinking | 2026-07-27-kaieteur-news-should-minister-edghill-resign }}
 
 ---
 
-## 3. Was the boat overloaded?
-
-**Nobody can check.** The manifest recorded 268 tonnes of cargo. Three official cargo limits were given in the first week: 284 tonnes, then 126, then 120. The load is inside the first and more than double the other two.
-
-**No certificate settling the point appears in any of the 209 documents**, and MARAD's Director-General said he did not have the basis for the vessel's rating. MARAD says it was not overloaded. A survivor describes cargo boxes stacked at the rear. Neither account can be checked here.
-
-{{MORE}}
-
-{{CHART_LOAD}}
-
-Minister Edghill said on 19 July the vessel was licensed for **284 tonnes**, which would put the load inside the limit. MARAD's Director-General said on 21–22 July it was **126 tonnes**. He revised that on 24–25 July to **120 tonnes**. Either of the last two would put the load at more than double the figure MARAD gave.
-
-The vessel's original rating, which the same official dates to 1938, was 120 tonnes and 150 passengers. (The builder's register dates the hull to 1939; the archive flags that conflict on the [chronology](timeline.html) page.) It sailed licensed for 394 passengers according to MARAD, or 397 according to the Minister — the passenger figure does not agree either.
-
-**So which is right?** No survey certificate, load line certificate or passenger capacity certificate appears in any of the 209 documents this archive holds. Asked when and on what basis the passenger rating went from 150 to 394, MARAD's Director-General said: "I don't have that information."
-
-**What about the "not overloaded" finding?** MARAD's Director-General said on 22 July the vessel was not overloaded. He was citing the **load line** — the mark on the hull showing how deep the vessel is sitting — rather than the tonnage certificate. That is a legitimate thing to cite, and it means his two statements do not contradict each other. But it also means the overloading question was answered by looking at where the water came up the hull, not by checking a document.
-
-**What survivors say.** One describes cargo boxes stacked at the rear of the vessel — the sole source in this archive for that detail. Another says water entered through the hatch and that the ferry was stuck on a sandbank at the wharf for almost an hour before leaving. These are accounts, not findings, and they are recorded as such on the [chronology](timeline.html) page.
-
----
-
-## 4. How many people actually died?
-
-**76 people survived. Somewhere around 103 did not.** 179 were aboard, 76 were rescued, 73 bodies have been recovered and about 30 remain unaccounted for.
-
-**No government statement in this archive gives a death toll.** Official releases report bodies recovered and stop there. The 103 has never appeared in one.
-
-{{MORE}}
-
-{{CHART_TOLL}}
-
-The arithmetic is all from official figures. The complement of **179** was established by reviewing CCTV of the boarding area rather than from any paper record. **76 were rescued.** **73 bodies have been recovered.** That leaves about **30 people** unaccounted for. 73 plus 30 is **103**.
-
-**Why it matters.** "Unaccounted for" is a reasonable thing to say while a search is running and people might yet be found alive. It is harder to sustain now. On 28 July the Prime Minister said "it's obvious that bodies are trapped in the wreck," and that the vessel is "likely to remain there as is."
-
-Once the state has said both that people are inside and that the wreck is likely to stay where it is, the gap between "unaccounted for" and a death toll is a question the state has not answered.
-
-**One thing that does check out.** The figures published on 20 July — 27 recovered, 69 rescued, 83 missing — add to 179. The figures published on 24 July — 73 recovered, 76 rescued, 30 unaccounted — also add to 179. The apparent collapse in the number missing, from 83 to 30, is fully explained by bodies being recovered and the survivor count being corrected. It looks alarming and it is not; the same standard applies in both directions.
-
----
-
-## 5. By international standards, how should a government handle a disaster like this?
+## 2. By international standards, how should a disaster like this be handled?
 
 **There is a recognised sequence**, set out in the IMO's Casualty Investigation Code: rescue and log everything; secure the evidence including the wreck; stand up an independent safety investigation separate from any criminal case; look after the families; publish the report and act on it.
 
@@ -179,3 +107,85 @@ So the standard below is not a legal obligation Guyana has broken. It is the seq
 | The end | Report published; recommendations acted on | No commitment to publish appears in this archive |
 
 **One comparison, and its limits.** After the *Estonia* sank on 28 September 1994, three countries stood up a joint investigation commission on 29 September — the next day. The *Estonia* was an international-voyage casualty with three states and treaty machinery already engaged, so the comparison is one of speed rather than of like institutions.
+
+{{SOURCES: 2026-07-19-jamaica-observer-huge-wave-suspected-67-rescued | 2026-07-24-kaieteur-news-mv-barima-disaster-demands-accountability | 2026-07-25-kaieteur-news-timeline-of-the-rescue-effort-for-the-mv-barima-ferry-sinking | 2026-07-27-kiskadee-watch-too-dangerous-to-enter-sunken-mv-barima-french-diver | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-26-guyana-chronicle-international-regional-experts-appointed-to-conduct-thorough-investigation-of-mv-barima-tragedy | 2026-07-27-kaieteur-news-pres-ali-names-5-member-coi-to-investigate-mv-barima-disaster | 2026-07-24-demerara-waves-transparency-institute-wants-imo-to-investigate | 2026-07-26-kaieteur-news-ghra-demands-parliament-led-coi-into-mv-barima-sinking }}
+
+---
+
+## 3. What conditions was the ferry operating under, and what could have been done differently?
+
+**The record does not show what capsized the ferry.** It shows an 87-year-old vessel alone on a route because its replacement had nowhere to dock, a count of passengers that was wrong by 46, and no published document saying what it was allowed to carry.
+
+**Two of the three were documented before 18 July**, in public and largely on the government's own record. The passenger gap was not: it emerged afterwards, from CCTV.
+
+{{MORE}}
+
+**It was the only vessel on the route.** A replacement, the *MV Ma Lisha*, was contracted in January 2021 for about US$12.7m and delivered in 2023. It was too big for Port Kaituma, so the wharf had to be rebuilt. That contract went out in December 2022 at G$1.4bn. In February 2024 the work stopped at about ninety per cent complete after cracks appeared and, as reported, the design was found deficient. It was still unfinished when the ferry sank two and a half years later. So the *Ma Lisha* served other Region One ports and the 87-year-old *Barima* kept the Port Kaituma run. The Prime Minister said so on 25 July: "The delay has contributed to us not being able to use the MV Ma Lisha to journey from Georgetown to Port Kaituma."
+
+**Its condition had been raised in public.** In 2015 a master mariner wrote about this named vessel, citing a newspaper inspection report that described its deck, winch and generator area as "a mass of junk and rust." That inspection report was searched for and not found; only the letter citing it is in this archive. In March 2026 — four months before the sinking — G$124.5m of hull work was put out to tender. Whether that work was ever done is answered nowhere in this archive.
+
+**The department's own problems were on the government's record.** In March 2025 the government's information service reported the Transport & Harbours Department addressing "longstanding issues of negligence, mismanagement, and accountability." That is about governance rather than about this hull, which is why it is recorded separately here.
+
+**The record of who was on board was wrong by 46.** The manifest said 133. A review of boarding CCTV afterwards showed 179. Only 35 of the first 67 people rescued appeared on the manifest at all. The government has since confirmed that people boarded without being ticketed. None of this was caught by a check before departure; it emerged afterwards, from the CCTV.
+
+**Nobody can say what the ferry was allowed to carry.** Three different official cargo limits were given in the first week, from 120 to 284 tonnes, and no certificate has been published. See question 4.
+
+**What was available and was not in place.** Four things:
+
+*Finish the wharf — or tranship.* Within a week of the sinking the government set up exactly that arrangement: passengers to Kumaka on the *Ma Lisha*, then smaller boats onward, with a separate free cargo barge alongside it. Whether it works as a permanent substitute is not established here. Part of the answer to why it was not running earlier is that the Kumaka stelling had only just been completed — the Minister said on 22 July it was still awaiting commissioning. That explains some of the delay. It does not explain the years before it.
+
+*Count the passengers at the gate.* A headcount against the manifest before departure would have shown a count 46 above the manifest. It requires no equipment. (46 is the difference between two totals, not a count of individuals: some people aboard were unrecorded, and some on the manifest did not sail.)
+
+*Produce the certificate.* If the permitted load is genuinely 120 tonnes and the manifest says 268, that is visible to anyone holding the paperwork.
+
+*Retire the hull.* Repeated rounds of repairs — 2017, 2021, 2022 and 2024, with more tendered in March 2026 — kept an 87-year-old vessel in passenger service. MARAD's Director-General argues that age is not determinative, because modern thin steel is stronger than the old; a letter-writer makes the same point, that age is not the same as unseaworthiness. Both are on the [positions](positions.html) page. A replacement plan did exist: the Minister told Parliament the *Ma Lisha* would replace the *Barima* and the *Kimbia*. What the archive contains no trace of is a date by which the *Barima* would stop carrying passengers regardless of whether its replacement could dock.
+
+**One caveat.** None of this proves what sank the ferry. Survivors describe engine trouble before departure and water coming in; the Minister said on day one there was no engine or mechanical problem. Those accounts have never been reconciled, and the inquiry has not tested either.
+
+{{SOURCES: 2026-07-27-kiskadee-watch-long-delay-in-completion-of-kaituma-stelling-kept-mv-barima-on-the-choppy-sea-who-is-to-blame | 2026-03-09-dpi-over-440m-to-be-spent-on-major-ferry-repairs | 2015-10-02-stabroek-news-thd-vessels-are-in-disrepair-because-they-havent-been-maintained | 2025-03-10-dpi-crucial-reforms-underway-within-transport-harbours-department | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-19-hgptv-87-year-old-mv-barima-remained-in-service-despite-replacement-plans }}
+
+---
+
+## 4. Was the boat overloaded?
+
+**Nobody can check.** The manifest recorded 268 tonnes of cargo. Three official cargo limits were given in the first week: 284 tonnes, then 126, then 120. The load is inside the first and more than double the other two.
+
+**No certificate settling the point appears in any of the 209 documents**, and MARAD's Director-General said he did not have the basis for the vessel's rating. MARAD says it was not overloaded. A survivor describes cargo boxes stacked at the rear. Neither account can be checked here.
+
+{{MORE}}
+
+{{CHART_LOAD}}
+
+Minister Edghill said on 19 July the vessel was licensed for **284 tonnes**, which would put the load inside the limit. MARAD's Director-General said on 21–22 July it was **126 tonnes**. He revised that on 24–25 July to **120 tonnes**. Either of the last two would put the load at more than double the figure MARAD gave.
+
+The vessel's original rating, which the same official dates to 1938, was 120 tonnes and 150 passengers. (The builder's register dates the hull to 1939; the archive flags that conflict on the [chronology](timeline.html) page.) It sailed licensed for 394 passengers according to MARAD, or 397 according to the Minister — the passenger figure does not agree either.
+
+**So which is right?** No survey certificate, load line certificate or passenger capacity certificate appears in any of the 209 documents this archive holds. Asked when and on what basis the passenger rating went from 150 to 394, MARAD's Director-General said: "I don't have that information."
+
+**What about the "not overloaded" finding?** MARAD's Director-General said on 22 July the vessel was not overloaded. He was citing the **load line** — the mark on the hull showing how deep the vessel is sitting — rather than the tonnage certificate. That is a legitimate thing to cite, and it means his two statements do not contradict each other. But it also means the overloading question was answered by looking at where the water came up the hull, not by checking a document.
+
+**What survivors say.** One describes cargo boxes stacked at the rear of the vessel — the sole source in this archive for that detail. Another says water entered through the hatch and that the ferry was stuck on a sandbank at the wharf for almost an hour before leaving. These are accounts, not findings, and they are recorded as such on the [chronology](timeline.html) page.
+
+{{SOURCES: 2026-07-19-jamaica-observer-huge-wave-suspected-67-rescued | 2026-07-22-inews-guyana-mv-barima-was-not-overloaded-marad-director-general | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-20-kiskadee-watch-survivor-says-may-have-lost-seven-relatives-in-mv-barima-capsizing }}
+
+---
+
+## 5. How many people actually died?
+
+**76 people survived. Somewhere around 103 did not.** 179 were aboard, 76 were rescued, 73 bodies have been recovered and about 30 remain unaccounted for.
+
+**No government statement in this archive gives a death toll.** Official releases report bodies recovered and stop there. The 103 has never appeared in one.
+
+{{MORE}}
+
+{{CHART_TOLL}}
+
+The arithmetic is all from official figures. The complement of **179** was established by reviewing CCTV of the boarding area rather than from any paper record. **76 were rescued.** **73 bodies have been recovered.** That leaves about **30 people** unaccounted for. 73 plus 30 is **103**.
+
+**Why it matters.** "Unaccounted for" is a reasonable thing to say while a search is running and people might yet be found alive. It is harder to sustain now. On 28 July the Prime Minister said "it's obvious that bodies are trapped in the wreck," and that the vessel is "likely to remain there as is."
+
+Once the state has said both that people are inside and that the wreck is likely to stay where it is, the gap between "unaccounted for" and a death toll is a question the state has not answered.
+
+**One thing that does check out.** The figures published on 20 July — 27 recovered, 69 rescued, 83 missing — add to 179. The figures published on 24 July — 73 recovered, 76 rescued, 30 unaccounted — also add to 179. The apparent collapse in the number missing, from 83 to 30, is fully explained by bodies being recovered and the survivor count being corrected. It looks alarming and it is not; the same standard applies in both directions.
+
+{{SOURCES: 2026-07-24-dpi-government-tightens-ferry-safety-procedures | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest }}

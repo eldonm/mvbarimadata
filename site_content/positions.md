@@ -1,6 +1,6 @@
 # Positions and proposals
 
-Compiled 26 July 2026, last revised 28 July 2026. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
+Compiled 26 July 2026, last revised 29 July 2026. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
 
 ---
 
