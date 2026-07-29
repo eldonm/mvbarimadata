@@ -1,6 +1,6 @@
 # MV Barima — Contested Facts and Figure Reconciliation
 
-Compiled 26 July 2026, last revised 29 July 2026, and checked against all 209 documents. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
+Compiled 26 July 2026, last revised 29 July 2026, and checked against every document in the corpus. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
 
 ---
 
@@ -44,12 +44,16 @@ AP supplies the mechanism the official account omits: ticket clerks had sold unm
 
 Two outlets reported a reason for the reduction. News Room attributed it to de-duplication across uncoordinated reporting channels; Kaieteur described the same verification and reconciliation process taking 77 down to 76. Demerara Waves reported that ten people recorded as found overnight Monday were already at home.
 
+**Resolved, 29 July.** This page carried the 76/77 difference as an open discrepancy from the day it was compiled. It is now resolved. Kaieteur of 29 July, reporting PM Phillips, gives **77 persons initially rescued and 76 survivors — one of the 77 died after rescue**. On that account both figures are correct and describe different things: 77 people were taken from the water, 76 lived. The archive records 77 rescued and 76 survived, and no longer treats the pair as a conflict. The earlier de-duplication and verification explanations are left standing above, because they are a different account of the same one-person difference and no source reconciles them against Phillips's.
+
 ---
 
 ## 3. The dead — two parallel sequences
 
 **Official (bodies recovered), attributed almost entirely to PM Phillips rather than police or coroner:**
-2 (20 Jul, Edghill) → 10 → 27 (20 Jul, 18:30) → 41 (21 Jul, 14:00) → 53 (21 Jul) → 65 (22 Jul) → 72 (23 Jul) → **73** (24 Jul), unchanged through 26 July. Of the 73: **69 identified, 63 released to families**.
+2 (20 Jul, Edghill) → 10 → 27 (20 Jul, 18:30) → 41 (21 Jul, 14:00) → 53 (21 Jul) → 65 (22 Jul) → 72 (23 Jul) → **73** (24 Jul), unchanged through 29 July. Of the 73: **68 identified and 5 unidentified**.
+
+**Revised 29 July.** This page previously gave **69 identified, 63 released to families**. That was the 24 July figure. Kaieteur and iNews on 28–29 July give five bodies still unidentified, and WIC News on 29 July states 68 identified, which is the same arithmetic against 73 recovered. The earlier figure is recorded here rather than silently overwritten: no source in the corpus explains the movement from 69 to 68, and the count of bodies released to families has not been restated since 24 July.
 
 **Unofficial and inferential:**
 - **103** — Kaieteur News, 22 July. Not a government figure and not a claim by the Opposition Leader: it is Kaieteur's own tally compiled from three days of search work by the Coast Guard, Azruddin Mohamed, private vessel owners and local fishermen. Mohamed himself said only that "it looks like over 100." The state reported 53 the same day — a fifty-body gap.
@@ -63,7 +67,37 @@ Two outlets reported a reason for the reduction. News Room attributed it to de-d
 
 ---
 
-## 4. Was she seaworthy?
+## 4. The charges — three accused, 72 counts
+
+Three men were charged on 28 July 2026 with murder contrary to common law, on the advice of the Director of Public Prosecutions. The charges were read before Chief Magistrate Judy Latchman at the Georgetown Magistrates' Court. No pleas were taken, all three were remanded to prison, and the matter was adjourned to the Charity Magistrate's Court on 3 August 2026.
+
+**All three are accused persons who have not been tried.** This archive takes no view on their guilt or innocence. It records the names as published, the count as reported, the procedure, and the discrepancies — nothing further.
+
+| Accused | Age | Role | Address as published |
+|---|---|---|---|
+| Kevin Price, called "KP" | 40 | Captain | Melanie Damishana, East Coast Demerara |
+| Rondell Dwayne Roberts | 42 | Chief Mate | East Bank Demerara; the road is given two ways, below |
+| Delon Granderson | 33 | Goods Superintendent, T&HD | Fellowship, West Coast Demerara |
+
+**[CONTESTED]** Roberts's address is published two ways. Kaieteur of 28 July, News Room and HGPTV give **"Meadow Grove Public Road"**; Demerara Waves and Kaieteur of 29 July give **"Grove Public Road"**. His forename appears as both Rondell and Rondel. Both renderings of the address are recorded; the archive does not choose between them.
+
+**The count: 72, laid jointly.** Five outlets state the total independently — Times Caribbean on 28 July, the earliest surveyed, then CMC in the Jamaica Observer, Caribbean National Weekly, WIC News and HGPTV, all on 29 July. The 72 counts are laid **jointly against the three men together, not 72 each**. No source states how they are distributed among the accused.
+
+**No official release states any count.** The police release, as reproduced by the Guyanese outlets that carried it, records that the men were charged following legal advice from the Director of Public Prosecutions and gives no number; the DPP's own statement of 28 July gives no number either. The figure of 72 entered the record through court reporting and defence comment, not through any official document.
+
+Its derivation appears in one place. Defence attorney Dexter Todd, via Caribbean National Weekly: **"We know so far that the disclosure is that 72 bodies were recovered and so they were charged for all 72 of those deaths."** That is counsel's account of the prosecution's disclosure, not a prosecution statement.
+
+**[UNRESOLVED]** Every official figure since 24 July gives **73** bodies recovered. Todd's account of the disclosure gives **72**. Both figures stand in the record. Nothing in the corpus reconciles them, and this page does not.
+
+**The DPP's stated basis for the charges.** Shalimar Hack, 28 July, verbatim: "The decision to do so was based upon careful consideration of the evidence presented, the relevant principles of law involved, case law authorities from the United Kingdom, Commonwealth jurisdictions, the European Court of Human Rights, and public policy considerations."
+
+**What the statement did not address.** Demerara Waves (Chabrol) records that she spoke "without directly addressing the legal elements — intent and malice — of murder." HGPTV corroborates the omission from the other side: the statement "did not disclose the evidence contained in the police file or explain publicly how prosecutors intend to establish the legal elements required for murder." How murder is to be made out on these facts is therefore not in the corpus.
+
+**[SINGLE SOURCE]** Demerara Waves' lead characterises the DPP as having "publicly stated that the vessel's navigational and safety systems were defective." **This is the reporting outlet's wording, not a quotation of the DPP.** The article carries no direct quotation of her describing the systems; iNews reproduces the same release at near-full length with no such statement; HGPTV omits it. It must not be cited as a DPP admission about the vessel. An earlier version of this archive treated it as one. That was wrong.
+
+---
+
+## 5. Was she seaworthy?
 
 **The state's position, stated precisely.** DPI's headline of 20 July is "MV Barima was seaworthy – Min Edghill," but Edghill's own words are narrower: **"There was no report of any kind that suggested the vessel was unseaworthy."** That is an absence-of-reports claim, not a survey finding, and the distinction should be preserved in any citation. On the machinery he was more categorical — "There was no engine problem or any mechanical problem" (19–20 July), and "there was no reported engine troubles from the crew when the boat came in and when the boat left" (22 July). MARAD's Thomas, 22 July: **"not overloaded,"** citing the load line, and stating that age is not determinative because modern thin steel is stronger.
 
@@ -78,9 +112,11 @@ Two outlets reported a reason for the reduction. News Room attributed it to de-d
 
 On the machinery, the 2017 rehabilitation is described as including "installation of two engines"; whether the original Paxman engines were entirely replaced is not established in the corpus. The figure of 87 years is therefore supported for the hull and not for the machinery.
 
+**[SINGLE SOURCE]** Andrew Donald, who says he commanded the *Barima* during twelve years at the T&HD, is carried by HGPTV alone, on 29 July, from a statement posted to Facebook by MP Ganesh Mahipaul. Where his account bears on the figures on this page: he describes the *Barima* as a **single-hull** passenger vessel operating contrary to the standards of the International Convention for the Safety of Life at Sea; says it had **no hull tanks** capable of containing incoming water and **no operational bilge system** powerful enough to control serious flooding; and puts the crew's margin after an underwater breach at **five to ten minutes**. He dismisses the focus on whether **dry-docking** was overdue, arguing the vessel's problems were more fundamental than its repair schedule — which is set against Edghill's docking chronology of last docked 2024, next due in the second half of 2026. He calls for public examination of the vessel's safety certificates, inspection history, loading records, dry-docking schedule, passenger and cargo limits, **freeboard and draft**; none of those documents appears in the corpus, so none of his claims can be checked against one. HGPTV states that the claims "have not been independently verified" and that Donald named no individuals. No other outlet in the corpus carries him.
+
 ---
 
-## 5. Proximate cause — three incompatible accounts
+## 6. Proximate cause — three incompatible accounts
 
 **Official:** rough seas at a known-hazardous location compounded by crew impairment. Thomas's stability argument — a vessel with positive stability rights itself even at twenty degrees of heel, so failure to right indicates human operational error.
 
@@ -96,7 +132,7 @@ On the machinery, the 2017 rehabilitation is described as including "installatio
 
 ---
 
-## 6. Rescue response
+## 7. Rescue response
 
 **The Mayday itself is contested, and this is easy to miss.** A 23:01 Mayday is the spine of every published timeline in the corpus. But on 25 July Prime Minister Phillips said of a Mayday from the captain: **"We have no such record."** Whether the vessel transmitted a Mayday, whether it was logged, and whether "received by aviation authorities" and "recorded by the state" are the same thing, are all open.
 
@@ -110,7 +146,7 @@ Demerara Waves reports that, **except for the GDF**, the government had no crisi
 
 ---
 
-## 7. Why the replacement never sailed [CONTESTED]
+## 8. Why the replacement never sailed [CONTESTED]
 
 - **Wharf works:** PM Phillips, 25 July — delayed Port Kaituma wharf works meant the *Ma Lisha* could not run the route.
 - **Cargo capacity:** residents and contemporaneous reporting — the vessel could not carry the route's cargo, so the *Barima* stayed and was re-tendered.
@@ -119,13 +155,13 @@ The two accounts are not mutually exclusive: one describes incomplete wharf infr
 
 ---
 
-## 8. Compensation and funeral costs as reported
+## 9. Compensation and funeral costs as reported
 
 The reported figures are **funeral-expense** figures, not compensation. APNU's Saiku Andrews: "It starts with an assistance for the funeral expenses and I believe that there is no less than $1M…", and some families "have been offered a mere $300,000 **for funeral expenses**." Phillips's position on the wider question is sequencing: "The focus now is not on compensation. The focus is on recovering bodies, financing the burial and funeral rites…" He has also characterised the payments made so far directly — "That is not deemed compensation. That is the government's responsibility in times like this to assist families" — and said compensation itself will be determined after the Commission of Inquiry reports. (This page previously stated that no official had characterised the payments as "not compensation." That was wrong; the statement is in Caribbean National Weekly of 24 July.) Separately, Edghill confirmed on 22 July that the state assumed the risk on an **uninsured** vessel, which means any eventual compensation is a treasury matter rather than an insurance claim.
 
 ---
 
-## 9. Smaller discrepancies worth tracking
+## 10. Smaller discrepancies worth tracking
 
 | Item | Version A | Version B |
 |---|---|---|
@@ -147,18 +183,21 @@ The reported figures are **funeral-expense** figures, not compensation. APNU's S
 | *Lady Northcote* | Withdrawn 2019, leaving the *Barima* alone on the Port Kaituma run | "continues operating" (Kaieteur, 24 Jul) |
 | Toxicology disclosure | Edghill, 19 July evening | Phillips ("two crewmembers") Sunday 20 July; Jagdeo restated 22 July |
 | COI composition | "distinguished local and international experts" (DPI) | reported variously as an international panel |
+| Chief Mate's address on the charge | "Meadow Grove Public Road", East Bank Demerara (Kaieteur 28 Jul; News Room; HGPTV) | "Grove Public Road", East Bank Demerara (Demerara Waves; Kaieteur 29 Jul). The forename is also rendered both Rondell and Rondel |
+
+The last row concerns an accused person who has not been tried. It is recorded because the published particulars differ, and for no other reason; the archive takes no view on guilt or innocence.
 
 ---
 
-## 10. Claims resting on a single source
+## 11. Claims resting on a single source
 
 Flagged because they are consequential and uncorroborated. Each is a priority for verification.
 
-Bulkan's letters carry an unusual share of the load: the mudbank grounding, the unanswered Pan Pan question, the SOLAS accession dates, and the Exxon vessel and diver detail. Demerara Waves alone reports the ten already-home "survivors" and the absence of a crisis-communications response outside the GDF. Guyana Times alone has Haresh Singh instructing the Coast Guard to fire flares. Elena Moonsammy alone describes cargo stacked at the stern. The March 2026 hull-plating specification reaches the corpus only through unbylined CMC copy voiced by an opposition MP. The uninsured-vessel disclosure and the presence of machinery and ATVs aboard come through Kaieteur and HGPTV. Venezuelan families disputing earthen burials is Kaieteur alone. Patterson's claim that expert procurement advice was disregarded is post-disaster and unverified. Aporrea alone frames the sinking as having occurred in Venezuelan-claimed waters. The vigil detentions' resolution — charges dropped, apology given — rests on the activists' own statement; no police or government statement appears in the corpus, and the event was a government **national prayer service** rather than a candlelight vigil.
+Bulkan's letters carry an unusual share of the load: the mudbank grounding, the unanswered Pan Pan question, the SOLAS accession dates, and the Exxon vessel and diver detail. Demerara Waves alone reports the ten already-home "survivors" and the absence of a crisis-communications response outside the GDF. Guyana Times alone has Haresh Singh instructing the Coast Guard to fire flares. Elena Moonsammy alone describes cargo stacked at the stern. The March 2026 hull-plating specification reaches the corpus only through unbylined CMC copy voiced by an opposition MP. The uninsured-vessel disclosure and the presence of machinery and ATVs aboard come through Kaieteur and HGPTV. Venezuelan families disputing earthen burials is Kaieteur alone. Patterson's claim that expert procurement advice was disregarded is post-disaster and unverified. Aporrea alone frames the sinking as having occurred in Venezuelan-claimed waters. Andrew Donald's account of the vessel's construction, its want of hull tanks and bilge capacity, and the five-to-ten-minute margin after a breach reaches the corpus through HGPTV alone, which states that it has not been independently verified. The characterisation of the DPP as having stated that the vessel's navigational and safety systems were defective is Demerara Waves' alone, and is the outlet's own wording rather than anything she is quoted as saying. The vigil detentions' resolution — charges dropped, apology given — rests on the activists' own statement; no police or government statement appears in the corpus, and the event was a government **national prayer service** rather than a candlelight vigil.
 
 ---
 
-## 11. Reliability guidance for this corpus
+## 12. Reliability guidance for this corpus
 
 **Earliest or most directly sourced:** the Paxman History Pages engine register (pre-disaster, apolitical, corroborates build year, yard, ordering chain and dimensions independently of all disaster coverage — every figure in it was verified); DPI's own pre-disaster releases, which are admissions against interest; the 2015 Adams letter; and AP's original on-the-ground reporting (Drake in Charity, Wilkinson in Georgetown), which is the origin of most survivor testimony everyone else recycles and the only source for the decades-old practice of clerks selling unmanifested seats.
 
@@ -166,4 +205,4 @@ Bulkan's letters carry an unusual share of the load: the mudbank grounding, the 
 
 **Files carrying a `capture_fidelity`, `fidelity` or `verbatim: false` warning** must never be quoted as verbatim; their direct quotations are reliable, their connective prose is the retrieval tool's compression. This applies to the 2020 DPI release, the *Christena* Wikipedia capture, and the vigil-detentions report, all of which are cited above with that caveat attached.
 
-**Absent from the corpus entirely:** any published certificate of survey, load line or passenger capacity; any Auditor General finding specific to the T&HD; any trade union statement; any gazetted terms of reference for the Commission of Inquiry; any IMO or PAHO statement; any MARAD advisory or notice to mariners; and any reference in either direction to charges being laid or an inquest opened. No BBC byline surfaced. Reuters did contribute — Al Jazeera's 21 July piece is bylined "Al Jazeera Staff, AP and Reuters" — so treat the wire coverage as present but not directly captured.
+**Absent from the corpus entirely:** any published certificate of survey, load line or passenger capacity; any Auditor General finding specific to the T&HD; any trade union statement; any gazetted terms of reference for the Commission of Inquiry; any IMO or PAHO statement; any MARAD advisory or notice to mariners; and any official statement of the number of counts charged. No BBC byline surfaced. Reuters did contribute — Al Jazeera's 21 July piece is bylined "Al Jazeera Staff, AP and Reuters" — so treat the wire coverage as present but not directly captured.

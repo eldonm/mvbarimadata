@@ -606,3 +606,13 @@ aside.reasoned { border-top:1px solid var(--hair); border-bottom:none;
   letter-spacing:0.05em; color:var(--ink2); padding:10px 18px; margin-left:10px;
   border:1px solid var(--axis); }
 .ghost:hover { color:var(--ink); border-color:var(--ink2); text-decoration:none; }
+
+/* ---------- social media sources ----------
+   Held because the speaker is on the record, not because anything in them was
+   checked. They must never be mistakable for edited journalism, so they carry a
+   badge on the card, a badge on the page, and a standing warning above the text. */
+.badge.social { background:var(--alarm-bg); color:var(--critical);
+  border:1px solid rgba(208,59,59,0.35); font-weight:700; }
+.socialwarn { margin:0 0 20px; padding:13px 16px; border:1px solid rgba(208,59,59,0.35);
+  background:var(--alarm-bg); font-size:14.5px; line-height:1.55; color:var(--ink2); }
+.socialwarn strong { color:var(--critical); }

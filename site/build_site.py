@@ -69,10 +69,22 @@ TIER_KIND = {
     'international-press': 'International press',
     'regional-press': 'Regional press',
     'civil-society': 'Civil society',
+    'social-media': 'Social media',
     'historical': 'Historical & context',
     'reference': 'Historical & context',
     'analysis': 'Historical & context',
 }
+SOCIAL_NOTE = (
+    'Self-published on social media by the named account. No editor stood between the '
+    'author and publication, and nothing in it has been verified by this archive or by any '
+    'outlet unless a separate document says so. It is held because the speaker is on the '
+    'record, not because the content is established.')
+
+
+def is_social(rec):
+    return 'social-media' in (rec.get('tier') or '').lower()
+
+
 def kind_of(rec):
     t = (rec.get('tier') or '').lower()
     for key, val in TIER_KIND.items():
@@ -901,6 +913,8 @@ def build_sources():
         hay = ' '.join([r['title'], r['outlet'], r['author'], r['summary'], r['genre'], r['kind']]
                        + r['claims'][:6] + r['facts'][:6])
         badges = f'<span class="badge">{E(r["kind"])}</span>'
+        if is_social(r):
+            badges += '<span class="badge social">Social media &mdash; unverified</span>'
         if r['genre']:
             badges += f'<span class="badge">{E(r["genre"].replace("-", " "))}</span>'
         if r['flagged']:
@@ -1022,11 +1036,13 @@ def build_source_page(r):
     <span class="badge">{E(r['kind'])}</span>
     {f'<span class="badge">{E((r["genre"] or "").replace("-", " "))}</span>' if r['genre'] else ''}
     <span class="badge">{E(prettydate(r['published']))}</span>
+    {'<span class="badge social">Social media &mdash; unverified</span>' if is_social(r) else ''}
   </div>
   <h1 style="font-size:clamp(25px,3.4vw,38px)">{E(r['title'])}</h1>
   <p class="lede muted" style="margin-bottom:18px;">{E(r['outlet'])}{f' &middot; {E(r["author"])}' if r['author'] else ''}</p>
   {orig}
   {warn}
+  {f'<div class="socialwarn"><strong>This is a social media post.</strong> {SOCIAL_NOTE}</div>' if is_social(r) else ''}
   <div class="wrap-read">
   {f'<h3>What this source establishes</h3><p>{E(r["summary"])}</p>' if r['summary'] else ''}
   {extra}
@@ -1451,7 +1467,7 @@ def build_prose_page(fname, title, h1, lede, cur, extra_note='', transform=None)
 ''' + foot()
 
 # ------------------------------------------------------------------ og cards --
-# One card per top-level page plus a shared one for the 209 source pages. Titles
+# One card per top-level page plus a shared one for the source pages. Titles
 # and subtext are written for the crop: a social preview is read at a glance and
 # at a fraction of full size, so each card says what the page is and one true
 # thing about it, and nothing that needs squinting at.
@@ -1558,12 +1574,12 @@ write('questions.html', build_prose_page(
     'questions.md',
     'Questions of the record — MV Barima documented record',
     'Questions of the record',
-    'Questions about the MV Barima disaster, answered from the 209 documents in this archive. '
+    f'Questions about the MV Barima disaster, answered from the {len(records)} documents in this archive. '
     'Anyone can send a question in.',
     'questions.html',
     '<div class="note warn"><h4>These answers are written by AI, over the whole archive</h4><p>'
     'Everywhere else this site only sets out what published sources said, attributed. Here the '
-    'question is answered directly, by AI reasoning across all 209 documents. Evidence is named; '
+    f'question is answered directly, by AI reasoning across all {len(records)} documents. Evidence is named; '
     'where the record cannot settle something, that is the answer given. If this page and the '
     'record pages disagree, the record pages are right. Question five also draws on international '
     'instruments held outside the archive, and says so. Nothing here bears on the guilt of the '
