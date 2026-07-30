@@ -4,6 +4,104 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 30 July 2026 (late) — thirteenth build, the analysis doubles and the story gets a spine
+
+Two things. The analysis page was expanded from nineteen findings to twenty-eight, after a verification pass that killed one candidate outright and reshaped three others. And the site now carries a short account of the story itself, for a reader who has just arrived and does not know it.
+
+### Notable developments: the story in twenty turns
+
+Until now a reader landing here had two options — the [chronology](timeline.html), which records every dated entry the corpus supports and runs to several thousand words, or nothing. That is a poor choice to offer someone who has heard about a ferry and wants to know what happened.
+
+There is now a **notable developments** rail on the landing page and at the head of the chronology: twenty entries from the yard that built her in 1939 to the swearing-in of the Commission on 30 July. The test for inclusion is narrow — each has to be a moment after which something was different. The eight pre-disaster turns are collapsed behind a disclosure on the landing page, because a reader who has just arrived wants the fortnight rather than the ninety years, and open by default on the chronology. Markers are coloured by phase, and the colours carry no information the text does not, so the list reads correctly in monochrome and to a screen reader.
+
+It is deliberately not a summary of the analysis. It records what happened, in the order it happened, and leaves the argument to the page that makes it.
+
+### Nine new findings, and one that did not survive checking
+
+Every candidate was put to an adversarial pass before it was written: verify the factual base, then try to destroy it, then build the strongest innocent explanation available, then say which the record actually supports. Two of them came back materially different from how they went in, and one came back dead.
+
+**What was added.**
+
+**Finding 20** — a law officer of the state publicly attributed alcohol to a named accused man. Every official account of the toxicology until 29 July says cannabis: the minister on 19 July, the Vice President on 22 July, DPI's own release the same day. On 29 July the Attorney General said "accounts indicate the captain was under the influence of **alcohol and narcotics**." No positive alcohol result appears in any test, statement, report or document in this corpus. An alcohol panel **was** run — that is on the record — and its result has never been published either way, which is the point. The finding is written strictly as a fact about what a minister said while the matter was before a magistrate, and it says so.
+
+**Finding 21** &mdash; the carrier decides whether its own cargo is dangerous, and on this voyage the carrier's parent ministry was the shipper. The Ministry of Public Works published its own consigned cargo on 29 July: one ATV, six drums of gasoline, four drums of diesel. Section 17(3) of the Transport and Harbours Act provides that "Any question as to whether goods are dangerous goods shall be determined by the Department" &mdash; the carrier &mdash; with no external standard, no review, and no requirement that the determination be recorded. **As first published this finding said something else and something false**: that nothing in this record mentions dangerous goods at all. It was withdrawn and rewritten within hours; the reason is set out further down this entry, and it is the most important thing in it.
+
+**Finding 22** — money is reaching bereaved families at figures nobody can explain, and a claim window may be closing behind them. Ranked critical for one reason: unlike everything else on the page it is prospective. It is also the one finding on this site with a practical instruction attached, which is repeated here: **anyone who may have a claim should take Guyanese legal advice now rather than wait for the Commission.**
+
+**Finding 23** — the three people who know most about the voyage were charged two days before the inquiry was sworn, and nobody in government has addressed what that does to the evidence. Written as four documented facts and one unanswered question, and expressly **not** as the inference in its own headline.
+
+**Finding 24** — licensed for 397 people, 250 life jackets aboard. Both numbers came from the same minister at the same press conference on 19 July, one of them in the state's own written release, and he described it as meeting the required standard. **[WITHDRAWN THE SAME DAY — see below.]** As first published this finding said that in twelve days nobody in this corpus had put them side by side. The submitted analysis does exactly that, and reports an opposition figure making the same point. Rewritten within hours; the claim is now that the *government* has never reconciled them.
+
+**Finding 25** — the state has had the loading on video since 20 July. Officials sat up overnight watching it and published what it says about *people*: 179 boarded. They have never said what it says about *cargo* — the thing three men were charged over eight days later. In between, the regulator cleared the vessel of overloading on the strength of, in his own words, "persons that we talk to."
+
+**Finding 26** — MARAD has said nothing since 24 July, and the master's dated allegation about its own inspection is sitting unanswered. Carries a genuine second gap: the state's first account of how the casualty was located rests on an electronic locator transmitter signal, and no document anywhere says what device produced it.
+
+**Finding 27** — nine weeks before charging three men over how a ferry was loaded, the same ministry advertised roughly a thousand people standing on a vehicle deck at Fort Island. Recorded as a pattern in how one body applied the same question to itself and to others, and expressly not as a finding that any rule was broken.
+
+**Finding 28** — on one reading of the Shipping Act, the official who cleared the vessel was, in law, her owner. Single-sourced to the submitted analysis, and marked as such.
+
+**Finding 3 was extended** rather than duplicated. The disposal of the wreck — the one physical object in a live 72-count murder prosecution — has been placed in the hands of bereaved families, and **no document in this corpus records the Director of Public Prosecutions, the police, the court or the Commission being consulted, asked or heard on it.** Against that, the families most closely consulted appear to want it raised, which would mean the mechanism disposes of nothing.
+
+**And one candidate was killed.** A finding was drafted on the Prime Minister publicly doubting the intent the prosecution must prove — that he "did not believe they set out to kill occupants." Verification found the quotation exists only as an undated back-reference, twice, in a single outlet, with no record anywhere of the occasion on which he said it — and that this is the same outlet whose framing sentence about the Director of Public Prosecutions this archive already had to withdraw on this exact story. It was dropped. Half of it survived and was folded into finding 4: the Director of Public Prosecutions has stated a basis for 72 murder counts without addressing intent or malice, and three outlets independently record the omission.
+
+### What the checking removed from the findings that survived
+
+Two elements were cut from finding 21 as wrong. **MARAD is not under the same minister as the Transport & Harbours Department** — the corpus is clear on that, including a self-correction by the author of the submitted analysis, so the conflict recorded is between owner and shipper and not between operator and regulator. And 29 July was **not** the first the public heard of state cargo aboard: the Prime Minister volunteered the substance of it on 22 July. Both corrections make the finding weaker and both are published.
+
+From finding 20, the drift over whether the second man who tested positive was the first engineer or the chief mate was cut, because it is not the Attorney General's drift — it begins in DPI's own release of 22 July and is already recorded at finding 7.
+
+From finding 23, the causal claim was cut entirely. One defence lawyer's *sub judice* proposition is probably bad law and comes from counsel of record for all three accused; the other's suggestion about intention is expressly disclaimed by the outlet that carried it; and thirteen of the seventeen crew died, so the inquiry's evidentiary loss is overwhelmingly attributable to the sinking rather than to the charge sheet. What remains is the unanswered question.
+
+### The plain-language summary grew to twelve points
+
+Three were added, all of them from the new findings and all chosen because they can be understood without knowing anything about ships: the life jackets against the licensed capacity, the video the state has never described, and the money going out against a deadline that may be running. The landing page previews all twelve.
+
+### One more correction found while doing this
+
+DPI's release of 19 July states the vessel "departed **Parika** at approximately 3:15 p.m." Every other account, including the state's own later ones, has her leaving **Georgetown**. It is almost certainly a drafting error written in the first hours, and it is recorded at finding 17 because it sits in the state's first primary document and because the port of departure is not trivial here — the regulator's load-line reasoning turns on the density of the water she was floating in.
+
+### Then the verification pass found that two of the new findings were wrong, and why
+
+An adversarial check was run over the rebuilt site before it went out. It killed the central claim of two of the nine findings just written, and the reason is worth publishing in full because it is a fault in method rather than a slip of the pen.
+
+**This archive searched its own markdown extracts and never searched the 253-page PDF it publishes on its own site.** The corpus is 266 records; 265 of them are extracts, and one is a primary document held in full. The search that produced finding 21's claim — that nothing in this record mentions dangerous goods — ran over the extracts. The PDF contains eleven mentions of dangerous goods, six of the IMDG Code, and an entire numbered deficiency on the subject. The same search produced finding 24's claim that nobody had set 250 life jackets against a licensed capacity of 397. The same document does exactly that, on page 43, and reports an opposition figure making the same point publicly.
+
+Both claims are withdrawn, and both findings have been **rewritten around what the record actually contains**. In each case the true version is stronger than the false one.
+
+**Finding 21 is now about section 17(3) of the Transport and Harbours Act**, which provides that "Any question as to whether goods are dangerous goods shall be determined by the Department" — the carrier. No external standard, no review, no requirement that the determination even be recorded, and a carrier with a commercial interest in the answer. On 29 July the parent ministry of that carrier disclosed that it had itself consigned six drums of gasoline and four of diesel on the fatal voyage; the submitted analysis notes, of this casualty, that fuel in containers is capable of falling within IMDG Class 3. Nobody has connected the statutory point to the cargo list, and nobody has asked who answered the section 17(3) question, or whether anyone did.
+
+**Finding 24 is now that the government has never reconciled the two figures** — not that nobody has. One person has: an unsolicited analyst writing to this archive ten days later, who adds the part that is still open, which is that the aggregate capacity of the vessel's eight liferafts is not established in the public record at all.
+
+Both rewrites open by stating the error, because a correction buried at the foot of a page is not a correction.
+
+### Six smaller defects the same pass found
+
+**Finding 27's headline arithmetic was wrong.** Fort Island was 25 May and the charges were 28 July: nine weeks, not seven. The *Konawaruk 1899* was commissioned five months before Fort Island, not seven — the "seven months" came from a source describing the gap to the **sinking**, and was re-anchored to the wrong event when it was lifted.
+
+**Finding 25 and plain-language point 11 were a day out.** The wharf footage was seized on 20 July and the charges were laid on 28 July: eight days, not nine. (An earlier version of this entry said "findings 11 and 25" &mdash; finding 11 is the medico-legal one and carries no such interval. Corrected.)
+
+**The developments rail stated a spend that may never have happened.** It read "A further G$124.5m goes into her hull." The corpus holds only an engineer's estimate in bidding documents, and the Opposition Leader alleges the contract was never awarded or executed — which is why this archive's own finding 14 downgraded that tender back in an earlier build. The rail now says a repair was put out to tender and that whether it was ever done is not established.
+
+**The rail stated three contested things flatly.** The build year, whether the *Lady Northcote* was withdrawn, and why the *Ma Lisha* never took the route are all marked contested on the chronology, and the rail — whose own preamble points readers to that chronology "with every conflict marked" — had dropped the marks. Restored.
+
+**The rail named three untried accused with no caveat near it.** On the landing page the standing caveat follows a few hundred words later; at the top of the chronology it was thirty thousand characters downstream. The caveat is now inline in the entry itself.
+
+**Finding 20's heading called the Attorney General "a minister" and rendered his words as "drunk."** He is a law officer, not a minister, and the record says "under the influence of alcohol and narcotics" — a harder word than the source supports, in a heading about a man who has not been tried. Both fixed.
+
+### And the claim that was killed was still live on the chronology
+
+The finding drafted on the Prime Minister doubting the murder charge's intent element was dropped from the analysis page. The [chronology](timeline.html) still carried it, dated, under its original heading — a claim withdrawn on one page and asserted on another, which is the exact failure this site audited itself for earlier the same day. The chronology entry has been rewritten to record what it actually is: an undated back-reference, twice, in one outlet, with no occasion recorded anywhere, from the same outlet whose framing sentence about the Director of Public Prosecutions this archive already had to withdraw on this same story.
+
+### What the same pass confirmed
+
+A second adversarial pass, run after these corrections, found four more &mdash; all of them the same failure, and all now fixed: the withdrawn life-jacket claim was still live as a plain-language point and on the landing page; the standing post-mortem claim is falsified by the same PDF, which lists "post-mortem findings" among the material a Commission should place under chain of custody; finding 23's claim that only a broadcaster had named the self-incrimination problem was falsified by the same document, which calls it "the single most urgent practical problem facing the Commission" and drafts four remedies; and finding 3 undercounted who has argued the wreck is evidence. The lesson is the same one and it is recorded rather than absorbed: **an absence claim is only as good as the search behind it, and this archive ran three searches before it searched everything it holds.** Beyond those, every factual assertion in findings 20 to 28 and in all twenty rail entries was checked against the corpus and holds, with quotations located: the four toxicology attributions and the absence of any positive alcohol result; the cargo list and the Prime Minister's earlier disclosure; the $300,000 and $350,000 figures and the limitation arithmetic; the 397 and the 250 and MARAD's 394; the seizure of the footage and the "persons that we talk to" quotation; MARAD's silence after 24 July, tested by sweeping every 26–30 July record for any MARAD utterance; the Fort Island figures and the "No vehicles will be permitted aboard the vessels" instruction; and the section 3(3) quotation, correctly marked single-source. The re-search of the PDF also broke this archive's longest-standing absence claim, the one about post-mortems. It searched for "coroner" and "inquest", found both as statutory concepts, and **failed to search for the word in the claim's own headline.** A later pass found it: the same document lists **"post-mortem findings"** among the physical and forensic material a Commission should place under documented chain of custody. Finding 11 and plain-language point 7 are rewritten. The claim that survives is narrower and, if anything, worse &mdash; not that the words are absent, but that **no cause of death has ever been stated for a single one of these dead**, and that the only document treating post-mortems as existing at all is an outside analyst telling a Commission what to secure.
+
+### Counts
+
+Twenty-eight findings, twelve plain-language points, four self-corrections **plus two more declared inside findings 21 and 24**, and a citation block on every one of them. The corpus is unchanged at 266 documents: **nothing was added to support these findings.** Every one of them was already in the record and had not been read — including, in two cases, in a document this site has been publishing in full for a day and had never searched.
+
+---
+
 ## 30 July 2026 (evening) — twelfth build, the Commission is sworn in and the whole site is audited
 
 Two things happened here. The day's reporting was swept and filed, and every page was read against the corpus looking for statements that had quietly gone stale. Both are recorded below, the corrections first, because a correction matters more than an addition.
@@ -26,7 +124,7 @@ This archive is keeping **73** and recording 72 as an unexplained divergence rat
 
 ### Twenty-five documents added, taking the corpus to 266
 
-Twenty-one are original Guyanese reporting on the sinking, which moves the independent-reporting count for the first time since 29 July — from 107 to 128. The other four are one DPI release and three opinion pieces. Among the material new to the record: the **charge particulars**, published for the first time by Kaieteur News, which name the position 9.3 nautical miles on a bearing of 040° off Devonshire Castle and confirm that the 72 counts correspond to 72 *named* victims; the **Ministry of Public Works' itemised list of its own cargo** aboard — one Honda side-by-side ATV, six drums of gasoline, four drums of diesel — which is a statement about its own consignment and not a manifest; the **Attorney General personally defending the charges** and characterising the accused, recorded as allegation and as a fact about what he said; the **Prime Minister on record doubting the intent the prosecution must prove**; the first published figure for a **funeral payment actually received**, $350,000, from a named relative; and **two assessments of the state's care of the bereaved published the same day that do not agree** — PAHO's praise, offered incidentally at an unrelated signing, against a clinical psychotherapist's account of an improvised response run out of an open public venue.
+Twenty-one are original Guyanese reporting on the sinking, which moves the independent-reporting count for the first time since 29 July — from 107 to 128. The other four are one DPI release and three opinion pieces. Among the material new to the record: the **charge particulars**, published for the first time by Kaieteur News, which name the position 9.3 nautical miles on a bearing of 040° off Devonshire Castle and confirm that the 72 counts correspond to 72 *named* victims; the **Ministry of Public Works' itemised list of its own cargo** aboard — one Honda side-by-side ATV, six drums of gasoline, four drums of diesel — which is a statement about its own consignment and not a manifest; the **Attorney General personally defending the charges** and characterising the accused, recorded as allegation and as a fact about what he said; a belief attributed to the **Prime Minister** by one outlet, that he did not think the accused set out to kill anyone &mdash; **later qualified**, on 30 July, when verification could locate no occasion on which he said it (see the thirteenth-build entry above); the first published figure for a **funeral payment actually received**, $350,000, from a named relative; and **two assessments of the state's care of the bereaved published the same day that do not agree** — PAHO's praise, offered incidentally at an unrelated signing, against a clinical psychotherapist's account of an improvised response run out of an open public venue.
 
 ### A gap this archive had published as open is now closed, and the note is withdrawn
 

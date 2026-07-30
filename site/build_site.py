@@ -580,6 +580,59 @@ CHAIN = [
      '<b>GHRA:</b> a parliamentary commission, equal government and opposition membership, judicially qualified chair, statutory duty of candour, state-funded counsel for families. <b>TIGI and Rescue Guyana:</b> an IMO-led investigation. <b>WIN:</b> recusal of Ministers Edghill and Indar, livestreamed hearings.'),
 ]
 
+# ---------------------------------------------------------------- developments
+# A short spine of the story, for a reader arriving cold. It is deliberately not
+# the chronology: the chronology records everything the corpus holds, and this
+# records only the turns. Each line has to be a moment after which something was
+# different. `kind` drives the colour of the marker, nothing else.
+DEVELOPMENTS = [
+    ('vessel',  '1939', 'The <em>Barima</em> is built', 'Ferguson Brothers, Port Glasgow, for the British Guiana Railways, ordered through the Crown Agents. She is the last of three sisters. The build year is <strong>contested</strong> &mdash; most coverage says 1939 and the builder&rsquo;s engine register supports it; Kaieteur News says 1938, and MARAD refers to a &ldquo;1938 rating&rdquo;.'),
+    ('vessel',  '2 Oct 2015', 'A master mariner names this ship in print', 'Capt. R. E. W. Adams writes to Stabroek News citing an inspection that found her deck and winch area &ldquo;a mass of junk and rust&rdquo;, and argues such a vessel would be barred from sea or scrapped elsewhere in the Caribbean. Eleven years before she sank.'),
+    ('vessel',  '2017', 'The state chooses rehabilitation over replacement', 'G$150.6m is spent on her, including the installation of two engines. The 1939 hull stays.'),
+    ('vessel',  '2019', 'She becomes the only vessel on the run', 'The <em>Lady Northcote</em> is reported withdrawn, leaving an 80-year-old ship as the sole practical link between Georgetown and Port Kaituma. <strong>Contested</strong>: Kaieteur News reported on 24 July 2026 that the <em>Lady Northcote</em> &ldquo;continues operating&rdquo;.'),
+    ('vessel',  'Dec 2022', 'G$1.4bn is awarded for a new Port Kaituma stelling', 'It reaches about 90% in February 2024, then stalls on a failed tie-rod specification and design deficiencies. It is still unfinished on the day she sinks.'),
+    ('vessel',  '2023', 'A replacement arrives and never takes the route', 'The US$12.7m India-funded <em>MV Ma Lisha</em> is commissioned and Parliament is told it will replace the <em>Barima</em>. Why it never sailed the route is <strong>contested</strong>: the Prime Minister says the Port Kaituma wharf works were unfinished; residents and contemporaneous reporting say her cargo capacity was inadequate for the route. Both may be true.'),
+    ('vessel',  'Mar 2026', 'Stabroek News ceases print after about forty years', 'Guyana&rsquo;s principal independent daily, and the paper that carried the 2015 warning, goes into voluntary liquidation four months before the sinking.'),
+    ('vessel',  '9 Mar 2026', 'A G$124.5m hull repair is put out to tender', 'Bidding documents specify examination of some 10,000 square metres of hull plating and frames, with deteriorated sections renewed where necessary. Four months before she sinks. Whether the contract was ever awarded or the work ever done is <strong>not established</strong> in this record, and the Opposition Leader alleges it was not.'),
+
+    ('disaster','Sat 18 Jul 2026, 15:15', 'She sails for Port Kaituma', 'From the Transport &amp; Harbours Department wharf at Kingston, Georgetown. The manifest records 116 passengers and 17 crew. A CCTV review will later put 179 people aboard.'),
+    ('disaster','18 Jul, about 23:01', 'A distress call is received', 'She capsizes off Iron Punt at the mouth of the Pomeroon River, in three to nine metres of water. Survivor accounts describe an engine repaired at sea and water entering from about 20:00.'),
+
+    ('response','19 Jul', 'The minister names a cause on day one', 'Juan Edghill: &ldquo;One word&hellip; mischief.&rdquo; He gives 284 tonnes licensed against 268 manifested, and discloses that only 35 of the first 67 rescued appear on the manifest. Two crew test positive for cannabis.'),
+    ('response','20 Jul', 'The loading team is suspended, and the wharf video is seized', 'The suspension is announced by Facebook post. Police extract the CCTV from the Kingston Goods Wharf. The working complement becomes 179, up from the manifest&rsquo;s 133.'),
+    ('response','21&ndash;22 Jul', 'The regulator clears the vessel', 'MARAD&rsquo;s Director-General states she was &ldquo;not overloaded&rdquo;, citing the load line. Kaieteur News publishes its own tally of 103 dead. Three days of national mourning are declared. Edghill confirms she was uninsured.'),
+    ('response','24 Jul', 'The recovery figure reaches 73 and stops', '73 recovered, 69 identified, about 30 unaccounted for. Boats are said to be standing by to right her. The figure of 73 will not move again.'),
+
+    ('inquiry', '25 Jul', 'Families are asked to accept the wreck as a memorial', 'A draft Declaration of Agreement is circulated asking them to concur that the vessel remain undisturbed. The same day, President Ali announces a Commission of Inquiry.'),
+    ('inquiry', '26&ndash;27 Jul', 'Five commissioners are named; the divers say the wreck cannot be entered', 'Nothing is gazetted. The French dive team tells relatives it is too dangerous to go inside &mdash; two days after the memorial document went out. Parliament sits and the opposition protests inside the chamber.'),
+
+    ('legal',   '28 Jul', 'Three employees of the operator are charged with murder', 'Captain Kevin Price, Chief Mate Rondell Roberts and Goods Superintendent Delon Granderson face 72 counts jointly and are remanded. <strong>All three are accused persons who have not been tried, and nothing on this site is a view on their guilt or innocence.</strong> No charge touches the regulator, the board or either ministry. The Prime Minister says the wreck is &ldquo;likely to remain there as is&rdquo;.'),
+    ('legal',   '29 Jul', 'The captain weeps in court and the streets fill', 'He says the vessel was unfit to sail. Protests at Den Amstel, Melanie Damishana and the Office of the President. Edghill, on the resignation calls: &ldquo;My life is in God&rsquo;s hands and that&rsquo;s not today.&rdquo; A retired ship pilot sends this archive 253 pages on the statute book.'),
+
+    ('inquiry', '30 Jul', 'The Commission is sworn in, with the press shut out', 'At State House before the Chief Magistrate, the chairman virtually, streamed on the President&rsquo;s social media instead. The enabling statute is named officially for the first time. No instrument, no published terms, no secretary, no deadline, no budget.'),
+    ('response','30 Jul', 'The government&rsquo;s own release lowers the toll to 72', 'After six days of official 73, with no announcement and no explanation, while four outlets carry 73 the same day. This archive keeps 73, and records the 72 as a divergence.'),
+]
+
+def developments(compact=True):
+    """The story in twenty turns. `compact` collapses the pre-disaster half
+    behind a disclosure, because a reader arriving on the landing page wants
+    the fortnight, not the ninety years."""
+    def row(k, when, head_, body):
+        return (f'<li class="dev dev-{k}"><span class="devdate">{when}</span>'
+                f'<span class="devbody"><strong>{head_}</strong>'
+                f'<span class="devtext">{body}</span></span></li>')
+    pre  = [r for r in DEVELOPMENTS if r[0] == 'vessel']
+    post = [r for r in DEVELOPMENTS if r[0] != 'vessel']
+    pre_html  = ''.join(row(*r) for r in pre)
+    post_html = ''.join(row(*r) for r in post)
+    if compact:
+        return (f'<details class="devpre"><summary>Before the sinking &mdash; '
+                f'{len(pre)} turns, 1939 to March 2026</summary>'
+                f'<ul class="devs">{pre_html}</ul></details>'
+                f'<ul class="devs">{post_html}</ul>')
+    return f'<ul class="devs">{pre_html}{post_html}</ul>'
+
+
 def questions_index():
     """Read the question headings straight out of questions.md so the landing
     page cannot drift from the page it advertises. Returns [(n, title), ...]."""
@@ -598,10 +651,10 @@ def questions_panel():
   <div class="leadpanel">
     <p class="eyebrow aiflag">Frontier AI analysis &middot; Claude Opus 5, reasoning across all {n} documents</p>
     <h2 style="margin-top:0">What doesn&rsquo;t add up</h2>
-    <p class="lede wrap-read">Nineteen things in this record that do not reconcile. Figures that moved without
+    <p class="lede wrap-read">Twenty-eight things in this record that do not reconcile. Figures that moved without
     explanation, documents that should exist and have not appeared, and official accounts contradicted by other
     official accounts. The short version, in plain language:</p>
-    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">Set against the carrying figure, the manifest is about 70 tonnes over &mdash; that comparison is this archive&rsquo;s inference, not a finding. What is documented is that nobody in government has corrected the category error in twelve days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>No post-mortem of anyone who died on the <em>Barima</em> is mentioned anywhere in the corpus</strong><span class="sub">Bodies were identified from photographs, released and buried. Seventy-two murder charges rest on those deaths.</span></div></li><li><span class="n">8</span><div><strong>The inquiry into these deaths was sworn in with the press shut out</strong><span class="sub">Streamed on the President&rsquo;s own social media instead. Still no gazetted instrument, no published terms, no secretary, no deadline, no budget, no way to make a submission.</span></div></li><li><span class="n">9</span><div><strong>Then the government&rsquo;s own release quietly lowered the bodies recovered from 73 to 72</strong><span class="sub">Six days of official 73, then 72 with no announcement &mdash; while four other outlets still said 73 the same day.</span></div></li></ul>
+    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">Set against the carrying figure, the manifest is about 70 tonnes over &mdash; that comparison is this archive&rsquo;s inference, not a finding. What is documented is that nobody in government has corrected the category error in twelve days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>Nobody has ever said how any of these people died</strong><span class="sub">No cause of death, no coroner, no inquest, no pathologist, in any account of the disaster. Bodies were identified from photographs, released and buried. Seventy-two murder charges rest on those deaths.</span></div></li><li><span class="n">8</span><div><strong>The inquiry into these deaths was sworn in with the press shut out</strong><span class="sub">Streamed on the President&rsquo;s own social media instead. Still no gazetted instrument, no published terms, no secretary, no deadline, no budget, no way to make a submission.</span></div></li><li><span class="n">9</span><div><strong>Then the government&rsquo;s own release quietly lowered the bodies recovered from 73 to 72</strong><span class="sub">Six days of official 73, then 72 with no announcement &mdash; while four other outlets still said 73 the same day.</span></div></li><li><span class="n">10</span><div><strong>Licensed for 397 people. Two hundred and fifty life jackets aboard</strong><span class="sub">Both numbers from the same minister at the same press conference on day one. He called it meeting the required standard. The government has never reconciled them, and how many places the eight liferafts held is not on record at all.</span></div></li><li><span class="n">11</span><div><strong>There is video of the boat being loaded. The state has had it since day two</strong><span class="sub">It told us how many people it shows. It has never said what it shows about the cargo &mdash; the thing three men were charged over.</span></div></li><li><span class="n">12</span><div><strong>Money is going to bereaved families at figures nobody can explain, and a deadline may be running behind it</strong><span class="sub">No published scheme, no rate, no total. On the only published reading of the statute, a claim must be filed by about 18 January 2027 &mdash; and there is no insurer.</span></div></li></ul>
     <p class="wrap-read small muted"><strong>Produced by Claude Opus 5, Anthropic&rsquo;s frontier model,
     reasoning across the whole corpus &mdash; no human investigator assembled it.</strong> Each finding gives the
     anomaly, then the innocent explanation at its strongest, then the document that would settle it, and names its
@@ -729,6 +782,7 @@ def build_index():
         f'<div class="fev {cls}"><div class="y">{y}</div><div class="x">{x}</div></div>'
         for y, cls, x in FUSE)
     qpanel = questions_panel()
+    devhtml = developments(compact=True)
     chainhtml = '<div class="chdr">How the disaster was built</div><div class="chdr">What would have broken the chain</div>'
     for i, (hd, bd, fx) in enumerate(CHAIN, 1):
         last = ' style="border-bottom:none"' if i == len(CHAIN) else ''
@@ -759,6 +813,23 @@ def build_index():
 <section>
   <div class="grid g5">{tilehtml}</div>
 </section>
+
+<section>
+  <p class="eyebrow">How it happened, in twenty turns</p>
+  <h2 style="margin-top:2px">Notable developments</h2>
+  <p class="wrap-read muted" style="margin-bottom:20px">The turns in the story, from the yard that built her to
+  today. Each entry is a moment after which something was different. The full record &mdash; every dated entry the
+  corpus supports, with conflicts marked &mdash; is on the <a href="timeline.html">chronology page</a>.</p>
+  {devhtml}
+  <div class="devkey">
+    <span><i style="background:var(--muted)"></i>Before the sinking</span>
+    <span><i style="background:var(--ink)"></i>The sinking</span>
+    <span><i style="background:var(--s1)"></i>The response</span>
+    <span><i style="background:var(--s2)"></i>The charges</span>
+    <span><i style="background:var(--s3)"></i>The inquiry</span>
+  </div>
+  <p class="small muted" style="margin-top:18px"><a href="timeline.html">The full chronology &rarr;</a></p>
+</section>
 {qpanel}
 <section>
   <h2>Three findings from the record</h2>
@@ -771,11 +842,13 @@ def build_index():
       attributed to a review of boarding-area CCTV rather than to a paper record.</p>
     </div>
     <div class="card">
-      <h3 style="margin-top:0">Three stated capacity figures, no published certificate</h3>
+      <h3 style="margin-top:0">Three stated capacity figures, and 250 life jackets</h3>
       <p class="small muted">Edghill gave 284 tonnes and 397 passengers on 19 July. MARAD&rsquo;s Director-General
       gave 126 tonnes on 21&ndash;22 July and 120 tonnes on 24&ndash;25 July, both with 394 passengers, and said
-      of the increase from the 1938 rating: &ldquo;I don&rsquo;t have that information.&rdquo; No certificate of
-      survey, load line or passenger capacity appears in the corpus.</p>
+      of the increase from the 1938 rating: &ldquo;I don&rsquo;t have that information.&rdquo; The government&rsquo;s
+      own release of 19 July puts 250 life jackets aboard a vessel the same minister said was licensed for 397
+      people, and describes that as meeting the required standard. No certificate of survey, load line or
+      passenger capacity appears in the corpus.</p>
     </div>
     <div class="card">
       <h3 style="margin-top:0">Who published this record</h3>
@@ -1554,7 +1627,7 @@ OG_CARDS = [
      'assessment by this archive of who is right.'),
     ('anomalies', 'Frontier AI analysis &middot; Claude Opus 5',
      'What doesn&rsquo;t add up',
-     'Nineteen things in this record that do not reconcile - figures that moved without '
+     'Twenty-eight things in this record that do not reconcile - figures that moved without '
      'explanation, documents that should exist and have not appeared, official accounts '
      'contradicted by other official accounts.'),
     ('questions', 'Answered by AI over the whole archive',
@@ -1597,13 +1670,29 @@ write('ask.html', build_ask())
 for r in records:
     write(f'sources/{r["slug"]}.html', build_source_page(r))
 
+DEV_NOTE = ('<div class="card" style="margin-top:26px">'
+            '<p class="eyebrow" style="margin-top:0">The story in twenty turns</p>'
+            '<h2 style="margin-top:2px;margin-bottom:6px">Notable developments</h2>'
+            '<p class="small muted" style="margin-bottom:16px">A reader arriving cold should be able to '
+            'follow the arc before reading the record underneath. Each entry is a moment after which '
+            'something was different; the full chronology, with every dated entry the corpus supports and '
+            'every conflict marked, follows below.</p>'
+            + developments(compact=False) +
+            '<div class="devkey">'
+            '<span><i style="background:var(--muted)"></i>Before the sinking</span>'
+            '<span><i style="background:var(--ink)"></i>The sinking</span>'
+            '<span><i style="background:var(--s1)"></i>The response</span>'
+            '<span><i style="background:var(--s2)"></i>The charges</span>'
+            '<span><i style="background:var(--s3)"></i>The inquiry</span>'
+            '</div></div>')
+
 write('timeline.html', build_prose_page(
     'timeline.md',
     'Chronology, 1936–2026 — MV Barima documented record',
     'Chronology',
     'From the Clyde shipyard that built her in 1939 to the twelve days after she sank. Every entry is attributed '
     'to the source that reports it; where sources conflict, both versions are given and marked.',
-    'timeline.html'))
+    'timeline.html', extra_note=DEV_NOTE))
 
 write('facts.html', build_prose_page(
     'facts.md',
@@ -1620,7 +1709,7 @@ write('anomalies.html', build_prose_page(
     'anomalies.md',
     'What doesn\u2019t add up \u2014 MV Barima documented record',
     'What doesn\u2019t add up',
-    f'A frontier AI analysis by Claude Opus 5, reasoning across all {len(records)} documents. Nineteen '
+    f'A frontier AI analysis by Claude Opus 5, reasoning across all {len(records)} documents. Twenty-eight '
     'things in this record that do not reconcile: figures that moved without explanation, documents that '
     'should exist and have not appeared, official accounts contradicted by other official accounts.',
     'anomalies.html',

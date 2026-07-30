@@ -663,3 +663,48 @@ ul.leads .sub { display:block; margin-top:4px; font-size:14.5px; line-height:1.5
 .expertwarn { margin:0 0 20px; padding:13px 16px; border:1px solid rgba(42,120,214,0.35);
   background:rgba(42,120,214,0.06); font-size:14.5px; line-height:1.55; color:var(--ink2); }
 .expertwarn strong { color:var(--s1); }
+
+/* ---------------------------------------------------------------- developments
+   The story in twenty turns: a dated rail, meant to be read down in fifteen
+   seconds by someone who has just arrived. The marker colour encodes the phase
+   and nothing else, so the list still reads correctly in monochrome. */
+ul.devs { list-style:none; margin:0; padding:0; }
+ul.devs li.dev { position:relative; display:grid;
+  grid-template-columns:minmax(112px,150px) minmax(0,1fr); gap:20px;
+  padding:14px 0 15px 30px; border-bottom:1px solid var(--hair); }
+ul.devs li.dev:last-child { border-bottom:0; }
+ul.devs li.dev::before { content:""; position:absolute; left:4px; top:0; bottom:0;
+  width:2px; background:var(--hair); }
+ul.devs li.dev:first-child::before { top:14px; }
+ul.devs li.dev:last-child::before { bottom:calc(100% - 26px); }
+ul.devs li.dev::after { content:""; position:absolute; left:0; top:19px;
+  width:10px; height:10px; border-radius:50%; background:var(--ink2);
+  box-shadow:0 0 0 3px var(--paper); }
+ul.devs li.dev-vessel::after   { background:var(--muted); }
+ul.devs li.dev-disaster::after { background:var(--ink); }
+ul.devs li.dev-response::after { background:var(--s1); }
+ul.devs li.dev-inquiry::after  { background:var(--s3); }
+ul.devs li.dev-legal::after    { background:var(--s2); }
+.devdate { font-size:12.5px; font-weight:750; letter-spacing:0.04em;
+  text-transform:uppercase; color:var(--muted); font-variant-numeric:tabular-nums;
+  padding-top:2px; }
+.devbody strong { display:block; font-size:16.5px; line-height:1.34; font-weight:750;
+  letter-spacing:-0.006em; color:var(--ink); }
+.devtext { display:block; margin-top:4px; font-size:14.5px; line-height:1.55;
+  color:var(--ink2); }
+details.devpre { margin:0 0 2px; }
+details.devpre > summary { cursor:pointer; list-style:none; padding:11px 0 11px 30px;
+  border-bottom:1px solid var(--hair); font-size:13px; font-weight:700;
+  letter-spacing:0.05em; text-transform:uppercase; color:var(--muted); }
+details.devpre > summary::-webkit-details-marker { display:none; }
+details.devpre > summary::after { content:" \25be"; }
+details.devpre[open] > summary::after { content:" \25b4"; }
+details.devpre > summary:hover { color:var(--s1); }
+.devkey { display:flex; flex-wrap:wrap; gap:6px 18px; margin:14px 0 0;
+  font-size:12.5px; color:var(--muted); }
+.devkey span { display:inline-flex; align-items:center; gap:7px; }
+.devkey i { width:9px; height:9px; border-radius:50%; display:inline-block; }
+@media (max-width:660px){
+  ul.devs li.dev { grid-template-columns:minmax(0,1fr); gap:3px; padding-left:24px; }
+  .devbody strong { font-size:16px; } .devtext { font-size:14px; }
+}
