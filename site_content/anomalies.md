@@ -6,21 +6,28 @@ Compiled 29 July 2026, from every document in the corpus. This page is the archi
 
 ## The short version
 
-No jargon, no hedging. The detail and the counter-arguments are below; this is what it comes to.
+No jargon, no hedging. Each point leads with what it comes to; the working follows it, and the counter-arguments are further down the page.
 
-**1. The government's proof that the boat wasn't overloaded looks like the wrong kind of number.** On day one the minister said the *Barima* was licensed for 284 tonnes and carried 268, so it was within limits. But 284 is almost certainly the vessel's *gross tonnage* — a measure of how much space is inside the hull, not how much weight it can carry. The carrying figure is 198. If that is right, the boat was about 70 tonnes over, and the minister cleared it using a number that does not mean what he said it meant. Nobody in government has corrected it in eleven days.
+**1. The number the government used to clear the boat measures space inside the hull, not weight it can carry. On the carrying figure she was about 70 tonnes over. Nobody in government has corrected it in eleven days.**
+On day one the minister said the *Barima* was licensed for 284 tonnes and carried 268, so she was within limits. But 284 is the vessel's **gross tonnage** — how much room is enclosed inside the hull. Gross tonnage is not a weight limit and never was. The figure for weight she could carry is **198**. She had 268 tonnes on her. The Opposition Leader made the same point on 29 July from a different source, and two records in this archive give 198 without anyone having put them side by side. To be exact about the limit of this: what is **documented** is that a volume measure was used publicly as a licensed tonnage and nobody has said so since. Whether she was in fact overloaded is **inference and not settled** — finding 1 below sets out why, including the strongest reasons it might be wrong.
 
-**2. One sheet of paper would settle most of this, and nobody will produce it.** The boat's safety certificate. The regulator publicly said it relied on that certificate to rule out overloading. A newspaper asked for it on day one. It has not appeared. It would show the real weight limit, how many passengers were allowed, and whether anyone had written down faults on that hull before it sank.
+**2. One sheet of paper would settle most of this. Nobody will produce it.**
+The boat's safety certificate. The regulator said publicly that it relied on that certificate to rule out overloading. A newspaper asked for it on day one. Eleven days on it has not appeared. It would show the real weight limit, how many passengers were allowed, and — because faults get written on the back of a certificate — whether anyone had recorded defects on that hull before she sank.
 
-**3. Families were asked to agree the wreck stays on the seabed — before the divers said it was too dangerous to move.** The wreck is the only physical evidence of what happened, and about thirty people are still inside it. A document went to families on 25 July asking them to accept it as a permanent memorial. The "too dangerous to enter" assessment that justifies leaving it came two days *later*. And the day before that document circulated, the government was saying boats were standing by to lift the vessel.
+**3. Families were asked to agree the wreck stays on the seabed two days before the divers said it was too dangerous to move.**
+The wreck is the only physical evidence of what happened, and about thirty people are still inside it. A document went to families on 25 July asking them to accept it as a permanent memorial. The "too dangerous to enter" assessment now cited as the reason for leaving it came on 27 July. And on 24 July, the day before that document circulated, the government was saying boats were standing by to lift her.
 
-**4. The minister said on day one that the fault was at ground level and not with the regulator. Nine days later, three ground-level staff were charged and nobody else.** Every person charged works for the operator. Nobody from the regulator, the board, or either ministry has been charged, suspended, or asked to account.
+**4. On day one the minister said the fault was at ground level, not with the regulator. Nine days later three ground-level staff were charged and nobody else.**
+Every person charged works for the operator. Nobody from the regulator, from the departmental board, or from either ministry has been charged, suspended, or required to account for anything.
 
-**5. The government talked most in the first two days, and stopped as the questions moved upward.** On 19 July the minister volunteered that only 35 of 67 rescued people were on the passenger list. On 25 July the Prime Minister declined to say how many of the rescued and the dead were on that list — the same question, about information already public. It is the one number that would show whether the unticketed passengers survived or drowned.
+**5. The government answered most freely in the first two days, and stopped as the questions moved upward.**
+On 19 July the minister volunteered that only 35 of the first 67 people rescued were on the passenger list. On 25 July the Prime Minister declined to say how many of the rescued and the recovered were on that list — the same question, about information already made public. It is the one figure that would show whether the unticketed passengers survived or drowned.
 
-**6. Seventy-two murder charges. Seventy-three bodies recovered.** No official statement says how many charges there are. The number 72 reached the public only through a defence lawyer describing what the prosecution had disclosed. There may be an innocent explanation and this page offers one — but the state has not given it.
+**6. Seventy-two murder charges. Seventy-three bodies recovered.**
+No official statement says how many charges were laid. The number 72 reached the public only through a defence lawyer describing what the prosecution had disclosed to him. There may well be an innocent explanation, and this page offers one that nobody else has — but the state has not offered it.
 
-**7. Nobody has mentioned a post-mortem. Not once.** Across every document in this archive there is no reference to a coroner, an inquest, an autopsy or a pathologist. Bodies were identified by relatives looking at photographs, released, and buried. Seventy-two murder charges now rest on those deaths.
+**7. No post-mortem is mentioned anywhere. Not once.**
+Across every document in this archive there is no reference to a coroner, an inquest, an autopsy or a pathologist. Bodies were identified by relatives looking at photographs, released, and buried. Seventy-two murder charges now rest on those deaths.
 
 **And we got four things wrong ourselves.** They are listed immediately below, before anything else, because an archive that will not audit its own record has no business auditing anyone else's.
 

@@ -581,6 +581,21 @@ def questions_panel():
         '<span>{t}</span></a></li>'.format(n=n, t=E(t)) for n, t in qs)
     return '''
 <section>
+  <div class="leadpanel">
+    <p class="eyebrow">The archive&rsquo;s own analysis &middot; reasoning across every document</p>
+    <h2 style="margin-top:0">What doesn&rsquo;t add up</h2>
+    <p class="lede wrap-read">Seventeen things in this record that do not reconcile. Figures that moved without
+    explanation, documents that should exist and have not appeared, and official accounts contradicted by other
+    official accounts. The short version, in plain language:</p>
+    <ul class="leads"><li><span class="n">1</span><div><strong>The number used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">On the carrying figure she was about 70 tonnes over. Nobody in government has corrected it in eleven days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>No post-mortem is mentioned anywhere in the corpus. Not once</strong><span class="sub">Bodies were identified from photographs, released and buried. The charges rest on those deaths.</span></div></li></ul>
+    <p class="wrap-read small muted">Each finding gives the anomaly, then the innocent explanation at its
+    strongest, then the document that would settle it. <strong>The page opens by correcting four of this
+    archive&rsquo;s own errors.</strong> It accuses nobody of a crime: three men have been charged and not tried,
+    and nothing on it bears on their guilt or innocence.</p>
+    <p style="margin-bottom:0"><a class="origin" href="anomalies.html">Read the analysis</a></p>
+  </div></section>
+
+<section>
   <div class="card askpanel">
     <p class="eyebrow">Answered by AI, reasoning over the whole archive</p>
     <h2 style="margin-top:2px">Questions of the record</h2>
@@ -591,19 +606,6 @@ def questions_panel():
     <ul class="qlinks">{links}</ul>
     <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a><a class="ghost" href="ask.html">Ask a question</a></p>
   </div></section>
-
-<section>
-  <div class="askpanel">
-    <p class="eyebrow">The archive&rsquo;s own analysis</p>
-    <h2 style="margin-top:0">What doesn&rsquo;t add up</h2>
-    <p class="wrap-read">Seventeen things in this record that do not reconcile. Figures that moved without
-    explanation. Documents that should exist and have not appeared. Official accounts contradicted by other
-    official accounts. Each one states the anomaly, gives the innocent explanation at its strongest, then names
-    the document that would settle it.</p>
-    <p class="wrap-read"><strong>It opens by correcting four of this archive&rsquo;s own errors</strong>, and it
-    accuses nobody of a crime. Three men have been charged and not tried, and nothing on it bears on their guilt
-    or innocence.</p>
-    <p style="margin-bottom:0"><a class="origin" href="anomalies.html">Read the analysis</a></p>
   </div>
 </section>
 '''.format(links=links, n=len(records))

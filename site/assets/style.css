@@ -627,3 +627,25 @@ aside.reasoned { border-top:1px solid var(--hair); border-bottom:none;
 .blunt > p { font-size:17px; line-height:1.62; }
 .blunt > p strong:first-child { color:var(--ink); }
 @media (max-width:620px){ .blunt { padding:6px 16px 18px; } .blunt > p { font-size:16px; } }
+
+/* ---------- landing: the analysis panel leads ----------
+   It carries the site's strongest material, so it gets the heavier frame and the
+   questions panel sits under it in the lighter card treatment. */
+.leadpanel { border-top:4px solid var(--rule); border-bottom:1px solid var(--hair);
+  padding:20px 0 26px; }
+.leadpanel h2 { border-bottom:none !important; padding-bottom:0;
+  font-size:clamp(28px,3.6vw,42px); letter-spacing:-0.025em; }
+ul.leads { list-style:none; margin:22px 0 20px; padding:0;
+  border-top:1px solid var(--hair); }
+ul.leads li { display:flex; gap:16px; align-items:baseline;
+  padding:14px 0; border-bottom:1px solid var(--hair); }
+ul.leads .n { flex:none; width:22px; font-size:15px; font-weight:800; color:var(--s1);
+  font-variant-numeric:tabular-nums; }
+ul.leads strong { display:block; font-size:17.5px; line-height:1.35; font-weight:750;
+  letter-spacing:-0.008em; color:var(--ink); }
+ul.leads .sub { display:block; margin-top:4px; font-size:14.5px; line-height:1.5;
+  color:var(--ink2); }
+@media (max-width:620px){
+  ul.leads li { gap:11px; padding:12px 0; }
+  ul.leads strong { font-size:16.5px; } ul.leads .sub { font-size:14px; }
+}
