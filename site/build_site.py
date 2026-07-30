@@ -70,6 +70,7 @@ TIER_KIND = {
     'regional-press': 'Regional press',
     'civil-society': 'Civil society',
     'social-media': 'Social media',
+    'expert-submission': 'Expert submission',
     'historical': 'Historical & context',
     'reference': 'Historical & context',
     'analysis': 'Historical & context',
@@ -83,6 +84,19 @@ SOCIAL_NOTE = (
 
 def is_social(rec):
     return 'social-media' in (rec.get('tier') or '').lower()
+
+
+EXPERT_NOTE = (
+    'An unsolicited analysis submitted to this archive by its named author and published here in '
+    'full. It is not journalism, not a state document, and not a finding of any tribunal &mdash; it '
+    'is one qualified person&rsquo;s reading of the statute book, offered as an aid to the Commission '
+    'of Inquiry. Its author states he is not admitted to practise law in Guyana, that nothing in it '
+    'is legal advice, that it makes no finding of fact, and that every person charged or named is '
+    'presumed innocent. Weigh it on its reasoning and its citations, both of which it supplies.')
+
+
+def is_expert(rec):
+    return 'expert-submission' in (rec.get('tier') or '').lower()
 
 
 def kind_of(rec):
@@ -936,6 +950,8 @@ def build_sources():
         badges = f'<span class="badge">{E(r["kind"])}</span>'
         if is_social(r):
             badges += '<span class="badge social">Social media &mdash; unverified</span>'
+        if is_expert(r):
+            badges += '<span class="badge expert">Submitted analysis</span>'
         if r['genre']:
             badges += f'<span class="badge">{E(r["genre"].replace("-", " "))}</span>'
         if r['flagged']:
@@ -1036,9 +1052,20 @@ def build_source_page(r):
             ('Archive reference', r['file'])]
     metarows = ''.join(f'<tr><th>{E(k)}</th><td>{E(v)}</td></tr>' for k, v in meta)
 
-    orig = (f'<a class="origin" href="{esc(r["url"])}" rel="nofollow noopener" target="_blank">'
-            f'Read the original at {E(r["outlet"])} &nearr;</a>') if r['url'] else \
-           '<p class="tiny">No public URL recorded for this source.</p>'
+    # A document held on this site (an author's own submission) is linked
+    # relatively and must be resolved from the source page's depth, not from
+    # sources/. External URLs are left alone.
+    _u = r['url'] or ''
+    _internal = bool(_u) and not _u.startswith(('http://', 'https://', 'mailto:'))
+    _href = ('../' + _u.lstrip('/')) if _internal else _u
+    if not _u:
+        orig = '<p class="tiny">No public URL recorded for this source.</p>'
+    elif _internal:
+        orig = (f'<a class="origin" href="{esc(_href)}">'
+                f'Read the full document, held on this site &darr;</a>')
+    else:
+        orig = (f'<a class="origin" href="{esc(_href)}" rel="nofollow noopener" target="_blank">'
+                f'Read the original at {E(r["outlet"])} &nearr;</a>')
 
     extra = ''
     if r['position']:
@@ -1058,12 +1085,14 @@ def build_source_page(r):
     {f'<span class="badge">{E((r["genre"] or "").replace("-", " "))}</span>' if r['genre'] else ''}
     <span class="badge">{E(prettydate(r['published']))}</span>
     {'<span class="badge social">Social media &mdash; unverified</span>' if is_social(r) else ''}
+    {'<span class="badge expert">Submitted analysis</span>' if is_expert(r) else ''}
   </div>
   <h1 style="font-size:clamp(25px,3.4vw,38px)">{E(r['title'])}</h1>
   <p class="lede muted" style="margin-bottom:18px;">{E(r['outlet'])}{f' &middot; {E(r["author"])}' if r['author'] else ''}</p>
   {orig}
   {warn}
   {f'<div class="socialwarn"><strong>This is a social media post.</strong> {SOCIAL_NOTE}</div>' if is_social(r) else ''}
+  {f'<div class="expertwarn"><strong>This is a submitted analysis, not a record.</strong> {EXPERT_NOTE}</div>' if is_expert(r) else ''}
   <div class="wrap-read">
   {f'<h3>What this source establishes</h3><p>{E(r["summary"])}</p>' if r['summary'] else ''}
   {extra}

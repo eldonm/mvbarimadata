@@ -73,6 +73,28 @@ An analysis page that cannot correct itself is not worth reading. These four err
 
 ---
 
+## What the statute book explains — a submission that answers four of these
+
+On 29 July, after this analysis was compiled, **Robert C. Millington** submitted a 253-page reading of Guyana's maritime statute book to this archive. He is a retired United States Navy naval officer, a former licensed US Coast Guard Merchant Marine Deck Officer and First Class Ship Pilot, both Unlimited Tonnage, with thirty-nine years in the maritime sector. He is not admitted to practise law anywhere and states that nothing in his document is legal advice or a finding of fact. It is [held in full on this site](sources/2026-07-29-millington-the-mv-barima-and-the-maritime-statute-book-of-guyana.html).
+
+It matters to this page because **it supplies an innocent explanation for four of the findings below, and a better one than the benign cases this page had constructed for itself.** That is worth stating plainly rather than burying, because it cuts against the pattern this page identifies.
+
+**[SINGLE SOURCE] throughout — one submission, and an analysis rather than a record.** His own stated limitation applies to all of it: the consolidation he read is current only to L.R.O. 1/2012, so any finding expressed as the absence of a regulation needs checking against later instruments and the Official Gazette.
+
+**On finding 1, the capacity figures.** The *Barima* was 40.26 metres. The only Guyanese instrument containing intact stability criteria, stability information for operators, a record of passengers, and muster and drill requirements — the Small Commercial Ship Safety Regulations, Reg. 5 of 2005 — applies to vessels **under 24 metres**. The survey instrument that covers vessels above 24 metres and under 500 tons — the Cargo Ship Survey Regulations, Reg. 6 of 2005 — excludes passenger ships in five words. So she fell outside both. Part XV of the Shipping Act, headed "Passenger Ships", is two sections: an unused enabling power, and offences of drunkenness and fare evasion. On this reading the capacity confusion is not officials contradicting each other about a figure that exists — **there may be no properly constituted figure to contradict.**
+
+**On finding 2, the certificate nobody will produce.** He locates the fault in the statute rather than in the regulator: "the load line is the only quantitative loading control Guyanese law gives for this class of vessel… A regulator with a load line and nothing else will use the load line." On his account MARAD cited a load line because a load line is what Parliament gave it.
+
+**On finding 4, the charging pattern.** Cap. 49:01 s. 429(3) permits a Board of investigation to cancel or suspend a certificate, or censure its holder, and he states that is the whole of its dispositive power over persons. No finding is available against a company, a Department, a Ministry, the regulator, the Director, or any uncertificated person, because the Act creates no offence a Department can commit. His conclusion: "the small man is the only person the law can reach." This page recorded the concentration of formal action at the operator as an unexplained pattern. On this reading it is a designed outcome of the statute — and he goes further, recording that the recourse to common-law murder is "a direct consequence of the penalty structure of the Guyana Shipping Act — a legislative failure, not a prosecutorial choice." **That is his statement, not this archive's, it is not testable here, and it bears nothing on the guilt or innocence of three men who have not been tried.**
+
+**On the manifest gap, which this page treated as a failure.** SOLAS Chapter III regulation 27 requires all persons on a passenger ship to be counted before departure. Cap. 49:01 s. 398(1)(b) confers a power to require passenger particulars and no regulations were ever made under it. So on the face of the statute book the gap between 133 manifested and 179 aboard **is not a breach of any counting duty, because no counting duty exists.**
+
+**What this does to the pattern.** It weakens the concealment reading of several findings and replaces it with something that is not better news: not a state hiding what it knows, but a state with no instrument to know it. It does not touch findings 3 or 10 — the wreck sequencing and the narrowing of disclosure are conduct, not statute. And it introduces one thing that is worse than anything on this page, because it is prospective rather than historical: **on his reading of Cap. 49:04 s. 23, any claim against the operator must be commenced within six months of the act or omission — on or about 18 January 2027 — on notice naming a legal practitioner served a month earlier.** He states there is also no insurer to claim against, Guyana having enacted the limitation of liability without the liability. This archive cannot confirm that construction and gives no legal advice. Anyone with a possible claim should take Guyanese legal advice now rather than wait for the Commission to report.
+
+{{SOURCES: 2026-07-29-millington-the-mv-barima-and-the-maritime-statute-book-of-guyana }}
+
+---
+
 ## The findings
 
 Ranked by severity, as in the analysis. Four are critical, most of the rest are high, and two are qualified downward. Where the answer to "which does the record support" is neither, that is what is written.

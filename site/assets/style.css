@@ -653,3 +653,13 @@ ul.leads .sub { display:block; margin-top:4px; font-size:14.5px; line-height:1.5
 /* The AI provenance line leads the analysis panel, so it carries the accent
    rather than the muted stamp colour the other eyebrows use. */
 .eyebrow.aiflag { color:var(--s1); }
+
+/* ---------- submitted expert analysis ----------
+   Neither journalism nor record. Distinguished from the social-media warning by
+   colour: this one is held because its reasoning is checkable, not despite being
+   unchecked. */
+.badge.expert { background:rgba(42,120,214,0.10); color:var(--s1);
+  border:1px solid rgba(42,120,214,0.35); font-weight:700; }
+.expertwarn { margin:0 0 20px; padding:13px 16px; border:1px solid rgba(42,120,214,0.35);
+  background:rgba(42,120,214,0.06); font-size:14.5px; line-height:1.55; color:var(--ink2); }
+.expertwarn strong { color:var(--s1); }

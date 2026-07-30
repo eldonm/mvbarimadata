@@ -1,6 +1,6 @@
 # Research Notes, Method and Known Gaps
 
-Compiled 26 July 2026, last revised 29 July 2026. Read this before relying on the corpus for anything consequential.
+Compiled 26 July 2026, last revised 30 July 2026. Read this before relying on the corpus for anything consequential.
 
 ---
 
@@ -9,6 +9,12 @@ Compiled 26 July 2026, last revised 29 July 2026. Read this before relying on th
 **Social media as a source.** A small number of documents in this corpus are social media posts, and they are labelled as such everywhere they appear: a red badge on the browse card, a red badge on the document page, and a standing warning above the text. They are held under one rule — the account must be an institution or a public figure speaking on the record, and the post must be one a reader could check for themselves. No post by a private individual is collected, and no comment thread is collected at all. That line matters for a disaster: the first days of social media around a mass-casualty event contain the names of people reported dead who were alive, and this archive will not fix that in place.
 
 Social media is used mainly as a lead source rather than as evidence. Where a post points at something real, the archive chases it to published journalism and cites the journalism. The Andrew Donald account is the worked example: it was found as a post by a Member of Parliament, and it is recorded here both as that post and as HGPTV's news report of it, with the report carrying the weight and the post recorded as its origin. Nothing self-published is treated as established because it was posted.
+
+**A new tier: the expert submission.** On 30 July the corpus took in one document that is none of the three things everything else here is. It is not journalism: no outlet commissioned or edited it. It is not a state release. It is not a social media post. It is an unsolicited analysis, written by a named person with stated professional qualifications, sent to this archive by its author and offered as an aid to the Commission of Inquiry. The document is Robert C. Millington's 253-page reading of the Guyanese maritime statute book. It is the only one of its kind here so far, so the tier exists to hold one item, and the rule is written down now rather than after the second one arrives.
+
+**The rule for accepting such a submission.** Four conditions, all of which this one meets. The **author must be named** — an anonymous analysis is not admissible here at any length. He must **state his qualifications**, so a reader can judge what he is qualified to say and what he is not: this author states he is a former merchant marine deck officer and ship pilot and expressly states that he is *not* admitted to practise law in any jurisdiction, which is the more useful half of the disclosure given that the document is about statutes. The **reasoning and the citations must be supplied**, so the work can be checked rather than trusted — here, chapter and section from a named authorised consolidation. And it must be **published in full**, so a reader can audit it against any use this site makes of it, rather than taking the archive's summary on faith. A submission that met three of those four would be recorded as a lead, in the way social media posts are, and not as a source.
+
+**How it is labelled and weighed.** It is marked as a **submitted analysis** everywhere it appears — a badge on its browse card and on its document page, and a standing note above the text. Every proposition drawn from it on the record and analysis pages is attributed to its author by name, marked **[SINGLE SOURCE]** where it rests on him alone, and described as an analysis rather than a record. It is not treated as corroboration of anything, because one person's argument is not a second witness. Its author's own stated limitations are carried with it: the consolidation he read is current only to L.R.O. 1/2012, so any finding of his framed as the absence of a regulation needs checking against later instruments and the Official Gazette. And where it states a fact about the events of 18 July rather than a reading of a statute — it gives the distress signal as 22:43, against the 23:01 this archive carries from the state's own information service — it is treated as any other uncorroborated account would be, and the conflict is recorded rather than resolved. Expertise earns a hearing here. It does not earn the status of record.
 
 
 
@@ -20,7 +26,7 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 233 documents — 152 in the first build, then 40 Guyana Chronicle articles and six international sources on 26–27 July, and 24 documents covering 28–29 July added on 29 July, four of which are social media posts. 209 are dated 19 July 2026 onward; 24 are pre-disaster context sources reaching back to the 1930s builder's record.
+**Corpus:** 241 documents — 152 in the first build, then 40 Guyana Chronicle articles and six international sources on 26–27 July, 24 documents covering 28–29 July added on 29 July of which four are social media posts, and eight added on 30 July: seven pre-disaster context sources recovered while answering a submitted question about the Fort Island ferry operation, and one submitted expert analysis. 211 are dated 19 July 2026 onward; the remainder are pre-disaster context and undated reference material reaching back to the 1930s builder's record.
 
 ---
 
@@ -41,31 +47,34 @@ A reader was right to object that "200 sources" overstates what this archive hol
 | What it is | Documents |
 |---|---|
 | Original reporting on the sinking | 149 |
-| Pre-disaster context and undated reference | 24 |
+| Pre-disaster context | 30 |
 | Syndicated wire copy (AP, Reuters, CMC, AFP carried by other outlets) | 21 |
 | Government communication (DPI releases, official statements, instruments) | 18 |
 | Opinion, letters and editorials | 15 |
 | Social media posts by institutions and public figures | 4 |
-| Reference works (encyclopedia, engine and vessel registries, directories) | 2 |
-| **Total** | **233** |
+| Reference works (encyclopedia, engine and vessel registries, directories) | 3 |
+| Expert submission (named author, published in full) | 1 |
+| **Total** | **241** |
 
 The 29 July build added 24 documents: seventeen pieces of Guyanese reporting on the charges, the wreck, the former captain's account and the minister's first response to the resignation demands; three regional carriages of the same story; and four social media posts, which are labelled as such wherever they appear and are the first of their kind in this corpus. One of those posts is the only record here of a picket at the Office of the President that no newspaper in this corpus reported.
+
+The 30 July build added eight. Seven are pre-disaster context, recovered in the course of answering the first question submitted by a member of the public — the 2022 Fort Island stelling contract, the 2022 resumption of ferry calls there, the May 2026 Independence ferry operation and its aftermath, the December 2025 commissioning of the *MV Konawaruk 1899*, and an undated trade review of the *MV Ma Lisha*, the last of which is counted as a reference work rather than as reporting. The eighth is the expert submission, and it is the first document in this corpus that is neither journalism, a state release nor a social media post; the tier and the rule for admitting it are set out under Method above. **None of the eight is original reporting on the sinking by an independent outlet**, which is why that row is unchanged and why the independence figure below has not moved.
 
 Three qualifications matter more than the totals.
 
 **Syndication multiplies one act of reporting.** A single Associated Press dispatch appears here via Afro.com, WRAL twice, and the Citrus County Chronicle. One CMC wire appears via both CBC Barbados and the Jamaica Observer. CBC News's report is Thomson Reuters copy, so CBC and Reuters in this archive are substantially the same reporting counted twice. These variants are kept deliberately — which outlet carried which figure on which day is part of the record, and the archive uses it to show two irreconcilable death tolls running side by side in international copy for about forty-eight hours — but they are not independent corroboration.
 
-**More than a quarter of the documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 22: 63 of 233. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny.
+**More than a quarter of the documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 24: 64 of 241. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny. Two of the DPI releases are pre-disaster items added on 30 July, so the state's share of the corpus has risen very slightly while its share of the *disaster* coverage is unchanged.
 
 **Four documents are duplicates or republications**, including the *Guyana Chronicle* publishing the same report at two dates and URLs, and two syndicated pairs carrying identical headlines.
 
-Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is 107 rather than 233.
+Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is **107 rather than 241**. That count was checked rather than carried forward on 30 July: the eight documents added that day were examined individually and none of them qualifies — six are pre-disaster news and government items, one is an undated trade review of a vessel, and one is a submitted analysis rather than reporting of any kind. So the numerator is unchanged and only the denominator has moved, which is the direction that matters: the archive has grown by eight documents and by no additional independent account of the sinking.
 
 **Outlet names were deduplicated on 27 July.** The archive had been holding 51 distinct publisher strings for what were in fact 42 publishers: HGPTV had been recorded five different ways, and Demerara Waves, iNews Guyana, Democracy Guyana, the Department of Public Information and Wikipedia twice each. Those twenty records now carry a single canonical name per publisher, which both cleans the outlet filter and stops the archive overstating how many publishers it draws on.
 
 Four apparent duplicates were deliberately left alone because they are different publishers: BBC News, Canada's CBC News and the Caribbean Broadcasting Corporation in Barbados; the Jamaica Gleaner and the Jamaica Observer; the Guyana Chronicle and the Guyana Graphic; and iNews Guyana, News Room Guyana, News Source Guyana and Things Guyana. The Associated Press entries are also kept separate by carrier — *via WRAL*, *via Afro.com*, *via Citrus County Chronicle* — because which outlet carried a wire report is part of what this archive records. CBC News is now labelled *CBC News (Canada)* to distinguish it from the Barbadian broadcaster.
 
-After deduplication three publishers still account for 105 of the 233 documents.
+After deduplication three publishers still account for 110 of the 241 documents — Kaieteur News 46, the *Guyana Chronicle* 40 and the Department of Public Information 24. Two of those three are the state.
 
 ---
 
@@ -103,19 +112,25 @@ These are recorded because a reader needs to know which documents were searched 
 
 **No IMO and no PAHO statement.** CARICOM and UNDP Guyana issued statements. No statement by the International Maritime Organization appears in the corpus.
 
+**No statutory text.** The corpus now holds a detailed reading of Cap. 49:01, Cap. 49:04, Cap. 49:07 and Cap. 50:01, with chapter and section cited, in the expert submission described under Method. It does not hold the instruments. No authorised text, no subsidiary regulation and nothing from the Official Gazette has been retrieved, and no post-2012 instrument has been checked — which is the specific gap the submission's own stated limitation points at, since most of its findings are findings of absence.
+
+**Four named institutional documents that are not here and may exist.** The submission identifies the IMO Member State Audit report on Guyana, Guyana's corrective action plan arising from it, the progress reports on that plan, and the report and recommendations of Professor Duke Pollard on updating Guyana's maritime legislation. Unlike most of the gaps on this list these are not inferred absences: they are named, dated and attributed to a 2019 public statement by MARAD's then Director General. This archive has not established that any of them exists and has not attempted retrieval.
+
 ---
 
 ## Structural finding that shaped the corpus
 
 Stabroek News, Guyana's principal independent daily for roughly forty years, ceased print publication on 15 March 2026 in voluntary liquidation — four months before the disaster. The consequence for this research was that repeated searches for Stabroek coverage of the sinking returned nothing. Two of the corpus's pre-disaster sources on vessel condition — Capt. R. E. W. Adams's 2015 letter naming this vessel, and the 2012 piece on the Sprostons-built fleet — come from Stabroek's letters and features pages.
 
-Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 42 documents, is the largest independent contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the single largest contributor is not an independent outlet: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 22 releases the state or a state-owned outlet accounts for 63 of the 233 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
+Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 46 documents, is the largest single contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the state is close behind it and larger in aggregate: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 24 releases the state or a state-owned outlet accounts for 64 of the 241 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
 
 ---
 
 ## Priority follow-ups
 
 The Guyana Chronicle hole has now been closed (see above). The remaining highest-value targets are documentary rather than journalistic: the March 2026 tender documents that reportedly show engineers flagging deteriorated hull sections before the sinking; any survey, load-line or capacity certificate for the vessel; the Commission of Inquiry's gazetted instrument, which had not been published when the commissioners were named on 26 July, with attention to whether its terms reach loading *authorisation* and procurement or stop at loading *execution*; the Auditor General's reports on the T&HD; and the 19 September 2015 Kaieteur inspection report cited by Adams, which was searched for and not found.
+
+Four more were added on 30 July, all arising from the expert submission and all of a kind this archive has not previously chased: the authorised texts of Cap. 49:01, Cap. 49:04, Cap. 49:07 and Cap. 50:01 together with their subsidiary regulations and anything gazetted since 2012, without which no statutory proposition on this site can be verified; the IMO Member State Audit report on Guyana and Guyana's corrective action plan and progress reports; the Pollard report on updating Guyana's maritime legislation; and contemporaneous 2019 reporting of Claudette Rogers's statement of 27 March 2019, which currently reaches this archive only through the submission that quotes it. Separately and more urgently than any of them: anything bearing on section 23 of the Transport and Harbours Act and whether a six-month limitation period is in fact running against claims arising from this casualty, which is set out on the [figures page](facts.html) and is a matter for Guyanese lawyers rather than for this archive.
 
 On the live story, the variables worth monitoring are whether the wreck is righted and what that does to the count, whether the residual of roughly thirty missing is ever officially named, whether charges are laid and against whom, whether Parliament sits before the Commission is constituted, and whether any pre-18-July document surfaces bearing a named official's knowledge of the hull's condition.
 
@@ -139,7 +154,7 @@ Two things the pass surfaced that are now flagged in the analysis rather than fi
 
 ## Directory structure
 
-`archive/` holds the 192 full-text sources, one file per source, plus six `_manifest_*.jsonl` files carrying structured metadata and research annotations for every entry, and `_synthesis_vessel-dossier.md`, a fully cited dossier on the vessel and the T&HD fleet with an explicit unverified-and-contested section.
+`archive/` holds the 241 full-text sources, one file per source, plus six `_manifest_*.jsonl` files carrying structured metadata and research annotations for every entry, and `_synthesis_vessel-dossier.md`, a fully cited dossier on the vessel and the T&HD fleet with an explicit unverified-and-contested section.
 
 `deliverables/` holds `00_SOURCE-CATALOGUE.md` (the annotated listing of all sources with summaries, chronological then contextual, plus a distribution table), `01_TIMELINE.md` (reconciled chronology from 1936 to 26 July 2026, with conflicts marked), `02_CONTESTED-FACTS.md` (figure-by-figure reconciliation, single-source claims, reliability guidance), `03_SYSTEMIC-ANALYSIS.md` (the four-pillar systemic brief), and this file.
 
