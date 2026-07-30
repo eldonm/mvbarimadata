@@ -582,16 +582,18 @@ def questions_panel():
     return '''
 <section>
   <div class="leadpanel">
-    <p class="eyebrow">The archive&rsquo;s own analysis &middot; reasoning across every document</p>
+    <p class="eyebrow aiflag">Frontier AI analysis &middot; Claude Opus 5, reasoning across all {n} documents</p>
     <h2 style="margin-top:0">What doesn&rsquo;t add up</h2>
     <p class="lede wrap-read">Seventeen things in this record that do not reconcile. Figures that moved without
     explanation, documents that should exist and have not appeared, and official accounts contradicted by other
     official accounts. The short version, in plain language:</p>
-    <ul class="leads"><li><span class="n">1</span><div><strong>The number used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">On the carrying figure she was about 70 tonnes over. Nobody in government has corrected it in eleven days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>No post-mortem is mentioned anywhere in the corpus. Not once</strong><span class="sub">Bodies were identified from photographs, released and buried. The charges rest on those deaths.</span></div></li></ul>
-    <p class="wrap-read small muted">Each finding gives the anomaly, then the innocent explanation at its
-    strongest, then the document that would settle it. <strong>The page opens by correcting four of this
-    archive&rsquo;s own errors.</strong> It accuses nobody of a crime: three men have been charged and not tried,
-    and nothing on it bears on their guilt or innocence.</p>
+    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">On the carrying figure she was about 70 tonnes over. Nobody in government has corrected it in eleven days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>No post-mortem is mentioned anywhere in the corpus. Not once</strong><span class="sub">Bodies were identified from photographs, released and buried. The charges rest on those deaths.</span></div></li></ul>
+    <p class="wrap-read small muted"><strong>Produced by Claude Opus 5, Anthropic&rsquo;s frontier model,
+    reasoning across the whole corpus &mdash; no human investigator assembled it.</strong> Each finding gives the
+    anomaly, then the innocent explanation at its strongest, then the document that would settle it, and names its
+    sources so you can check the reasoning. The page opens by correcting four of this archive&rsquo;s own errors.
+    It accuses nobody of a crime: three men have been charged and not tried, and nothing on it bears on their
+    guilt or innocence.</p>
     <p style="margin-bottom:0"><a class="origin" href="anomalies.html">Read the analysis</a></p>
   </div></section>
 
@@ -1507,7 +1509,7 @@ OG_CARDS = [
      'What each party has said',
      'Government, opposition, civil society and named commentators — attributed and dated, with no '
      'assessment by this archive of who is right.'),
-    ('anomalies', 'The archive&rsquo;s own analysis',
+    ('anomalies', 'Frontier AI analysis &middot; Claude Opus 5',
      'What doesn&rsquo;t add up',
      'Seventeen things in this record that do not reconcile - figures that moved without '
      'explanation, documents that should exist and have not appeared, official accounts '
@@ -1575,15 +1577,20 @@ write('anomalies.html', build_prose_page(
     'anomalies.md',
     'What doesn\u2019t add up \u2014 MV Barima documented record',
     'What doesn\u2019t add up',
-    'Seventeen things in this record that do not reconcile: figures that moved without explanation, '
-    'documents that should exist and have not appeared, and official accounts contradicted by other '
-    'official accounts. Each with the innocent explanation given its strongest form.',
+    f'A frontier AI analysis by Claude Opus 5, reasoning across all {len(records)} documents. Seventeen '
+    'things in this record that do not reconcile: figures that moved without explanation, documents that '
+    'should exist and have not appeared, official accounts contradicted by other official accounts.',
     'anomalies.html',
-    '<div class="note warn"><h4>This page is analysis, not record</h4><p>It reasons across every document in '
-    'the corpus and goes further than any single one of them. It accuses no one of a crime. Three men have been '
-    'charged with murder and have not been tried, and nothing here bears on their guilt or innocence. Where a '
-    'benign explanation accounts for something, this page says so and drops it. The record pages remain '
-    'authoritative over everything on it.</p></div>'))
+    transform=inject_sources,
+    extra_note='<div class="note warn"><h4>This is a frontier AI analysis, not the record</h4>'
+    '<p><strong>Every finding on this page was produced by Claude Opus 5, Anthropic&rsquo;s frontier model, '
+    f'reasoning across all {len(records)} documents in this archive.</strong> No human investigator assembled it. It goes '
+    'further than any single document states, and that is what it is for &mdash; but it is inference, and '
+    'inference can be wrong where a document cannot. Every finding names the documents behind it so you can '
+    'check the reasoning yourself.</p>'
+    '<p>It accuses no one of a crime. Three men have been charged with murder and have not been tried, and '
+    'nothing here bears on their guilt or innocence. Where a benign explanation accounts for something, this '
+    'page says so and drops it. The record pages remain authoritative over everything on it.</p></div>'))
 
 write('positions.html', build_prose_page(
     'positions.md',

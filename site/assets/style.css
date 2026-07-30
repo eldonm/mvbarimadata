@@ -649,3 +649,7 @@ ul.leads .sub { display:block; margin-top:4px; font-size:14.5px; line-height:1.5
   ul.leads li { gap:11px; padding:12px 0; }
   ul.leads strong { font-size:16.5px; } ul.leads .sub { font-size:14px; }
 }
+
+/* The AI provenance line leads the analysis panel, so it carries the accent
+   rather than the muted stamp colour the other eyebrows use. */
+.eyebrow.aiflag { color:var(--s1); }

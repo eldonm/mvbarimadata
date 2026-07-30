@@ -158,6 +158,26 @@ Facebook was used as a lead source for this build. The rule is on the [method pa
 
 Where a post pointed at something real it was chased to published journalism and the journalism is what carries the weight. Two posts are held as documents in their own right: the President's statement on engagements with survivors and families, and the Member of Parliament's post carrying Donald's statement, which is the origin of an account four other outlets never ran. Both are marked with a red badge on the card, a red badge on the page and a standing warning above the text. The image attached to the second carries Facebook's own "AI-generated content" label and is recorded as such so that nobody reproduces it as a photograph.
 
+### The first question from the public, and it found something
+
+A member of the public asked why a ferry could serve Fort Island for the Independence flag-raising when the government says the newer vessels could not serve Port Kaituma for want of a wharf. It is now [question 6](questions.html#q6), answered on the same terms as the archive's own five, and it is marked as a public submission.
+
+**The premise is wrong.** Fort Island has a stelling — rehabilitated for G$82M under a contract awarded in August 2021, completed in seven months and commissioned in May 2022, with low and high ramps and a carriageway. The MV Malali resumed scheduled calls there in August 2022. So no ferry berthed where there was no wharf, and the answer says so first.
+
+**Two further distinctions are real and are given their full weight.** The Fort Island operation carried no vehicles at all — the government's own release states "No vehicles will be permitted aboard the vessels," and attendees were shuttled by bus to Parika. And Port Kaituma's works failed geotechnically: an inadequate tie-rod specification, structural deficiencies on third-party review, fissures during pile-cap casting, revetment failure, and in Edghill's own words "significant movement of the soil".
+
+**And the question still lands, because it does not actually depend on Fort Island.** The wharf explanation says why the *Ma Lisha* could not berth. It has never explained how the *Barima* had been berthing at Port Kaituma for four decades. Whatever facility she used on 18 July existed on 18 July. The real question is therefore not why the new vessel could not come, but why the only vessel using a route that demonstrably could be served was one built in 1939 — with a vehicle-capable ferry, the *Konawaruk 1899*, commissioned seven months before she sank and sent to Fort Island in May.
+
+A search of Guyanese outlets found no published item connecting the two. Kaieteur's own 27 July investigation into whether mismanagement contributed does not mention Fort Island. Nobody is recorded asking the minister why an 87-year-old vessel could serve Port Kaituma but a 2023 vessel could not. **The submitter identified a comparison the press has not made.**
+
+Seven documents were added to the corpus to support the answer, taking it to 240: the government's own transport release, two accounts of the ceremony, the 2022 stelling commissioning, the MV Malali's return, the *Konawaruk 1899* commissioning, and a trade specification for the *Ma Lisha* giving its 3.0 m draught and its forward vehicle ramp.
+
+### The analysis page says what produced it
+
+"What doesn't add up" is now labelled, unmissably and in four places, as a **frontier AI analysis by Claude Opus 5** reasoning across the whole corpus, with no human investigator behind it. That belongs in the open: a reader weighing an inference should know what made it, and the point of naming it is that the inference can then be checked rather than trusted. Every one of the seventeen findings, all seven plain-language summary points and all four self-corrections now carry a citation block naming the documents behind them — twenty-nine in total.
+
+**The verification pass on that page found nineteen errors of its own and fixed them.** Four were false claims of absence, including the assertion that no coroner or post-mortem is mentioned anywhere: those words do appear, in two Guyana Chronicle columns about an unrelated drowning, so the finding is now narrowed to the *Barima* dead specifically and states what the corpus does record. A claim that nobody asked whether the *Kalliopi N* could have sailed uncommissioned was false — Christopher Ram asked it on 28 July. A claim that every casualty figure is attributed to the Prime Minister was false. The statute count for the Commission was wrong. A sentence attributed to Minister Edghill was the newspaper's own summarising wording. The 72-count summary contradicted the finding it summarised. Several dates were a day out because the Friday 24 July briefing was reported on 25 July.
+
 ### A new page: what doesn't add up
 
 **It now leads the landing page.** The analysis is the strongest thing on this site, and burying it beneath the questions panel understated it. It takes the top slot, previews all seven of its plain-language points in full, and the questions panel follows underneath. Each preview line leads with the claim rather than the setup, because a reader scanning a homepage gets one line to decide whether any of this matters.

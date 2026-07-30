@@ -353,3 +353,59 @@ What would change this view: any statement setting out how the deaths of people 
 
 {{/VIEW}}
 {{SOURCES: 2026-07-24-dpi-government-tightens-ferry-safety-procedures | 2026-07-25-kaieteur-news-73-bodies-found-69-identified | 2026-07-29-kaieteur-news-mohamed-s-offer-to-raise-mv-barima-pushes-govt-to-say-victims-relative | 2026-07-28-inews-guyana-families-to-determine-whether-govt-salvages-sunken-mv-barima-or-preser | 2026-07-29-wic-news-three-charged-with-72-counts-of-murder-in-guyana-mv-barima-tragedy | 2026-07-29-caribbean-national-weekly-captain-crew-member-and-transport-official-charged-with-murder-over-de | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest }}
+
+---
+
+## 6. A ferry served Fort Island for the Independence ceremony. Why not Port Kaituma?
+
+*Submitted by a member of the public — the first question on this page that did not originate with the archive. It is answered on the same terms as the others, including where it turns out to be wrong.*
+
+**The premise is wrong, and the question is still good.** Fort Island has a stelling — rehabilitated for G$82M and commissioned in May 2022. So the ceremony does not show a ferry berthing where there was no wharf. But the comparison it invites survives the correction, and nobody in the Guyanese press has published it.
+
+**Two things separate the cases, and both are real.** The Fort Island operation carried no vehicles at all — the government's own release states "No vehicles will be permitted aboard the vessels." And Port Kaituma's works failed geotechnically: soil movement, revetment failure, under-specified tie rods, fissures during pile-cap casting.
+
+{{GIST}}
+
+The submitter is wrong that Fort Island had no wharf, and right that something does not add up. Fort Island's stelling cost G$82M and took seven months. Port Kaituma's cost G$1.4bn and is unfinished after three and a half years. Same ministry, same minister. For one evening's ceremony the state moved four ferries free of charge, dozens of speedboats, shuttle buses, and a purpose-built helipad used once. For a year-round lifeline route it kept a 1939 vessel at sea. And the question nobody has answered is not about Fort Island at all: **how did the *Barima* herself berth at Port Kaituma for four decades without the new wharf?**
+
+{{/GIST}}
+
+{{MORE}}
+
+**What happened at Fort Island.** Guyana's 60th Independence flag-raising was held at Fort Island in the Essequibo River on the evening of Monday 25 May 2026, the flag raised at midnight. Attendance is given as over 4,000. President Ali attended and delivered the feature address. The state provided free ferry transport, organised by the Ministry of Public Works with MARAD and announced by Minister Edghill: the MV Kanawan from the Essequibo Coast at 18:00; an unnamed vessel from Parika at 19:00 with about 400 VIPs plus 1,000 people on the vehicle deck; a second unnamed vessel at 19:30; and the MV Konawaruk 1899 at 19:45. Dozens of licensed water-taxi speedboats were folded into the operation.
+
+**Fort Island does have a wharf.** The stelling was rehabilitated under a contract awarded 18 August 2021 to IB Contracting and Machinery Service, completed 17 March 2022 and commissioned 24 May 2022, at G$82M. The reported scope was "the driving of 85 piles into the low and high ramps areas and to the main carriage way" — which is the ordinary configuration of a tidal roll-on/roll-off stelling in this fleet. The MV Malali resumed scheduled calls there on 27 August 2022 after a thirteen-year gap, carrying passengers and cargo. So the premise of the question does not hold: this was not a ferry landing at a place with no facility.
+
+**The first real distinction: no vehicles.** The government's own release states it plainly — "No vehicles will be permitted aboard the vessels." Attendees parked at the National Track and Field Facility at Leonora and were shuttled to Parika by bus. The vehicle decks were used as standing room for passengers. So Fort Island did not demonstrate roll-on/roll-off vehicle discharge, and Port Kaituma exists to discharge vehicles and cargo on a scheduled basis. The *Ma Lisha* is a roll-on/roll-off vessel: freight goes over "a forward vehicle ramp", while "passengers board and disembark via side gangways". Landing people and landing lorries are not the same problem.
+
+**The second: the two crossings are not alike.** Parika to Fort Island is a short passage inside the Essequibo. Port Kaituma is reached by an ocean transit along the Waini coast and then upriver — the *Barima* sank at sea, about seven miles offshore. The *Ma Lisha* is 69.55 m long with a 3.0 m draught, ocean-going, materially larger and deeper than anything reported calling at Fort Island.
+
+**The third: Port Kaituma's failure is documented and technical.** Work started 17 January 2023 against a completion date of 17 April 2024. The reported failure chain is an inadequate tie-rod specification in the original design, structural deficiencies found on third-party review, a revised design needing longer and thicker piles, fissures observed during final pile-cap casting, and revetment failure. Edghill's own words: "there was significant movement of the soil and we had to break out a whole section and have it reconstructed." Nothing comparable is reported at Fort Island, where 85 piles went in over seven months without incident.
+
+**What the record cannot tell you.** No document in this archive describes how passengers actually got ashore at Fort Island — whether the large ferries berthed alongside the stelling or lay off and transferred by tender. Nobody reported it. Nor is any dimension, depth alongside or permitted vessel length published for that stelling, so what class of vessel it can take is not established. And after the ceremony the Tourism Ministry announced plans to "permanently improve maritime access" at Fort Island, which is not the language of a facility that had just proved itself.
+
+**Three things that do cut the other way.**
+
+First, **delivery**. G$82M and seven months at Fort Island; G$1.4bn and three and a half years unfinished at Port Kaituma. The same ministry and the same minister.
+
+Second, **mobilisation**. For one evening the state produced four free ferry movements, dozens of speedboats, bus shuttles, five commercial generator sets, rows of artificial grass matting, and a helicopter pad built at a reported cost of tens of millions and used once — for the President's arrival. He did not travel by ferry. The North West route waited three and a half years and kept an 87-year-old vessel in service.
+
+Third, **an available vehicle ferry**. The MV Konawaruk 1899, a double-ended roll-on/roll-off ferry taking 81 cars or 19 trucks, was commissioned in December 2025 — seven months before the *Barima* sank — and it is one of the vessels that went to Fort Island. Whether it could have relieved the *Barima* has not been put to anyone on the record.
+
+**Nobody has asked this.** A search of Guyanese outlets finds no item connecting the Fort Island operation to the Port Kaituma wharf explanation. Kaieteur's own 27 July investigation into whether mismanagement contributed to the disaster does not mention Fort Island. No journalist is recorded pressing the minister on why an 87-year-old vessel could serve Port Kaituma but a 2023 vessel could not.
+
+{{VIEW}}
+
+The submitter has the facts wrong and the instinct right, and it is worth separating the two carefully, because the wrong version of this argument is easy for the government to dismiss and the right version is not.
+
+The wrong version says: a ferry reached Fort Island without a wharf, so the wharf explanation is a lie. That fails on three counts. Fort Island has a stelling. The operation carried no vehicles, by explicit instruction. And the Port Kaituma failure is a documented geotechnical problem, not an excuse — soil movement and revetment failure are not the sort of thing a ministry invents.
+
+The right version does not depend on Fort Island at all. It is this: **the wharf explanation answers a question nobody asked.** It explains why the *Ma Lisha* could not berth. It does not explain how the *Barima* had been berthing at Port Kaituma for four decades. Whatever facility she used on 18 July existed on 18 July. So the real question is not why the new vessel could not come — it is why, given that some means of serving that route demonstrably existed, the only vessel using it was one built in 1939.
+
+Put that way, three things follow that the Fort Island comparison merely illuminates. A state that can deliver an G$82M stelling in seven months, and stand up a four-ferry passenger operation with a purpose-built helipad in a few weeks, is not a state without capability. A fleet that took delivery of a vehicle-capable ferry in December 2025 was not a fleet without options. And a ministry that has never been asked how the *Barima* berthed at Port Kaituma has never had to reconcile those two facts in public.
+
+What would change this view: any document describing how the *Barima* discharged at Port Kaituma — the berthing arrangement she actually used — or any technical assessment stating why the *Konawaruk 1899*, the *Kimbia*, or any other vessel in the fleet could not have taken the route while the stelling was unfinished. Neither is in this archive. Also relevant would be footage or reporting of disembarkation at Fort Island on 25 May, which would settle whether the large ferries berthed alongside or transferred by tender.
+
+{{/VIEW}}
+
+{{SOURCES: 2026-05-20-dpi-free-transport-to-fort-island-for-independence-day-celebrations | 2026-05-26-hgptv-all-roads-lead-to-fort-island-for-the-60th-independence-celebration | 2022-05-27-kaieteur-news-after-82m-in-repairs-fort-island-stelling-commissioned | 2022-09-01-dpi-mv-malali-ferry-service-reintroduced-to-fort-island-after-13-years | 2026-05-31-kaieteur-news-fort-island-to-become-major-tourist-destination-govt | 2025-12-21-kaieteur-news-us5m-mv-konawaruk-1899-commissioned | 0000-00-00-baird-maritime-vessel-review-ma-lisha-indian-built-ocean-going-ferry | 2026-07-27-kiskadee-watch-long-delay-in-completion-of-kaituma-stelling-kept-mv-barima-on-the-choppy-sea-who-is-to-blame | 2026-05-21-kaieteur-news-another-ferry-vessel-for-region-one-arrives-in-guyana | 2026-07-21-hgptv-ppp-disregarded-expert-advice-on-new-north-west-ferry-patterson | 2026-07-24-dpi-passenger-cargo-transport-continues-to-port-kaituma-pm }}
