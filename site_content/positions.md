@@ -20,7 +20,7 @@ On 20 July the management team responsible for loading and dispatch was suspende
 
 ### Prime Minister Mark Phillips
 
-Phillips delivered the recovery briefings. On 21 July he stated a complement of 179 including 18 crew, saying he was confident in the figure. On 24 July he reported 73 bodies recovered, 69 identified, 63 released to families and 30 unaccounted for, with three aircraft and fourteen vessels deployed. He stated that delayed Port Kaituma wharf works were the reason the newer *MV Ma Lisha* could not run the route. Asked about a Mayday call from the captain, he said on 25 July: **"We have no such record."** On compensation his stated position was one of sequence: "The focus now is not on compensation. The focus is on recovering bodies, financing the burial and funeral rites…"
+Phillips delivered the recovery briefings. On 21 July he stated a complement of 179 including 18 crew, saying he was confident in the figure. On 24 July he reported 73 bodies recovered, 69 identified, 63 released to families and 30 unaccounted for, with three aircraft and fourteen vessels deployed. He stated that delayed Port Kaituma wharf works were the reason the newer *MV Ma Lisha* could not run the route. Asked on 25 July about a Mayday from the captain **and** an instruction to passengers to don life jackets, he said: **"We have no such record."** Read exactly, that is a denial about the captain's conduct, not about whether a signal reached the state — the government's own DPI release of 19 July records a distress call at about 23:01. On compensation his stated position was one of sequence: "The focus now is not on compensation. The focus is on recovering bodies, financing the burial and funeral rites…"
 
 ### President Irfaan Ali
 

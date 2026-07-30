@@ -134,7 +134,9 @@ On the machinery, the 2017 rehabilitation is described as including "installatio
 
 ## 7. Rescue response
 
-**The Mayday itself is contested, and this is easy to miss.** A 23:01 Mayday is the spine of every published timeline in the corpus. But on 25 July Prime Minister Phillips said of a Mayday from the captain: **"We have no such record."** Whether the vessel transmitted a Mayday, whether it was logged, and whether "received by aviation authorities" and "recorded by the state" are the same thing, are all open.
+**The Mayday, read exactly.** A 23:01 distress call is the spine of every published timeline in the corpus, and it is not a media construction: **the government's own Department of Public Information stated on 19 July that a distress call was received at around 11:01 p.m.**, and the state-owned *Guyana Chronicle* repeated it on 23 and 24 July. On 25 July Prime Minister Phillips said **"We have no such record"** — but of a compound proposition: that the captain issued a Mayday **and** told passengers to put on life jackets. That is a denial about the captain's conduct, not a denial that a signal reached the state. This archive previously recorded it as a flat contradiction of the 23:01 call. That was too strong, and it has been corrected.
+
+What survives the correction is the harder problem: **no government statement anywhere in the corpus identifies who received the call**, the three outlets naming air traffic control are all foreign while the two naming the Timehri control tower are Guyanese, and the Maritime Search and Rescue Coordination Centre log was publicly requested on 25 July and has never been produced.
 
 Gouveia was airborne at **01:36**, two and a half hours after the reported Mayday, in a **fixed-wing** Islander. Bulkan asks why the rescue helicopters and trained swimmers at the Omni Helicopters base at Ogle never launched. Two GDF helicopters were reported unserviceable — raised by the opposition via News Americas Now (19 July) and addressed by GDF officials via Kaieteur (23 July).
 
@@ -169,7 +171,7 @@ The reported figures are **funeral-expense** figures, not compensation. APNU's S
 | Crew | 17 (manifest) | 18 (revised complement); 16 (Demerara Waves, 25 Jul) |
 | Build year | 1939 (Paxman register; "87-year-old vessel") | 1938 (Kaieteur, 25 & 26 Jul) |
 | Duncan's arrest | 21 July, at Charity, drone shown to Warrao children | reported elsewhere as tied to the wreck site |
-| Search area | expanded by 400 sq mi on 22 Jul; by a further 32 sq mi on 25 Jul | total area ~2,100 km² after the 22 Jul expansion |
+| ~~Search area~~ **Resolved, 29 July** | expanded by 400 sq mi on 22 Jul; by a further 32 sq mi on 25 Jul | total ~2,100 km² after the 22 Jul expansion — **these reconcile**: 1,040 km² + 400 sq mi (1,036 km²) ≈ 2,076 km². Recorded here as a conflict in error |
 | Search area, first expansion | 1,040 km² (Reuters, CBC News, 20 Jul) | 1,070 km² (the Guardian, 20 Jul; Ignite News, 22 Jul) |
 | French deployment | 12 divers, two doctors and a mechanic (BBC News) | 15 divers (Ignite News) — **reconciled**: Kiskadee Watch, 27 July, gives a 15-member team from the French Armed Forces in French Guiana, so the two accounts describe the same deployment |
 | Where she went down | off Iron Punt, near the Pomeroon mouth (most of the corpus) | seven miles offshore Dartmouth, Essequibo Coast (Ignite News) |

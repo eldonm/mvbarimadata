@@ -195,7 +195,7 @@ def esc(s): return E(str(s), quote=True)
 NAV_PRIMARY = [
     ('index.html', 'Overview'), ('timeline.html', 'Chronology'),
     ('facts.html', 'The figures'), ('positions.html', 'Positions'),
-    ('questions.html', 'Questions'),
+    ('questions.html', 'Questions'), ('anomalies.html', 'What doesn&rsquo;t add up'),
 ]
 NAV_UTILITY = [
     ('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
@@ -1488,6 +1488,11 @@ OG_CARDS = [
      'What each party has said',
      'Government, opposition, civil society and named commentators — attributed and dated, with no '
      'assessment by this archive of who is right.'),
+    ('anomalies', 'The archive&rsquo;s own analysis',
+     'What doesn&rsquo;t add up',
+     'Seventeen things in this record that do not reconcile - figures that moved without '
+     'explanation, documents that should exist and have not appeared, official accounts '
+     'contradicted by other official accounts.'),
     ('questions', 'Answered by AI over the whole archive',
      'Questions of the record',
      'Who is accountable. Whether the boat was overloaded. How many actually died. Plain answers '
@@ -1546,6 +1551,20 @@ write('facts.html', build_prose_page(
     '<div class="note warn"><h4>Read this before citing any number</h4><p>Including numbers from this site. Early '
     'disaster figures are revised, and these were revised repeatedly during the period covered. Several figures '
     'here have no published document behind them.</p></div>'))
+
+write('anomalies.html', build_prose_page(
+    'anomalies.md',
+    'What doesn\u2019t add up \u2014 MV Barima documented record',
+    'What doesn\u2019t add up',
+    'Seventeen things in this record that do not reconcile: figures that moved without explanation, '
+    'documents that should exist and have not appeared, and official accounts contradicted by other '
+    'official accounts. Each with the innocent explanation given its strongest form.',
+    'anomalies.html',
+    '<div class="note warn"><h4>This page is analysis, not record</h4><p>It reasons across every document in '
+    'the corpus and goes further than any single one of them. It accuses no one of a crime. Three men have been '
+    'charged with murder and have not been tried, and nothing here bears on their guilt or innocence. Where a '
+    'benign explanation accounts for something, this page says so and drops it. The record pages remain '
+    'authoritative over everything on it.</p></div>'))
 
 write('positions.html', build_prose_page(
     'positions.md',
