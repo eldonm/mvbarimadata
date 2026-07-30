@@ -4,6 +4,10 @@ This page answers questions about the MV Barima disaster. Anyone can send one in
 
 The [chronology](timeline.html), [figures](facts.html) and [positions](positions.html) pages hold the record these answers are drawn from. Three men were charged with murder on 28 July and have not been tried; this page does not speculate about their guilt, and does not suggest they are being blamed for someone else's decisions. That is for the court and the inquiry.
 
+> ### Also on this page's terms: [what doesn't add up](anomalies.html)
+>
+> This page answers questions put to the record. A companion page asks a different one — **what in the record fails to reconcile.** Seventeen findings: figures that moved without explanation, documents that should exist and have not appeared, official accounts contradicted by other official accounts. Same discipline as the reasoned views here, and it opens by correcting four of this archive's own errors. **[Read it](anomalies.html).**
+
 **[Send a question](ask.html).** Anyone can. Every question gets published with its answer, and a question the archive cannot answer gets published too, saying so — because what the record cannot answer is itself worth knowing. The same form takes corrections, and documents the archive is missing.
 
 ---

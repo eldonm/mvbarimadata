@@ -2,6 +2,32 @@
 
 Compiled 29 July 2026, from every document in the corpus. This page is the archive's own analysis. It is not the record, and where it and the record pages disagree, the record pages are right.
 
+<div class="blunt" markdown="1">
+
+## The short version
+
+No jargon, no hedging. The detail and the counter-arguments are below; this is what it comes to.
+
+**1. The government's proof that the boat wasn't overloaded looks like the wrong kind of number.** On day one the minister said the *Barima* was licensed for 284 tonnes and carried 268, so it was within limits. But 284 is almost certainly the vessel's *gross tonnage* — a measure of how much space is inside the hull, not how much weight it can carry. The carrying figure is 198. If that is right, the boat was about 70 tonnes over, and the minister cleared it using a number that does not mean what he said it meant. Nobody in government has corrected it in eleven days.
+
+**2. One sheet of paper would settle most of this, and nobody will produce it.** The boat's safety certificate. The regulator publicly said it relied on that certificate to rule out overloading. A newspaper asked for it on day one. It has not appeared. It would show the real weight limit, how many passengers were allowed, and whether anyone had written down faults on that hull before it sank.
+
+**3. Families were asked to agree the wreck stays on the seabed — before the divers said it was too dangerous to move.** The wreck is the only physical evidence of what happened, and about thirty people are still inside it. A document went to families on 25 July asking them to accept it as a permanent memorial. The "too dangerous to enter" assessment that justifies leaving it came two days *later*. And the day before that document circulated, the government was saying boats were standing by to lift the vessel.
+
+**4. The minister said on day one that the fault was at ground level and not with the regulator. Nine days later, three ground-level staff were charged and nobody else.** Every person charged works for the operator. Nobody from the regulator, the board, or either ministry has been charged, suspended, or asked to account.
+
+**5. The government talked most in the first two days, and stopped as the questions moved upward.** On 19 July the minister volunteered that only 35 of 67 rescued people were on the passenger list. On 25 July the Prime Minister declined to say how many of the rescued and the dead were on that list — the same question, about information already public. It is the one number that would show whether the unticketed passengers survived or drowned.
+
+**6. Seventy-two murder charges. Seventy-three bodies recovered.** No official statement says how many charges there are. The number 72 reached the public only through a defence lawyer describing what the prosecution had disclosed. There may be an innocent explanation and this page offers one — but the state has not given it.
+
+**7. Nobody has mentioned a post-mortem. Not once.** Across every document in this archive there is no reference to a coroner, an inquest, an autopsy or a pathologist. Bodies were identified by relatives looking at photographs, released, and buried. Seventy-two murder charges now rest on those deaths.
+
+**And we got four things wrong ourselves.** They are listed immediately below, before anything else, because an archive that will not audit its own record has no business auditing anyone else's.
+
+**What it adds up to.** Every time the state's account could have been checked against a document, the document has not appeared — and conclusions kept being announced that only that document could support. That is what it looks like when a government's early statements ran ahead of its paperwork and it has been avoiding the reckoning ever since. It is also what a cover-up looks like. **The record as it stands cannot tell those two apart, and this archive will not pretend otherwise.**
+
+</div>
+
 **What an anomaly is here.** A gap between two things the record contains: a statement and a document, two statements by the same body, a decision and the assessment said to justify it. An anomaly is not a finding of wrongdoing. Most of the ones below have an ordinary explanation available, and several are probably explained by it. An absence counts as evidence only where this analysis can establish that the document should exist; in several places it cannot, and where that is so the page says so rather than leaning on the silence.
 
 **How claims are labelled.** Each finding opens with **the anomaly**, which is documented fact drawn from named documents and dates. The two explanations that follow are inference — that is what they are for. Anything neither documented nor inferable from the documents is marked **speculation** in bold, and there is exactly one such passage, at finding 4. It is this archive's own, offered because it is a benign reading nobody else has put forward.

@@ -616,3 +616,14 @@ aside.reasoned { border-top:1px solid var(--hair); border-bottom:none;
 .socialwarn { margin:0 0 20px; padding:13px 16px; border:1px solid rgba(208,59,59,0.35);
   background:var(--alarm-bg); font-size:14.5px; line-height:1.55; color:var(--ink2); }
 .socialwarn strong { color:var(--critical); }
+
+/* ---------- the plain-language summary ----------
+   Sits above the careful version. Same facts, no hedging, short lines. It gets
+   its own ground so a reader can tell at a glance that the register changed. */
+.blunt { background:var(--raise); border-top:3px solid var(--rule);
+  border-bottom:1px solid var(--hair); padding:8px 26px 22px; margin:28px 0 34px; }
+.blunt h2 { border-bottom:none !important; padding-bottom:0; margin:18px 0 4px;
+  font-size:clamp(23px,2.8vw,31px); }
+.blunt > p { font-size:17px; line-height:1.62; }
+.blunt > p strong:first-child { color:var(--ink); }
+@media (max-width:620px){ .blunt { padding:6px 16px 18px; } .blunt > p { font-size:16px; } }

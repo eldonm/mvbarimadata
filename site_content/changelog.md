@@ -160,6 +160,12 @@ Where a post pointed at something real it was chased to published journalism and
 
 ### A new page: what doesn't add up
 
+It sits under [questions](questions.html) rather than in the top navigation, which stays at five items, and it has a panel of its own on the landing page directly beneath the questions panel. It is linked from the top of the questions page and from every page footer.
+
+**It opens with a plain-language summary.** Seven points, no jargon and no hedging, before any of the careful version. The archive's usual register is deliberately cold, and on this page that risks the analysis being legible only to people who already follow the story. The short version says what it comes to: that the state's proof the vessel was not overloaded appears to use a measure of interior volume rather than carrying weight; that one sheet of paper would settle most of it and has not been produced; that families were asked to accept the wreck as a permanent memorial two days before the assessment that justifies leaving it; that the minister located the fault at ground level on day one and the charges landed there nine days later; that disclosure was most forthcoming in the first forty-eight hours; that there are seventy-two charges against seventy-three bodies; and that no post-mortem is mentioned anywhere in the corpus. The detail, the counter-arguments and the sourcing follow underneath, unchanged.
+
+
+
 Until now this site did two things — it recorded what documents say, and on one page it reasoned across them. It did not systematically ask what in the record fails to reconcile. It does now, on a new page, [what doesn't add up](anomalies.html).
 
 Seventeen findings, ranked by how much each matters. For every one: the anomaly with the documents and dates that establish it, the innocent explanation given at its genuine strongest, the alternative stated flatly, an honest answer on which the record actually supports — including "neither, yet" where that is true — and the document that would settle it. The page accuses nobody of a crime. Three men are charged and untried, and nothing on it bears on their guilt or innocence.

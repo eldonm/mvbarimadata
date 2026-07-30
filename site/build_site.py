@@ -195,7 +195,7 @@ def esc(s): return E(str(s), quote=True)
 NAV_PRIMARY = [
     ('index.html', 'Overview'), ('timeline.html', 'Chronology'),
     ('facts.html', 'The figures'), ('positions.html', 'Positions'),
-    ('questions.html', 'Questions'), ('anomalies.html', 'What doesn&rsquo;t add up'),
+    ('questions.html', 'Questions'),
 ]
 NAV_UTILITY = [
     ('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
@@ -302,6 +302,7 @@ FOOT_T = '''</main>
         <li><a href="{p}sources.html">All {n} documents</a></li>
         <li><a href="{p}about.html">Method, gaps and corrections</a></li>
         <li><a href="{p}changelog.html">Revisions</a></li>
+        <li><a href="{p}anomalies.html">What doesn&rsquo;t add up</a></li>
         <li><a href="{p}ask.html">Ask a question</a></li>
       </ul>
     </div>
@@ -331,7 +332,9 @@ def prose(mdfile, drop_h1=True):
     raw = open(os.path.join(DELIV, mdfile), encoding='utf-8').read()
     if drop_h1:
         raw = re.sub(r'^#\s+.*?\n', '', raw, count=1)
-    body = md.markdown(raw, extensions=['tables', 'sane_lists', 'attr_list'])
+    # md_in_html lets a block marked markdown="1" have its contents processed,
+    # which the plain-language summary on the anomalies page relies on.
+    body = md.markdown(raw, extensions=['tables', 'sane_lists', 'attr_list', 'md_in_html'])
     body = body.replace('<table>', '<div class="scrollx"><table>').replace('</table>', '</table></div>')
     body = re.sub(r'\[CONTESTED\]', '<span class="badge contested">Contested</span>', body)
     body = re.sub(r'\[SINGLE SOURCE\]', '<span class="badge contested">Single source</span>', body)
@@ -587,6 +590,20 @@ def questions_panel():
     the question. <a href="ask.html"><strong>Anyone can send a question in.</strong></a></p>
     <ul class="qlinks">{links}</ul>
     <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a><a class="ghost" href="ask.html">Ask a question</a></p>
+  </div></section>
+
+<section>
+  <div class="askpanel">
+    <p class="eyebrow">The archive&rsquo;s own analysis</p>
+    <h2 style="margin-top:0">What doesn&rsquo;t add up</h2>
+    <p class="wrap-read">Seventeen things in this record that do not reconcile. Figures that moved without
+    explanation. Documents that should exist and have not appeared. Official accounts contradicted by other
+    official accounts. Each one states the anomaly, gives the innocent explanation at its strongest, then names
+    the document that would settle it.</p>
+    <p class="wrap-read"><strong>It opens by correcting four of this archive&rsquo;s own errors</strong>, and it
+    accuses nobody of a crime. Three men have been charged and not tried, and nothing on it bears on their guilt
+    or innocence.</p>
+    <p style="margin-bottom:0"><a class="origin" href="anomalies.html">Read the analysis</a></p>
   </div>
 </section>
 '''.format(links=links, n=len(records))
