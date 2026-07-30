@@ -13,7 +13,7 @@ import markdown as md
 ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
-BUILT   = 'Sunday 26 July 2026, last revised Wednesday 29 July 2026'
+BUILT   = 'Sunday 26 July 2026, last revised Thursday 30 July 2026'
 # Absolute origin, needed for Open Graph — social crawlers will not resolve a
 # relative image or URL. Change this one line if the site moves domain.
 SITE_URL = 'https://mvbarimadata.pages.dev'
@@ -298,8 +298,8 @@ FOOT_T = '''</main>
       Saturday 18 July 2026, compiled from {n} published documents and checked line by line against them.
       It is not affiliated with the Government of Guyana, the Transport &amp; Harbours Department, any
       political party, or any news organisation.</p>
-      <p>Compiled {built}. The Commission of Inquiry&rsquo;s members were named on 26 July 2026, its establishing instrument was not
-      yet gazetted, and figures were still moving. Read <a href="{p}about.html">Method &amp; gaps</a> before citing anything here.</p>
+      <p>Compiled {built}. The Commission of Inquiry was sworn in on 30 July 2026 at a ceremony closed to the press; its
+      establishing instrument was still not gazetted, and figures were still moving. Read <a href="{p}about.html">Method &amp; gaps</a> before citing anything here.</p>
       <p>This site records what the sources say and who said it. Outside the questions page it does not
       advance an explanation of the cause, and it makes no recommendation.</p>
       <p class="tiny">Research, retrieval, cross-checking and reasoning carried out with
@@ -598,10 +598,10 @@ def questions_panel():
   <div class="leadpanel">
     <p class="eyebrow aiflag">Frontier AI analysis &middot; Claude Opus 5, reasoning across all {n} documents</p>
     <h2 style="margin-top:0">What doesn&rsquo;t add up</h2>
-    <p class="lede wrap-read">Seventeen things in this record that do not reconcile. Figures that moved without
+    <p class="lede wrap-read">Nineteen things in this record that do not reconcile. Figures that moved without
     explanation, documents that should exist and have not appeared, and official accounts contradicted by other
     official accounts. The short version, in plain language:</p>
-    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">On the carrying figure she was about 70 tonnes over. Nobody in government has corrected it in eleven days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>No post-mortem is mentioned anywhere in the corpus. Not once</strong><span class="sub">Bodies were identified from photographs, released and buried. The charges rest on those deaths.</span></div></li></ul>
+    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">Set against the carrying figure, the manifest is about 70 tonnes over &mdash; that comparison is this archive&rsquo;s inference, not a finding. What is documented is that nobody in government has corrected the category error in twelve days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>No post-mortem of anyone who died on the <em>Barima</em> is mentioned anywhere in the corpus</strong><span class="sub">Bodies were identified from photographs, released and buried. Seventy-two murder charges rest on those deaths.</span></div></li><li><span class="n">8</span><div><strong>The inquiry into these deaths was sworn in with the press shut out</strong><span class="sub">Streamed on the President&rsquo;s own social media instead. Still no gazetted instrument, no published terms, no secretary, no deadline, no budget, no way to make a submission.</span></div></li><li><span class="n">9</span><div><strong>Then the government&rsquo;s own release quietly lowered the bodies recovered from 73 to 72</strong><span class="sub">Six days of official 73, then 72 with no announcement &mdash; while four other outlets still said 73 the same day.</span></div></li></ul>
     <p class="wrap-read small muted"><strong>Produced by Claude Opus 5, Anthropic&rsquo;s frontier model,
     reasoning across the whole corpus &mdash; no human investigator assembled it.</strong> Each finding gives the
     anomaly, then the innocent explanation at its strongest, then the document that would settle it, and names its
@@ -622,8 +622,6 @@ def questions_panel():
     <ul class="qlinks">{links}</ul>
     <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a><a class="ghost" href="ask.html">Ask a question</a></p>
   </div></section>
-  </div>
-</section>
 '''.format(links=links, n=len(records))
 
 # The submission route. Web3Forms handles delivery; the access key below is a
@@ -716,7 +714,7 @@ def build_ask():
 def build_index():
     tiles = [
         ('179', '', 'People aboard', 'Reconstructed from boarding-area CCTV. The manifest said 133.'),
-        ('73', '', 'Bodies recovered', 'Official count, unchanged from 24 to 26 July.'),
+        ('73', '', 'Bodies recovered', 'Official from 24 to 29 July. The 30 July release says 72, unexplained.'),
         ('~30', 'alarm', 'People in the arithmetic, in no official document', 'The state publishes recoveries, never the residual.'),
         ('87', '', 'Years the hull had been in service', 'Built 1939, Ferguson Brothers, Port Glasgow, via the Crown Agents.'),
         ('0', 'alarm', 'Survey, load-line or capacity certificates published', f'Across all {len(records)} documents. Seaworthiness was asserted, never documented.'),
@@ -739,7 +737,7 @@ def build_index():
                       f'<div class="fix"{last}><span class="num fixn">{i}</span><span class="tx">{fx}</span></div>')
 
     return head('MV Barima — the documented record | Guyana ferry disaster, 18 July 2026',
-                'What {len(records)} published documents record about the sinking of the Guyanese ferry MV Barima on '
+                f'What {len(records)} published documents record about the sinking of the Guyanese ferry MV Barima on '
                 '18 July 2026: the figures, the chronology, the positions of each party, and every source.',
                 'index.html') + f'''
 <section style="margin-top:44px;">
@@ -751,7 +749,8 @@ def build_index():
   A review of boarding-area CCTV later put 179 people aboard.</p>
   <p class="small muted wrap-read">This site records what {len(records)} published documents say, who said it, and when.
   Where sources disagree, both figures are given. It does not advance an explanation of the cause. The Commission
-  of Inquiry&rsquo;s five members were named on 26 July 2026 and its establishing instrument has not been gazetted;
+  of Inquiry&rsquo;s five members were sworn in on 30 July 2026, at a ceremony the press was not invited to, and its
+  establishing instrument has still not been gazetted;
   on 28 July three employees of the operator were charged with murder and remanded, and they are accused persons
   who have not been tried; and the figures are still being revised. Every claim links back to its source so it can
   be checked. Changes to this site are logged on the <a href="changelog.html">revisions page</a>.</p>
@@ -865,8 +864,9 @@ def build_index():
 
 <section>
   <h2>7. Where the parties stand on the inquiry</h2>
-  <p class="wrap-read muted">As of 28 July 2026 the dispute on record was less about cause than about who should
-  investigate. The three summaries below are the parties&rsquo; own stated positions.</p>
+  <p class="wrap-read muted">As at 30 July 2026, the day the commissioners were sworn in, the dispute on record is
+  less about cause than about who should investigate and on what terms. The three summaries below are the
+  parties&rsquo; own stated positions.</p>
   <div class="grid g3">
     <div class="card tr">
       <h3>The Government</h3>
@@ -875,9 +875,12 @@ def build_index():
       Jasionowski (Poland) and Rear Admiral (Ret&rsquo;d) Hayden Pritchard (Trinidad and Tobago). Terms of
       reference were announced covering loading, boarding, seaworthiness, maintenance history, crew competence,
       lifesaving arrangements, weather and the search-and-rescue response. The establishing instruments were
-      described as still being finalised, and no secretary or reporting deadline was cited. Kiskadee Watch
-      reports the commission was appointed under Section 2(1) of the Commissions of Inquiry Act; the two
-      outlets corroborate the membership.</p>
+      described as still being finalised. All five were sworn in at State House on 30 July before the Chief
+      Magistrate, the chairman virtually, at a ceremony the press was not invited to and which was streamed on
+      the President&rsquo;s social media accounts instead. The same day the Department of Public Information named
+      the enabling statute for the first time &mdash; the Commissions of Inquiry Act, Cap. 19:03, s. 2(1) &mdash;
+      and named nothing else: no gazetted instrument, no published terms, no secretary, no deadline, no budget,
+      no rules of procedure and no route for public submissions.</p>
     </div>
     <div class="card tr">
       <h3>The parliamentary opposition</h3>
@@ -885,8 +888,10 @@ def build_index():
       WIN seeks recusal of Ministers Edghill and Indar, livestreamed hearings and publication of the full report.
       The AFC proposes the Commission of Inquiry Act, Cap. 19:03. Jointly, five parties state that a Commission of
       Inquiry is not a substitute for a marine casualty investigation under SOLAS and the IMO Casualty
-      Investigation Code, and that both should run. These positions were stated before the members were named;
-      no response to the announced membership appears in the corpus.</p>
+      Investigation Code, and that both should run. Most of those positions were stated before the members were
+      named. On 30 July, the day of the swearing-in, the opposition welcomed the Commission while raising the
+      lack of consultation on the selection of commissioners and the terms of reference, and potential conflicts
+      of interest.</p>
     </div>
     <div class="card tr">
       <h3>Civil society</h3>
@@ -894,7 +899,9 @@ def build_index():
       opposition membership, a judicially qualified chair, a statutory duty of candour and state-funded counsel for
       bereaved families. TIGI and Rescue Guyana call for an IMO-led investigation. The Amerindian Peoples
       Association calls for Minister Edghill&rsquo;s removal and a review of the whole river and sea transport
-      system with mandatory consultation of Indigenous and riverain communities. The Shipping Association of
+      system with mandatory consultation of Indigenous and riverain communities, and states on 30 July that it
+      was not consulted on the terms of reference or the selection of commissioners. TIGI&rsquo;s president
+      questioned the neutrality of several appointees on the day they were sworn. The Shipping Association of
       Guyana welcomed the inquiry. On 25 July the Prime Minister said that if contacting the IMO would help, the
       government would do it.</p>
     </div>
@@ -996,6 +1003,7 @@ def build_sources():
         <option value="pre">Before the sinking (1936–2026)</option>
         <option value="disaster">The sinking and rescue (18–21 July)</option>
         <option value="reckoning">The reckoning (22–26 July)</option>
+        <option value="charges">Charges and inquiry (27–30 July)</option>
       </select>
     </div>
     <div class="fgroup">
@@ -1229,7 +1237,8 @@ CHART_TOLL = '''
 <div class="chart bars">
 <svg viewBox="0 0 480 142" role="img" aria-labelledby="qa3t qa3d">
   <title id="qa3t">179 aboard: rescued, recovered and unaccounted for</title>
-  <desc id="qa3d">Of 179 people aboard, 76 were rescued, 73 bodies have been recovered and about 30
+  <desc id="qa3d">Of 179 people aboard, 77 were taken from the water and 76 survived, 73 bodies
+  have been recovered by this archive&rsquo;s reckoning &mdash; the official releases of 30 July say 72 &mdash; and about 30
   remain unaccounted for. The resulting figure of about 103 recovered and unaccounted has never
   been published together as a death toll. The complement of 179 is itself a CCTV-derived
   estimate, so the residual is approximate.</desc>
@@ -1237,16 +1246,16 @@ CHART_TOLL = '''
   <text x="0" y="10" font-size="9.5" font-weight="680" fill="var(--ink)">179 aboard, established by CCTV review</text>
 
   <rect class="mark" x="0" y="18" width="177" height="22" rx="4" fill="var(--s1)"
-        data-label="Rescued" data-value="76" data-unit="people" data-var="--s1"
-        data-note="Reported as 69, then 77, before settling at 76"/>
+        data-label="Survived" data-value="76" data-unit="people" data-var="--s1"
+        data-note="77 were taken from the water; one died, so 76 survived"/>
   <rect class="mark" x="179" y="18" width="170" height="22" rx="4" fill="var(--s2)"
         data-label="Bodies recovered" data-value="73" data-unit="people" data-var="--s2"
-        data-note="Unchanged since 24 July"/>
+        data-note="Official 24 to 29 July; the 30 July release says 72, unexplained"/>
   <rect class="mark" x="351" y="18" width="70" height="22" rx="4" fill="var(--s3)"
         data-label="Unaccounted for" data-value="about 30" data-unit="people" data-var="--s3"
         data-note="Never described by the state as dead"/>
   <text x="0" y="56" font-size="12" font-weight="700" fill="var(--ink)">76</text>
-  <text x="24" y="56" font-size="9" fill="var(--ink2)">rescued</text>
+  <text x="24" y="56" font-size="9" fill="var(--ink2)">survived</text>
   <text x="179" y="56" font-size="12" font-weight="700" fill="var(--ink)">73</text>
   <text x="203" y="56" font-size="9" fill="var(--ink2)">bodies recovered</text>
   <text x="351" y="56" font-size="12" font-weight="700" fill="var(--ink)">~30</text>
@@ -1262,7 +1271,7 @@ CHART_TOLL = '''
 </svg>
 </div>
 <div class="legend">
-  <div class="lg"><span class="lgk" style="background:var(--s1)"></span>Rescued (76)</div>
+  <div class="lg"><span class="lgk" style="background:var(--s1)"></span>Survived (76)</div>
   <div class="lg"><span class="lgk" style="background:var(--s2)"></span>Bodies recovered (73)</div>
   <div class="lg"><span class="lgk" style="background:var(--s3)"></span>Unaccounted for (about 30)</div>
 </div>
@@ -1271,67 +1280,71 @@ CHART_TOLL = '''
 <caption>Complement of the MV Barima, as officially stated</caption>
 <tr><th>Measure</th><th class="n">People</th><th>Basis</th></tr>
 <tr><td>Aboard</td><td class="n">179</td><td>Boarding-area CCTV review; the manifest recorded 133</td></tr>
-<tr><td>Rescued</td><td class="n">76</td><td>Settled figure from 21 July</td></tr>
-<tr><td>Bodies recovered</td><td class="n">73</td><td>Unchanged since 24 July</td></tr>
+<tr><td>Survived</td><td class="n">76</td><td>77 taken from the water; one died, so 76 survived</td></tr>
+<tr><td>Bodies recovered</td><td class="n">73</td><td>Official from 24 to 29 July; the 30 July release says 72, with no explanation</td></tr>
 <tr><td>Unaccounted for</td><td class="n">about 30</td><td>The Prime Minister's phrasing; never described as dead</td></tr>
 <tr><td>Recovered plus unaccounted</td><td class="n">about 103</td><td>Never published as a figure by any government source</td></tr>
 </table></div>
 </details>
 '''
 
-# Scale: day 0 at x=52, one day = 33px, so day 11 sits at x=415 and the labels
-# to its right stay inside the 480 frame.
+# Scale: day 0 at x=52, one day = 30px, so day 12 sits at x=412 and the arrow
+# and labels to its right stay inside the 480 frame.
 CHART_INQUIRY = '''
 <div class="chart bars">
-<svg viewBox="0 0 480 158" role="img" aria-labelledby="qa4t qa4d">
+<svg viewBox="0 0 480 172" role="img" aria-labelledby="qa4t qa4d">
   <title id="qa4t">Days from the sinking to each step toward an investigation</title>
   <desc id="qa4d">After the Estonia sank, three states established a joint investigation commission the
   next day. After the MV Barima sank, an inquiry was committed to on day four, announced on day
-  seven and its members named on day eight; criminal charges were laid on day ten; the establishing
-  instrument was still not gazetted at the end of the period this archive covers.</desc>
+  seven and its members named on day eight; criminal charges were laid on day ten; the commissioners
+  were sworn in on day twelve, at a ceremony closed to the press. The establishing instrument had
+  still not been gazetted at the end of the period this archive covers.</desc>
 
-  <line x1="52" y1="30" x2="415" y2="30" stroke="var(--grid)" stroke-width="1"/>
+  <line x1="52" y1="30" x2="412" y2="30" stroke="var(--grid)" stroke-width="1"/>
   <text x="52" y="14" font-size="8.5" fill="var(--muted)">day 0</text>
-  <text x="184" y="14" font-size="8.5" fill="var(--muted)">day 4</text>
-  <text x="283" y="14" font-size="8.5" fill="var(--muted)">day 7</text>
-  <text x="382" y="14" font-size="8.5" fill="var(--muted)">day 10</text>
+  <text x="172" y="14" font-size="8.5" fill="var(--muted)">day 4</text>
+  <text x="292" y="14" font-size="8.5" fill="var(--muted)">day 8</text>
+  <text x="412" y="14" font-size="8.5" fill="var(--muted)">day 12</text>
   <line x1="52" y1="20" x2="52" y2="26" stroke="var(--border)" stroke-width="1"/>
-  <line x1="184" y1="20" x2="184" y2="26" stroke="var(--border)" stroke-width="1"/>
-  <line x1="283" y1="20" x2="283" y2="26" stroke="var(--border)" stroke-width="1"/>
-  <line x1="382" y1="20" x2="382" y2="26" stroke="var(--border)" stroke-width="1"/>
+  <line x1="172" y1="20" x2="172" y2="26" stroke="var(--border)" stroke-width="1"/>
+  <line x1="292" y1="20" x2="292" y2="26" stroke="var(--border)" stroke-width="1"/>
+  <line x1="412" y1="20" x2="412" y2="26" stroke="var(--border)" stroke-width="1"/>
 
   <text x="0" y="52" font-size="9.5" font-weight="680" fill="var(--ink)">MV Barima, 2026</text>
-  <line x1="52" y1="66" x2="415" y2="66" stroke="var(--s1l)" stroke-width="3"/>
+  <line x1="52" y1="66" x2="412" y2="66" stroke="var(--s1l)" stroke-width="3"/>
   <circle class="mark" cx="52" cy="66" r="6" fill="var(--ink2)"
           data-label="Day 0, 18 July" data-value="0" data-unit="the vessel sinks" data-var="--ink2"/>
-  <circle class="mark" cx="184" cy="66" r="6" fill="var(--s1)"
+  <circle class="mark" cx="172" cy="66" r="6" fill="var(--s1)"
           data-label="Day 4, 22 July" data-value="4" data-unit="days" data-var="--s1"
           data-note="Prime Minister commits to an inquiry, no timeline given"/>
-  <circle class="mark" cx="283" cy="66" r="6" fill="var(--s1)"
+  <circle class="mark" cx="262" cy="66" r="6" fill="var(--s1)"
           data-label="Day 7, 25 July" data-value="7" data-unit="days" data-var="--s1"
           data-note="President announces the Commission"/>
-  <circle class="mark" cx="316" cy="66" r="6" fill="var(--s1)"
+  <circle class="mark" cx="292" cy="66" r="6" fill="var(--s1)"
           data-label="Day 8, 26 July" data-value="8" data-unit="days" data-var="--s1"
           data-note="Five commissioners named"/>
-  <circle class="mark" cx="382" cy="66" r="6" fill="var(--s2)"
+  <circle class="mark" cx="352" cy="66" r="6" fill="var(--s2)"
           data-label="Day 10, 28 July" data-value="10" data-unit="days" data-var="--s2"
           data-note="Three operator employees charged, before the inquiry is constituted"/>
+  <circle class="mark" cx="412" cy="66" r="6" fill="var(--s1)"
+          data-label="Day 12, 30 July" data-value="12" data-unit="days" data-var="--s1"
+          data-note="Commissioners sworn in at State House; the press was not invited"/>
   <text x="52" y="86" font-size="8.5" fill="var(--ink2)">sinks</text>
-  <text x="168" y="86" font-size="8.5" fill="var(--ink2)">committed to</text>
-  <text x="262" y="86" font-size="8.5" fill="var(--ink2)">announced</text>
-  <text x="300" y="98" font-size="8.5" fill="var(--ink2)">members named</text>
-  <text x="366" y="86" font-size="8.5" font-weight="640" fill="var(--s2)">charges</text>
-  <text x="415" y="70" font-size="14" font-weight="700" fill="var(--ink2)">&rarr;</text>
-  <text x="330" y="116" font-size="8.5" font-weight="640" fill="var(--muted)">still not gazetted</text>
+  <text x="158" y="86" font-size="8.5" fill="var(--ink2)">committed to</text>
+  <text x="242" y="86" font-size="8.5" fill="var(--ink2)">announced</text>
+  <text x="268" y="98" font-size="8.5" fill="var(--ink2)">members named</text>
+  <text x="352" y="112" font-size="8.5" font-weight="640" fill="var(--s2)" text-anchor="middle">charges</text>
+  <text x="412" y="86" font-size="8.5" font-weight="640" fill="var(--ink)" text-anchor="end">sworn in</text>
+  <text x="412" y="128" font-size="8.5" font-weight="640" fill="var(--muted)" text-anchor="end">still not gazetted</text>
 
-  <text x="0" y="136" font-size="9.5" font-weight="680" fill="var(--ink)">MV Estonia, 1994</text>
-  <circle class="mark" cx="52" cy="150" r="6" fill="var(--ink2)"
+  <text x="0" y="146" font-size="9.5" font-weight="680" fill="var(--ink)">MV Estonia, 1994</text>
+  <circle class="mark" cx="52" cy="160" r="6" fill="var(--ink2)"
           data-label="Day 0, 28 September 1994" data-value="0" data-unit="the vessel sinks" data-var="--ink2"/>
-  <circle class="mark" cx="85" cy="150" r="6" fill="var(--s3)"
+  <circle class="mark" cx="82" cy="160" r="6" fill="var(--s3)"
           data-label="Day 1, 29 September 1994" data-value="1" data-unit="day" data-var="--s3"
           data-note="Estonia, Finland and Sweden establish a joint investigation commission"/>
-  <line x1="52" y1="150" x2="85" y2="150" stroke="var(--s3)" stroke-width="3"/>
-  <text x="97" y="154" font-size="8.5" fill="var(--ink2)">joint commission of three states established the next day</text>
+  <line x1="52" y1="160" x2="82" y2="160" stroke="var(--s3)" stroke-width="3"/>
+  <text x="94" y="164" font-size="8.5" fill="var(--ink2)">joint commission of three states established the next day</text>
 </svg>
 </div>
 <div class="legend">
@@ -1348,7 +1361,8 @@ CHART_INQUIRY = '''
 <tr><td class="n">7</td><td>25 July</td><td>President announces an independent international Commission</td></tr>
 <tr><td class="n">8</td><td>26 July</td><td>Five commissioners named; instruments &quot;being formalised&quot;</td></tr>
 <tr><td class="n">10</td><td>28 July</td><td>Three operator employees charged with murder; the Commission is not yet constituted</td></tr>
-<tr><td>&mdash;</td><td>&mdash;</td><td>No gazetted instrument, secretary, deadline or budget appears in this archive</td></tr>
+<tr><td class="n">12</td><td>30 July</td><td>Commissioners sworn in at State House before the Chief Magistrate; the press was not invited. DPI names the enabling statute for the first time: Commissions of Inquiry Act, Cap. 19:03, s. 2(1)</td></tr>
+<tr><td>&mdash;</td><td>&mdash;</td><td>No gazetted instrument, secretary, reporting deadline, budget, rules of procedure or call for submissions appears in this archive</td></tr>
 <tr><td class="n">1</td><td>29 Sept 1994</td><td><em>Separate case, for comparison:</em> Estonia, Finland and Sweden establish a joint commission the day after the MV Estonia sinks</td></tr>
 </table></div>
 </details>
@@ -1528,7 +1542,7 @@ OG_CARDS = [
      'the sinking of 18 July 2026 — attributed, dated, and checkable.'),
     ('timeline',  'Chronology, 1936&ndash;2026',
      'Chronology',
-     'From the Clyde shipyard that built her in 1939 to the charges laid ten days after she sank. '
+     'From the Clyde shipyard that built her in 1939 to the inquiry sworn in twelve days after she sank. '
      'Every entry attributed; where sources conflict, both versions are given.'),
     ('facts',     'The figures, source by source',
      'The figures, source by source',
@@ -1540,7 +1554,7 @@ OG_CARDS = [
      'assessment by this archive of who is right.'),
     ('anomalies', 'Frontier AI analysis &middot; Claude Opus 5',
      'What doesn&rsquo;t add up',
-     'Seventeen things in this record that do not reconcile - figures that moved without '
+     'Nineteen things in this record that do not reconcile - figures that moved without '
      'explanation, documents that should exist and have not appeared, official accounts '
      'contradicted by other official accounts.'),
     ('questions', 'Answered by AI over the whole archive',
@@ -1587,7 +1601,7 @@ write('timeline.html', build_prose_page(
     'timeline.md',
     'Chronology, 1936–2026 — MV Barima documented record',
     'Chronology',
-    'From the Clyde shipyard that built her in 1939 to the eight days after she sank. Every entry is attributed '
+    'From the Clyde shipyard that built her in 1939 to the twelve days after she sank. Every entry is attributed '
     'to the source that reports it; where sources conflict, both versions are given and marked.',
     'timeline.html'))
 
@@ -1595,7 +1609,7 @@ write('facts.html', build_prose_page(
     'facts.md',
     'The figures, source by source — MV Barima documented record',
     'The figures, source by source',
-    'The complement, the recovery figures and the vessel’s stated capacity all changed over the eight days. This '
+    'The complement, the recovery figures and the vessel’s stated capacity all changed over the twelve days. This '
     'page records each figure, who stated it, when, on what stated basis, and what in the record differs from it.',
     'facts.html',
     '<div class="note warn"><h4>Read this before citing any number</h4><p>Including numbers from this site. Early '
@@ -1606,7 +1620,7 @@ write('anomalies.html', build_prose_page(
     'anomalies.md',
     'What doesn\u2019t add up \u2014 MV Barima documented record',
     'What doesn\u2019t add up',
-    f'A frontier AI analysis by Claude Opus 5, reasoning across all {len(records)} documents. Seventeen '
+    f'A frontier AI analysis by Claude Opus 5, reasoning across all {len(records)} documents. Nineteen '
     'things in this record that do not reconcile: figures that moved without explanation, documents that '
     'should exist and have not appeared, official accounts contradicted by other official accounts.',
     'anomalies.html',
@@ -1655,7 +1669,7 @@ write('questions.html', build_prose_page(
     'Everywhere else this site only sets out what published sources said, attributed. Here the '
     f'question is answered directly, by AI reasoning across all {len(records)} documents. Evidence is named; '
     'where the record cannot settle something, that is the answer given. If this page and the '
-    'record pages disagree, the record pages are right. Question five also draws on international '
+    'record pages disagree, the record pages are right. Question two also draws on international '
     'instruments held outside the archive, and says so. Nothing here bears on the guilt of the '
     'three men charged on 28 July, who have not been tried. The research and the reasoning are done '
     'with Claude Opus 5, Anthropic&rsquo;s frontier model, over the corpus described on the '

@@ -202,7 +202,8 @@
       if (!p) return true;
       if (p === 'pre') return d < '2026-07-18';
       if (p === 'disaster') return d >= '2026-07-18' && d <= '2026-07-21';
-      if (p === 'reckoning') return d >= '2026-07-22';
+      if (p === 'reckoning') return d >= '2026-07-22' && d <= '2026-07-26';
+      if (p === 'charges') return d >= '2026-07-27';
       return true;
     }
 
