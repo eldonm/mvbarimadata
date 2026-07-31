@@ -13,7 +13,7 @@ import markdown as md
 ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
-BUILT   = 'Sunday 26 July 2026, last revised Thursday 30 July 2026'
+BUILT   = 'Sunday 26 July 2026, last revised Friday 31 July 2026'
 # Absolute origin, needed for Open Graph — social crawlers will not resolve a
 # relative image or URL. Change this one line if the site moves domain.
 SITE_URL = 'https://mvbarimadata.pages.dev'
@@ -611,6 +611,7 @@ DEVELOPMENTS = [
 
     ('inquiry', '30 Jul', 'The Commission is sworn in, with the press shut out', 'At State House before the Chief Magistrate, the chairman virtually, streamed on the President&rsquo;s social media instead. The enabling statute is named officially for the first time. No instrument, no published terms, no secretary, no deadline, no budget.'),
     ('response','30 Jul', 'The government&rsquo;s own release lowers the toll to 72', 'After six days of official 73, with no announcement and no explanation, while four outlets carry 73 the same day. This archive keeps 73, and records the 72 as a divergence.'),
+    ('legal',   '31 Jul', 'The defence moves to stop the inquiry and the prosecution running together', 'Counsel for the three accused prepares a court challenge, argues the case belongs under the Shipping Act rather than common-law murder, puts seaworthiness on the regulator, and makes sight of the terms of reference a condition of his clients taking part at all. The Opposition Leader escalates the salvage offer to a formal written request and reports no government reply of any kind.'),
 ]
 
 def developments(compact=True):
@@ -654,7 +655,7 @@ def questions_panel():
     <p class="lede wrap-read">Twenty-eight things in this record that do not reconcile. Figures that moved without
     explanation, documents that should exist and have not appeared, and official accounts contradicted by other
     official accounts. The short version, in plain language:</p>
-    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">Set against the carrying figure, the manifest is about 70 tonnes over &mdash; that comparison is this archive&rsquo;s inference, not a finding. What is documented is that nobody in government has corrected the category error in twelve days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>Nobody has ever said how any of these people died</strong><span class="sub">No cause of death, no coroner, no inquest, no pathologist, in any account of the disaster. Bodies were identified from photographs, released and buried. Seventy-two murder charges rest on those deaths.</span></div></li><li><span class="n">8</span><div><strong>The inquiry into these deaths was sworn in with the press shut out</strong><span class="sub">Streamed on the President&rsquo;s own social media instead. Still no gazetted instrument, no published terms, no secretary, no deadline, no budget, no way to make a submission.</span></div></li><li><span class="n">9</span><div><strong>Then the government&rsquo;s own release quietly lowered the bodies recovered from 73 to 72</strong><span class="sub">Six days of official 73, then 72 with no announcement &mdash; while four other outlets still said 73 the same day.</span></div></li><li><span class="n">10</span><div><strong>Licensed for 397 people. Two hundred and fifty life jackets aboard</strong><span class="sub">Both numbers from the same minister at the same press conference on day one. He called it meeting the required standard. The government has never reconciled them, and how many places the eight liferafts held is not on record at all.</span></div></li><li><span class="n">11</span><div><strong>There is video of the boat being loaded. The state has had it since day two</strong><span class="sub">It told us how many people it shows. It has never said what it shows about the cargo &mdash; the thing three men were charged over.</span></div></li><li><span class="n">12</span><div><strong>Money is going to bereaved families at figures nobody can explain, and a deadline may be running behind it</strong><span class="sub">No published scheme, no rate, no total. On the only published reading of the statute, a claim must be filed by about 18 January 2027 &mdash; and there is no insurer.</span></div></li></ul>
+    <ul class="leads"><li><span class="n">1</span><div><strong>The number Edghill used to clear the boat measures space inside the hull, not weight it can carry</strong><span class="sub">Set against the carrying figure, the manifest is about 70 tonnes over &mdash; that comparison is this archive&rsquo;s inference, not a finding. What is documented is that nobody in government has corrected the category error in thirteen days.</span></div></li><li><span class="n">2</span><div><strong>One sheet of paper would settle most of this. Nobody will produce it</strong><span class="sub">The safety certificate the regulator says it relied on. Requested on day one.</span></div></li><li><span class="n">3</span><div><strong>Families were asked to leave the wreck on the seabed two days before the divers called it too dangerous to move</strong><span class="sub">It is the only physical evidence, and about thirty people are still inside it.</span></div></li><li><span class="n">4</span><div><strong>On day one the minister put the fault at ground level. Nine days later three ground-level staff were charged and nobody else</strong><span class="sub">No charge, suspension or accounting at the regulator, the board, or either ministry.</span></div></li><li><span class="n">5</span><div><strong>The government answered most freely in the first two days, then stopped as questions moved upward</strong><span class="sub">The one figure showing whether unticketed passengers lived or drowned was given, then refused.</span></div></li><li><span class="n">6</span><div><strong>Seventy-two murder charges. Seventy-three bodies recovered</strong><span class="sub">No official statement says how many charges were laid.</span></div></li><li><span class="n">7</span><div><strong>Nobody has ever said how any of these people died</strong><span class="sub">No cause of death, no coroner, no inquest, no pathologist, in any account of the disaster. Bodies were identified from photographs, released and buried. Seventy-two murder charges rest on those deaths.</span></div></li><li><span class="n">8</span><div><strong>The inquiry into these deaths was sworn in with the press shut out</strong><span class="sub">Streamed on the President&rsquo;s own social media instead. Still no gazetted instrument, no published terms, no secretary, no deadline, no budget, no way to make a submission.</span></div></li><li><span class="n">9</span><div><strong>Then the government&rsquo;s own release quietly lowered the bodies recovered from 73 to 72</strong><span class="sub">Six days of official 73, then 72 with no announcement &mdash; while four other outlets still said 73 the same day.</span></div></li><li><span class="n">10</span><div><strong>Licensed for 397 people. Two hundred and fifty life jackets aboard</strong><span class="sub">Both numbers from the same minister at the same press conference on day one. He called it meeting the required standard. The government has never reconciled them, and how many places the eight liferafts held is not on record at all.</span></div></li><li><span class="n">11</span><div><strong>There is video of the boat being loaded. The state has had it since day two</strong><span class="sub">It told us how many people it shows. It has never said what it shows about the cargo &mdash; the thing three men were charged over.</span></div></li><li><span class="n">12</span><div><strong>Money is going to bereaved families at figures nobody can explain, and a deadline may be running behind it</strong><span class="sub">No published scheme, no rate, no total. On the only published reading of the statute, a claim must be filed by about 18 January 2027 &mdash; and there is no insurer.</span></div></li></ul>
     <p class="wrap-read small muted"><strong>Produced by Claude Opus 5, Anthropic&rsquo;s frontier model,
     reasoning across the whole corpus &mdash; no human investigator assembled it.</strong> Each finding gives the
     anomaly, then the innocent explanation at its strongest, then the document that would settle it, and names its
@@ -815,7 +816,7 @@ def build_index():
 </section>
 
 <section>
-  <p class="eyebrow">How it happened, in twenty turns</p>
+  <p class="eyebrow">How it happened, in twenty-one turns</p>
   <h2 style="margin-top:2px">Notable developments</h2>
   <p class="wrap-read muted" style="margin-bottom:20px">The turns in the story, from the yard that built her to
   today. Each entry is a moment after which something was different. The full record &mdash; every dated entry the
@@ -1671,7 +1672,7 @@ for r in records:
     write(f'sources/{r["slug"]}.html', build_source_page(r))
 
 DEV_NOTE = ('<div class="card" style="margin-top:26px">'
-            '<p class="eyebrow" style="margin-top:0">The story in twenty turns</p>'
+            '<p class="eyebrow" style="margin-top:0">The story in twenty-one turns</p>'
             '<h2 style="margin-top:2px;margin-bottom:6px">Notable developments</h2>'
             '<p class="small muted" style="margin-bottom:16px">A reader arriving cold should be able to '
             'follow the arc before reading the record underneath. Each entry is a moment after which '
@@ -1690,7 +1691,7 @@ write('timeline.html', build_prose_page(
     'timeline.md',
     'Chronology, 1936–2026 — MV Barima documented record',
     'Chronology',
-    'From the Clyde shipyard that built her in 1939 to the twelve days after she sank. Every entry is attributed '
+    'From the Clyde shipyard that built her in 1939 to the thirteen days after she sank. Every entry is attributed '
     'to the source that reports it; where sources conflict, both versions are given and marked.',
     'timeline.html', extra_note=DEV_NOTE))
 
@@ -1698,7 +1699,7 @@ write('facts.html', build_prose_page(
     'facts.md',
     'The figures, source by source — MV Barima documented record',
     'The figures, source by source',
-    'The complement, the recovery figures and the vessel’s stated capacity all changed over the twelve days. This '
+    'The complement, the recovery figures and the vessel’s stated capacity all changed over the thirteen days. This '
     'page records each figure, who stated it, when, on what stated basis, and what in the record differs from it.',
     'facts.html',
     '<div class="note warn"><h4>Read this before citing any number</h4><p>Including numbers from this site. Early '

@@ -4,6 +4,50 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 31 July 2026 — fourteenth build, day thirteen
+
+Eighteen documents added, all dated 31 July, taking the corpus to **284**. Nothing on the site's standing gaps closed. The day's movement is almost entirely in what people are now doing *about* the gaps rather than in the gaps themselves.
+
+### The defence moves to stop the two proceedings running together
+
+This archive published finding 23 on 30 July: that the three people who know most about the voyage were charged two days before the inquiry was sworn, that this raises a self-incrimination problem nobody in government had addressed, and that a document setting out four ways to manage it had been sitting on this website since 29 July.
+
+On 31 July it stopped being theoretical. Attorney Dexter Todd, who acts for all three accused and is also an APNU Member of Parliament, announced he is preparing a court challenge to the Director of Public Prosecutions' position that the prosecution and the Commission may proceed simultaneously. His framing of the clash: *"What will stand down? Will the COI stand down or will the criminal court stand down?"* **[SINGLE SOURCE]** He made his clients' participation in the Commission conditional on three things — whether the criminal proceedings are stayed, whether adequate safeguards exist, and whether the terms of reference are released for review.
+
+Finding 23 is updated accordingly. The point it now makes is narrow and, this archive thinks, fair: the state's failure to choose a mechanism in advance has produced exactly the outcome those mechanisms existed to prevent — the inquiry's two most important witnesses negotiating in public, through counsel, the terms on which they will speak to it. Whether Todd's legal argument is sound is for a Guyanese court, and this archive takes no view.
+
+### Seaworthiness is put at the regulator's door, and the regulator has now been silent for a week
+
+Todd: *"None of the parties charged are to determine seaworthiness of that vessel. Seaworthiness of the vessel carries a particular procedure, and that has to be determined by, of course, MARAD."* Finding 26 recorded MARAD's silence since 24 July; it is now seven days, and the central question in the prosecution has been addressed publicly to a body that has not spoken. Everything relayed on the accused's behalf about the vessel's equipment remains **untested allegation** by a man awaiting trial, and this archive adopts none of it.
+
+### The toll divergence did not resolve. It went quiet on one side
+
+Every Guyanese outlet that gave a number on 31 July used **73**. The two that had carried **72** on 30 July — the Department of Public Information and Demerara Waves — published nothing at all, so neither corrected nor defended it. Guyana Times, the outlet closest to the administration, now carries 73 while the government's own information service still carries 72, and nobody has acknowledged the gap. Meanwhile the regional wires have started giving "more than 70" or no figure at all, and two letter-writers have gone the other way and treated the combined dead-and-missing total as a confirmed death count of 100. Finding 18 records all of it. **No new bodies were reported recovered.**
+
+### The wreck, and a second document put in front of bereaved families
+
+**[SINGLE SOURCE]** Kiskadee Watch reports that the government "circulated documents requesting relatives consent to designating the vessel a memorial site." If accurate that moves the memorial from a proposal discussed with families to paperwork placed before them, and it is the second such unpublished document this archive has had to record. The Opposition Leader says he has had no reply of any kind to his salvage offer — "No update, nothing at all" — and is escalating to a formal written request. Against the memorial, the **Assakata Village Council** in Region One formally resolved that the vessel be raised so a complete investigation can be made: the first recorded resolution of an Indigenous village council on the question, from the region that lost the most people. Finding 3 is extended.
+
+### Money: a framework team, and the word "compensation" avoided again
+
+A team has been assembled to draft the national framework for the HEART initiative, and the assistance is again described as **not** compensation. No members named, no sum, no timetable. Thirteen days on there is still no published rate, no eligibility rule and no total disbursed. Finding 22 is updated; the limitation warning on it stands unchanged.
+
+### Also on the record
+
+New detail on **why the Port Kaituma wharf failed** — an opposition MP names the designer and attributes the failure to pre-construction design and site investigation, describing piles that never reached firm ground, a former sawmill site with buried debris, undersized steel and tie rods that "snapped under the pressure." **[SINGLE SOURCE]**, and an MP's account rather than an engineering report, but it bears on the chain the Prime Minister has already conceded. The **resignation campaign reached the minister's gate**, with a joint opposition vigil outside Juan Edghill's home. Kaieteur News records that **President Ali has not faced the local media** since returning after the disaster. And **[SINGLE SOURCE]** Kiskadee Watch reports putting conflict-of-interest questions about two commissioners to three government bodies and receiving no response from any of them.
+
+### Day counts advanced, and a note on why that keeps needing doing
+
+Every elapsed-time claim moved from twelve days to thirteen. Claims anchored to an event — the Commission was sworn in twelve days after the sinking — were deliberately left alone, because those are facts about a date rather than about now. This is the third build in a row in which rotting day-counts have had to be chased by hand, and it is the clearest argument in this project for building a register of time-relative claims that can be re-tested mechanically rather than remembered.
+
+### What could not be retrieved
+
+Recorded because a reader should know the sweep's reach. **Demerara Waves, News Room Guyana, News Source Guyana, DPI, HGPTV and Guyana Graphic** published nothing dated 31 July that could be retrieved; several of those sites terminate at 30 July. **The Guyana Chronicle's** 31 July archive returns a JavaScript stub with no content, so this archive cannot say whether the state paper published that day. One aggregated item was dropped because only a headline could be reached. And a trap worth naming: three iNews Guyana articles appeared in an early listing as 31 July and are in fact dated **30 July** on their own article pages — a snippet-level sweep would have filed all three under the wrong day.
+
+One quotation was dropped in verification. A sentence in the Kaieteur report of Todd's challenge rendered once with a negation and once without it across two separate fetches, so it is not quoted anywhere on this site; only the wording that rendered identically on both passes is used.
+
+---
+
 ## 30 July 2026 (late) — thirteenth build, the analysis doubles and the story gets a spine
 
 Two things. The analysis page was expanded from nineteen findings to twenty-eight, after a verification pass that killed one candidate outright and reshaped three others. And the site now carries a short account of the story itself, for a reader who has just arrived and does not know it.

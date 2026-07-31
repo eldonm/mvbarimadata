@@ -1,6 +1,6 @@
 # MV Barima — Contested Facts and Figure Reconciliation
 
-Compiled 26 July 2026, last revised 30 July 2026, and checked against every document in the corpus. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
+Compiled 26 July 2026, last revised 31 July 2026, and checked against every document in the corpus. Purpose: to record what each figure was, who stated it, when, and on what stated basis, so the record remains usable as figures are revised. Nothing here is settled; everything is attributed.
 
 **New on 30 July: a submitted expert analysis of the statute book.** A 253-page analysis of the Guyanese maritime statutes was submitted to this archive by its author, **Robert C. Millington** — retired United States Navy naval officer; former licensed United States Coast Guard Merchant Marine Deck Officer, Unlimited Tonnage; former First Class Ship Pilot, Unlimited Tonnage; BSc Marine Transportation, State University of New York Maritime College at Fort Schuyler; thirty-nine years in the military, maritime and logistics sectors. He states that he is not admitted to practise law in Guyana or in any other jurisdiction and that nothing in the document is legal advice. It is held and published in full.
 

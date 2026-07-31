@@ -1,6 +1,6 @@
 # Research Notes, Method and Known Gaps
 
-Compiled 26 July 2026, last revised 30 July 2026. Read this before relying on the corpus for anything consequential.
+Compiled 26 July 2026, last revised 31 July 2026. Read this before relying on the corpus for anything consequential.
 
 ---
 
@@ -26,7 +26,7 @@ The corpus was then deduplicated by canonical URL, keeping the fullest capture i
 
 **Standing rule applied throughout:** no file was written containing invented, reconstructed or paraphrased-as-verbatim text. Where retrieval failed, the failure is recorded here rather than papered over. Where the retrieval tool returned condensed prose despite instructions, the file carries a `capture_fidelity` warning — in those files direct quotations are reliable and connective prose is the tool's compression, not the outlet's wording. Do not quote a flagged file as verbatim.
 
-**Corpus:** 266 documents, counted by the date each was retrieved. 152 in the first build of 26 July; 40 Guyana Chronicle articles the same day; 17 on 27 July, being international sources recovered through a browser session and the first Kiskadee Watch reporting; 24 on 29 July, covering 28–29 July, four of them social media posts; and 33 on 30 July — eight in the morning (seven pre-disaster context sources recovered while answering a submitted question about the Fort Island ferry operation, plus one submitted expert analysis) and 25 in an evening sweep covering 29 and 30 July. That sums to 266. **235** are dated 19 July 2026 onward; the remaining **31** are pre-disaster context and undated reference material reaching back to the 1930s builder's record &mdash; 26 carrying a pre-disaster date and five undated. (An earlier version of this line said 235 documents were dated from 19 July and 30 were not. The error was a sorting one: one undated file records its date as the words "Undated (living document)", which a naive string comparison sorts *after* a 2026 date rather than before it, so it was counted on the wrong side. Corrected on 30 July.) Note that this is a split by **date** and the table below is a split by **kind**; they are different partitions of the same 266 documents and their rows do not correspond. One undated reference work, for instance, is counted here among the 31 and below among the three reference works.
+**Corpus:** 266 documents, counted by the date each was retrieved. 152 in the first build of 26 July; 40 Guyana Chronicle articles the same day; 17 on 27 July, being international sources recovered through a browser session and the first Kiskadee Watch reporting; 24 on 29 July, covering 28–29 July, four of them social media posts; and 33 on 30 July — eight in the morning (seven pre-disaster context sources recovered while answering a submitted question about the Fort Island ferry operation, plus one submitted expert analysis) 25 in an evening sweep covering 29 and 30 July; and 18 on 31 July, all of them dated that day. That sums to 284. **253** are dated 19 July 2026 onward; the remaining **31** are pre-disaster context and undated reference material reaching back to the 1930s builder's record &mdash; 26 carrying a pre-disaster date and five undated. (An earlier version of this line said 235 documents were dated from 19 July and 30 were not. The error was a sorting one: one undated file records its date as the words "Undated (living document)", which a naive string comparison sorts *after* a 2026 date rather than before it, so it was counted on the wrong side. Corrected on 30 July.) Note that this is a split by **date** and the table below is a split by **kind**; they are different partitions of the same 284 documents and their rows do not correspond. One undated reference work, for instance, is counted here among the 31 and below among the three reference works.
 
 ---
 
@@ -46,15 +46,15 @@ A reader was right to object that "200 sources" overstates what this archive hol
 
 | What it is | Documents |
 |---|---|
-| Original reporting on the sinking | 170 |
+| Original reporting on the sinking | 181 |
 | Pre-disaster context | 30 |
-| Syndicated wire copy (AP, Reuters, CMC, AFP carried by other outlets) | 21 |
+| Syndicated wire copy (AP, Reuters, CMC, AFP carried by other outlets) | 24 |
 | Government communication (DPI releases, official statements, instruments) | 19 |
-| Opinion, letters and editorials | 18 |
+| Opinion, letters and editorials | 22 |
 | Social media posts by institutions and public figures | 4 |
 | Reference works (encyclopedia, engine and vessel registries, directories) | 3 |
 | Expert submission (named author, published in full) | 1 |
-| **Total** | **266** |
+| **Total** | **284** |
 
 The 29 July build added 24 documents: seventeen pieces of Guyanese reporting on the charges, the wreck, the former captain's account and the minister's first response to the resignation demands; three regional carriages of the same story; and four social media posts, which are labelled as such wherever they appear and are the first of their kind in this corpus. One of those posts was, at the time, the only record here of a picket at the Office of the President. That is no longer so: the 30 July sweep brought in four press accounts of the same picket, and the note recording its absence has been withdrawn from the chronology and the positions page.
 
@@ -64,17 +64,17 @@ Three qualifications matter more than the totals.
 
 **Syndication multiplies one act of reporting.** A single Associated Press dispatch appears here via Afro.com, WRAL twice, and the Citrus County Chronicle. One CMC wire appears via both CBC Barbados and the Jamaica Observer. CBC News's report is Thomson Reuters copy, so CBC and Reuters in this archive are substantially the same reporting counted twice. These variants are kept deliberately — which outlet carried which figure on which day is part of the record, and the archive uses it to show two irreconcilable death tolls running side by side in international copy for about forty-eight hours — but they are not independent corroboration.
 
-**Roughly a quarter of the documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 25: 65 of 266. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny. The state's share fell slightly on 30 July, because the evening sweep added 24 documents from private outlets and one DPI release.
+**Roughly a quarter of the documents are the state's own voice.** The state-owned *Guyana Chronicle* supplies 40 and the Department of Public Information 25: 65 of 284, a share that has fallen because neither published anything this archive could retrieve on 31 July. That is primary material of real value, being what the government said and when, but it is not independent of the body under scrutiny. The state's share fell slightly on 30 July, because the evening sweep added 24 documents from private outlets and one DPI release.
 
 **Four documents are duplicates or republications**, including the *Guyana Chronicle* publishing the same report at two dates and URLs, and two syndicated pairs carrying identical headlines.
 
-Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is **128 rather than 266**. That count is checked at each build rather than carried forward. The morning build of 30 July added eight documents and none of them qualified — six pre-disaster news and government items, one undated trade review of a vessel, and one submitted analysis — so the numerator did not move at all. The evening sweep of the same day added 25, of which 21 do qualify: original Guyanese reporting on the swearing-in of the Commission, the protests of 29 July, the legal reaction to the charges, the Attorney General's remarks, a funeral, a bereaved mother's account, the Ministry's cargo list and two mental-health assessments. The remaining four are one DPI release and three opinion pieces. So on 30 July the independent numerator moved for the first time since 29 July, and it moved by 21.
+Counting only original reporting on the sinking by outlets that are neither state-owned nor carrying another outlet's wire copy, the figure is **139 rather than 284**. That count is checked at each build rather than carried forward. The morning build of 30 July added eight documents and none of them qualified — six pre-disaster news and government items, one undated trade review of a vessel, and one submitted analysis — so the numerator did not move at all. The evening sweep of the same day added 25, of which 21 do qualify: original Guyanese reporting on the swearing-in of the Commission, the protests of 29 July, the legal reaction to the charges, the Attorney General's remarks, a funeral, a bereaved mother's account, the Ministry's cargo list and two mental-health assessments. The remaining four are one DPI release and three opinion pieces. So on 30 July the independent numerator moved for the first time since 29 July, and it moved by 21.
 
 **Outlet names were deduplicated on 27 July.** The archive had been holding 51 distinct publisher strings for what were in fact 42 publishers: HGPTV had been recorded five different ways, and Demerara Waves, iNews Guyana, Democracy Guyana, the Department of Public Information and Wikipedia twice each. Those twenty records now carry a single canonical name per publisher, which both cleans the outlet filter and stops the archive overstating how many publishers it draws on.
 
 Four apparent duplicates were deliberately left alone because they are different publishers: BBC News, Canada's CBC News and the Caribbean Broadcasting Corporation in Barbados; the Jamaica Gleaner and the Jamaica Observer; the Guyana Chronicle and the Guyana Graphic; and iNews Guyana, News Room Guyana, News Source Guyana and Things Guyana. The Associated Press entries are also kept separate by carrier — *via WRAL*, *via Afro.com*, *via Citrus County Chronicle* — because which outlet carried a wire report is part of what this archive records. CBC News is now labelled *CBC News (Canada)* to distinguish it from the Barbadian broadcaster.
 
-After deduplication three publishers still account for 118 of the 266 documents — Kaieteur News 53, the *Guyana Chronicle* 40 and the Department of Public Information 25. Two of those three are the state. A further dedup was needed on 30 July: HGPTV had drifted back into two publisher strings, "HGPTV" and "HGPTV Nightly News", across sixteen files. They are one publisher and now carry one name.
+After deduplication three publishers still account for 127 of the 284 documents — Kaieteur News 62, the *Guyana Chronicle* 40 and the Department of Public Information 25. Two of those three are the state. A further dedup was needed on 30 July: HGPTV had drifted back into two publisher strings, "HGPTV" and "HGPTV Nightly News", across sixteen files. They are one publisher and now carry one name.
 
 ---
 
@@ -122,7 +122,7 @@ These are recorded because a reader needs to know which documents were searched 
 
 Stabroek News, Guyana's principal independent daily for roughly forty years, ceased print publication on 15 March 2026 in voluntary liquidation — four months before the disaster. The consequence for this research was that repeated searches for Stabroek coverage of the sinking returned nothing. Two of the corpus's pre-disaster sources on vessel condition — Capt. R. E. W. Adams's 2015 letter naming this vessel, and the 2012 piece on the Sprostons-built fleet — come from Stabroek's letters and features pages.
 
-Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 53 documents, is the largest single contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the state is close behind it and larger in aggregate: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 25 releases the state or a state-owned outlet accounts for 65 of the 266 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
+Independent print scrutiny in Guyana narrowed sharply with Stabroek's closure. Kaieteur News, at 62 documents, is the largest single contributor here, and civil-society bodies such as the GHRA, TIGI and the APA are issuing statements directly rather than arguing in a newspaper's letter columns. But the state is close behind it and larger in aggregate: the state-owned *Guyana Chronicle* supplies 40, and with the Department of Public Information's 25 releases the state or a state-owned outlet accounts for 65 of the 284 documents. Kiskadee Watch, added on 27 July, is a further independent Guyanese voice. Readers should weigh that distribution: it reflects which Guyanese outlets were publishing, and which were state-funded, in July 2026.
 
 ---
 
@@ -154,7 +154,7 @@ Two things the pass surfaced that are now flagged in the analysis rather than fi
 
 ## Directory structure
 
-`archive/` holds the 266 full-text sources, one file per source, plus seven `_manifest_*.jsonl` files carrying structured metadata and research annotations for every entry, and `_synthesis_vessel-dossier.md`, a fully cited dossier on the vessel and the T&HD fleet with an explicit unverified-and-contested section.
+`archive/` holds the 284 full-text sources, one file per source, plus seven `_manifest_*.jsonl` files carrying structured metadata and research annotations for every entry, and `_synthesis_vessel-dossier.md`, a fully cited dossier on the vessel and the T&HD fleet with an explicit unverified-and-contested section.
 
 `deliverables/` holds `00_SOURCE-CATALOGUE.md` (the annotated listing of all sources with summaries, chronological then contextual, plus a distribution table), `01_TIMELINE.md` (reconciled chronology from 1936 to 26 July 2026, with conflicts marked), `02_CONTESTED-FACTS.md` (figure-by-figure reconciliation, single-source claims, reliability guidance), `03_SYSTEMIC-ANALYSIS.md` (the four-pillar systemic brief), and this file.
 
