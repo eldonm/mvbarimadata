@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --paper:#f6f5f1; --ink:#0b0b0b; --ink2:#3f3e3b; --muted:#8a8880;
+    --hair:#dcdad2; --blue:#2a78d6; --orange:#eb6834; --green:#1baf7a;
+    --gold:#d99a10; --red:#c8342b; --plum:#7b52c4;
+  }
+  body{background:#555;font-family:system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .card{width:1200px;height:1200px;background:var(--paper);color:var(--ink);
+    padding:74px 80px 64px;display:flex;flex-direction:column;position:relative;
+    overflow:hidden;margin:0 0 18px}
+
+  .top{display:flex;justify-content:space-between;align-items:center;
+    border-bottom:5px solid var(--ink);padding-bottom:16px;flex:none}
+  .brand{font-size:24px;font-weight:800;letter-spacing:-0.015em}
+  .brand i{font-style:normal;color:var(--muted);font-weight:750;font-size:14px;
+    letter-spacing:0.18em;text-transform:uppercase;margin-left:12px}
+  .count{font-size:16px;font-weight:800;color:var(--muted);letter-spacing:0.1em}
+
+  .body{flex:1;display:flex;flex-direction:column;justify-content:center;padding:8px 0}
+  .rule{width:82px;height:9px;margin-bottom:30px;background:var(--blue);flex:none}
+
+  .lbl{font-size:21px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:18px}
+  h1{font-size:92px;font-weight:800;letter-spacing:-0.035em;line-height:1.0}
+  h1 em{font-style:normal;color:var(--blue)}
+  h2{font-size:68px;font-weight:800;letter-spacing:-0.028em;line-height:1.08}
+  p{font-size:34px;line-height:1.42;color:var(--ink2);margin-top:26px}
+  p b{color:var(--ink);font-weight:780}
+  p.lead{font-size:39px;margin-top:30px}
+
+  .tag{margin-top:36px;font-size:29px;font-weight:780;line-height:1.36;
+    padding:22px 26px;border-radius:6px;background:#e9e7e0;color:var(--ink);align-self:flex-start}
+
+  .foot{flex:none;border-top:2px solid var(--hair);padding-top:16px;
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:17px;color:var(--muted);font-weight:700}
+  .foot b{color:var(--ink);font-weight:800}
+
+  /* colour per card */
+  .k-blue .rule{background:var(--blue)}    .k-blue .tag{background:#e0ecfb}
+  .k-orange .rule{background:var(--orange)} .k-orange .tag{background:#fbe6dc}
+  .k-green .rule{background:var(--green)}   .k-green .tag{background:#ddf3ea}
+  .k-gold .rule{background:var(--gold)}     .k-gold .tag{background:#f9eecd}
+  .k-plum .rule{background:var(--plum)}     .k-plum .tag{background:#ece4f8}
+  .k-ink .rule{background:var(--ink)}       .k-ink .tag{background:#e4e2db}
+  .k-red .rule{background:var(--red)}       .k-red .tag{background:#fae3e1}
+
+  /* dark cards */
+  .dark{background:var(--ink);color:#fff}
+  .dark .top{border-bottom-color:#fff}
+  .dark .brand i{color:#8f8d86}
+  .dark .count{color:#8f8d86}
+  .dark h1,.dark h2{color:#fff}
+  .dark p{color:#dcdad2}
+  .dark .foot{border-top-color:#3a3a38;color:#8f8d86}
+  .dark .foot b{color:#fff}
+  .dark .rule{background:#ffd76a}
+  .dark p b{color:#ffd76a}
+
+  /* stats card */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:3px solid var(--ink)}
+  .g{padding:26px 24px 24px;border-bottom:1px solid var(--hair)}
+  .g:nth-child(odd){border-right:1px solid var(--hair)}
+  .g .n{font-size:84px;font-weight:800;letter-spacing:-0.04em;line-height:1;
+    font-variant-numeric:tabular-nums}
+  .g .l{font-size:24px;font-weight:750;line-height:1.32;color:var(--ink2);margin-top:12px}
+  .g.hot .n{color:var(--red)}
+  .g.full{grid-column:1 / -1;border-right:0}
+
+  /* numbered list card */
+  ol{list-style:none;counter-reset:i;margin-top:6px}
+  ol li{counter-increment:i;display:flex;gap:22px;align-items:flex-start;
+    padding:22px 0;border-bottom:1px solid var(--hair)}
+  ol li:last-child{border-bottom:0}
+  ol li::before{content:counter(i);flex:none;width:46px;height:46px;border-radius:50%;
+    background:var(--ink);color:#fff;font-size:23px;font-weight:800;
+    display:flex;align-items:center;justify-content:center;margin-top:2px}
+  ol li div{font-size:33px;line-height:1.32;font-weight:750}
+  ol li div span{display:block;font-size:26px;font-weight:600;color:var(--ink2);
+    margin-top:7px;line-height:1.38}
+</style></head><body>
+
+<!-- 1 ─────────────────────────────────────────────── cover -->
+<div class="card k-blue" id="c1">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">1 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <h1>103 people died.<br>Why won&rsquo;t they<br><em>just tell us?</em></h1>
+    <p class="lead">Show the boat&rsquo;s papers. Raise the wreck. Say how many died.
+    <b>None of it has happened.</b> Here are six possible reasons &mdash; some innocent, some not.</p>
+  </div>
+  <div class="foot"><span>Swipe &rarr;</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 2 ─────────────────────────────────────────────── numbers -->
+<div class="card k-ink" id="c2">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">2 / 11</div></div>
+  <div class="body">
+    <div class="lbl">Twelve days after</div>
+    <div class="grid">
+      <div class="g hot"><div class="n">~103</div><div class="l">dead or still missing</div></div>
+      <div class="g"><div class="n">0</div><div class="l">safety certificates ever shown</div></div>
+      <div class="g"><div class="n">3</div><div class="l">charged &mdash; all wharf and boat staff</div></div>
+      <div class="g"><div class="n">0</div><div class="l">officials or ministers charged</div></div>
+      <div class="g full"><div class="n">0</div><div class="l">official death tolls published</div></div>
+    </div>
+  </div>
+  <div class="foot"><span>2 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 3 ─────────────────────────────────────────────── the fact -->
+<div class="card dark" id="c3">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">3 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <h2>The government has never said how many people died.</h2>
+    <p class="lead">It only says how many <b>bodies were found</b>.</p>
+    <p class="lead">The rest &mdash; about <b>thirty people</b> &mdash; appear in <b>no government paper at all</b>.</p>
+  </div>
+  <div class="foot"><span>3 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 4 ─────────────────────────────────────────────── reason 1 -->
+<div class="card k-blue" id="c4">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">4 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <div class="lbl">Reason 1</div>
+    <h2>There may be no papers to show</h2>
+    <p>Guyana&rsquo;s sea laws may not cover a boat this size at all. No rule on life jackets.
+    No rule to count passengers. Maybe no rule requiring the certificate everyone keeps asking for.</p>
+    <div class="tag">If true: nobody hid the paper. It was never made.</div>
+  </div>
+  <div class="foot"><span>4 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 5 ─────────────────────────────────────────────── reason 2 -->
+<div class="card k-orange" id="c5">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">5 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <div class="lbl">Reason 2</div>
+    <h2>They picked a story on day one</h2>
+    <p>One day after she sank &mdash; before anyone investigated anything &mdash; the minister named the
+    cause in one word: <b>&ldquo;mischief.&rdquo;</b> He put it on the workers at the wharf.</p>
+    <p>Nine days later, three workers were charged with murder. <b>Nobody above them was charged with anything.</b></p>
+    <div class="tag">If true: they are protecting a story, not a secret.</div>
+  </div>
+  <div class="foot"><span>5 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 6 ─────────────────────────────────────────────── reason 3 -->
+<div class="card k-green" id="c6">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">6 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <div class="lbl">Reason 3</div>
+    <h2>Money. The state has to pay</h2>
+    <p>The boat had <b>no insurance</b>. The government carries the cost itself.</p>
+    <p>Families got $350,000 for funerals &mdash; and the government said clearly this is
+    <b>not compensation</b>. Real compensation waits on an inquiry with <b>no end date</b>.</p>
+    <div class="tag">If true: every month of delay costs the state less &mdash; and the families more.</div>
+  </div>
+  <div class="foot"><span>6 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 7 ─────────────────────────────────────────────── reason 4 -->
+<div class="card k-gold" id="c7">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">7 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <div class="lbl">Reason 4</div>
+    <h2>A $1.4 billion contract</h2>
+    <p>G$1.4bn was paid out in 2022 for a new wharf at Port Kaituma. Almost four years later it is
+    <b>still not finished</b>.</p>
+    <p>So the newer ferry couldn&rsquo;t go there. An <b>87-year-old boat</b> kept the run &mdash; the Prime
+    Minister has admitted this. The inquiry&rsquo;s list <b>does not name that contract</b>.</p>
+    <div class="tag">If true: the thing that put an old boat on that route is the one thing not being looked at.</div>
+  </div>
+  <div class="foot"><span>7 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 8 ─────────────────────────────────────────────── reason 5 -->
+<div class="card k-plum" id="c8">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">8 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <div class="lbl">Reason 5</div>
+    <h2>They may simply not know how</h2>
+    <p>Guyana has never properly investigated a sea disaster. No trained team. No law setting out how
+    it is done.</p>
+    <p>So the government did the only things it knew: send police, charge people, call an inquiry.
+    It <i>looks</i> like hiding.</p>
+    <div class="tag">If true: not wicked. Just a country with nothing built to handle this.</div>
+  </div>
+  <div class="foot"><span>8 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 9 ─────────────────────────────────────────────── reason 6 -->
+<div class="card dark" id="c9">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">9 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <div class="lbl">Reason 6 &mdash; most likely</div>
+    <h2>All of it at once</h2>
+    <p class="lead">No single secret. A country whose laws asked for almost nothing. A government that
+    chose a story too fast. And <b>three expensive reasons never to change it</b>: ministers&rsquo; jobs,
+    a $1.4 billion contract, and a bill for a hundred lives.</p>
+    <div class="tag">You don&rsquo;t need a conspiracy. You need people who guessed on day one, and found it cost more to admit it every day after.</div>
+  </div>
+  <div class="foot"><span>9 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 10 ─────────────────────────────────────────────── four papers -->
+<div class="card k-ink" id="c10">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">10 / 11</div></div>
+  <div class="body">
+    <div class="lbl">Four papers would end this tomorrow</div>
+    <ol>
+      <li><div>The boat&rsquo;s safety certificate<span>Does it exist? How many was she allowed to carry?</span></div></li>
+      <li><div>The wharf video<span>Police took it on day two. What does it show about the cargo?</span></div></li>
+      <li><div>A real payment plan<span>Real amount, real rules, real money set aside.</span></div></li>
+      <li><div>The inquiry&rsquo;s official rules<span>Still unpublished. Do they include the $1.4bn contract?</span></div></li>
+    </ol>
+  </div>
+  <div class="foot"><span>10 of 11</span><span><b>mvbarimadata.pages.dev</b></span></div>
+</div>
+
+<!-- 11 ─────────────────────────────────────────────── caution -->
+<div class="card k-red" id="c11">
+  <div class="top"><div class="brand">MV Barima<i>Documented record</i></div><div class="count">11 / 11</div></div>
+  <div class="body">
+    <div class="rule"></div>
+    <h2>Three men are charged.<br>They have <em style="font-style:normal;color:var(--red)">not</em> had a trial.</h2>
+    <p>Nothing on these cards says they are guilty of anything. On Reason 5, they may be as much a
+    product of Guyana&rsquo;s broken sea laws as anyone else.</p>
+    <p><b>These cards are reasoning, not record.</b> The facts come from 266 published documents,
+    all linked on the archive. The six reasons are possible explanations &mdash; not proven ones.</p>
+    <div class="tag">Read the full record, with every source: <b>mvbarimadata.pages.dev</b></div>
+  </div>
+  <div class="foot"><span>Produced with Claude Opus 5 &mdash; check it, don&rsquo;t trust it</span><span><b>11 of 11</b></span></div>
+</div>
+
+</body></html>
