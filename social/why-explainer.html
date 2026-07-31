@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MV Barima — Why won't they just tell us?</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --paper:#f6f5f1; --ink:#0b0b0b; --ink2:#3f3e3b; --muted:#8a8880;
+    --hair:#dcdad2; --blue:#2a78d6; --orange:#eb6834; --green:#1baf7a;
+    --gold:#e0a921; --red:#c8342b; --plum:#7b52c4;
+  }
+  body{background:var(--paper);color:var(--ink);width:1100px;margin:0 auto;
+    font-family:system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;padding:54px 60px 46px}
+
+  .mast{display:flex;justify-content:space-between;align-items:flex-end;
+    border-bottom:6px solid var(--ink);padding-bottom:16px}
+  .mark{font-size:31px;font-weight:800;letter-spacing:-0.02em;line-height:1}
+  .mark span{display:block;font-size:12px;font-weight:750;letter-spacing:0.22em;
+    text-transform:uppercase;color:var(--muted);margin-top:6px}
+  .kick{font-size:12px;font-weight:750;letter-spacing:0.18em;text-transform:uppercase;
+    color:var(--blue);text-align:right;line-height:1.6;max-width:280px}
+
+  h1{font-size:66px;font-weight:800;letter-spacing:-0.032em;line-height:1.02;margin:34px 0 0}
+  h1 em{font-style:normal;color:var(--blue)}
+  .stand{font-size:22px;line-height:1.45;color:var(--ink2);margin-top:18px;max-width:900px}
+  .stand b{color:var(--ink);font-weight:750}
+
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:32px 0 0;
+    border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+  .stat{padding:18px 16px 16px;border-right:1px solid var(--hair)}
+  .stat:last-child{border-right:0}
+  .stat .n{font-size:40px;font-weight:800;letter-spacing:-0.03em;line-height:1;
+    font-variant-numeric:tabular-nums}
+  .stat .l{font-size:12.5px;font-weight:700;line-height:1.35;color:var(--ink2);margin-top:8px}
+  .stat.hot .n{color:var(--red)}
+
+  .qbox{margin:34px 0 8px;padding:26px 30px;background:var(--ink);color:#fff;border-radius:4px}
+  .qbox p{font-size:27px;font-weight:750;line-height:1.32;letter-spacing:-0.012em}
+  .qbox p b{color:#ffd76a}
+
+  h2{font-size:15px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;
+    color:var(--muted);margin:40px 0 4px}
+  h2 + .sub{font-size:17px;color:var(--ink2);margin-bottom:20px;line-height:1.5}
+
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .c{border:1.5px solid var(--hair);border-radius:5px;background:#fff;padding:22px 24px 20px;
+    position:relative;overflow:hidden;display:flex;flex-direction:column}
+  .c::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--blue)}
+  .c1::before{background:var(--blue)} .c2::before{background:var(--orange)}
+  .c3::before{background:var(--green)} .c4::before{background:var(--gold)}
+  .c5::before{background:var(--plum)} .c6::before{background:var(--ink)}
+  .c .num{font-size:13px;font-weight:800;letter-spacing:0.1em;color:var(--muted)}
+  .c h3{font-size:24px;font-weight:800;letter-spacing:-0.018em;line-height:1.2;margin:6px 0 10px}
+  .c p{font-size:16px;line-height:1.52;color:var(--ink2)}
+  .c p + p{margin-top:9px}
+  .c p b{color:var(--ink);font-weight:750}
+  .tag{display:inline-block;margin-top:auto;padding-top:14px;align-self:flex-start;font-size:13.5px;font-weight:750;line-height:1.4;
+    border-radius:3px;background:#f0eeE8;color:var(--ink);padding:12px 12px 9px}
+  .c1 .tag{background:#e4eefb} .c2 .tag{background:#fceae2} .c3 .tag{background:#e2f5ee}
+  .c4 .tag{background:#faf1da} .c5 .tag{background:#efe9fa} .c6 .tag{background:#eceae4}
+
+  .wide{grid-column:1 / -1;background:#fffdf5;border-color:#e8dcae}
+  .wide::before{background:var(--ink)}
+  .wide h3{font-size:29px}
+  .wide p{font-size:18px}
+
+  .papers{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
+  .pp{border:1.5px solid var(--ink);border-radius:5px;padding:18px 18px 16px;background:#fff}
+  .pp .pn{width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+  .pp h4{font-size:17.5px;font-weight:800;line-height:1.25;margin:12px 0 7px;letter-spacing:-0.01em}
+  .pp p{font-size:14.5px;line-height:1.48;color:var(--ink2)}
+
+  .warn{margin-top:36px;border:2px solid var(--red);border-radius:5px;padding:20px 24px;
+    background:#fdf2f1}
+  .warn h4{font-size:17px;font-weight:800;color:var(--red);margin-bottom:7px}
+  .warn p{font-size:16px;line-height:1.5;color:var(--ink2)}
+
+  .foot{margin-top:34px;border-top:2px solid var(--ink);padding-top:16px;
+    display:flex;justify-content:space-between;align-items:flex-start;gap:30px}
+  .foot p{font-size:13.5px;line-height:1.55;color:var(--muted);max-width:700px}
+  .foot p b{color:var(--ink);font-weight:750}
+  .url{font-size:16px;font-weight:800;color:var(--ink);white-space:nowrap;padding-top:2px}
+
+  @media (max-width:1040px){
+    body{width:100%;padding:26px 18px 30px}
+    h1{font-size:40px} .stand{font-size:18px}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .stat{border-bottom:1px solid var(--hair)}
+    .cards{grid-template-columns:1fr} .papers{grid-template-columns:1fr 1fr}
+    .qbox p{font-size:21px} .c h3{font-size:21px} .wide h3{font-size:24px}
+    .foot{flex-direction:column;gap:12px}
+  }
+</style></head><body>
+
+<div class="mast">
+  <div class="mark">MV Barima<span>Documented record</span></div>
+  <div class="kick">Plain-language explainer &middot; 30 July 2026</div>
+</div>
+
+<h1>103 people died.<br>Why won&rsquo;t they <em>just tell us?</em></h1>
+<p class="stand">Everyone is asking the same thing. Show us the boat&rsquo;s papers. Raise the wreck. Say how many
+died. <b>None of that has happened.</b> Here are six possible reasons why &mdash; in the simplest words we can
+find. Some are innocent. Some are not. The record cannot yet tell them apart, and this page says so honestly.</p>
+
+<div class="stats">
+  <div class="stat hot"><div class="n">~103</div><div class="l">people dead or still missing</div></div>
+  <div class="stat"><div class="n">0</div><div class="l">safety certificates ever shown to the public</div></div>
+  <div class="stat"><div class="n">3</div><div class="l">people charged &mdash; all of them wharf and boat staff</div></div>
+  <div class="stat"><div class="n">0</div><div class="l">officials, bosses or ministers charged or suspended</div></div>
+  <div class="stat"><div class="n">12</div><div class="l">days, and still no official death toll</div></div>
+</div>
+
+<div class="qbox">
+  <p>The government has never said how many people died. It only says how many <b>bodies were found</b>.
+  The rest &mdash; about thirty people &mdash; appear in <b>no government paper at all</b>.</p>
+</div>
+
+<h2>Six possible reasons</h2>
+<p class="sub">Read them all before deciding. The last one is probably closest to the truth.</p>
+
+<div class="cards">
+
+  <div class="c c1">
+    <div class="num">REASON 1</div>
+    <h3>There may be no papers to show</h3>
+    <p>A retired ship pilot read Guyana&rsquo;s sea laws and wrote 253 pages about them. He found that a boat the
+    size of the <i>Barima</i> may fall through a <b>hole in the law</b>.</p>
+    <p>No rule saying how many life jackets. No rule saying anyone must count the passengers. Maybe no rule
+    requiring the certificate everyone is asking for.</p>
+    <span class="tag">If true: nobody is hiding the paper. The paper was never made.</span>
+  </div>
+
+  <div class="c c2">
+    <div class="num">REASON 2</div>
+    <h3>They picked a story on day one and got stuck with it</h3>
+    <p>One day after the boat sank &mdash; before anyone had investigated anything &mdash; the minister said the
+    cause in one word: <b>&ldquo;mischief.&rdquo;</b> He said the problem was at the wharf, with the workers.</p>
+    <p>Nine days later, three workers were charged with murder. Nobody above them was charged with anything.</p>
+    <span class="tag">If true: they are protecting a story, not a secret. Changing it now means admitting it goes higher.</span>
+  </div>
+
+  <div class="c c3">
+    <div class="num">REASON 3</div>
+    <h3>Money. The state has to pay, and it never said how much</h3>
+    <p>The boat had <b>no insurance</b>. The government admits it carries the cost itself. About 103 people died.</p>
+    <p>Families got $350,000 for funerals &mdash; and the government said clearly that this is <b>not
+    compensation</b>. Real compensation waits for an inquiry with no finish date.</p>
+    <p>One expert reads the law as giving families only until about <b>18 January 2027</b> to make a claim.
+    Nobody has told them that.</p>
+    <span class="tag">If true: every month of delay costs the state less, and the families more.</span>
+  </div>
+
+  <div class="c c4">
+    <div class="num">REASON 4</div>
+    <h3>A $1.4 billion contract nobody wants examined</h3>
+    <p>In 2022 the government paid out <b>G$1.4 billion</b> to build a new wharf at Port Kaituma. Almost four
+    years later it is <b>still not finished</b>.</p>
+    <p>Because it is not finished, the newer ferry could not go there. So an <b>87-year-old boat</b> kept doing
+    the run. The Prime Minister has admitted this himself.</p>
+    <p>The inquiry&rsquo;s announced list of things to look at does <b>not name that contract</b>.</p>
+    <span class="tag">If true: the thing that put an old boat on that route is the one thing not being looked at.</span>
+  </div>
+
+  <div class="c c5">
+    <div class="num">REASON 5</div>
+    <h3>They may simply not know how</h3>
+    <p>Guyana has never properly investigated a sea disaster. No trained team. No law setting out how it is
+    done. No system for it at all.</p>
+    <p>So the government did the only things it knew how to do: send police, charge people, and call an
+    inquiry. It <i>looks</i> like hiding. It may just be <b>emptiness</b>.</p>
+    <span class="tag">If true: not wicked. Just a country with nothing built to handle this.</span>
+  </div>
+
+  <div class="c c6">
+    <div class="num">REASON 6</div>
+    <h3>Most likely: all of it at once</h3>
+    <p>There is probably <b>no single secret</b> buried somewhere.</p>
+    <p>There is a country whose laws asked for almost nothing. A government that chose a story too quickly.
+    And <b>three expensive reasons never to change that story</b>: ministers&rsquo; jobs, a $1.4 billion
+    contract, and a bill for a hundred lives.</p>
+    <span class="tag">You don&rsquo;t need a conspiracy to get this. You need people who guessed on day one and found it cost more to admit it every day after.</span>
+  </div>
+
+</div>
+
+<h2>Four papers would end the argument tomorrow</h2>
+<p class="sub">Not opinions. Not theories. Four documents. Each one would settle this in a different direction.</p>
+
+<div class="papers">
+  <div class="pp"><div class="pn">1</div>
+    <h4>The boat&rsquo;s safety certificate</h4>
+    <p>Does it even exist? How many people was she really allowed to carry? Was 250 life jackets enough?</p></div>
+  <div class="pp"><div class="pn">2</div>
+    <h4>The wharf video</h4>
+    <p>Police took it on day two. It told us how many people boarded. What does it show about the <i>cargo</i>?</p></div>
+  <div class="pp"><div class="pn">3</div>
+    <h4>A real payment plan</h4>
+    <p>With a real amount, real rules, and real money set aside &mdash; before the claim deadline passes.</p></div>
+  <div class="pp"><div class="pn">4</div>
+    <h4>The inquiry&rsquo;s official rules</h4>
+    <p>Not yet published anywhere. Do they include the $1.4bn wharf contract, or not?</p></div>
+</div>
+
+<div class="warn">
+  <h4>Three men have been charged. They have NOT had a trial.</h4>
+  <p>Captain Kevin Price, Chief Mate Rondell Roberts and Goods Superintendent Delon Granderson are accused
+  people. Nothing on this page says they are guilty of anything, and nothing here should be read that way.
+  Notice also that on Reason 5, they may be as much a product of Guyana&rsquo;s broken sea laws as anyone else.</p>
+</div>
+
+<div class="foot">
+  <p><b>This page is reasoning, not record.</b> Every fact behind it comes from 266 published documents held and
+  linked on the archive &mdash; but the six reasons above are <b>possible explanations</b>, not proven ones, and the
+  record cannot yet tell them apart. Anyone saying they know which one is true is going beyond the evidence.
+  <b>Produced by Claude Opus 5, Anthropic&rsquo;s frontier AI model</b>, reasoning across the whole archive.
+  Check it, don&rsquo;t trust it &mdash; the sources are all published.</p>
+  <div class="url">mvbarimadata.pages.dev</div>
+</div>
+
+</body></html>
