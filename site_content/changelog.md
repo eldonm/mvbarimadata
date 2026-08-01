@@ -4,47 +4,29 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
-## 1 August 2026 — sixteenth build, a page written three times
+## 1 August 2026 — sixteenth build, one new page
 
-No documents were added. The corpus stands at **285** and still ends on 31 July.
+No documents were added. The corpus stands at **285** and still ends on 31 July, so nothing on this site reflects anything published today.
 
 ### The road not taken
 
-[A new page](counterfactual.html) asks a simple question: if the Government had an AI advisor from the night the *Barima* went down, whose only job was keeping the public's trust, what would it have said to do? It runs day by day through the first fortnight, then month by month to an ending in 2027. A summary strip sits at the top in the same visual form as the landing page's timeline; the prose beneath follows the chronology page's.
+[A new page](counterfactual.html) asks one question: if the Government had an AI advisor from the night the *Barima* went down, whose only job was keeping the public's trust, what would it have said to do? It runs day by day through the first fortnight and month by month to an ending in 2027, with a summary strip in the same visual form as the landing page's timeline.
 
-It took three attempts. The first was a thirteen-node, two-column comparison — accurate, verified, and unreadable. The second was a single-track chronology at about twelve thousand words, better but still written for someone who reads policy documents for a living. The third, published here, is under five thousand words in plain language, because a page about a ferry disaster in Region One that only a lawyer can read is not much use to Region One.
+It is invention, which is what this archive exists not to publish, so it is walled off rather than woven in. It sits on the utility row of the masthead with the apparatus, not on the record row. It carries a standing banner. The first fortnight is set against the real record and cited to nineteen documents; **everything after 1 August is made up outright**, and the strip marks that with a break line, hollow markers and a dashed spine so a reader who scrolls past without reading a caption can still see where the record stops. It never says what the inquiry would have *found* about why the ship sank, because nobody can know that. And it says nothing whatever about Kevin Price, Rondell Roberts or Delon Granderson, who are charged and not tried.
 
-It is invention, which is what this archive exists not to publish, so it sits behind a standing banner on the utility row of the masthead rather than the record row. The first fortnight is set against the real record and its sources are cited. **Everything after 1 August is made up entirely**, and the page marks that at the point it starts, in the heading, and again at three later headings. It never says what the inquiry *found* about why the ship sank, because nobody can know that. And it says nothing at all about Kevin Price, Rondell Roberts or Delon Granderson, who are charged and not tried.
+The page also states where it goes beyond what anyone actually proposed at the time. There are six such places and they are listed, the largest being the six-month claim deadline: nobody in Guyana raised it until a retired ship pilot did, unasked, on 29 July, and the page puts it on the 23rd. That is both the most useful thing on the page and the biggest liberty it takes.
 
-### What compression broke
+### What the verification pass caught, and one thing worth publishing on its own
 
-Each rewrite was verified adversarially and each verification found real damage. The third pass found fourteen defects, and the pattern in them is worth recording, because it is the specific hazard of writing simply: **shortening a sentence quietly strengthens it.**
+The page was written three times — a two-column comparison that was accurate and unreadable, a twelve-thousand-word chronology still pitched at people who read policy for a living, and this one, under five thousand words in plain language. Each version was checked adversarially and each check found real damage. The pattern in the last round is worth recording because it is the specific hazard of writing simply: **shortening a sentence quietly strengthens it.** A hedge about "*whatever* hours the log shows" became an assertion that such hours existed. "Bought four days" became "lasted four days", which claims a finding was withdrawn that never was. An unanswered demand became one that "was refused", inventing an act of government. Millington, a retired ship pilot, was promoted to ship captain in five places, and Patterson, the opposition's shadow minister, became "a former minister of its own ministry" — which was the entire force of the sentence.
 
-Five examples of the same failure. A hedge — "*whatever* hours the log shows with nothing state-owned in the water" — became a flat assertion that such hours existed, which this corpus does not establish. "The finding *bought* four days" became "lasted four days", which claims it was withdrawn; it never was. A careful line about the crew became a sentence stating that the men whose drug tests were disclosed had drowned; they were rescued, and one of them is currently charged. The Transparency Institute's unanswered 23 July demand became a demand that "was refused" — an invented act of government on a page whose rule is that the real track is not invented. And an accurate description of Millington as a retired ship *pilot* became "retired ship captain", a rank he never held, in five places including the one section of the page presented as real.
+One error is worth more than the rest together, because this archive had already made it, corrected it, and then made it again. A draft claimed the state concealed the 397-licensed-against-250-life-jackets discrepancy for ten days until it was extracted by a retired ship pilot. **That is false.** Both figures were volunteered by the Minister on 19 July, are carried by five outlets that day, and one is in the state's own release; what Millington did on the 29th was set them against each other. Finding 24 on the analysis page opens with a correction saying exactly that, published on 30 July after an earlier version made the same mistake — and the new page reinstated the withdrawn claim, in stronger form, a day later. **That is the second time a correction has failed to travel between pages here**, and it is the clearest argument yet for a register of withdrawn claims that can be tested against every page mechanically rather than remembered.
 
-Two more went to attribution. David Patterson was described as "a former minister of its own ministry" — he is the opposition's shadow minister for that portfolio, and the sentence's whole force rested on the error. And Millington's reading that section 3 disapplies **Part I** of the 1883 Act to state ships was flattened to "the 1883 law does not apply", which erases the live conflict this archive records between his reading and Patterson's citation of section 18 of the same Act.
-
-Also fixed: the 19-source citation block had ended up beneath the invented 2027 material, so the whole citation apparatus appeared to be sourcing the future; it now closes the real-record section. The claim that most families "had not buried anybody yet" by December is false — 63 bodies had been released to families by 24 July — and is now narrowed to the roughly thirty families with no body at all. And the page's own count of the liberties it takes was one short: MARAD stepping back on 22 July was placed a day ahead of the demand it rests on, and the page said "six things" nowhere. It says six now.
-
-**Three words were replaced for readability rather than accuracy**: "casualty" in the maritime sense of an accident, which to most readers means an injured person; "liberty" in the sense of a liberty taken; and an unglossed "interim report".
-
-### The timeline now runs to the end
-
-The strip at the top of the page originally stopped at 1 August, with the invented future only in prose below. It now carries the whole arc &mdash; nineteen turns, from the distress call to mid-2027 &mdash; because a plan that shows only the fortnight does not show a resolution.
-
-The two halves are separated **visually before they are separated in words**: the thirteen real-record turns keep solid markers and a solid spine, the six invented ones get hollow markers, a dashed spine, italic headings and green dates, and a break row between them reads *everything below this line is invented &mdash; a plan, not a forecast.* A reader who scrolls and never reads a caption can still tell where the record stops.
-
-The prose account of the future was then cut to a third of its length, because the strip now carries it. What stayed is the part that needed saying at length: the December 2026 deadline that would have destroyed every family's claim, the report published whole on the day rather than read by Cabinet first, and what the country is left holding.
-
-### The opening said the same thing three times
-
-The page lede, the warning banner and the first paragraph were each introducing the page independently &mdash; the lede and the opening paragraph were near-verbatim, and the banner and the third paragraph both announced that none of it happened. Each now says one thing once: the lede is the hook, the banner is the warning, and the opening paragraph carries only what neither of them says, which is that almost nothing on the page is original and that the advice was given publicly at the time and not taken.
+The honest version is smaller and worse for the state: the figures were never hidden. They were published on day one and left unreconciled for a fortnight, beside a ministerial assurance that they met the required standard, and nobody in government has been asked to reconcile them yet.
 
 ### Also in this build
 
 Elapsed-time claims moved from thirteen days to fourteen — the fourth consecutive build chasing rotting day-counts by hand.
-
-**A note on what did not change.** The corpus ends on 31 July and no sweep of 1 August reporting was run, so nothing on this site reflects what was published today.
 
 ---
 
