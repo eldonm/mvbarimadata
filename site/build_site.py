@@ -636,6 +636,32 @@ def developments(compact=True):
     return f'<ul class="devs">{pre_html}{post_html}</ul>'
 
 
+ALT_DEVELOPMENTS = [
+    ('disaster','Sat 18 Jul, 23:01', 'The coordination centre takes charge, and is named', 'The Maritime Search and Rescue Coordination Centre stands up as the coordinating authority within minutes and is named publicly as such by first light. Every asset tasked is logged with a time. One agency owns the count of people taken from the water, whoever pulls them out.'),
+    ('response','Sun 19 Jul', 'The state names no cause, and produces the ship&rsquo;s papers instead', 'No adjective, no &ldquo;mischief&rdquo;. The figures the Minister actually gave that day carry their provenance: 284 as gross tonnage and expressly not a cargo limit; 397 licensed passengers said in the same breath as 250 life jackets, with the observation that the two do not agree and no claim that they meet a standard. The manifest says 133 and he says the state does not yet know how many were aboard. The certificate of survey is produced &mdash; or he says it cannot be found and that he has ordered a search of the register.'),
+    ('response','Mon 20 Jul', 'The rescue log is published, with the gap in it', 'Times against every asset for the night of the 18th, including the hours in which nothing state-owned reached the water. The wharf CCTV is reported on for what it shows of the cargo as well as the people. The loading team is suspended by written instrument that says on its face it is not a finding of fault.'),
+    ('response','Tue 21 Jul', 'One figure, published daily, including the number who did not come home', 'Aboard, survived, recovered, identified, unaccounted for &mdash; and recovered plus unaccounted for, the number of people who did not come home, which the state has never once published. At a fixed hour, by one named officer, with the arithmetic shown. Families are told before the press.'),
+    ('response','Wed 22 Jul', 'The regulator recuses itself rather than clear the ship it certified', 'MARAD makes no finding on this casualty and says why: it certified this vessel, so it cannot judge whether the certification was sound. It places its complete file with the investigating authority. The state confirms the vessel was uninsured and, the same day, what that means for the families.'),
+    ('legal',   'Thu 23 Jul', 'Two ministers stand aside, and someone asks about the clock', 'Recusal, not resignation, framed as procedure carrying no admission of fault &mdash; which is what the Transparency Institute demanded that day, naming Edghill and Indar and MARAD&rsquo;s senior leadership. The Attorney General is asked whether any limitation period runs against claims arising from the casualty; if it does, the state undertakes in writing not to take the point.'),
+    ('inquiry', 'Fri 24 Jul', 'An investigation is asked for that is not the state&rsquo;s own', 'Because the state is regulator, certifying authority, inspecting authority and operator at once, and only an external body can command public confidence on that ground.'),
+    ('inquiry', 'Sat 25 Jul', 'Draft terms of reference go out for comment. Nothing goes to the families', 'The Commission is announced with its terms in <em>draft</em>, and the Amerindian Peoples Association, the National Toshaos Council and the affected village councils are consulted &mdash; the dead are disproportionately from Region One. The terms reach loading <em>authorisation</em> and procurement, not only loading execution. On the wreck, nothing is put in front of bereaved people until the technical assessment exists and the prosecutor has said in writing whether the hull is required as evidence.'),
+    ('inquiry', 'Mon 27 Jul', 'Parliament debates the scope, and the instrument is gazetted', 'APNU&rsquo;s motion, submitted to the Speaker on the Friday, is granted rather than pre-empted. The instrument is gazetted <em>before</em> anyone is named to it, so the Commission&rsquo;s powers exist as a published document. A secretary is named, a reporting deadline set, a budget published. An emergency amendment to the limitation section goes to the House the same day.'),
+    ('legal',   'Tue 28 Jul', 'The evidential mechanism is published before any charging decision', 'Use-immunity, an undertaking, sequencing or severance &mdash; one of the four is chosen, in writing, in public, so that everyone appearing before the Commission knows in advance what their evidence can and cannot be used for. (The four are a retired ship pilot&rsquo;s, published on the 29th, so this entry runs a day ahead of its source and the page says so.) <strong>Nothing here changes whether, when or whom to charge; that is the prosecutor&rsquo;s and hers alone.</strong>'),
+    ('inquiry', 'Thu 30 Jul', 'The Commission is sworn in, in public, with rules that already exist', 'Open to the press. Its first sittings are programmed on the documentary and institutional evidence &mdash; certification, loading authorisation, procurement, the wharf &mdash; which no witness&rsquo;s silence can withhold.'),
+    ('response','Fri 31 Jul', 'The wharf file and the hull-repair tender are published by the ministry that holds them', 'The design, the site investigation, the contractor, the variations, and the engineering account of why the tie rods failed &mdash; from the ministry rather than from the opposition benches. With it, the March 2026 docking-and-overhaul tender &mdash; an engineer&rsquo;s estimate of G$124.5m against five bids &mdash; and a plain statement of whether it was awarded and whether any work was done.'),
+    ('vessel',  'Sat 1 Aug', 'A law-officer&rsquo;s review of the maritime Acts is published, and a bill is promised', 'A counting duty, a life-saving scale that reaches vessels of this size, a statutory office for loading, and a casualty regime that is not disapplied to the state&rsquo;s own ships. Draft within thirty days.'),
+]
+
+def alt_developments():
+    """The alternate fortnight in thirteen turns, in the same visual grammar as
+    the landing page's real one, so a reader can hold the two side by side."""
+    return '<ul class="devs">' + ''.join(
+        f'<li class="dev dev-{k}"><span class="devdate">{when}</span>'
+        f'<span class="devbody"><strong>{head_}</strong>'
+        f'<span class="devtext">{body}</span></span></li>'
+        for k, when, head_, body in ALT_DEVELOPMENTS) + '</ul>'
+
+
 def questions_index():
     """Read the question headings straight out of questions.md so the landing
     page cannot drift from the page it advertises. Returns [(n, title), ...]."""
@@ -683,11 +709,11 @@ def questions_panel():
   <div class="card">
     <p class="eyebrow">Counterfactual analysis &mdash; not the record</p>
     <h2 style="margin-top:2px">The road not taken</h2>
-    <p class="wrap-read muted" style="margin-bottom:14px">Thirteen decisions the state took after the sinking,
-    set against the decisions it was publicly urged to take on the same days &mdash; by a Guyanese lawyer, an
-    Indigenous village council, an opposition MP, a retired ship pilot, a newspaper. Each one gives what the
-    alternative would have cost the government, and the page ends with what would be on the public record today
-    had it been taken.</p>
+    <p class="wrap-read muted" style="margin-bottom:14px">An alternate chronology of the same fortnight, written
+    as an advisor to the government would have argued it &mdash; day by day, from the distress call to today.
+    Almost every move in it was urged on the government in public at the time, by a Guyanese lawyer, an
+    Indigenous village council, an opposition MP, a retired ship pilot, a newspaper. Each entry gives the reason,
+    and the page prices what the whole course would have cost.</p>
     <p class="wrap-read small muted" style="margin-bottom:18px"><strong>None of the alternate track happened.</strong>
     It is written under four stated rules: no hindsight, alternatives traceable to named proposals made at the
     time, process changed but never facts, and nothing whatever about the three men charged and not tried. Where
@@ -1468,6 +1494,11 @@ QUESTION_CHARTS = {
 }
 
 
+def inject_altstrip(body):
+    """{{ALTSTRIP}} renders the alternate fortnight strip."""
+    return body.replace('<p>{{ALTSTRIP}}</p>', alt_developments()).replace('{{ALTSTRIP}}', alt_developments())
+
+
 def inject_charts(body):
     """Swap each {{CHART_X}} token for its figure. Markdown wraps a lone token
     in a paragraph, so strip that wrapper rather than nesting a figure inside a
@@ -1663,8 +1694,8 @@ OG_CARDS = [
      'the documents that would settle the questions it cannot.'),
     ('counterfactual', 'Counterfactual analysis &middot; not the record',
      'The road not taken',
-     'Thirteen decisions the state took after the sinking, set against the decisions that were '
-     'publicly proposed to it on the same days — and what each alternative would have cost.'),
+     'An alternate chronology of the fortnight after the sinking, as an advisor to the government would '
+     'have argued it \u2014 day by day, with what each decision would have cost.'),
     ('changelog', 'Every revision, logged',
      'Revisions',
      'Every change to this site since it was first built, newest first — including the claims this '
@@ -1751,11 +1782,11 @@ write('counterfactual.html', build_prose_page(
     'counterfactual.md',
     'The road not taken \u2014 MV Barima documented record',
     'The road not taken',
-    'Thirteen decisions the Government of Guyana took after the sinking, set against the decisions that '
-    'were publicly proposed to it on the same days \u2014 what each alternative would have cost, and what '
-    'would be on the public record today had it been taken.',
+    'An alternate chronology of the fortnight after the sinking, written as an advisor to the government '
+    'would have argued it \u2014 the decisions that were publicly urged on it at the time, day by day, and '
+    'what each would have cost.',
     'counterfactual.html',
-    transform=inject_sources,
+    transform=lambda b: inject_altstrip(inject_sources(b)),
     extra_note='<div class="note warn"><h4>This page is a counterfactual. None of the alternate track happened</h4>'
     '<p><strong>Every other page on this site records what happened. This one does not.</strong> It is an '
     'analysis by Claude Opus 5 of decisions the state took and decisions it was publicly urged to take '
