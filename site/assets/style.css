@@ -708,3 +708,40 @@ details.devpre > summary:hover { color:var(--s1); }
   ul.devs li.dev { grid-template-columns:minmax(0,1fr); gap:3px; padding-left:24px; }
   .devbody strong { font-size:16px; } .devtext { font-size:14px; }
 }
+
+/* ==========================================================================
+   Counterfactual page — two-track decision nodes
+   Two columns, deliberately unequal in colour: what was done sits in the
+   alarm tint, what was available sits in the positive one. On a phone they
+   stack, actual first, so the comparison still reads in the right order.
+   ========================================================================== */
+.cfnode { border:1px solid var(--border); background:var(--surface);
+          border-radius:12px; margin:30px 0; overflow:hidden; box-shadow:var(--shadow); }
+.cfhead { padding:18px 20px 4px; }
+.cfhead .cfdate { display:block; font-size:11.5px; font-weight:750; letter-spacing:.07em;
+                  text-transform:uppercase; color:var(--muted); margin-bottom:5px; }
+.cfhead h3 { margin:0 0 6px; font-size:19px; line-height:1.3; }
+.cfhead p { font-size:14.5px; color:var(--ink2); margin:8px 0 14px; }
+.cftracks { display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--border); }
+.cftrack { padding:15px 20px 6px; }
+.cftrack + .cftrack { border-left:1px solid var(--border); }
+.cftrack h4 { margin:0 0 9px; font-size:11.5px; font-weight:750; letter-spacing:.07em;
+              text-transform:uppercase; }
+.cftrack p { font-size:14.5px; line-height:1.62; margin:0 0 11px; }
+.cftrack.actual { background:color-mix(in srgb, var(--critical) 4%, transparent); }
+.cftrack.actual h4 { color:var(--critical); }
+.cftrack.alt { background:color-mix(in srgb, var(--s3) 5%, transparent); }
+.cftrack.alt h4 { color:var(--s3); }
+.cfcost { border-top:1px solid var(--border); padding:14px 20px 4px;
+          background:var(--raise); font-size:14px; color:var(--ink2); }
+.cfcost p { margin:0 0 10px; font-size:14px; }
+.cfcost strong { color:var(--ink); }
+.cfnode .srcs { margin:0 20px 16px; }
+@media (max-width:760px) {
+  .cftracks { grid-template-columns:1fr; }
+  .cftrack + .cftrack { border-left:0; border-top:1px solid var(--border); }
+}
+/* The alternate present-day block: set apart from the node grid. */
+.cfnow { border:1px solid var(--border); border-left:3px solid var(--s3);
+         background:var(--surface); border-radius:10px; padding:20px 22px 6px; margin:28px 0; }
+.cfnow h3 { margin-top:0; }

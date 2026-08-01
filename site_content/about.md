@@ -1,6 +1,6 @@
 # Research Notes, Method and Known Gaps
 
-Compiled 26 July 2026, last revised 31 July 2026. Read this before relying on the corpus for anything consequential.
+Compiled 26 July 2026, last revised 1 August 2026. Read this before relying on the corpus for anything consequential.
 
 ---
 

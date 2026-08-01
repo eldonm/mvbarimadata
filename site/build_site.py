@@ -13,7 +13,7 @@ import markdown as md
 ARCHIVE = '/home/claude/mvb/archive'
 DELIV   = '/home/claude/mvb/site_content'   # neutralised site copy, not the private working notes
 OUT     = '/home/claude/mvb/site'
-BUILT   = 'Sunday 26 July 2026, last revised Friday 31 July 2026'
+BUILT   = 'Sunday 26 July 2026, last revised Saturday 1 August 2026'
 # Absolute origin, needed for Open Graph — social crawlers will not resolve a
 # relative image or URL. Change this one line if the site moves domain.
 SITE_URL = 'https://mvbarimadata.pages.dev'
@@ -212,8 +212,8 @@ NAV_PRIMARY = [
     ('questions.html', 'Questions'),
 ]
 NAV_UTILITY = [
-    ('sources.html', 'Documents'), ('about.html', 'Method &amp; gaps'),
-    ('changelog.html', 'Revisions'),
+    ('sources.html', 'Documents'), ('counterfactual.html', 'The road not taken'),
+    ('about.html', 'Method &amp; gaps'), ('changelog.html', 'Revisions'),
 ]
 NAV = NAV_PRIMARY + NAV_UTILITY
 
@@ -317,6 +317,7 @@ FOOT_T = '''</main>
         <li><a href="{p}about.html">Method, gaps and corrections</a></li>
         <li><a href="{p}changelog.html">Revisions</a></li>
         <li><a href="{p}anomalies.html">What doesn&rsquo;t add up</a></li>
+        <li><a href="{p}counterfactual.html">The road not taken</a></li>
         <li><a href="{p}ask.html">Ask a question</a></li>
       </ul>
     </div>
@@ -676,6 +677,22 @@ def questions_panel():
     the question. <a href="ask.html"><strong>Anyone can send a question in.</strong></a></p>
     <ul class="qlinks">{links}</ul>
     <p style="margin-bottom:0"><a class="origin" href="questions.html">Read the answers</a><a class="ghost" href="ask.html">Ask a question</a></p>
+  </div></section>
+
+<section>
+  <div class="card">
+    <p class="eyebrow">Counterfactual analysis &mdash; not the record</p>
+    <h2 style="margin-top:2px">The road not taken</h2>
+    <p class="wrap-read muted" style="margin-bottom:14px">Thirteen decisions the state took after the sinking,
+    set against the decisions it was publicly urged to take on the same days &mdash; by a Guyanese lawyer, an
+    Indigenous village council, an opposition MP, a retired ship pilot, a newspaper. Each one gives what the
+    alternative would have cost the government, and the page ends with what would be on the public record today
+    had it been taken.</p>
+    <p class="wrap-read small muted" style="margin-bottom:18px"><strong>None of the alternate track happened.</strong>
+    It is written under four stated rules: no hindsight, alternatives traceable to named proposals made at the
+    time, process changed but never facts, and nothing whatever about the three men charged and not tried. Where
+    an alternative turned out to be the archive&rsquo;s own idea rather than somebody else&rsquo;s, it says so.</p>
+    <p style="margin-bottom:0"><a class="origin" href="counterfactual.html">Read the comparison</a></p>
   </div></section>
 '''.format(links=links, n=len(records))
 
@@ -1644,6 +1661,10 @@ OG_CARDS = [
      'How this was built, and what is missing',
      'How the corpus was assembled, what could not be retrieved, what this archive got wrong, and '
      'the documents that would settle the questions it cannot.'),
+    ('counterfactual', 'Counterfactual analysis &middot; not the record',
+     'The road not taken',
+     'Thirteen decisions the state took after the sinking, set against the decisions that were '
+     'publicly proposed to it on the same days — and what each alternative would have cost.'),
     ('changelog', 'Every revision, logged',
      'Revisions',
      'Every change to this site since it was first built, newest first — including the claims this '
@@ -1725,6 +1746,29 @@ write('anomalies.html', build_prose_page(
     '<p>It accuses no one of a crime. Three men have been charged with murder and have not been tried, and '
     'nothing here bears on their guilt or innocence. Where a benign explanation accounts for something, this '
     'page says so and drops it. The record pages remain authoritative over everything on it.</p></div>'))
+
+write('counterfactual.html', build_prose_page(
+    'counterfactual.md',
+    'The road not taken \u2014 MV Barima documented record',
+    'The road not taken',
+    'Thirteen decisions the Government of Guyana took after the sinking, set against the decisions that '
+    'were publicly proposed to it on the same days \u2014 what each alternative would have cost, and what '
+    'would be on the public record today had it been taken.',
+    'counterfactual.html',
+    transform=inject_sources,
+    extra_note='<div class="note warn"><h4>This page is a counterfactual. None of the alternate track happened</h4>'
+    '<p><strong>Every other page on this site records what happened. This one does not.</strong> It is an '
+    'analysis by Claude Opus 5 of decisions the state took and decisions it was publicly urged to take '
+    'instead, followed through to the present day. The second track is invention. It is written under four '
+    'stated rules \u2014 no hindsight, alternatives traceable to named proposals made at the time, '
+    'process changed but never facts, and nothing whatever about the three accused \u2014 set out in full at '
+    'the top of the page. Three alternatives turned out to be this analysis&rsquo;s own rather than anyone '
+    'else&rsquo;s; each is flagged where it appears rather than dropped.</p>'
+    '<p>Kevin Price, Rondell Roberts and Delon Granderson have been charged with murder and have not been '
+    'tried. <strong>Nothing on this page suggests what they did or did not do, and no part of the alternate '
+    'track narrates any outcome for them.</strong> Where the counterfactual reaches the prosecution it '
+    'changes only what the state settles in advance, and says so. The record pages remain authoritative '
+    'over everything here.</p></div>'))
 
 write('positions.html', build_prose_page(
     'positions.md',

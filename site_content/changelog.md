@@ -4,6 +4,48 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 1 August 2026 — sixteenth build, a counterfactual page, and why it sits behind a wall
+
+No documents were added. The corpus stands at **285** and still ends on 31 July. What is new is a page that breaks the rule every other page on this site is built on, and the reasoning for allowing it is set out here rather than buried.
+
+### The road not taken
+
+[A new page](counterfactual.html) sets thirteen decisions the state actually took after the sinking against the decisions it was publicly urged to take on the same days, and follows the second track to the present. It was written at a reader's request and it is, unavoidably, **invention** — which is exactly what this archive exists not to publish.
+
+Four rules were set before it was written, and they are printed at the top of the page so a reader can hold it to them. **No hindsight**: the alternate government knows only what was knowable on the day it acts. **Every alternative traceable to a named proposal made at the time** — not one course of action on that page is this archive's invention; each was put forward in the first fortnight by Bulkan, Ram, the Amerindian Peoples Association, the Transparency Institute, Walton-Desir, Millington, the Assakata Village Council or Patterson, and each is cited to the document that carries it. **Process changes, facts do not**: the page can say a certificate would have been produced; it cannot say what the certificate would have shown, and it stops wherever it reaches a matter of physical fact about the sinking. And **nothing whatever about the three accused**: where the counterfactual reaches the prosecution it changes only what the state settles in advance, and narrates no outcome for Kevin Price, Rondell Roberts or Delon Granderson.
+
+Every node also carries what the better path would have **cost** the government — in headlines, in legal exposure, in surrendered control, and in three places in money. That is not balance for its own sake. A counterfactual in which the alternative is always free is a fantasy, and at node 4, where the argument is that the maritime regulator should have recused itself on 21 July, the cost is severe enough that a reasonable government would have refused.
+
+### Why publish it here at all, rather than separately
+
+The honest answer is that it was a close call and it could have gone the other way. The case against is obvious: an archive whose authority rests on refusing to speculate has just published a speculation, and anyone wanting to discredit the record now has a page to point at.
+
+The case for is that the question the page asks — *what could the state have done differently once it knew* — is one a Commission of Inquiry is poorly placed to ask, because its terms point at the voyage. And the answer is unusually well documented, since the advice was all given publicly, at the time, by named people, and largely ignored. Keeping that comparison off the site would not have made it less speculative; it would only have made it harder to check against the record it draws on.
+
+The mitigations are structural rather than promissory. The page carries a standing banner declaring it is not the record. It is placed on the utility row of the masthead with the apparatus, not on the primary row with the record. Every citation on it resolves to a document in this corpus, enforced by the build, which fails rather than emit a dead one. And it closes by directing anyone who wants evidence to the chronology, the figures and the positions pages instead.
+
+### What the verification pass did to it, and the rule that did not survive
+
+An adversarial pass was run over the new page before publication, instructed to hold it to its own four rules. It found **eighteen defects**, and one of them went to the foundation.
+
+**Rule two did not survive.** The page had claimed that *not one course of action below is this analysis's invention* &mdash; that every alternative was publicly proposed at the time by someone named. Three were not. Nobody proposed that the Director of Public Prosecutions be asked in writing whether the hull was required as evidence; nobody proposed gazetting the Commission's instrument before naming commissioners, or a published budget, or a named secretary or a reporting deadline; and most importantly nobody at all raised the six-month limitation period until a retired ship pilot did on 29 July, which is precisely why it is the most urgent item on the page. Rather than delete those three, the rule was rewritten to admit them and each is now flagged in place. A counterfactual that claims more discipline than it has is worse than one that admits where it invented.
+
+The other seventeen were accuracy. The most serious: the page had the "not overloaded" finding *contradicted in open court by the vessel's own master*, which is wrong twice over &mdash; the master spoke to reporters outside the court building, not in it, and what he alleged concerns equipment and seaworthiness rather than overloading. **This archive marks that allegation as untested and adopts none of it, and the counterfactual had quietly adopted it as an "offsetting fact."** Withdrawn and rewritten.
+
+Also corrected: the toxicology was disclosed about twenty hours after the sinking, not thirty-six; the declaration of national mourning was published as a release and reported as a proclamation, not communicated by social media, and that claim is withdrawn; Kaieteur News's figure of 103 was a field tally compiled from three days of search work, not an independent arithmetical computation, so presenting it as converging with the Associated Press's subtraction manufactured a corroboration this archive elsewhere refuses; the Maritime Search and Rescue Coordination Centre was described as having a statutory function, which the corpus's own statutory analysis expressly denies; and the alternate present day had the Commission hearing evidence in the last week of July while the same page counted a week's delay as one of that path's costs. Citations were wrong or missing at four nodes and are fixed.
+
+One correction improved the page rather than weakening it. The verifier found that the Transparency Institute had called for the **recusal** of two ministers on 23 July &mdash; recusal in terms, not resignation, which is exactly the distinction node 10 argues for and which the page had presented as its own framing. It is now attributed where it belongs.
+
+### Also in this build
+
+Elapsed-time claims moved from thirteen days to fourteen. This is the fourth consecutive build in which rotting day-counts have been chased by hand, and the argument for a mechanical register of time-relative claims is now stronger than the argument for remembering. Event-anchored claims — "sworn in twelve days after the sinking" — were again left alone, because those are facts about a date.
+
+One arithmetic error was caught before the verification pass even ran: the resignation campaign ran from 21 to 31 July, which is ten days and not eleven.
+
+**A note on what did not change.** The corpus ends on 31 July and no sweep of 1 August reporting was run before this build, so nothing on this site reflects what was published today. The counterfactual's alternate present day is dated 1 August; the record it is set against is not.
+
+---
+
 ## 31 July 2026 (late) — fifteenth build, one hour of broadcast and a new kind of source
 
 One document was added, and it is the first of its kind in this corpus: an hour-long podcast interview, captured from the auto-generated caption track of the published video. It takes the corpus to **285**. It is worth a build of its own for two reasons — what the guest says, and what capturing it forced this archive to decide about fidelity.

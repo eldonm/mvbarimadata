@@ -1,6 +1,6 @@
 # MV Barima — Reconciled Chronology
 
-Compiled 26 July 2026, last revised 31 July 2026, from every document in the published corpus and checked against them; see the revisions page. Part IV was reordered on 30 July into strict chronological order — an earlier build appended two blocks of entries in reverse order, so 29 July material sat above 28, 27 and 26 July. No entry was altered by that reordering. Every entry is attributed to the source that reports it. Where sources conflict, both versions are given and marked **[CONTESTED]**; where a claim appears in only one source it is marked **[SINGLE SOURCE]**. Times are local (UTC−4).
+Compiled 26 July 2026, last revised 1 August 2026, from every document in the published corpus and checked against them; see the revisions page. Part IV was reordered on 30 July into strict chronological order — an earlier build appended two blocks of entries in reverse order, so 29 July material sat above 28, 27 and 26 July. No entry was altered by that reordering. Every entry is attributed to the source that reports it. Where sources conflict, both versions are given and marked **[CONTESTED]**; where a claim appears in only one source it is marked **[SINGLE SOURCE]**. Times are local (UTC−4).
 
 ---
 
