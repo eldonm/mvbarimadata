@@ -637,19 +637,19 @@ def developments(compact=True):
 
 
 ALT_DEVELOPMENTS = [
-    ('disaster','Sat 18 Jul, 23:01', 'The coordination centre takes charge, and is named', 'The Maritime Search and Rescue Coordination Centre stands up as the coordinating authority within minutes and is named publicly as such by first light. Every asset tasked is logged with a time. One agency owns the count of people taken from the water, whoever pulls them out.'),
-    ('response','Sun 19 Jul', 'The state names no cause, and produces the ship&rsquo;s papers instead', 'No adjective, no &ldquo;mischief&rdquo;. The figures the Minister actually gave that day carry their provenance: 284 as gross tonnage and expressly not a cargo limit; 397 licensed passengers said in the same breath as 250 life jackets, with the observation that the two do not agree and no claim that they meet a standard. The manifest says 133 and he says the state does not yet know how many were aboard. The certificate of survey is produced &mdash; or he says it cannot be found and that he has ordered a search of the register.'),
-    ('response','Mon 20 Jul', 'The rescue log is published, with the gap in it', 'Times against every asset for the night of the 18th, including the hours in which nothing state-owned reached the water. The wharf CCTV is reported on for what it shows of the cargo as well as the people. The loading team is suspended by written instrument that says on its face it is not a finding of fault.'),
-    ('response','Tue 21 Jul', 'One figure, published daily, including the number who did not come home', 'Aboard, survived, recovered, identified, unaccounted for &mdash; and recovered plus unaccounted for, the number of people who did not come home, which the state has never once published. At a fixed hour, by one named officer, with the arithmetic shown. Families are told before the press.'),
-    ('response','Wed 22 Jul', 'The regulator recuses itself rather than clear the ship it certified', 'MARAD makes no finding on this casualty and says why: it certified this vessel, so it cannot judge whether the certification was sound. It places its complete file with the investigating authority. The state confirms the vessel was uninsured and, the same day, what that means for the families.'),
-    ('legal',   'Thu 23 Jul', 'Two ministers stand aside, and someone asks about the clock', 'Recusal, not resignation, framed as procedure carrying no admission of fault &mdash; which is what the Transparency Institute demanded that day, naming Edghill and Indar and MARAD&rsquo;s senior leadership. The Attorney General is asked whether any limitation period runs against claims arising from the casualty; if it does, the state undertakes in writing not to take the point.'),
-    ('inquiry', 'Fri 24 Jul', 'An investigation is asked for that is not the state&rsquo;s own', 'Because the state is regulator, certifying authority, inspecting authority and operator at once, and only an external body can command public confidence on that ground.'),
-    ('inquiry', 'Sat 25 Jul', 'Draft terms of reference go out for comment. Nothing goes to the families', 'The Commission is announced with its terms in <em>draft</em>, and the Amerindian Peoples Association, the National Toshaos Council and the affected village councils are consulted &mdash; the dead are disproportionately from Region One. The terms reach loading <em>authorisation</em> and procurement, not only loading execution. On the wreck, nothing is put in front of bereaved people until the technical assessment exists and the prosecutor has said in writing whether the hull is required as evidence.'),
-    ('inquiry', 'Mon 27 Jul', 'Parliament debates the scope, and the instrument is gazetted', 'APNU&rsquo;s motion, submitted to the Speaker on the Friday, is granted rather than pre-empted. The instrument is gazetted <em>before</em> anyone is named to it, so the Commission&rsquo;s powers exist as a published document. A secretary is named, a reporting deadline set, a budget published. An emergency amendment to the limitation section goes to the House the same day.'),
-    ('legal',   'Tue 28 Jul', 'The evidential mechanism is published before any charging decision', 'Use-immunity, an undertaking, sequencing or severance &mdash; one of the four is chosen, in writing, in public, so that everyone appearing before the Commission knows in advance what their evidence can and cannot be used for. (The four are a retired ship pilot&rsquo;s, published on the 29th, so this entry runs a day ahead of its source and the page says so.) <strong>Nothing here changes whether, when or whom to charge; that is the prosecutor&rsquo;s and hers alone.</strong>'),
-    ('inquiry', 'Thu 30 Jul', 'The Commission is sworn in, in public, with rules that already exist', 'Open to the press. Its first sittings are programmed on the documentary and institutional evidence &mdash; certification, loading authorisation, procurement, the wharf &mdash; which no witness&rsquo;s silence can withhold.'),
-    ('response','Fri 31 Jul', 'The wharf file and the hull-repair tender are published by the ministry that holds them', 'The design, the site investigation, the contractor, the variations, and the engineering account of why the tie rods failed &mdash; from the ministry rather than from the opposition benches. With it, the March 2026 docking-and-overhaul tender &mdash; an engineer&rsquo;s estimate of G$124.5m against five bids &mdash; and a plain statement of whether it was awarded and whether any work was done.'),
-    ('vessel',  'Sat 1 Aug', 'A law-officer&rsquo;s review of the maritime Acts is published, and a bill is promised', 'A counting duty, a life-saving scale that reaches vessels of this size, a statutory office for loading, and a casualty regime that is not disapplied to the state&rsquo;s own ships. Draft within thirty days.'),
+    ('disaster','Sat 18 Jul, 11pm', 'One agency takes charge of the rescue', 'The sea rescue centre runs the night. Every boat and plane sent out is written down with the time. One agency counts the people pulled from the water, so the count cannot go wrong.'),
+    ('response','Sun 19 Jul', 'Nobody is blamed on day one', 'The Minister does not say &ldquo;mischief&rdquo;. He says the ship was licensed for 397 people and carried 250 life jackets, that this does not add up, and that he does not yet know why. He shows the ship&rsquo;s papers &mdash; or says plainly that he cannot find them.'),
+    ('response','Mon 20 Jul', 'The rescue log is made public, gaps and all', 'Including any hours it shows with no government boat in the water. The wharf video is used to say what <em>cargo</em> went on board, not only how many people.'),
+    ('response','Tue 21 Jul', 'One set of numbers, every day', 'On board, saved, found, named, still missing &mdash; and the total who did not come home. Same time each day, same officer. Families are told before the press.'),
+    ('response','Wed 22 Jul', 'MARAD steps back from judging its own work', 'It passed this ship as fit to sail. So it cannot be the one to say the ship was fit. It hands over its whole file instead. The state also admits the ship had no insurance. (Asked for by the Transparency Institute the next day; we put it one day early.)'),
+    ('legal',   'Thu 23 Jul', 'Two ministers step aside, and someone asks about the deadline', 'Stepping aside is not resigning and is not guilt. It just means they do not run the department the inquiry is examining. The Attorney General is asked whether families face a time limit to claim. If they do, the state promises in writing not to use it.'),
+    ('inquiry', 'Fri 24 Jul', 'Outside investigators are asked in', 'The government owned the ship, inspected the ship and passed the ship. It cannot investigate itself and be believed.'),
+    ('inquiry', 'Sat 25 Jul', 'Grieving families are asked nothing yet', 'No paper about the wreck goes to any family until the divers have reported and the prosecutor has said in writing whether the ship is needed as evidence. The inquiry&rsquo;s draft terms go out for comment, and Indigenous councils are asked what should be in them.'),
+    ('inquiry', 'Mon 27 Jul', 'Parliament debates it, and the inquiry gets its papers', 'Signed and published before anyone is appointed, with a secretary, a deadline and a budget. A bill to protect families&rsquo; right to claim goes to the House the same day.'),
+    ('legal',   'Tue 28 Jul', 'The inquiry&rsquo;s evidence rules are settled first', 'Anyone who may be asked to speak is told in advance what their words can be used for. <strong>Nothing here changes who gets charged, or when. That is the prosecutor&rsquo;s decision and hers alone.</strong>'),
+    ('inquiry', 'Thu 30 Jul', 'The inquiry is sworn in with the press in the room', 'It starts on the paperwork &mdash; certificates, loading orders, contracts, repair records &mdash; because no silence can hide a document.'),
+    ('response','Fri 31 Jul', 'The ministry publishes its own wharf file', 'Why a G$1.4 billion wharf failed, from the ministry that built it &mdash; not left for the opposition to reveal. With it, the March repair tender for the <em>Barima</em>, and whether that work was ever done.'),
+    ('vessel',  'Sat 1 Aug', 'The law is checked, and a new bill is promised', 'A retired ship pilot read the Acts and found no law requiring anyone to count passengers, no life-jacket rule covering a ferry this size, and no mention anywhere of the loading boss&rsquo;s job. <em>That is one man&rsquo;s reading, uncorroborated.</em> A bill to fix it within thirty days.'),
 ]
 
 def alt_developments():
@@ -709,15 +709,14 @@ def questions_panel():
   <div class="card">
     <p class="eyebrow">Counterfactual analysis &mdash; not the record</p>
     <h2 style="margin-top:2px">The road not taken</h2>
-    <p class="wrap-read muted" style="margin-bottom:14px">An alternate chronology of the same fortnight, written
-    as an advisor to the government would have argued it &mdash; day by day, from the distress call to today.
-    Almost every move in it was urged on the government in public at the time, by a Guyanese lawyer, an
-    Indigenous village council, an opposition MP, a retired ship pilot, a newspaper. Each entry gives the reason,
-    and the page prices what the whole course would have cost.</p>
-    <p class="wrap-read small muted" style="margin-bottom:18px"><strong>None of the alternate track happened.</strong>
-    It is written under four stated rules: no hindsight, alternatives traceable to named proposals made at the
-    time, process changed but never facts, and nothing whatever about the three men charged and not tried. Where
-    an alternative turned out to be the archive&rsquo;s own idea rather than somebody else&rsquo;s, it says so.</p>
+    <p class="wrap-read muted" style="margin-bottom:14px">Imagine the Government had an AI advisor from the
+    night the <em>Barima</em> went down. One job: keep the people&rsquo;s trust. This is what it would have said
+    to do &mdash; day by day through the first fortnight, then month by month to the end. Almost none of it is
+    new: nearly every step was asked for in public at the time, by lawyers, village councils, opposition MPs,
+    newspapers and a retired ship captain. <strong>The advice was given. It just wasn&rsquo;t taken.</strong></p>
+    <p class="wrap-read small muted" style="margin-bottom:18px"><strong>None of it happened.</strong> The ship
+    still sinks and about 103 people still do not come home. What changes is only what the Government said and
+    showed afterwards. Nothing on the page touches the court case against the three men charged and not tried.</p>
     <p style="margin-bottom:0"><a class="origin" href="counterfactual.html">Read the comparison</a></p>
   </div></section>
 '''.format(links=links, n=len(records))
@@ -1694,8 +1693,8 @@ OG_CARDS = [
      'the documents that would settle the questions it cannot.'),
     ('counterfactual', 'Counterfactual analysis &middot; not the record',
      'The road not taken',
-     'An alternate chronology of the fortnight after the sinking, as an advisor to the government would '
-     'have argued it \u2014 day by day, with what each decision would have cost.'),
+     'Imagine the Government had an AI advisor from the night the Barima went down. What it would have '
+     'said to do \u2014 day by day, then month by month to the end.'),
     ('changelog', 'Every revision, logged',
      'Revisions',
      'Every change to this site since it was first built, newest first — including the claims this '
@@ -1782,19 +1781,19 @@ write('counterfactual.html', build_prose_page(
     'counterfactual.md',
     'The road not taken \u2014 MV Barima documented record',
     'The road not taken',
-    'An alternate chronology of the fortnight after the sinking, written as an advisor to the government '
-    'would have argued it \u2014 the decisions that were publicly urged on it at the time, day by day, and '
-    'what each would have cost.',
+    'Imagine the Government had an AI advisor from the night the Barima went down. Day by day through the '
+    'first fortnight, then month by month to the end \u2014 what it would have said to do, and what each '
+    'step would have cost.',
     'counterfactual.html',
     transform=lambda b: inject_altstrip(inject_sources(b)),
     extra_note='<div class="note warn"><h4>This page is a counterfactual. None of the alternate track happened</h4>'
     '<p><strong>Every other page on this site records what happened. This one does not.</strong> It is an '
     'analysis by Claude Opus 5 of decisions the state took and decisions it was publicly urged to take '
     'instead, followed through to the present day. The second track is invention. It is written under four '
-    'stated rules \u2014 no hindsight, alternatives traceable to named proposals made at the time, '
-    'process changed but never facts, and nothing whatever about the three accused \u2014 set out in full at '
-    'the top of the page. Three alternatives turned out to be this analysis&rsquo;s own rather than anyone '
-    'else&rsquo;s; each is flagged where it appears rather than dropped.</p>'
+    'rules. It never says what the inquiry would have <em>found</em>, because nobody can know that. '
+    'The first fortnight is set against the real record; <strong>everything after 1 August 2026 is made up '
+    'entirely</strong>, and the page says so where that begins. Where a step was nobody&rsquo;s idea but this '
+    'archive&rsquo;s, it says that too.</p>'
     '<p>Kevin Price, Rondell Roberts and Delon Granderson have been charged with murder and have not been '
     'tried. <strong>Nothing on this page suggests what they did or did not do, and no part of the alternate '
     'track narrates any outcome for them.</strong> Where the counterfactual reaches the prosecution it '

@@ -4,43 +4,35 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
-## 1 August 2026 — sixteenth build, an alternate chronology, and an error this archive had already corrected once
+## 1 August 2026 — sixteenth build, a page written three times
 
-No documents were added. The corpus stands at **285** and still ends on 31 July. What is new is a page that breaks the rule every other page here is built on.
+No documents were added. The corpus stands at **285** and still ends on 31 July.
 
 ### The road not taken
 
-[A new page](counterfactual.html) sets out an **alternate chronology** of the fortnight after the sinking, written in the voice of an advisor to the government whose brief is the trust of the public and the ability to be believed. It runs day by day, in the same form as [the chronology of what happened](timeline.html), with a summary strip at the top in the same visual grammar as the landing page's. It was built at a reader's request, and rebuilt once when the first version &mdash; a thirteen-node two-column comparison &mdash; proved accurate and unreadable.
+[A new page](counterfactual.html) asks a simple question: if the Government had an AI advisor from the night the *Barima* went down, whose only job was keeping the public's trust, what would it have said to do? It runs day by day through the first fortnight, then month by month to an ending in 2027. A summary strip sits at the top in the same visual form as the landing page's timeline; the prose beneath follows the chronology page's.
 
-It is invention, which is what this archive exists not to publish, so it sits behind a standing banner, on the utility row of the masthead rather than the record row. Four rules are printed at the top: **no hindsight**; **process changes, facts do not**; **nothing whatever about the three men charged and not tried**; and **where a move was nobody's proposal, the page says so.**
+It took three attempts. The first was a thirteen-node, two-column comparison — accurate, verified, and unreadable. The second was a single-track chronology at about twelve thousand words, better but still written for someone who reads policy documents for a living. The third, published here, is under five thousand words in plain language, because a page about a ferry disaster in Region One that only a lawyer can read is not much use to Region One.
 
-That last rule is doing real work. The page now declares **five liberties** &mdash; moves that were nobody's public proposal, or that are dated ahead of the proposal they rest on. Two are flagged in place: the regulator's recusal on 22 July, which the Transparency Institute demanded the following day, and the evidential mechanism on 28 July, which rests on an analysis published on the 29th. Three are listed at the end, of which the largest is the six-month limitation clock, placed on 23 July when nobody in Guyana raised it until a retired ship pilot did, unasked, six days later. **That is precisely why it is the most urgent item on the page**, and it is also the largest liberty on it. Both things are true and both are printed.
+It is invention, which is what this archive exists not to publish, so it sits behind a standing banner on the utility row of the masthead rather than the record row. The first fortnight is set against the real record and its sources are cited. **Everything after 1 August is made up entirely**, and the page marks that at the point it starts, in the heading, and again at three later headings. It never says what the inquiry *found* about why the ship sank, because nobody can know that. And it says nothing at all about Kevin Price, Rondell Roberts or Delon Granderson, who are charged and not tried.
 
-The page also marks where it **declines** advice that was given. The Assakata Village Council resolved that the vessel be raised; this page leaves the wreck in place pending a decision it does not take. The demand from several quarters was resignation; this page argues for recusal, which is narrower and is not what was asked for.
+### What compression broke
 
-### The error worth publishing on its own
+Each rewrite was verified adversarially and each verification found real damage. The third pass found fourteen defects, and the pattern in them is worth recording, because it is the specific hazard of writing simply: **shortening a sentence quietly strengthens it.**
 
-An adversarial pass over the new page found thirteen defects. One of them is worth more than the other twelve together, because this archive had already made it, corrected it, and then made it again.
+Five examples of the same failure. A hedge — "*whatever* hours the log shows with nothing state-owned in the water" — became a flat assertion that such hours existed, which this corpus does not establish. "The finding *bought* four days" became "lasted four days", which claims it was withdrawn; it never was. A careful line about the crew became a sentence stating that the men whose drug tests were disclosed had drowned; they were rescued, and one of them is currently charged. The Transparency Institute's unanswered 23 July demand became a demand that "was refused" — an invented act of government on a page whose rule is that the real track is not invented. And an accurate description of Millington as a retired ship *pilot* became "retired ship captain", a rank he never held, in five places including the one section of the page presented as real.
 
-The page had claimed that the state concealed the 397-licensed-against-250-life-jackets discrepancy for ten days until a retired ship pilot extracted it on day eleven. **That is false.** Both figures were volunteered by the Minister at the briefing of 19 July, are carried by five separate outlets that day, and one of them is in the state's own primary release. What Millington did on 29 July was not disclose them but **set them against each other**.
+Two more went to attribution. David Patterson was described as "a former minister of its own ministry" — he is the opposition's shadow minister for that portfolio, and the sentence's whole force rested on the error. And Millington's reading that section 3 disapplies **Part I** of the 1883 Act to state ships was flattened to "the 1883 law does not apply", which erases the live conflict this archive records between his reading and Patterson's citation of section 18 of the same Act.
 
-The archive knew this. Finding 24 on the analysis page opens with a correction saying exactly it, published on 30 July after an earlier version of that finding made the same mistake. **The counterfactual reinstated the withdrawn claim in a stronger form, a day later, on a different page.** That is the second time a correction has failed to propagate across pages in this project, and it is now the clearest argument here for a register of withdrawn claims that can be tested mechanically against every page rather than remembered.
+Also fixed: the 19-source citation block had ended up beneath the invented 2027 material, so the whole citation apparatus appeared to be sourcing the future; it now closes the real-record section. The claim that most families "had not buried anybody yet" by December is false — 63 bodies had been released to families by 24 July — and is now narrowed to the roughly thirty families with no body at all. And the page's own count of the liberties it takes was one short: MARAD stepping back on 22 July was placed a day ahead of the demand it rests on, and the page said "six things" nowhere. It says six now.
 
-The entry has been rewritten, and the honest version is smaller and worse for the state: the figures were never hidden. They were published on day one and left unreconciled for a fortnight, next to a ministerial assurance that they met the required safety standard, and nobody in government has been asked to reconcile them yet.
-
-### The other twelve
-
-A stated cost did not exist: the page priced a delay to the Commission, when on its own chronology the alternate Commission is sworn on the same day as the real one and **neither has sat**. The comparison had been drawn between two different events. Corrected, and the real time cost relocated to the externally led investigation, where it belongs.
-
-An arithmetic error had the daily figure defined as identified plus unaccounted for, which counts nothing. The APNU motion was dated 25 July, its report date, rather than 24 July when it was submitted to the Speaker. A defence lawyer's conditions were placed two days after the swearing-in rather than one. The resignation campaign was said to have run ten more days from 23 July, which is eight. The G$124.5m for the *Barima*'s hull was described as money put into the vessel when it is an engineer's estimate against five bids, with **no award and no work recorded anywhere in this corpus** &mdash; which is the very thing the entry demands the ministry state.
-
-And the summary strip had drifted from the prose beneath it in four places, including putting the widened terms of reference on a different day. Both now agree.
+**Three words were replaced for readability rather than accuracy**: "casualty" in the maritime sense of an accident, which to most readers means an injured person; "liberty" in the sense of a liberty taken; and an unglossed "interim report".
 
 ### Also in this build
 
-Elapsed-time claims moved from thirteen days to fourteen &mdash; the fourth consecutive build in which rotting day-counts have been chased by hand. Event-anchored claims were again left alone.
+Elapsed-time claims moved from thirteen days to fourteen — the fourth consecutive build chasing rotting day-counts by hand.
 
-**A note on what did not change.** The corpus ends on 31 July and no sweep of 1 August reporting was run, so nothing on this site reflects what was published today. The alternate chronology's present day is dated 1 August; the record it is set against is not.
+**A note on what did not change.** The corpus ends on 31 July and no sweep of 1 August reporting was run, so nothing on this site reflects what was published today.
 
 ---
 

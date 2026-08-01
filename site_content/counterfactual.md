@@ -1,175 +1,239 @@
 # The road not taken
 
-## An advisor's note
+Imagine the Government had an AI advisor from the night the *Barima* went down. One job: keep the people's trust. This is what it would have said to do — day by day through the first fortnight, then month by month to the end.
 
-What follows is written in a role. Imagine the Government of Guyana had, from the night of 18 July, an advisor whose only brief was the two things a government in this position most needs and most easily loses: **the trust of its own people, and the ability to be believed.** These are the decisions that advisor would have argued for, laid out as a chronology, in the same shape as [the record of what actually happened](timeline.html).
+Almost none of it is new. Nearly every step was asked for in public at the time — by lawyers, village councils, opposition MPs, newspapers, a retired ship pilot. **The advice was given. It just wasn't taken.**
 
-It is not a fantasy of competence. The alternate government below is slower in places, poorer in others, and takes several bad news cycles it did not have to take. It does not save anyone: the ship still goes down at 23:01 on 18 July with 179 people aboard, and about a hundred and three of them still do not come home. **Nothing on this page brings back a single person.** What changes is only what the state decided, published and disclosed afterwards — and that turns out to be almost the entire difference between a government trusted with a disaster and one suspected of it.
-
-Almost nothing here is original. Nearly every move below was urged on the government in public, at the time, by someone whose words are in this archive: Janette Bulkan, Christopher Ram, the Amerindian Peoples Association, the Transparency Institute, Amanza Walton-Desir, Robert Millington, David Patterson, the National Toshaos Council, APNU's parliamentary motion, the Guyana Graphic on day one. **The advice existed. It was given, publicly, in time.** This page is mostly what it would have looked like taken.
-
-It is not all of it, and the omissions should be visible. The **Assakata Village Council**, in the region that lost the most people, resolved on 31 July that the vessel be raised so a credible investigation can be made; this page leaves the wreck in place pending a decision it does not take. The Council and others have demanded that those responsible **resign**; this page argues for recusal instead, which is a narrower thing and not what they asked for. Where an advisor declines the advice, that is a position and not a summary, and it is marked as one.
-
-### The four rules this was written under
-
-**No hindsight** — the alternate government knows only what was knowable on the day it acts. **Process changes, facts do not** — it can produce a certificate or admit it cannot find one; it cannot know what the certificate would have said, and nothing here asserts a fact about the sinking itself. **Nothing about the three accused** — Kevin Price, Rondell Roberts and Delon Granderson are charged and untried; where this reaches the prosecution it changes only what the *state* settles in advance, and narrates no outcome for them. And **where a move was nobody's proposal but this analysis's own, the page says so** — there are three, and they are listed near the end rather than smuggled in.
+**None of this happened.** The ship still sinks at 11 that Saturday night. About 103 people still do not come home. Nothing here brings back a single person. What changes is only what the Government *said and showed* afterwards — and that is nearly the whole difference between being trusted and being suspected.
 
 ---
 
-## The alternate fortnight, at a glance
+## The fortnight, another way
 
 {{ALTSTRIP}}
 
 ---
 
-## The alternate chronology
+## Day by day, and why
 
-*Same form as [the chronology of what happened](timeline.html): dated, declarative, one turn at a time. Each entry closes with the reason an advisor would have given for it on the day.*
+### Saturday 18 July, 11pm — the night
 
-### Part I — The night and the first week
+**One agency takes charge.** The sea rescue centre runs the night and is named publicly by morning. Every boat and plane sent out is written down with a time. One agency counts the people pulled from the water.
 
-**Saturday 18 July, from 23:01.** **The coordination centre takes charge, and is told to keep a log.** The Maritime Search and Rescue Coordination Centre is stood up as the coordinating authority within minutes of the distress signal and named publicly as such by first light. Every asset tasked is written down with a time against it — the Coast Guard, MARAD's two Ocean Pilot boats, the police boat near the Pomeroon mouth, the Exxon offshore supply vessels, the Omni Helicopters base at Ogle. One agency owns the count: every person taken from the water is logged once, by the centre, whoever pulls them out.
+*Why.* It costs nothing to write down a time. It costs everything later not to have. And when two agencies count separately, the numbers jump — which is what a former Minister says happened here.
 
-*Why.* Those five recipients are not a wish-list — they are precisely the ones Janette Bulkan would write to the papers asking about a week later, and the reason she could ask is that each was reachable that night. The split count is not hypothetical either: a former Minister of Public Works has since explained one of the early jumps in the survivor figure as exactly that, two agencies counting separately. **It costs nothing on the night to write down a time. It costs everything afterwards not to have.**
+### Sunday 19 July — the first press conference
 
-**Sunday 19 July.** **The state names no cause, and produces the ship's papers instead.** At the first press conference the Minister of Public Works gives four things and no adjective. He does not say "mischief". He does not name a cause at all.
+**Nobody is blamed.** The Minister does not say "mischief". He does not name a cause at all.
 
-He gives the numbers with their provenance attached — and here the alternate track is narrower than it first appears, because **the Minister actually did publish these figures on day one.** 397 licensed passengers and 250 life jackets were both given at that briefing and are both in the state's own release. What he did not do is set them against each other, and what he did do was call the inventory *meeting the required safety standards*.
+He gives the numbers straight. The ship was licensed for **397 people** and carried **250 life jackets**. Those two do not agree. He says so himself, before anyone asks, and does not claim the ship met the safety standard. He shows the ship's papers — or says plainly he cannot find them and has ordered a search.
 
-So the change is one sentence, not a disclosure: **284** stated as gross tonnage, a measure of enclosed volume, and expressly **not** as a cargo limit. **397** as the licensed complement, said in the same breath as the **250 life jackets** — with the observation, volunteered and unprompted, that the two figures do not correspond, that he cannot yet say which is wrong, and that he is not going to describe it as meeting a standard until he can. The manifest says 133 and the state does not yet know how many were aboard; he says so.
+The drug test results go to the police, not to the press. They are not the Government's first public word about the crew, a day after the ship went down with most of the crew still in the water.
 
-And the vessel's papers: either the certificate of survey is produced, with its permitted number of persons and its life-saving schedule endorsed on it, or the Minister states plainly that it cannot presently be located and that he has ordered a search of MARAD's register.
+*Why.* Both numbers were public that day anyway. What was missing was one sentence: *these do not add up and I do not know why yet.* Instead the Minister said the ship met the standard, and fourteen days later nobody has explained it. Naming a cause on day one is the thing you cannot take back. It fixed the story at the bottom — the wharf workers — before anyone had read a document.
 
-The toxicology results are not announced. They go to the police. They are not the state's first public word about the men who were driving the ship, twenty hours after some of them drowned.
+### Monday 20 July — the video
 
-*Why.* **A correction to an earlier draft of this page belongs here, because it changes what the entry can claim.** That draft said the state concealed the 250-against-397 for ten days until a retired ship pilot extracted it. That was wrong, and it repeated an error this archive had already published and withdrawn on its own analysis page. Both numbers were public on day one, from the same minister, at the same briefing. What Millington did on 29 July was not disclose them but **set them against each other** and explain why they cannot both describe a compliant ship.
+**The rescue log goes public, gaps and all** — including any hours it shows with nothing government-owned in the water.
 
-So the honest claim is smaller and, if anything, worse for the state. The facts were never hidden. They were published and left unreconciled for a fortnight, next to a ministerial assurance that they met the required standard, and **nobody in government has been asked to reconcile them yet.** A minister who says on day one *these two numbers do not agree and I do not yet know why* gives up nothing that was not already on the record — he gives up only the assurance, and the assurance is the part that has not survived.
+Police take the wharf CCTV that day. The Government says what it shows about the **cargo**, not only how many people boarded.
 
-The cause is the real change in this entry. Naming one on day one, before anyone has read a document, is the move that cannot be walked back: it fixed the state's account at ground level, and every question since has been read against it.
+The loading team is suspended by letter, not by Facebook post, and the letter says on its face this is not a finding of fault against anyone.
 
-**Monday 20 July.** **The rescue log is published, with the gap left in it.** Times against every asset for the night of the 18th, including whatever hours show nothing state-owned in the water. The wharf CCTV, seized by police the same day, is reviewed for both things it can show — and the state publishes what it shows of the **cargo** alongside what it shows of the people, in the same release, or states explicitly that the footage cannot resolve it. A copy goes to an independent custodian.
+*Why.* A published log is a permanent record of how long everything took, and if the honest answer is an ugly one, the Government owns it in print on day two. That is a real price, paid once. Nobody outside government knows what the log says; that is the point.
 
-The loading management team is suspended by written instrument rather than by Facebook post, and its text says on its face that it is a protective measure pending inquiry and **not a finding of fault against any individual**.
+The video is the sharper one. The Government used that video to answer one question — how many people were on board — and has never said what it shows about the cargo. It may be that the cameras do not show the cargo; nobody outside government knows, because nobody has been told. **Saying which would take a sentence, and fourteen days on, nobody has been asked for it in public.**
 
-*Why.* A published log is a permanent record of how long everything took, and if the honest answer is that the first state asset reached the water hours in, the government owns that in print on day two with bodies still coming ashore. That is a real price, paid once. The CCTV is sharper still: the state used that tape to answer the question that exculpated it and has never answered the question that might not. The silence is now longer than the review took, and it is the most corrosive fact in the record, because it cannot be explained by incompetence.
+### Tuesday 21 July — the counting
 
-**Tuesday 21 July.** **One figure, published daily, including the number who did not come home.** At a fixed hour, by one named officer, in one format, with the arithmetic shown: aboard, survived, recovered, identified — and **unaccounted for**, which is the count of families with nobody to bury, together with the figure the state has never once published: recovered plus unaccounted for, the number of people who did not come home. Where a figure changes, the release says which one, why, and what it was before. Families are briefed before the press.
+**One set of numbers, every day.** On board, saved, found, named, still missing — and **the total who did not come home**. Same hour, same officer, arithmetic shown. Families told before the press.
 
-*Why.* **Nobody asked for this at the time, and the page should say so.** The clearest published description of what a coordinating centre ought to do &mdash; every agency in one room, one verified set of figures, a designated liaison briefing families at short intervals &mdash; comes from a former Minister of Public Works on **30 July**, nine days after this entry is placed. Putting it on the 21st is a liberty, and it is the fourth this page takes. What makes it defensible rather than merely convenient is that it asks a government to do nothing but add up its own numbers in public.
+*Why.* The Government has published bodies found. It has never published the total. Newspapers had to work it out by subtraction. And a number that must add up in public cannot quietly change — which is what happened on 30 July, when the official count dropped from 73 to 72 with no explanation. Nobody has explained it since.
 
-It is also the decision that would have prevented the most trouble for the least money. The residual is not an estimate of the dead; it is a count of people still missing, and their families know it already because they are the ones waiting. Withholding it protected nobody — the press computed it by subtraction, the opposition computed it, and this archive had to compute it. And a figure that must reconcile against a published total cannot quietly move by one, which is what happened on 30 July and what nobody in government has explained since.
+### Wednesday 22 July — the regulator
 
-**Wednesday 22 July.** **The regulator recuses itself rather than clear the ship it certified.** MARAD makes no finding on this casualty, and its Director-General says why, publicly: his department certified this vessel, so it cannot be the body that judges whether the certification was sound. He places the complete file — surveys, inspection reports, certification history, and the basis on which the passenger rating was raised from the original 150 — with the investigating authority, and undertakes to answer any question put to him in public.
+**MARAD steps back.** It passed this ship as fit to sail, so it cannot be the body that decides whether the ship was fit. It says so publicly and hands its whole file to the investigators.
 
-The same day the state confirms the vessel was uninsured, and says in the same breath what that means for the families rather than leaving them to find out.
+The same day the Government confirms the ship had no insurance — and says in the same breath what that means for the families.
 
-*Why.* The Transparency Institute demanded exactly this the following day &mdash; the recusal of MARAD's senior leadership from any role in the investigation, alongside two ministers. Putting it here is that demand met twenty-four hours early, which is the only liberty taken with its date. It is also the most expensive decision in the document, and a reasonable government would have refused it. Saying your own maritime regulator cannot judge this case is something no opponent could have made you say; it invites the question of what else that regulator has been certifying, and it surrenders timing and conclusions to people you do not control. The offsetting fact is that the "not overloaded" finding **has never been able to defend itself**. It rests on paperwork that has never appeared, from an official who could not say where his own capacity figure came from, and the regulator has said nothing at all since 24 July while defence counsel puts seaworthiness squarely at its door. The state spent its regulator's credibility on a finding that bought four days and has been a liability ever since.
+*Why.* The Transparency Institute asked for this the **next** day — 23 July — so we have put it one day early, and that is the sixth thing on this page we have taken a liberty with. It is also the most expensive decision here, and a government might reasonably refuse it. But MARAD's "not overloaded" finding rested on paperwork nobody has ever seen, from an official who could not say where his own figures came from. MARAD has now said nothing at all since 24 July. It spent its good name on a finding that bought it four quiet days and has been a weight around its neck ever since.
 
-**Thursday 23 July.** **Two ministers stand aside, and someone asks about the clock.** The Minister of Public Works, Juan Edghill, and the Minister of Public Utilities and Aviation, Deodat Indar, recuse themselves from any role in the investigation — not resignation, and framed carefully as procedure carrying **no admission of fault whatever**, because a minister cannot preside over a department while an independent inquiry examines it. Another minister carries the portfolio until the Commission reports. Both remain available to the inquiry and answerable to Parliament.
+### Thursday 23 July — stepping aside
 
-The Attorney General is asked one question: does any limitation period run against claims arising from this casualty? If the answer is yes, the government announces that it **will not take a limitation point** against any claim arising from the *Barima*, and puts that undertaking in writing.
+**Two ministers step aside** from any role in the investigation. Not resigning. Not guilt. Just not running the department the inquiry is examining. Someone else holds the job until the inquiry reports.
 
-*Why.* The recusal is not this analysis's idea — the Transparency Institute called on this exact day for the immediate recusal of both ministers, naming them, and of MARAD's senior leadership with them. It reads as guilt however it is framed, and it rewards a resignation campaign in its first week. But the demand did not go away: it ran eight more days and arrived at the Minister's own gate on 31 July, and a fortnight consumed by one minister's position is a fortnight the certificate and the cargo did not get. On the clock, see the last section of this page. It is the only item here that is still live.
+The Attorney General is asked one question: **is there a time limit on families claiming?** If yes, the Government promises in writing not to use it.
 
-**Friday 24 July.** **An investigation is asked for that is not the state's own.** Because the state of Guyana is simultaneously the regulator, the certifying authority, the inspecting authority and the operator of this vessel, and no body wearing all four hats can produce a finding the public will accept.
+*Why.* The Transparency Institute asked for exactly this on this exact day, naming both ministers. **No answer to it appears anywhere in this archive.** What did not go away was the louder demand next to it — that the ministers resign outright — and eight days later that one was outside the Minister's home. Stepping aside early is the cheaper answer to a demand that only gets more expensive. A fortnight spent arguing about one minister's job is a fortnight not spent on the ship's papers. On the time limit, see the last section. It is the only thing here still running.
 
-*Why.* The Transparency Institute asked for this on 23 July, in terms &mdash; an investigation led by the International Maritime Organization, "staffed by global maritime experts with no institutional stake in the outcome &mdash; not a domestic Commission of Inquiry under government control." The alternate government answers the next morning rather than not at all. Amanza Walton-Desir would later put the same argument from the legal side: a marine safety investigation must be independent of a state that is regulator, certifier, inspector and operator at once, because only then can it command public confidence.
+### Friday 24 July — outside eyes
 
-It is slower, and an external investigation would very probably not have reported by now either. What it buys is the one thing the state cannot manufacture for itself: a conclusion that survives the question *who investigated whom*.
+**Outside investigators are asked in.** The Government owned this ship, inspected it and passed it. It cannot investigate itself and be believed.
 
-**Saturday 25 July.** **Draft terms of reference are published for comment. Nothing goes to the families.** The Commission of Inquiry is announced with its **draft** terms published for a short comment period, and the Amerindian Peoples Association, the National Toshaos Council and the affected village councils are consulted — because the dead are disproportionately from Region One, and that is the settled expectation everyone else in this record was already voicing. The terms reach loading **authorisation** and procurement, not only loading execution.
+*Why.* The Transparency Institute asked for this on the 23rd. It is slower, and it would not have finished by now either. What it buys is a finding people will accept.
 
-On the wreck: no document of any kind goes to a bereaved family. The technical assessment does not yet exist. The prosecutor has not said in writing whether the hull is required as evidence. Until both exist, nothing is put in front of anybody. The wreck is surveyed in place and recorded, whatever is later decided about lifting her.
+### Saturday 25 July — the families
 
-*Why.* Consultation on terms of reference means being told in public, before you start, that your draft is too narrow — a bad cycle the state chose to avoid and then got anyway, later and worse. On the wreck the point is starker: a document asking families to accept the vessel as a memorial went out on 25 July, and the technical assessment cited to justify leaving her there arrived on the 27th. **The justification post-dated the document by two days.** That sequence cannot be explained away, and it did not need to happen.
+**Nothing goes to grieving families.** No paper about the wreck reaches anybody until the divers have reported and the prosecutor has said in writing whether the ship is needed as evidence.
 
-### Part II — The second week
+The inquiry's terms go out in **draft**, for comment. Indigenous councils are asked what should be in them, because most of the dead were from Region One.
 
-**Monday 27 July.** **Parliament debates the scope, the instrument is gazetted, and the clock is stopped by statute.** APNU's motion &mdash; submitted to the Speaker on Friday 24 July and reported the next day &mdash; sought an adjournment debate on the terms of reference at Monday's sitting. It is granted rather than pre-empted. The Commission's instrument is gazetted **before** anyone is named to it, so its powers exist as a published document rather than as a paraphrase of a speech. A secretary is named, a reporting deadline set, a budget published. An emergency amendment to the limitation section of the Transport and Harbours Act goes to the House the same day.
+*Why.* A paper asking families to accept the wreck as a memorial went out on 25 July. The divers' warning that it was too dangerous to enter came on the 27th. **The reason arrived two days after the request.** That did not have to happen.
 
-*Why.* Every objection the alternate government absorbs here in one afternoon was made against the real Commission anyway, in public, after it had already been sworn: too narrow, not consulted, conflicts unanswered, no instrument, no secretary, no deadline, no budget. A week of consultation is cheaper than a fortnight of illegitimacy.
+### Monday 27 July — Parliament
 
-**Tuesday 28 July.** **The evidential mechanism is published, before any charging decision is announced.** The Attorney General and the Director of Public Prosecutions settle, in writing and in public, how the Commission will obtain evidence from anyone entitled to silence — a statutory use-immunity clause, an undertaking, **sequencing** the inquiry to take documentary and institutional evidence first, or **severance**, reconstructing the casualty from documents, the wreck survey, the CCTV and survivor evidence. One of the four is chosen and published with the Commission's rules of procedure, so that everyone who may appear knows in advance what their evidence can and cannot be used for.
+**The inquiry's papers are signed and published before anyone is appointed** — with a secretary, a deadline and a budget. APNU's motion gets its debate instead of being pre-empted. A bill protecting families' right to claim goes to the House the same day.
 
-**Nothing in this entry changes whether, when or whom to charge.** That decision belongs to the Director of Public Prosecutions, her independence is constitutionally protected, and it is not an advisor's to touch.
+*Why.* Every objection raised later — too narrow, nobody consulted, no papers, no deadline — could have been heard here in one afternoon.
 
-*Why.* The four options are not invented here &mdash; but the date is a liberty and the page will not hide it. They were drafted by a retired ship pilot and published in full on this website on **29 July**, one day after this entry places them, and he called the problem *the single most urgent practical problem facing the Commission*. The alternate government is therefore acting a day before the analysis it acts on exists. Two defences, both partial: the *problem* was public before the solutions were, put in terms by a broadcaster and by two defence lawyers within hours of the charges; and the four mechanisms are not exotic inventions but the standard repertoire of any jurisdiction that runs an inquiry alongside a prosecution. Neither defence makes the date honest, so it is recorded as the fifth liberty this page takes. The Commission was sworn on 30 July with no rules of procedure at all. The next day, the witnesses the inquiry most needs were negotiating in public, through counsel, the terms on which they would speak to it — **which is exactly the outcome those four options existed to prevent.** The failure was not choosing wrongly. It was not choosing.
+### Tuesday 28 July — the evidence rules
 
-**Thursday 30 July.** **The Commission is sworn in, in public, with rules that already exist.** Open to the press, rather than closed and streamed on the President's own accounts. Its work programme opens on the documentary and institutional evidence — certification, loading authorisation, procurement, the wharf, the fleet's maintenance history — which is where the answers live and which no witness's silence can withhold. The naval-architectural reconstruction is commissioned the same week from the physical record.
+**How the inquiry will take evidence is settled and published first.** Anyone who may be asked to speak is told, in advance, what their words can and cannot be used for.
 
-*Why.* There is no version of an inquiry into a hundred deaths whose opening ceremony is better closed than open, and the cost of opening it is nil.
+**This changes nothing about who gets charged, or when.** That is the prosecutor's decision and hers alone.
 
-**Friday 31 July.** **The ministry publishes its own wharf file.** The design, the site investigation, the contractor, the variations and the engineering account of why the tie rods failed on a G$1.4bn public work — from the ministry that commissioned it, rather than from an opposition MP at a press conference. Published with it: the March 2026 tender for docking and overhaul of the *Barima*, advertised four months before she sank against an engineer's estimate of **G$124.5m** with five bids between about G$105m and G$124m &mdash; and a plain statement of whether the contract was awarded and whether any of the work was done. **No document in this archive records either**, which is why the statement is the point of the entry.
+*Why.* Four ways of solving this were written out by a retired ship pilot and published on this website on 29 July. He called it the most urgent practical problem facing the inquiry. The inquiry was sworn in the next day with no rules at all. The day after that, the men the inquiry most needs to hear from were arguing in public, through their lawyer, about whether they would speak to it. Choosing any of the four would have prevented that. **Nobody chose.**
 
-A published interim service standard for Region One follows — frequency, capacity, cargo separated from passengers, and the date by which a certificated vessel takes the route.
+### Thursday 30 July — the inquiry opens
 
-*Why.* This is the most self-incriminating disclosure on the page: the government supplying the evidence that its own major public work failed on design, while already accused of negligence that killed a hundred people. But the causal chain runs straight through it and **the Prime Minister has already conceded the chain** — the wharf was unfinished, so the newer vessel could not take the route, so an 87-year-old hull was still running it on 18 July. A government that has conceded the chain has conceded the file's relevance. Withholding it protects only the timing of the story.
+**Sworn in with the press in the room**, not behind closed doors. It starts on the paperwork — certificates, loading orders, contracts, repair records — because no silence can hide a document.
 
-### Part III — Where it stands today
+*Why.* There is no version of an inquiry into a hundred deaths that is better held in private. Opening it costs nothing.
 
-**Saturday 1 August.** **A law-officer's review of the maritime Acts is published, and a bill is promised.** Because whatever the Commission finds about this voyage, the legislative gap will outlive it. The review names what a retired ship pilot found unasked: that the **Superintendent of Loading** — the office the Minister publicly identified as responsible for loading — is created by no statute and owes no statutory duty; that there is **no counting duty** in Guyanese law at all; that no prescribed life-saving scale reaches a sea-going passenger ferry of this size; and that the 1883 casualty-investigation machinery is disapplied to the state's own ships by its own terms, while the statute still directs a report to the **Board of Trade of the United Kingdom**. A draft bill is undertaken within thirty days.
+### Friday 31 July — the wharf
 
-*Why.* Every other decision on this page concerns the handling of one disaster. This one concerns whether the next ferry sails under a rule that exists, and it is the only thing here that could not be undone by a bad news cycle.
+**The ministry publishes its own wharf file.** The design, the contractor, the ground survey, and why the tie rods snapped on a **G$1.4 billion** wharf — from the ministry that built it, not from an opposition MP at a press conference.
 
-**What is on the public record today, on the alternate track.** The vessel's certification history, or an official account of why it cannot be found. The wharf file and the hull-repair tender. The rescue log for the night, with its gaps visible. A CCTV account covering the cargo as well as the people. One reconciling casualty figure, published daily by the state in its own name, including the number who did not come home. A gazetted Commission with published terms, a secretary, a deadline, a budget, rules of procedure, and a published answer to how it takes evidence from anyone entitled to silence &mdash; though **it has not yet sat**, and neither has the real one, so nothing on this track is further along than the record in that respect. A written undertaking to the families about the limitation period. And a published account of what is wrong with the law.
+With it: the March repair tender for the *Barima*, and a plain statement of whether that work was ever done.
 
-**What has not changed.** The ship is still 87 years old and still on the seabed. The wharf still failed. The replacement still never took the route. About a hundred and three people still did not come home, and their families are still waiting. The prosecution is still whatever it is, and this page says nothing about it.
+*Why.* This is the most damaging thing the Government could publish about itself. But the Prime Minister has already admitted the chain: the wharf was unfinished, so the new ferry could not use the route, so an 87-year-old ship was still running it on 18 July. Once you admit the chain, hiding the file only changes when the story breaks.
 
-**The alternate government is not a better government. It is the same government, with the same failures behind it, that chose to be checkable about them** — and that is the whole of the difference.
+### Saturday 1 August — the law
+
+**The law is checked and a bill is promised.** Because whatever the inquiry finds about this one voyage, the gaps in the law will outlast it.
+
+What a retired ship pilot found, unasked: **no law requires anyone to count passengers.** No life-jacket rule covers a ferry this size. The loading superintendent's job — the very job the Minister pointed at — **is not written into any law at all.** And the main part of the 1883 law on shipping accidents does not cover the Government's own ships — it says so itself.
+
+A bill to fix it, in draft, within thirty days.
+
+*Why.* Everything else here is about handling one disaster. This is about whether the next ferry sails under a rule that exists.
+
+*Sources for everything above about what actually happened:*
 
 {{SOURCES: 2026-07-25-kaieteur-news-timeline-of-the-rescue-effort-for-the-mv-barima-ferry-sinking | 2026-07-19-guyana-graphic-guyanas-ferry-system-on-trial-after-mv-barima-sinks | 2026-07-19-jamaica-observer-huge-wave-suspected-67-rescued | 2026-07-19-dpi-prime-minister-updates-families-as-search-continues | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-20-news-room-guyana-mv-barima-team-suspended-as-probe-moves-ahead | 2026-07-24-dpi-government-tightens-ferry-safety-procedures | 2026-07-22-news-source-guyana-director-general-of-marad-adamant-that-mv-barima-ferry-was-operating-within-weight-limit | 2026-07-24-demerara-waves-transparency-institute-wants-imo-to-investigate | 2026-07-25-dpi-president-ali-announces-independent-international-commission-of-inquiry | 2026-07-25-kaieteur-news-apnu-submits-parliamentary-motion-to-discuss-scope-of-mv-barima-inquiry | 2026-07-27-kiskadee-watch-too-dangerous-to-enter-sunken-mv-barima-french-diver | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-28-kaieteur-news-ram-says-ali-s-coi-dodges-key-issues | 2026-07-29-millington-the-mv-barima-and-the-maritime-statute-book-of-guyana | 2026-07-30-kiskadee-watch-president-swears-in-panel-to-investigate-mv-barima-disaster | 2026-07-30-oggn-oil-talk-beyond-the-mv-barima-ferry-wreck-david-patterson-interview | 2026-07-31-kaieteur-news-you-can-t-have-both-todd-challenges-parallel-coi-murder-prosecution | 2026-07-31-kiskadee-watch-assakata-council-wants-mv-barima-lifted-thorough-probe }}
 
 ---
 
-## What this would have cost
+## From here on, nobody knows
 
-An advisor who names only the upside of his own advice is not an advisor. Five prices, stated plainly.
+Everything above is set against a real record that ends on 31 July. **Everything below is the future, and it is guesswork.** It is included because you asked where this road ends, and because a plan that stops after two weeks is not a plan.
 
-**Bad headlines, immediately.** A government that refuses to name a cause on day one is reported as evasive by day two. A government that volunteers the 250-against-397 hands the opposition its strongest fact of the week for free. A government that says it cannot find the ship's certificate has produced a bigger scandal on 19 July than anything that actually surfaced in the first fortnight.
-
-**Control, permanently.** Daily open questioning with an incomplete picture is punishing, and a technical officer briefing in his own name will eventually say something a minister would rather he had not. You cannot resume a closed posture once you have opened one without the resumption itself becoming the story. The offsetting fact is that control was never actually held: the figures moved anyway, the toll was computed by newspapers anyway, and the accusation of an information clamp-down was made anyway — by a former minister of the same portfolio.
-
-**Money, and possibly a great deal of it.** Waiving a limitation defence on an uninsured hull exposes the treasury to claims from the families of roughly a hundred people, with no insurer standing behind the state. A finance ministry would resist it and would not be wrong to.
-
-**Time, though less than an earlier draft of this page claimed.** That draft said the alternate Commission had not sat by 1 August where the real one was sworn on 30 July &mdash; which compared two different events, since **neither Commission has sat**, and the alternate one is sworn on the same day as the real one. The honest version: consultation on draft terms and gazetting before naming would have absorbed most of the week between 25 and 30 July that the real process spent on announcement and appointment, so the Commission arrives at the same place at the same time with more behind it. The real delay is elsewhere &mdash; an externally led investigation is slower than a domestic one, and would very probably not have reported by now either.
-
-**And one that cannot be priced: the appearance of weakness.** Recusal reads as guilt. A regulator that stands down reads as an admission. Publishing your own failed procurement reads as confession. Every one of these looks like retreat on the day it is taken and only looks like strength in retrospect — which is precisely why they are hard, and why a government under siege almost never takes them.
+Two things it will not do. It will not say what the inquiry *finds* about why the ship went down — nobody can know that, and inventing it would be dishonest. And it says nothing about the court case against Kevin Price, Rondell Roberts and Delon Granderson, who are charged and not tried. **Their case runs its own course and none of it is here.**
 
 ---
 
-## Where this goes beyond what anyone proposed
+## How it ends — all of this is invented
 
-Five moves above were nobody's public proposal, or were placed ahead of the proposal they rest on. They are marked here and in place rather than smuggled in, because a page claiming the advice was all given has to say where it was not. Two more are dated slightly ahead of their source and are flagged where they appear: the regulator's recusal on 22 July, which the Transparency Institute demanded the following day, and the evidential mechanism on 28 July, which rests on an analysis published on the 29th.
+*Read the rest of this section as a plan, not a forecast. The dates are round numbers and none of it has any source behind it, because it has not happened.*
 
-**The written statement from the prosecutor about the wreck**, at 25 July. Nobody proposed it — and the reason is this archive's own finding, that no document records the Director of Public Prosecutions, the police, the court or the Commission being consulted about the disposal of the hull at all, or any journalist asking. Christopher Ram's demand of 28 July is that the *documents* be secured, which is not the same thing.
+### August 2026 — the inquiry works on paper
 
-**Gazetting the instrument before naming commissioners**, together with the named secretary, the published budget and the reporting deadline, at 27 July. The consultation and the widened scope belong to the Amerindian Peoples Association, the National Toshaos Council, APNU and Ram. These four are this archive's standing absence findings turned round and offered as advice.
+The inquiry sits in public, in Georgetown and in Region One, and starts with documents: certificates, loading orders, contracts, repair records, the CCTV, the rescue log. It does not need anybody's testimony to read a file.
 
-**The daily reconciling figure**, at 21 July. The clearest published account of how a coordination centre ought to report &mdash; one room, one set of figures, a named liaison for families &mdash; is a former minister's, given on 30 July, nine days later. Nobody asked for it at the time.
+The wreck decision is taken openly. The prosecutor says in writing whether the ship is evidence. The families are asked — and this time they are asked *after* the divers have reported, not before. **The Government pays to raise her**, because five different parties had already said she was evidence and one Indigenous village council had voted for it.
 
-**And the limitation clock**, at 23 July &mdash; which matters most, because it is the one item on this page still live. Nobody raised it in the first fortnight. It reached this archive on **29 July**, from a retired ship pilot nobody asked, and no Guyanese lawyer, MP or newspaper had raised it before him. Putting it on 23 July is the largest liberty this page takes with its own rules. It rests on something a government is expected to do without being told, which is read its own statute before deciding what to say about money.
+### September 2026 — the first report, and the money
+
+The inquiry publishes a **first, partial report — on the rescue and the counting only** — not on the cause, which takes longer. It is published in full on the day it is handed over, because a report the Government reads first is a report nobody trusts.
+
+The compensation scheme opens with a published rate, a named officer and a running total. Every payment carries one line on its face: *this is not a settlement and it does not stop any clock.*
+
+### October 2026 — the law changes
+
+The **Maritime Safety Act** passes. Four things that did not exist before now do:
+
+- Every passenger on a ferry must be **counted**, and the count kept on shore.
+- A **life-jacket and liferaft rule** that covers ships this size, tied to the number of people the ship is licensed to carry.
+- The **loading superintendent** becomes a real job in law, with a qualification, a duty and a record.
+- An **independent accident investigator** who can investigate the Government's own ships — which the 1883 law could not.
+
+The six-month time limit is scrapped for this disaster and made longer for the future.
+
+### December 2026 — the deadline that would have taken everything
+
+On the old law, **this is the month families would have had to file notice or lose their claim forever** — a letter naming a lawyer, six months after a night most of them are still trying to get through. It passes without harming anybody, because it was dealt with in July. For the roughly thirty families with no body at all, who cannot easily get the papers to act for the dead, it would have been the hardest deadline of the lot.
+
+This is the quietest paragraph on this page and the most important one.
+
+### Early 2027 — the full report *(still invented)*
+
+The inquiry reports. **What it concludes about the sinking is not for this page to invent.**
+
+What can be said is what happens to it: it is published whole, on the day, with its evidence. The Government answers each recommendation in writing within sixty days, saying accept, reject, or accept in part — and why. That answer is published too.
+
+The ministers who stepped aside in July either return or do not, on the strength of what the report says. Because they stepped aside early, that decision is about the findings and not about the politics of stepping down.
+
+### Mid-2027 — the boats *(still invented)*
+
+The Port Kaituma wharf is finished and its final cost and delay are published. The newer ferry takes the route. Cargo barges are separated from passenger ferries. Every ferry's certificate is published online each year — a page anyone can check, which is the cheapest thing on this list and the one that makes all the rest self-enforcing.
+
+A memorial is built at Kingston and in Region One, designed with the families rather than proposed to them.
+
+### And what the country has at the end *(still invented)*
+
+Ferries that are counted, certified in public and inspected by somebody who does not own them. A law that reaches the state's own ships. Families paid without having to sue. A report the public read at the same time as the Cabinet. And a Government that lost several bad weeks in July 2026 and kept the thing that is hardest to get back.
+
+**None of that requires better people. It requires the same people showing their work.**
+
 
 ---
 
-## The one item on this page that is not history
+## What it would have cost
 
-Everything above is a counterfactual and changes nothing. This does not.
+An advisor who only tells you the good part is not an advisor. Four prices.
 
-On the reading published in full on this site, **section 23 of the Transport and Harbours Act** requires any action against the Transport and Harbours Department to be commenced within **six months** of the act complained of, after written notice naming the claimant's legal practitioner served a month before. On that reading the period expires **on or about 18 January 2027**, with notice due **by about 18 December 2026** — and on the same analysis there is no insurer to claim against, because Guyana enacted the limitation of liability without enacting the liability.
+**Bad headlines, straight away.** Refuse to name a cause on day one and you are called evasive by day two. Say you cannot find the ship's papers and that is the front page on 19 July.
 
-The Commission of Inquiry will almost certainly not have reported by then. A family with no body and no death certificate cannot readily obtain a grant of representation. Region One has no road to Georgetown, and the vessel that connected it to Georgetown is on the seabed.
+**Control, for good.** Once you brief openly every day you cannot go quiet again without the silence becoming the story. Though the Government never really had control: the figures moved anyway, the newspapers counted anyway, and it was accused of hiding information anyway — by a man who once ran that very ministry.
 
-**No one in government has said the word "limitation" once in a fortnight.** This archive is not qualified to confirm the reading and nothing here is legal advice. But if it is right, a period is running now against the families of people who have not yet been buried, and the party that benefits from their not hearing about it is the party that has not told them.
+**Money.** Promising not to use a time limit, on a ship with no insurance, opens the treasury to claims from the families of about a hundred people. A finance ministry would fight it and would not be wrong to.
+
+**Looking weak.** Stepping aside looks like guilt. A regulator standing back looks like an admission. Publishing your own failed contract looks like a confession. Every one of these looks like retreat on the day — and only looks like strength later. That is why they are hard, and why governments under pressure almost never do them.
+
+---
+
+## What we made up
+
+The first fortnight above is set against a real record. Most of it was asked for in public at the time. **Six things were not, or came a little later than the day we put them**, and it is only fair to say which.
+
+MARAD stepping back (22 July) — asked for, but the next day, not that one. The written word from the prosecutor about the wreck (25 July) — nobody asked for it at all. The inquiry's signed papers, secretary, budget and deadline (27 July) — nobody asked for those either. The daily count (21 July) — the clearest call for it came on 30 July. The evidence rules (28 July) rest on a document published on the 29th. And the biggest: **the time limit (23 July) was raised by nobody in Guyana until a retired ship pilot raised it on 29 July.** That is exactly why it matters, and it is also the biggest thing we invented.
+
+We also **turned down** advice that was given. Many asked for ministers to resign; this page says step aside instead, which is not the same thing. The Assakata Village Council asked for the ship to be raised — and this page does raise her, in August, though only after the prosecutor and the families have been asked.
+
+**And everything after 1 August is made up entirely.** It is a plan, not a prediction. The dates are round numbers.
+
+---
+
+## The one thing here that is not history
+
+Everything above is imaginary. This is not.
+
+A retired ship pilot read the Transport and Harbours Act and says **section 23 gives families six months to start a claim**, with a written notice a month before that. On his reading the deadline is **about 18 January 2027**, with notice due by **about 18 December 2026**. He also says there is no insurer to claim from, because Guyana wrote the limit on payouts into law without writing in the payouts.
+
+The inquiry will almost certainly not have finished by then. A family with no body cannot easily get the papers to act for the dead. Region One has no road to Georgetown, and the boat that connected them is on the sea floor.
+
+**In fourteen days, nobody in Government has said the word "limitation" once.**
+
+This archive is not a lawyer and this is not legal advice. But if that reading is right, a clock is running against families who have not yet buried anybody — and the side that gains from their not knowing is the side that has not told them.
 
 Everything else on this page is a road not taken. **That one is a clock.**
 
 ---
 
-## How to read this page, and how not to
+## How to read this page
 
-**It is not evidence of anything.** Not one sentence of the alternate chronology happened. What did happen is on [the chronology](timeline.html), [the figures](facts.html) and [the positions](positions.html) pages, where every line is attributed to a published document.
+**It is not proof of anything.** Not one line of it happened. What did happen is on [the chronology](timeline.html), [the figures](facts.html) and [the positions](positions.html) pages, where every line names its source.
 
-**It is not an accusation of bad faith.** Every decision on the real track has an innocent explanation available and several have good ones; those are set out at length in [what doesn't add up](anomalies.html), which kills more inferences than it draws. Governments in the first hours of a mass-casualty event decide with incomplete information, under exhaustion, in front of grieving families. This page had the luxury of being written afterwards, at a desk, by something that does not get tired.
+**It is not calling anyone a liar.** Most decisions here have an innocent explanation, and those are set out at length in [what doesn't add up](anomalies.html). Governments in the first hours of a disaster decide in the dark, exhausted, with grieving families in front of them. This page was written afterwards, at a desk, by something that does not get tired.
 
-**What it is for** is a question the Commission of Inquiry is not well placed to ask, because its terms point at the voyage: not *what went wrong on the ship*, but *what the state could have done differently once it knew*. That question has a documented answer, because the advice is all on the record — dated, attributable, and largely unanswered.
+**Nothing here touches the court case.** Kevin Price, Rondell Roberts and Delon Granderson have been charged and not tried. Nothing on this page suggests what they did or did not do, and no part of it says what should happen to them.
