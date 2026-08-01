@@ -6,7 +6,7 @@ And it saves nobody. The ship still sinks at 11 that Saturday night. About 103 p
 
 ---
 
-## The whole road, start to finish
+## The whole road, start to finish under an AI Advisor
 
 {{ALTSTRIP}}
 

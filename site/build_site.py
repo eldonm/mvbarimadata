@@ -886,7 +886,7 @@ def build_index():
     <span><i style="background:var(--s2)"></i>The charges</span>
     <span><i style="background:var(--s3)"></i>The inquiry</span>
   </div>
-  <p class="small muted" style="margin-top:18px"><a href="timeline.html">The full chronology &rarr;</a></p>
+  <p class="small muted" style="margin-top:18px"><a href="timeline.html">The full chronology &rarr;</a><span class="sep" aria-hidden="true"> &middot; </span><a href="counterfactual.html">The Road Not Taken &rarr;</a> <span class="tiny muted">(a counterfactual &mdash; not the record)</span></p>
 </section>
 {qpanel}
 <section>

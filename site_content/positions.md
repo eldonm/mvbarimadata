@@ -164,6 +164,22 @@ The AFC proposed constituting the inquiry under the Commission of Inquiry Act, C
 
 WIN, APNU, FGM, AFC and VPAC have jointly stated that a Commission of Inquiry is **not a substitute for a marine casualty investigation** under SOLAS, the IMO Casualty Investigation Code and the IMO Model Regulations on Domestic Ferry Safety, and that both processes should run. They also object to the timing of the announcement, made immediately before the scheduled parliamentary debate, and to the appointment of the Commission's Secretary.
 
+### A Partnership for National Unity — Aubrey Norton, 1 August
+
+**[SINGLE SOURCE]** At APNU's weekly press conference on Friday 31 July, reported 1 August, the PNCR chairman and APNU leader put the charging decision in the sharpest terms recorded here: the murder charges against the captain, chief mate and goods superintendent are "ridiculous, vindictive, and intended to silence the workers", and the surviving crew are being scapegoated. (The report's own framing is that the scapegoating shields government officials; the words attributed to Norton are the quoted ones.) He states that nothing publicly shown "proves that these men deliberately intended to kill passengers". **These are an opposition leader's assertions about a live prosecution. This archive adopts none of them, and the three men are charged and untried.**
+
+His accountability questions run upward: "Who allowed a government vessel with defective systems to sail? Who certified it? Who supervised its maintenance?" He demands publication of the complete cargo manifests, weight certificates, maintenance reports, surveillance recordings and inspection certificates, and &mdash; new to this corpus &mdash; that the state identify **which ministries owned the cargo aboard**. He alleges that normal inspection procedures broke down before departure and that the vessel was kept in service against professional advice; neither is corroborated here. He repeats the demand that Ministers Edghill and Indar resign.
+
+### The Government — a second investigative body, 1 August
+
+President Ali establishes a **Safety and Compliance Audit Team** to review the safety and compliance standards governing marine vessels in Guyana: **Dr Ivor English**, a former Director-General of MARAD, as leader; **Colonel Julius Skeete** of the Guyana Defence Force; and **Captain Joseph Lewis**, Marine Officer and Surveyor of Ships. Ali, quoted: the team will "examine compliance with applicable maritime safety requirements and make recommendations to strengthen oversight, improve enforcement and ensure that our vessels, operators and regulatory systems meet the highest practicable standards of safety and accountability." Carried by both Kaieteur News and Guyana Times.
+
+Its remit is **prospective and general** rather than directed at the *Barima*. As with the Commission of Inquiry before it, no deadline, no budget, no terms of reference published as a document and no undertaking to publish appear in either report, and nothing states how the two bodies relate. It is established by presidential directive; no statutory basis is stated.
+
+### An argument for the parallel proceedings, 1 August
+
+**[SINGLE SOURCE]** Kaieteur News's "Peeping Tom" column is the first sustained published defence of running the Commission of Inquiry alongside the prosecution. It distinguishes their purposes &mdash; systemic fact-finding against individual guilt beyond reasonable doubt &mdash; and argues that the **Commissions of Inquiry Act already contains provisions protecting witnesses from self-incrimination**, so that "Parliament understood that a Commission's proceedings could potentially intersect with other legal proceedings." It warns that delaying prosecution risks evidence deterioration, fading memory and lost documents, and cites the South Korean **MV Sewol** disaster of 2014 as precedent. It is an opinion column carrying the newspaper's disclaimer, and this archive holds no text of the Act against which to check its central claim.
+
 ### Former minister David Patterson
 
 Patterson has alleged that expert procurement advice was disregarded. This claim is made after the disaster and is not corroborated elsewhere in the corpus.

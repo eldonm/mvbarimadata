@@ -4,9 +4,47 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 1 August 2026 (late) — seventeenth build, ten documents, and a false silence withdrawn
+
+A sweep of 1 August reporting added **ten documents**, taking the corpus to **295** and extending the record to today. Four are dated 1 August, two are 31 July reports the previous sweep missed, and **four are state releases of 26 and 28 July that this archive had recorded as not existing.**
+
+### The correction first, because it is the largest thing in this build
+
+This site has said since 26 July that the Department of Public Information published **seventeen releases dated 19–25 July, then four days of nothing, then one release on 30 July**. **That was false.** DPI published on **26 July** — the day the commissioners were named — and **three times on 28 July**, the day the charges were laid. The four days of silence did not happen. What happened is that this archive's sweeps of 26–29 July did not reach dpi.gov.gy, and it recorded a gap in its own searching as a gap in the record.
+
+The claim is withdrawn on the [method page](about.html), where the corpus now records **twenty-two DPI releases dated 19–30 July** and makes no claim to have found all of them.
+
+**It also took a finding with it.** Finding 10, *What stopped being said*, was built on that silence: the state going quiet exactly as the questions turned legal. Most of that finding is gone. What survives is narrower and still real — the single figure showing how the manifest failure was distributed between the living and the dead was volunteered on day one, refused by the Prime Minister on day six, and has never been given since by anyone.
+
+And the correction cuts the other way on the toll. The newly held DPI release of **28 July** gives **73 recovered, 68 identified, five awaiting identification, 30 unaccounted for, 76 survivors** — so the 73 that DPI itself abandoned without explanation on 30 July was **DPI's own published figure two days earlier.**
+
+This is at least the eighth absence claim this archive has published and withdrawn. The pattern is always the same, and so is the rule: an absence claim is only as good as the search behind it.
+
+### What the day itself brought
+
+**A second investigative body, and it is not the Commission.** President Ali has established a **Safety and Compliance Audit Team** — Dr Ivor English, a former Director-General of MARAD, with Col. Julius Skeete of the GDF and Capt. Joseph Lewis, Marine Officer and Surveyor of Ships — to review safety and compliance standards for marine vessels generally. Carried by both Kaieteur News and Guyana Times, so not single-source. It arrives, exactly as the Commission did, with **no deadline, no budget, no terms of reference published as a document and no undertaking to publish**, and nothing states how the two bodies relate.
+
+**The rescue timeline turns out to exist.** The DPI release of 28 July carries the GDF Chief of Staff, Col. Kenlloyd Roberts, announcing an **after-action review** of the search and rescue operation covering communications between the control tower, the lighthouse, the Search and Rescue Coordination Centre and Coast Guard operations, from the distress signal to the end of the mission. Finding 15 is rewritten accordingly. The position moves from *nothing here says such a record exists* to **the state has said it will compile one and has said nothing about who will see it** — no deadline, no named recipient, no undertaking to publish, and no statement whether it goes to the Commission.
+
+**The President is reported to have committed to raising the ship.** **[SINGLE SOURCE]** Relatives of three missing Berbicians say that at a meeting on 29 July the President committed to attempting a salvage and that they were told a lift could take **eight to ten weeks**. No government release confirms either, and the Prime Minister on the same day restated that the government is still weighing salvage against a memorial. Both are recorded on finding 3; neither is preferred. The recovery phase itself has ended: diving has ceased and the French Guiana, Trinidad and Tobago and Brazilian teams have left the country, with about thirty people never recovered.
+
+**The first published answer to the self-incrimination question, and not from the government.** A Kaieteur News column argues the Commission and the prosecution can properly run together, and claims the **Commissions of Inquiry Act already contains provisions protecting witnesses from self-incrimination**. If that is right it is the answer finding 23 has been recording as absent, and it has been in the statute all along. This archive holds no text of that Act and cannot check it — the same gap that leaves finding 26 unresolved.
+
+**And the opposition leader put the charging decision in the sharpest terms yet**, calling the charges "ridiculous, vindictive, and intended to silence the workers" and demanding the state say which ministries owned the cargo aboard. **Those are an opposition leader's assertions about a live prosecution and this archive adopts none of them.** Three men are charged and untried, and nothing on this site bears on their guilt or innocence.
+
+### What the verification pass caught in this build
+
+Sixteen defects, of which the first was the failure to propagate the DPI correction to finding 10 — the second time in two days a correction has been made on one page and left standing on another, and the strongest argument yet for a register of withdrawn claims that can be tested mechanically against every page. Also fixed: an assertion put in the opposition leader's mouth that his source does not support; "hours apart" invented for two same-day releases that carry no times; two events of 31 July filed under 1 August without noting the difference; a tool-condensed capture described as matching a release "almost word for word"; a claim that the manifests annotate every entry, when they cover 192 of 295; a new publisher string that would have split Kaieteur News in the outlet filter; and five stale counts.
+
+### Also
+
+The counterfactual page's timeline heading now reads *The whole road, start to finish under an AI Advisor*, and the landing page links to it beside the chronology — labelled, because it is not the record.
+
+---
+
 ## 1 August 2026 — sixteenth build, one new page
 
-No documents were added. The corpus stands at **285** and still ends on 31 July, so nothing on this site reflects anything published today.
+No documents were added in this build. (A later sweep the same day added ten and took the corpus to 295; see the entry above.)
 
 ### The road not taken
 
