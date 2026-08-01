@@ -1,14 +1,12 @@
 # The road not taken
 
-Imagine the Government had an AI advisor from the night the *Barima* went down. One job: keep the people's trust. This is what it would have said to do — day by day through the first fortnight, then month by month to the end.
+Almost nothing here is original. Nearly every step was asked for in public at the time — by lawyers, village councils, opposition MPs, newspapers, a retired ship pilot. **The advice was given. It just wasn't taken.**
 
-Almost none of it is new. Nearly every step was asked for in public at the time — by lawyers, village councils, opposition MPs, newspapers, a retired ship pilot. **The advice was given. It just wasn't taken.**
-
-**None of this happened.** The ship still sinks at 11 that Saturday night. About 103 people still do not come home. Nothing here brings back a single person. What changes is only what the Government *said and showed* afterwards — and that is nearly the whole difference between being trusted and being suspected.
+And it saves nobody. The ship still sinks at 11 that Saturday night. About 103 people still do not come home. What changes is only what the Government *said and showed* afterwards — which turns out to be nearly the whole difference between being trusted and being suspected.
 
 ---
 
-## The fortnight, another way
+## The whole road, start to finish
 
 {{ALTSTRIP}}
 
@@ -124,67 +122,39 @@ A bill to fix it, in draft, within thirty days.
 
 ---
 
-## From here on, nobody knows
+## How it ends — all of this is invented
 
-Everything above is set against a real record that ends on 31 July. **Everything below is the future, and it is guesswork.** It is included because you asked where this road ends, and because a plan that stops after two weeks is not a plan.
+Everything above is set against a real record that ends on 31 July. **Everything from here is the future, and it is guesswork** — a plan for how this road ends, not a forecast. It will not say what the inquiry *finds* about why the ship went down, because nobody can know that. And it says nothing about the court case against Kevin Price, Rondell Roberts and Delon Granderson, who are charged and not tried. **Their case runs its own course and none of it is here.**
 
-Two things it will not do. It will not say what the inquiry *finds* about why the ship went down — nobody can know that, and inventing it would be dishonest. And it says nothing about the court case against Kevin Price, Rondell Roberts and Delon Granderson, who are charged and not tried. **Their case runs its own course and none of it is here.**
+The strip at the top of this page carries the whole plan, month by month. Three parts of it are worth saying at length.
+
+### The month that would have taken everything
+
+On the old law, **December 2026 is when families would have had to file notice or lose their claim forever** — a letter naming a lawyer, six months after a night most of them are still trying to get through. On this road it passes without harming anybody, because it was dealt with back in July.
+
+For the roughly thirty families with no body at all, who cannot easily get the papers to act for the dead, it would have been the hardest deadline of the lot.
+
+**That is the quietest turn on this page and the most important one.** Nothing else here would have mattered as much to as many people, and it would have cost one question to the Attorney General in the third week of July.
+
+### The report, and what this page will not invent
+
+The inquiry reports in early 2027. **What it concludes about why the ship went down is not for this page to make up**, and it does not.
+
+What can be said is what happens to the report. It is published whole, on the day it is handed over — because a report the Cabinet reads first is a report nobody trusts. The Government answers every recommendation in writing within sixty days: accept, reject, or accept in part, and why. That answer is published too.
+
+The ministers who stepped aside in July either come back or do not, on the strength of what the report says. Because they stepped aside early, that is a decision about the findings and not about the politics of quitting.
+
+### What the country has at the end
+
+Ferries that are counted, certified in public, and inspected by somebody who does not own them. A law that reaches the Government's own ships. Families paid without having to sue. A report the public read at the same time as the Cabinet. And a Government that lost a few bad weeks in July 2026 and kept the one thing that is hardest to get back.
+
+**None of that needs better people. It needs the same people showing their work.**
 
 ---
 
-## How it ends — all of this is invented
+*Sources for everything above about what actually happened:*
 
-*Read the rest of this section as a plan, not a forecast. The dates are round numbers and none of it has any source behind it, because it has not happened.*
-
-### August 2026 — the inquiry works on paper
-
-The inquiry sits in public, in Georgetown and in Region One, and starts with documents: certificates, loading orders, contracts, repair records, the CCTV, the rescue log. It does not need anybody's testimony to read a file.
-
-The wreck decision is taken openly. The prosecutor says in writing whether the ship is evidence. The families are asked — and this time they are asked *after* the divers have reported, not before. **The Government pays to raise her**, because five different parties had already said she was evidence and one Indigenous village council had voted for it.
-
-### September 2026 — the first report, and the money
-
-The inquiry publishes a **first, partial report — on the rescue and the counting only** — not on the cause, which takes longer. It is published in full on the day it is handed over, because a report the Government reads first is a report nobody trusts.
-
-The compensation scheme opens with a published rate, a named officer and a running total. Every payment carries one line on its face: *this is not a settlement and it does not stop any clock.*
-
-### October 2026 — the law changes
-
-The **Maritime Safety Act** passes. Four things that did not exist before now do:
-
-- Every passenger on a ferry must be **counted**, and the count kept on shore.
-- A **life-jacket and liferaft rule** that covers ships this size, tied to the number of people the ship is licensed to carry.
-- The **loading superintendent** becomes a real job in law, with a qualification, a duty and a record.
-- An **independent accident investigator** who can investigate the Government's own ships — which the 1883 law could not.
-
-The six-month time limit is scrapped for this disaster and made longer for the future.
-
-### December 2026 — the deadline that would have taken everything
-
-On the old law, **this is the month families would have had to file notice or lose their claim forever** — a letter naming a lawyer, six months after a night most of them are still trying to get through. It passes without harming anybody, because it was dealt with in July. For the roughly thirty families with no body at all, who cannot easily get the papers to act for the dead, it would have been the hardest deadline of the lot.
-
-This is the quietest paragraph on this page and the most important one.
-
-### Early 2027 — the full report *(still invented)*
-
-The inquiry reports. **What it concludes about the sinking is not for this page to invent.**
-
-What can be said is what happens to it: it is published whole, on the day, with its evidence. The Government answers each recommendation in writing within sixty days, saying accept, reject, or accept in part — and why. That answer is published too.
-
-The ministers who stepped aside in July either return or do not, on the strength of what the report says. Because they stepped aside early, that decision is about the findings and not about the politics of stepping down.
-
-### Mid-2027 — the boats *(still invented)*
-
-The Port Kaituma wharf is finished and its final cost and delay are published. The newer ferry takes the route. Cargo barges are separated from passenger ferries. Every ferry's certificate is published online each year — a page anyone can check, which is the cheapest thing on this list and the one that makes all the rest self-enforcing.
-
-A memorial is built at Kingston and in Region One, designed with the families rather than proposed to them.
-
-### And what the country has at the end *(still invented)*
-
-Ferries that are counted, certified in public and inspected by somebody who does not own them. A law that reaches the state's own ships. Families paid without having to sue. A report the public read at the same time as the Cabinet. And a Government that lost several bad weeks in July 2026 and kept the thing that is hardest to get back.
-
-**None of that requires better people. It requires the same people showing their work.**
-
+{{SOURCES: 2026-07-25-kaieteur-news-timeline-of-the-rescue-effort-for-the-mv-barima-ferry-sinking | 2026-07-19-guyana-graphic-guyanas-ferry-system-on-trial-after-mv-barima-sinks | 2026-07-19-jamaica-observer-huge-wave-suspected-67-rescued | 2026-07-19-dpi-prime-minister-updates-families-as-search-continues | 2026-07-20-kaieteur-news-major-discrepancies-found-on-mv-barima-manifest | 2026-07-20-news-room-guyana-mv-barima-team-suspended-as-probe-moves-ahead | 2026-07-24-dpi-government-tightens-ferry-safety-procedures | 2026-07-22-news-source-guyana-director-general-of-marad-adamant-that-mv-barima-ferry-was-operating-within-weight-limit | 2026-07-24-demerara-waves-transparency-institute-wants-imo-to-investigate | 2026-07-25-dpi-president-ali-announces-independent-international-commission-of-inquiry | 2026-07-25-kaieteur-news-apnu-submits-parliamentary-motion-to-discuss-scope-of-mv-barima-inquiry | 2026-07-27-kiskadee-watch-too-dangerous-to-enter-sunken-mv-barima-french-diver | 2026-07-28-kaieteur-news-govt-floats-leaving-mv-barima-on-seabed-as-memorial-site | 2026-07-28-kaieteur-news-ram-says-ali-s-coi-dodges-key-issues | 2026-07-29-millington-the-mv-barima-and-the-maritime-statute-book-of-guyana | 2026-07-30-kiskadee-watch-president-swears-in-panel-to-investigate-mv-barima-disaster | 2026-07-30-oggn-oil-talk-beyond-the-mv-barima-ferry-wreck-david-patterson-interview | 2026-07-31-kaieteur-news-you-can-t-have-both-todd-challenges-parallel-coi-murder-prosecution | 2026-07-31-kiskadee-watch-assakata-council-wants-mv-barima-lifted-thorough-probe }}
 
 ---
 

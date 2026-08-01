@@ -745,3 +745,18 @@ details.devpre > summary:hover { color:var(--s1); }
 .cfnow { border:1px solid var(--border); border-left:3px solid var(--s3);
          background:var(--surface); border-radius:10px; padding:20px 22px 6px; margin:28px 0; }
 .cfnow h3 { margin-top:0; }
+
+/* --- counterfactual strip: the invented half -----------------------------
+   Hollow markers and a dashed spine, so the eye can tell at a glance where
+   the record stops and the guesswork starts, without reading a word. */
+ul.devs li.dev-future::after { background:var(--surface);
+  box-shadow:0 0 0 2px var(--s3) inset, 0 0 0 3px var(--paper); }
+ul.devs li.dev-future::before { background:none;
+  border-left:2px dashed var(--hair); width:0; }
+ul.devs li.dev-future .devdate { color:var(--s3); }
+ul.devs li.dev-future .devbody strong { font-style:italic; }
+li.devbreak { list-style:none; position:relative; padding:14px 0 12px 30px;
+  border-bottom:1px solid var(--hair); font-size:12.5px; font-weight:750;
+  letter-spacing:0.05em; text-transform:uppercase; color:var(--s3); }
+li.devbreak::before { content:""; position:absolute; left:4px; top:0; bottom:0;
+  border-left:2px dashed var(--hair); }

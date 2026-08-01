@@ -28,6 +28,18 @@ Also fixed: the 19-source citation block had ended up beneath the invented 2027 
 
 **Three words were replaced for readability rather than accuracy**: "casualty" in the maritime sense of an accident, which to most readers means an injured person; "liberty" in the sense of a liberty taken; and an unglossed "interim report".
 
+### The timeline now runs to the end
+
+The strip at the top of the page originally stopped at 1 August, with the invented future only in prose below. It now carries the whole arc &mdash; nineteen turns, from the distress call to mid-2027 &mdash; because a plan that shows only the fortnight does not show a resolution.
+
+The two halves are separated **visually before they are separated in words**: the thirteen real-record turns keep solid markers and a solid spine, the six invented ones get hollow markers, a dashed spine, italic headings and green dates, and a break row between them reads *everything below this line is invented &mdash; a plan, not a forecast.* A reader who scrolls and never reads a caption can still tell where the record stops.
+
+The prose account of the future was then cut to a third of its length, because the strip now carries it. What stayed is the part that needed saying at length: the December 2026 deadline that would have destroyed every family's claim, the report published whole on the day rather than read by Cabinet first, and what the country is left holding.
+
+### The opening said the same thing three times
+
+The page lede, the warning banner and the first paragraph were each introducing the page independently &mdash; the lede and the opening paragraph were near-verbatim, and the banner and the third paragraph both announced that none of it happened. Each now says one thing once: the lede is the hook, the banner is the warning, and the opening paragraph carries only what neither of them says, which is that almost nothing on the page is original and that the advice was given publicly at the time and not taken.
+
 ### Also in this build
 
 Elapsed-time claims moved from thirteen days to fourteen — the fourth consecutive build chasing rotting day-counts by hand.

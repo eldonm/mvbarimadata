@@ -650,16 +650,30 @@ ALT_DEVELOPMENTS = [
     ('inquiry', 'Thu 30 Jul', 'The inquiry is sworn in with the press in the room', 'It starts on the paperwork &mdash; certificates, loading orders, contracts, repair records &mdash; because no silence can hide a document.'),
     ('response','Fri 31 Jul', 'The ministry publishes its own wharf file', 'Why a G$1.4 billion wharf failed, from the ministry that built it &mdash; not left for the opposition to reveal. With it, the March repair tender for the <em>Barima</em>, and whether that work was ever done.'),
     ('vessel',  'Sat 1 Aug', 'The law is checked, and a new bill is promised', 'A retired ship pilot read the Acts and found no law requiring anyone to count passengers, no life-jacket rule covering a ferry this size, and no mention anywhere of the loading boss&rsquo;s job. <em>That is one man&rsquo;s reading, uncorroborated.</em> A bill to fix it within thirty days.'),
+    ('future',  'Aug 2026', 'The inquiry works on paper, and the ship is raised', 'It starts with documents &mdash; certificates, loading orders, contracts, repair records, the video, the rescue log &mdash; because no silence can hide a file. The prosecutor says in writing whether the wreck is evidence, the families are asked <em>after</em> the divers report rather than before, and the Government pays to lift her.'),
+    ('future',  'Sep 2026', 'A first partial report, and the money starts', 'On the rescue and the counting only, published whole on the day it is handed over. The payment scheme opens with a published rate, a named officer and a running total, and every payment says on its face that it is not a settlement.'),
+    ('future',  'Oct 2026', 'The law changes', 'Passengers must be counted and the count kept ashore. A life-jacket rule that covers ferries this size. The loading boss becomes a real job in law. An accident investigator who can investigate the Government&rsquo;s own ships. The six-month time limit is scrapped for this disaster.'),
+    ('future',  'Dec 2026', 'The deadline passes and takes nothing with it', 'On the old law this is the month families would have had to file notice or lose their claim forever. It passes without harming anybody, because it was dealt with in July. <strong>The quietest turn on this page and the most important.</strong>'),
+    ('future',  'Early 2027', 'The full report, published whole on the day', 'What it concludes about the sinking is not for this page to invent. What can be said is that the Cabinet does not read it first, and the Government answers every recommendation in writing within sixty days &mdash; accept, reject, or accept in part, and why.'),
+    ('future',  'Mid 2027', 'The boats, and the wharf', 'Port Kaituma is finished and its final cost published. The newer ferry takes the route. Cargo is separated from passengers. Every ferry&rsquo;s certificate goes online each year &mdash; the cheapest thing on this list and the one that makes the rest keep themselves honest. A memorial is built with the families, not proposed to them.'),
 ]
 
 def alt_developments():
-    """The alternate fortnight in thirteen turns, in the same visual grammar as
-    the landing page's real one, so a reader can hold the two side by side."""
-    return '<ul class="devs">' + ''.join(
-        f'<li class="dev dev-{k}"><span class="devdate">{when}</span>'
-        f'<span class="devbody"><strong>{head_}</strong>'
-        f'<span class="devtext">{body}</span></span></li>'
-        for k, when, head_, body in ALT_DEVELOPMENTS) + '</ul>'
+    """The whole alternate arc, in the same visual grammar as the landing page's
+    real timeline so a reader can hold the two side by side. A break row and
+    hollow markers separate the half set against the record from the half that
+    is invented outright, because that difference has to be visible before it
+    is read."""
+    out, broken = [], False
+    for k, when, head_, body in ALT_DEVELOPMENTS:
+        if k == 'future' and not broken:
+            out.append('<li class="devbreak">Everything below this line is invented &mdash; '
+                       'a plan, not a forecast</li>')
+            broken = True
+        out.append(f'<li class="dev dev-{k}"><span class="devdate">{when}</span>'
+                   f'<span class="devbody"><strong>{head_}</strong>'
+                   f'<span class="devtext">{body}</span></span></li>')
+    return '<ul class="devs">' + ''.join(out) + '</ul>'
 
 
 def questions_index():
@@ -1781,24 +1795,19 @@ write('counterfactual.html', build_prose_page(
     'counterfactual.md',
     'The road not taken \u2014 MV Barima documented record',
     'The road not taken',
-    'Imagine the Government had an AI advisor from the night the Barima went down. Day by day through the '
-    'first fortnight, then month by month to the end \u2014 what it would have said to do, and what each '
-    'step would have cost.',
+    'Imagine the Government had an AI advisor from the night the Barima went down. One job: keep the '
+    'people\u2019s trust. This is what it would have said to do \u2014 day by day through the first '
+    'fortnight, then month by month to the end.',
     'counterfactual.html',
     transform=lambda b: inject_altstrip(inject_sources(b)),
-    extra_note='<div class="note warn"><h4>This page is a counterfactual. None of the alternate track happened</h4>'
-    '<p><strong>Every other page on this site records what happened. This one does not.</strong> It is an '
-    'analysis by Claude Opus 5 of decisions the state took and decisions it was publicly urged to take '
-    'instead, followed through to the present day. The second track is invention. It is written under four '
-    'rules. It never says what the inquiry would have <em>found</em>, because nobody can know that. '
-    'The first fortnight is set against the real record; <strong>everything after 1 August 2026 is made up '
-    'entirely</strong>, and the page says so where that begins. Where a step was nobody&rsquo;s idea but this '
-    'archive&rsquo;s, it says that too.</p>'
+    extra_note='<div class="note warn"><h4>None of this happened</h4>'
+    '<p>Every other page on this site records what happened. <strong>This one does not.</strong> The first '
+    'fortnight is set against the real record and cited; <strong>everything after 1 August 2026 is invented '
+    'outright</strong>, and the page marks where that starts. It never says what the inquiry would have '
+    '<em>found</em>, because nobody can know that.</p>'
     '<p>Kevin Price, Rondell Roberts and Delon Granderson have been charged with murder and have not been '
-    'tried. <strong>Nothing on this page suggests what they did or did not do, and no part of the alternate '
-    'track narrates any outcome for them.</strong> Where the counterfactual reaches the prosecution it '
-    'changes only what the state settles in advance, and says so. The record pages remain authoritative '
-    'over everything here.</p></div>'))
+    'tried. <strong>Nothing here suggests what they did or did not do, and no part of it says what should '
+    'happen to them.</strong></p></div>'))
 
 write('positions.html', build_prose_page(
     'positions.md',
