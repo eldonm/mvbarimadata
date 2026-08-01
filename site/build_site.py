@@ -611,11 +611,12 @@ DEVELOPMENTS = [
 
     ('inquiry', '30 Jul', 'The Commission is sworn in, with the press shut out', 'At State House before the Chief Magistrate, the chairman virtually, streamed on the President&rsquo;s social media instead. The enabling statute is named officially for the first time. No instrument, no published terms, no secretary, no deadline, no budget.'),
     ('response','30 Jul', 'The government&rsquo;s own release lowers the toll to 72', 'After six days of official 73, with no announcement and no explanation, while four outlets carry 73 the same day. This archive keeps 73, and records the 72 as a divergence.'),
+    ('inquiry', '30 Jul', 'A former minister of the responsible ministry treats the missing certificate as routine', 'On a broadcast interview, David Patterson &mdash; who held the Ministry of Public Works &mdash; treats annual certification of these vessels as routine: &ldquo;how can you say you don&rsquo;t have the registration certificate of a document&hellip; but you are certifying it every year.&rdquo; He also says the operator has not been audited since about 2005 and argues the murder charges will silence the operator&rsquo;s management as well as the accused. <strong>Uncorroborated</strong>, and captured from a machine caption track.'),
     ('legal',   '31 Jul', 'The defence moves to stop the inquiry and the prosecution running together', 'Counsel for the three accused prepares a court challenge, argues the case belongs under the Shipping Act rather than common-law murder, puts seaworthiness on the regulator, and makes sight of the terms of reference a condition of his clients taking part at all. The Opposition Leader escalates the salvage offer to a formal written request and reports no government reply of any kind.'),
 ]
 
 def developments(compact=True):
-    """The story in twenty turns. `compact` collapses the pre-disaster half
+    """The story in twenty-two turns. `compact` collapses the pre-disaster half
     behind a disclosure, because a reader arriving on the landing page wants
     the fortnight, not the ninety years."""
     def row(k, when, head_, body):
@@ -816,7 +817,7 @@ def build_index():
 </section>
 
 <section>
-  <p class="eyebrow">How it happened, in twenty-one turns</p>
+  <p class="eyebrow">How it happened, in twenty-two turns</p>
   <h2 style="margin-top:2px">Notable developments</h2>
   <p class="wrap-read muted" style="margin-bottom:20px">The turns in the story, from the yard that built her to
   today. Each entry is a moment after which something was different. The full record &mdash; every dated entry the
@@ -1672,7 +1673,7 @@ for r in records:
     write(f'sources/{r["slug"]}.html', build_source_page(r))
 
 DEV_NOTE = ('<div class="card" style="margin-top:26px">'
-            '<p class="eyebrow" style="margin-top:0">The story in twenty-one turns</p>'
+            '<p class="eyebrow" style="margin-top:0">The story in twenty-two turns</p>'
             '<h2 style="margin-top:2px;margin-bottom:6px">Notable developments</h2>'
             '<p class="small muted" style="margin-bottom:16px">A reader arriving cold should be able to '
             'follow the arc before reading the record underneath. Each entry is a moment after which '

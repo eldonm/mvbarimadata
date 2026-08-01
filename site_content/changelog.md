@@ -4,6 +4,56 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 31 July 2026 (late) — fifteenth build, one hour of broadcast and a new kind of source
+
+One document was added, and it is the first of its kind in this corpus: an hour-long podcast interview, captured from the auto-generated caption track of the published video. It takes the corpus to **285**. It is worth a build of its own for two reasons — what the guest says, and what capturing it forced this archive to decide about fidelity.
+
+### The source, and what is wrong with it
+
+*Beyond the MV Barima ferry wreck*, OGGN Oil Talk, streamed live 30 July on the Kaieteur Radio Guyana channel. Host **Janette Bulkan**, who already appears in this archive as the author of the 25 July letter setting out the unanswered rescue-timeline questions. Guest **David Patterson**, AFC shadow minister for public works and a former Minister of Public Works — the first person to speak at length in this corpus who has held the ministry these vessels sit under. He did not run the Transport and Harbours Department itself, and this site records elsewhere that MARAD and the T&HD answer to different Ministers, so the distinction matters.
+
+The capture is imperfect and the file says so. Of 1:04:15, this archive holds 0:47 to 59:55 — 3,548 seconds of 3,855, or 92 per cent; the closing four minutes would not load. (The record file first said 93 per cent. That was a rounding done by eye rather than by arithmetic, and it is corrected.) More importantly it is a **machine caption track, not a publisher's transcript**. It mangles proper nouns throughout: the host's own name renders wrongly, so does the vessel's. The record therefore carries a new field, `capture_fidelity: auto-caption`, and every quotation drawn from it is marked on this site as substantially accurate rather than verbatim. A caption track is a usable source. It is not a transcript, and this archive does not treat it as one. The [method page](about.html) now describes the capture type in full.
+
+### The strongest thing in it goes to the document this site has been waiting on since day one
+
+Finding 2 has recorded from the beginning that MARAD made a categorical "not overloaded" finding on 22 July and never produced the paperwork behind it — and it has carried, honestly, the caveat that **this analysis cannot establish that certificates of this kind are normally published in Guyana**, so the absence might mean nothing.
+
+Patterson does not produce the certificate. What he does is narrow the question, and he does it as someone who held the portfolio: he treats annual certification as routine and asks *"how can you say you don't have the registration certificate of a document… but you are certifying it every year."* He likens it to annual vehicle fitness certification, says speed boats and cargo boats renew at MARAD each year, and concedes a survey "may not check every single item." If he is right, the question stops being whether such a document should exist and becomes where this vessel's is. Finding 2 is updated, and the document that would settle it now includes MARAD's register of annual certifications. One former minister's recollection, uncorroborated, from a caption track — recorded at that weight and no more.
+
+### A statutory collision this archive cannot resolve, and should not pretend to
+
+Patterson cites **Cap. 49:07 section 18** as having given inspectors of shipping sweeping powers before 18 July: to board, inspect machinery, examine certificates, prevent overloaded vessels from sailing, and detain unfit ones.
+
+But this archive already holds a reading of the same Act. Millington's submission reads **section 3** as disapplying Part I to any ship belonging to or in the service of the State — and the *Barima* belonged to the State. If section 18 sits inside Part I, then the powers Patterson says went unused were not available at all. If it sits outside, they were. **This archive cannot tell which, because it does not hold the text of the Act.** That gap has been listed on the method page as "no statutory text" since 30 July; it now has a concrete consequence attached to it, which is a better argument for closing it than any abstract one. Finding 26 records both readings and prefers neither. The resolution costs one PDF from the Official Gazette.
+
+### The self-incrimination problem may be larger than three men
+
+Finding 23 recorded that the three accused may be unable to give evidence to the Commission, and that four remedies for it had been drafted and none chosen. Patterson argues the effect runs through the operator's whole management chain: the marine superintendent *"is not going to incriminate himself"*, nor the chief engineer, *"nor would the general manager of transport and harbours"* — leaving the Commission with *"circumstantial"* evidence and *"he say, she say."* If that is right it damages the one remedy that looked robust: **severance**, reconstructing the casualty from documents and institutional evidence, assumes the institutional evidence remains obtainable. He adds a second prediction — that masters may simply refuse to sail. Both are predictions, neither has happened, and the Commission has not sat. Finding 23 is extended and says so.
+
+### Two figures, recorded and not adopted
+
+Bulkan states the missing as *"probably between 30 and 50. We still do not know how many persons are unaccounted for."* Almost every other source here gives about 30, and 30 is the figure that makes the arithmetic close against 179 aboard — the exception being News Americas on 19 July, which gave 49 while the count was still moving. Fifty does not close against 179 at all, and this archive holds no source for a higher complement. It is recorded on the [figures page](facts.html) as a divergence and **not adopted**; the figure of record remains 30. What it marks is that a well-informed critic does not regard the residual as settled.
+
+Patterson separately offers the only explanation anyone has given for any of the count movements: that survivors picked up by one agency were not counted by another, so the published number jumped. It is uncorroborated, dateless, and does not touch the 133-against-179 gap. Recorded because nothing else in thirteen days has attempted the question.
+
+### A possible explanation for one of this archive's own standing gaps
+
+The method page has recorded, since early on, that **no Auditor General finding specific to the T&HD** could be located despite targeted searching. Patterson says the department has not turned a profit since "2007 or 2009" and has not been officially audited since "most likely I think 2005, 2006." If that is right, the reason the search found nothing is that there is nothing — which would convert a gap in this archive into a finding about the operator. It is one man's recollection, hedged twice in his own words. The method page now records it as a lead and keeps the Auditor General's reports on the retrieval list.
+
+### Also recorded
+
+Bulkan's arithmetic of the rescue gap, from the Prime Minister's own account — the first rescue *"took place at 27 minutes past 2 on Sunday, that's more than 3 hours later"* — which is the sharpest published statement of the rescue-timeline question in this corpus and is not a new fact but the existing facts subtracted from one another. Finding 15 carries it, with the note that it is her arithmetic and not a state statement of its own response times. Patterson's account of the pre-departure travel plan and the "lighthouse" as maritime nerve centre goes there too, uncorroborated. His relay of the captain's account of missing equipment is **not adopted**: it is the untested assertion of a man awaiting trial, at second hand. The [positions page](positions.html) now carries his account at length, and a new entry for Bulkan as interviewer, including her relay of MP Amanza Walton-Desir's argument that a marine safety investigation under SOLAS cannot be substituted by a Commission of Inquiry. The developments strip gains a twenty-second turn.
+
+### What the verification pass caught, and one correction it forced elsewhere
+
+Two adversarial passes were run over this build before it was published, both instructed to refute rather than confirm. Between them they found twenty-one defects in material written in the last hour, and the count is worth stating plainly because it is the argument for running them at all.
+
+The instructive ones. **Three headings dated the broadcast to 31 July** — the day this archive retrieved it — when it was streamed on 30 July, and each heading was contradicted by its own next clause. Retrieval date is not utterance date and this site knows the difference; it slipped three times in one sitting. **A blanket "none of it is corroborated by any document here"** was written twice, and was false both times: Capt. Adams's 2015 letter touches the certification point and the captain's own court statements of 29 July carry the equipment allegations Patterson relays. **A headline said Patterson "says the certificate exists."** He does not; he asks a rhetorical question implying one should. The changelog paragraph above said so correctly while two other pages overstated it. **The coverage figure was 93 per cent by eye and is 92 by arithmetic.** And a paragraph explaining a count movement described a movement that had not happened.
+
+One of the passes also found a defect that predates this build and is worth its own line, because it is the second time this archive has published an absence it had not checked. The method page has said since 26 July that the residual — the people neither recovered nor accounted for — "has never appeared in a government document." **That is wrong.** DPI's own release of 30 July gives "30 could not be accounted for," and the Prime Minister gave 30 unaccounted for on 24 July. The true statement is narrower and still damning: no government document has ever *added* the recovered to the unaccounted for and said what the sum means. The line is corrected on the [method page](about.html). The rule this archive published on 30 July after the first such error applies again without amendment: an absence claim is only as good as the search behind it.
+
+---
+
 ## 31 July 2026 — fourteenth build, day thirteen
 
 Eighteen documents added, all dated 31 July, taking the corpus to **284**. Nothing on the site's standing gaps closed. The day's movement is almost entirely in what people are now doing *about* the gaps rather than in the gaps themselves.
