@@ -1,6 +1,6 @@
 # Positions and proposals
 
-Compiled 26 July 2026, last revised 1 August 2026. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
+Compiled 26 July 2026, last revised 2 August 2026. This page records **what identified parties have said**, attributed to each, as reported in the sources. It contains no assessment by this archive of who is correct, and no recommendation. Where two sources report a party's position differently, both figures are given. Where a position rests on a single source, that is stated.
 
 ---
 
@@ -128,7 +128,7 @@ These are recorded strictly as statements made by an accused person on his way i
 
 ### Andrew Donald
 
-**[SINGLE SOURCE] throughout this entry.** HGPTV published on 29 July an account by Andrew Donald, who states he commanded the *MV Barima* during twelve years at the Transport & Harbours Department. No other outlet in the corpus carries him. The account originates in a Facebook post of 29 July by MP Ganesh Mahipaul carrying Donald's statement, and so reaches the record through social media rather than through an outlet's own interview. The image attached to that post carries Meta's own **"AI-generated content"** label and must not be treated as a photograph. HGPTV states that Donald's claims "have not been independently verified" and that he "did not identify the individuals allegedly responsible."
+**[SINGLE SOURCE] throughout this entry.** HGPTV published on 29 July an account by Andrew Donald, who states he commanded the *MV Barima* during twelve years at the Transport & Harbours Department. Until 30 July no other outlet in the corpus carried him; **Kiskadee Watch has since published the same account at greater length, which corroborates the report without supplying a second witness, since both rest on Donald**. The account originates in a Facebook post of 29 July by MP Ganesh Mahipaul carrying Donald's statement, and so reaches the record through social media rather than through an outlet's own interview. The image attached to that post carries Meta's own **"AI-generated content"** label and must not be treated as a photograph. HGPTV states that Donald's claims "have not been independently verified" and that he "did not identify the individuals allegedly responsible."
 
 On the vessel, Donald describes it as a single-hull passenger vessel and alleges that it operated contrary to standards contained in the International Convention for the Safety of Life at Sea. He states it lacked hull tanks capable of containing incoming water and had no operational bilge system powerful enough to control serious flooding, and that in the event of an underwater breach the crew might have had only five to ten minutes to act. He wrote: "The Barima was not supposed to be in service", and describes it as "a floating disaster waiting to occur". HGPTV qualifies that whether those international requirements applied to this vessel, and whether it complied with the relevant domestic rules, "remain matters for technical and legal determination." Donald dismisses the focus on whether dry-docking was overdue, arguing the problems were more fundamental than the repair schedule; Minister Edghill's position on the record is that the vessel was last dry-docked in 2024 and was scheduled for its next docking in the second half of 2026.
 
@@ -179,6 +179,18 @@ Its remit is **prospective and general** rather than directed at the *Barima*. A
 ### An argument for the parallel proceedings, 1 August
 
 **[SINGLE SOURCE]** Kaieteur News's "Peeping Tom" column is the first sustained published defence of running the Commission of Inquiry alongside the prosecution. It distinguishes their purposes &mdash; systemic fact-finding against individual guilt beyond reasonable doubt &mdash; and argues that the **Commissions of Inquiry Act already contains provisions protecting witnesses from self-incrimination**, so that "Parliament understood that a Commission's proceedings could potentially intersect with other legal proceedings." It warns that delaying prosecution risks evidence deterioration, fading memory and lost documents, and cites the South Korean **MV Sewol** disaster of 2014 as precedent. It is an opinion column carrying the newspaper's disclaimer, and this archive holds no text of the Act against which to check its central claim.
+
+### The Government — the wreck, 1–2 August
+
+**The memorial proposal is abandoned, and the state has not said so.** On 1 August MARAD, under the **Ministry of Public Utilities and Aviation**, invited expressions of interest from marine salvage contractors to recover the vessel, closing 14 August. The notice states the evidential purpose in the state's own words: bidders must show how they will protect **"forensic evidence for the ongoing Commission of Inquiry"**. It gives the wreck's position, a depth of 13&ndash;15 metres, and requires "no cure, no pay" terms; MARAD reserves the right to cancel the process.
+
+**What is absent from that is the position itself.** No government statement in this corpus acknowledges that the memorial plan &mdash; put to bereaved families in writing on 25 July &mdash; has been dropped, gives a reason, or mentions it at all. The only account of why is Kaieteur News's: "mounting pressure from stakeholders across Guyana". The change of position is therefore recorded here as an inference from a procurement document, which is what it is.
+
+### A Partnership for National Unity — the salvage timetable, 2 August
+
+**[SINGLE SOURCE]** APNU MP **Ganesh Mahipaul** accepts the decision and attacks the pace. He argues the expression-of-interest route means salvage cannot begin before late August or early September: "That timeline is simply unacceptable." He calls for **emergency procurement** instead of a competitive process, and argues that the evidential value the notice exists to protect is decaying while the process runs &mdash; "Salt water is unforgiving. Mechanical systems corrode, electronic equipment deteriorates…" He also criticises the rejection of the Opposition Leader's offer to fund a salvage privately at no cost to the taxpayer.
+
+**WIN** states that the delay leaves families waiting for "answers and closure they deserve". No government response to either party appears in this corpus.
 
 ### Former minister David Patterson
 

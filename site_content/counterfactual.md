@@ -28,7 +28,7 @@ He gives the numbers straight. The ship was licensed for **397 people** and carr
 
 The drug test results go to the police, not to the press. They are not the Government's first public word about the crew, a day after the ship went down with most of the crew still in the water.
 
-*Why.* Both numbers were public that day anyway. What was missing was one sentence: *these do not add up and I do not know why yet.* Instead the Minister said the ship met the standard, and fourteen days later nobody has explained it. Naming a cause on day one is the thing you cannot take back. It fixed the story at the bottom — the wharf workers — before anyone had read a document.
+*Why.* Both numbers were public that day anyway. What was missing was one sentence: *these do not add up and I do not know why yet.* Instead the Minister said the ship met the standard, and fourteen days later nobody had explained it. Naming a cause on day one is the thing you cannot take back. It fixed the story at the bottom — the wharf workers — before anyone had read a document.
 
 ### Monday 20 July — the video
 
@@ -40,7 +40,7 @@ The loading team is suspended by letter, not by Facebook post, and the letter sa
 
 *Why.* A published log is a permanent record of how long everything took, and if the honest answer is an ugly one, the Government owns it in print on day two. That is a real price, paid once. Nobody outside government knows what the log says; that is the point.
 
-The video is the sharper one. The Government used that video to answer one question — how many people were on board — and has never said what it shows about the cargo. It may be that the cameras do not show the cargo; nobody outside government knows, because nobody has been told. **Saying which would take a sentence, and fourteen days on, nobody has been asked for it in public.**
+The video is the sharper one. The Government used that video to answer one question — how many people were on board — and has never said what it shows about the cargo. It may be that the cameras do not show the cargo; nobody outside government knows, because nobody has been told. **Saying which would take a sentence, and a fortnight on, nobody had been asked for it in public.**
 
 ### Tuesday 21 July — the counting
 
@@ -192,7 +192,7 @@ A retired ship pilot read the Transport and Harbours Act and says **section 23 g
 
 The inquiry will almost certainly not have finished by then. A family with no body cannot easily get the papers to act for the dead. Region One has no road to Georgetown, and the boat that connected them is on the sea floor.
 
-**In fourteen days, nobody in Government has said the word "limitation" once.**
+**In the fortnight this page covers, nobody in Government said the word "limitation" once — and as of today they still have not.**
 
 This archive is not a lawyer and this is not legal advice. But if that reading is right, a clock is running against families who have not yet buried anybody — and the side that gains from their not knowing is the side that has not told them.
 

@@ -4,6 +4,38 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 2 August 2026 — eighteenth build, the state moves to raise the ship
+
+Five documents, corpus **300**. One of them changes the biggest open question on this site.
+
+### The wreck
+
+On **1 August** MARAD, under the Ministry of Public Utilities and Aviation, issued an **Invitation for Expressions of Interest** for marine salvage contractors to recover the *Barima*, closing **14 August**. Bidders must set out an approach protecting **"forensic evidence for the ongoing Commission of Inquiry"**. The notice gives the wreck's position, a depth of 13–15 metres, a length of 38.6 metres and twin Caterpillar C18 engines, requires "no cure, no pay" terms, and reserves MARAD's right to cancel the process entirely.
+
+**The memorial plan is gone.** The proposal that went to bereaved families as a draft declaration on 25 July was dropped seven days later — through a tender notice. **No government statement in this corpus acknowledges the change of position or mentions the memorial proposal at all.** Kaieteur News names the reversal and attributes it to "mounting pressure from stakeholders across Guyana"; that is a newspaper's account, not the state's, and it is recorded as one. Finding 3 is rewritten around it, and says plainly that the abandonment is an *inference from a procurement document* rather than anything the state has said.
+
+The opposition has moved from whether to how fast. APNU's Ganesh Mahipaul argues the process pushes salvage to late August or September and calls for emergency procurement: "That timeline is simply unacceptable." His sharpest point is that the evidence the notice exists to protect is decaying while the process runs — "Salt water is unforgiving." No government response appears.
+
+Also added: **Kiskadee Watch's 30 July account of the former master Andrew Donald**, requested by a reader. It carries his allegations at greater length than HGPTV's — twelve years at the T&HD, "a floating disaster waiting to occur", chronic overloading, bilge systems he says could not control flooding. **It corroborates the HGPTV report; it is not a second witness, since both rest on Donald.** Nothing in it is verified and this archive adopts none of it.
+
+### What the verification pass caught, and the one worth publishing
+
+Eighteen defects. Four are worth stating because they are the kind this archive keeps making.
+
+**An absence falsified by the document added in the same sweep.** Six pages carried "no other outlet in the corpus carries him" about Donald — while this build was adding the second outlet. One of those sentences sat thirty lines below a new entry saying the opposite, in the same file. Fixed in all six; this is the eighth or ninth time a correction or development has failed to travel between pages, and the argument for testing claims mechanically rather than remembering them is now overwhelming.
+
+**A novelty claim that the same page disproves.** The build asserted that MARAD's notice was "the first document in this corpus in which the state itself describes the hull as evidence." It is not: the Prime Minister said on 28 July that the wreck "likely contains additional remains and investigative evidence" — and this site quotes him saying it, four paragraphs earlier in the same finding. What is actually new is that the state is now paying to recover it. Corrected.
+
+**A conflict this archive manufactured.** The build flagged MARAD's 13–15 metres as contradicting the "three to nine metres" reported in the first week. It does not: that range was given for the Iron Punt area generally, "depending on the vessel's distance from the shoreline", and reconciles itself in its own sentence. The flag is withdrawn. The 38.6 m against 40.26 m divergence is real and stands.
+
+**A rejection that never happened.** Two pages said the government had *rejected* the Opposition Leader's offer to fund a salvage. This archive's own record is that he received **no reply at all** — "No update, nothing at all." Corrected in both places.
+
+Also fixed: Christopher Ram listed among those vindicated on the hull when the same finding records his demand as going to documents rather than the hull; a claim that the state gave no reason for the salvage when the notice states a purpose; "eight days" for a seven-day gap; the landing page's developments strip and lead cards, which still presented the memorial as the live position; a stale "thirteen days" on the landing page; the site's revision stamp, which had not been advanced; four stale figures on the method page; and a disclaimer on the Donald entry saying his account bears on nothing about the charged men, when it plainly bears on them — it is an argument that others controlled loading. It is now recorded as an untested allegation rather than disclaimed away.
+
+Elapsed-time claims moved from fourteen days to fifteen, except on the counterfactual page, which covers a fortnight ending 1 August and whose counts were wrongly advanced past its own stated horizon.
+
+---
+
 ## 1 August 2026 (late) — seventeenth build, ten documents, and a false silence withdrawn
 
 A sweep of 1 August reporting added **ten documents**, taking the corpus to **295** and extending the record to today. Four are dated 1 August, two are 31 July reports the previous sweep missed, and **four are state releases of 26 and 28 July that this archive had recorded as not existing.**
