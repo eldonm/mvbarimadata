@@ -4,6 +4,44 @@ This page lists every change made to this site since it was first built, newest 
 
 ---
 
+## 4 August 2026 — nineteenth build, a second submission, the terms of reference, and an over-correction
+
+Three documents, corpus **303**. Two of this archive's longest-standing gaps closed, and it made and unmade a correction inside one build.
+
+### The gaps that closed
+
+On **4 August** the President published the Commission's **terms of reference in the Extraordinary Gazette** — seventeen days after the sinking, and the first time they have existed as a document rather than a paraphrase. Six heads: seaworthiness and safety; passenger and cargo operations; crew qualifications and conduct; search and rescue effectiveness; **regulatory oversight by state entities**; and human factors in emergency decision-making. A **two-month deadline** for final written findings — the first deadline of any kind in this record. Public hearings, a power to issue interim safety reports, and explicit authority to refer evidence of criminal negligence, official misconduct or statutory breaches directly to prosecutors. The inclusion of regulatory oversight answers part of Christopher Ram's objection of 28 July. **Still absent: a Statutory Instrument number and a budget.**
+
+A **Secretary** was named the same day — attorney Javed Shadick — closing a gap Demerara Waves recorded as open on 30 July. And within hours David Patterson objected that he holds a function in the Guyana Civil Aviation Authority, which sits under the Ministry of Public Utilities and Aviation. **That is the ministry MARAD answers to**, on MARAD's own salvage notice of 1 August, and MARAD's regulatory oversight is one of the six heads. That last step is this archive's inference and is marked as such, not Patterson's. No government response appears, and it is the second set of conflict questions about this Commission to go unanswered in five days.
+
+### The second submission
+
+Robert C. Millington sent a second analysis, 52 pages dated 3 August, [published here in full](documents/millington-guyana-transport-statute-book-comprehensive-analysis-2026-08-03.pdf). It widens from maritime law to sea and river, road, rail and air, and schedules **52 deficiencies**, 31 marked Critical. Its sharpest instrument is the road comparison: Guyana has regulated driver fatigue since **1940** and no hours-of-duty or watchkeeping provision for a vessel has been identified; drivers face a prescribed alcohol limit, breath testing and disqualification, masters none; causing death by reckless driving carries ten years and there is no offence of causing death by reckless navigation; a Government road vehicle must hold a certificate of fitness and is exempted only from the fee, while **a State vessel is exempt from the Certificate of Seaworthiness altogether**.
+
+He also identifies a reform available without Parliament: deleting the five words **"vessels belonging to the State"** from reg. 6(2)(a) of the Harbours Regulations 1939, which he calls "the single highest-value immediate reform available in the whole statute book". And a second route into survey that does reach State vessels — the Tax Act vessel licence, which cannot issue without a survey certificate dated within twelve months, and which contains no State exemption though the same Act exempts Government carts, mules and steam boilers. He states it "was open on 18 July 2026".
+
+One caution deserves its own line. **The 2022 Revised Edition of the Laws of Guyana was presented to the National Assembly on 19 June 2026 — twenty-nine days before the loss.** Both his analyses rest on the 2012 edition, which is the one the Ministry of Legal Affairs still publishes.
+
+### The over-correction, which is the entry worth reading
+
+The second submission sets out **Cap. 49:03 s. 7(1)**, under which the master must declare in writing the number, names, sex and age of every person on board before clearance, with a year's imprisonment for a false declaration. This archive read that as contradicting the finding it had published from his first submission — that **no counting duty exists in Guyanese law** — and withdrew it, in capitals, on three pages.
+
+**That was wrong, and the withdrawal has itself been withdrawn.** The same document, read whole, reconciles the two. **Deficiency 18**, marked Critical, repeats the earlier premise unchanged: the power to require particulars of all passengers "has existed since 1998 and has never been exercised". And his reform section still proposes **creating** a duty of passenger accounting — "a physical count reconciled against tickets before the brow is landed, and a signed and timed manifest lodged ashore before departure and preserved". A man does not recommend creating a duty he has just said exists.
+
+The two provisions are about different things, and the distinction is the substance: s. 7(1) is a **customs pre-clearance declaration**; what SOLAS III/27 requires and s. 398(1)(b) never delivered is a **headcount kept ashore**. On his own account the form the declaration depends on has not been identified.
+
+**Every failure logged on this site so far has been an absence asserted without a complete search. This is its mirror image** — a correction made without finishing the reading, which destroyed a sound finding instead of an unsound one. It is the more dangerous of the two, because it wears the costume of rigour. The rule now stated on the method page: **one qualified person's reading is not corroboration of itself, and a second reading by the same person is not necessarily a correction of the first.**
+
+### One conflict that is real, and recorded as unresolved
+
+The same author now places the vessel **inside Part X** of the Guyana Shipping Act — "a mechanically propelled steel passenger ferry in commercial service falls within Part X" — which carries an annual survey duty and a requirement that life-saving appliances comply with the Safety Convention. His first analysis turned on a 24-metre band that the second document does not mention anywhere. He does not say he has changed his mind. Both readings are now recorded on the figures and analysis pages and **neither is preferred**.
+
+### Also fixed
+
+Sixteen defects. The terms-of-reference closure had not propagated to findings 12 and 19, to the questions page, or to the landing page, which still told readers there were no terms, no secretary and no deadline. The site's revision stamp had not advanced. A commissioner was described as newly named when he was named on 26 July. An inference of this archive's was folded into Patterson's objection. "Six days" was five in four places. The severity split of the 52 deficiencies was given as "roughly half" when it is 31 of 52. And the 3 August Charity Magistrate's Court date passed with nothing in the corpus either way, which the chronology now records as a gap in retrieval rather than a gap in proceedings.
+
+---
+
 ## 2 August 2026 — eighteenth build, the state moves to raise the ship
 
 Five documents, corpus **300**. One of them changes the biggest open question on this site.
